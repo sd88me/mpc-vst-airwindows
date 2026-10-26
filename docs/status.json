@@ -1,0 +1,9 @@
+{
+  "_note": "Hand-kept device facts; tools/status.py adds the rest (models, slots, built .so files) and writes docs/STATUS.md.",
+  "Reverb":   {"force": "skin A, audio, presets, steppers checked 2026-10-27", "live3": "skin C loads, audio ok 2026-10-27", "notes": "first collection; 4 wide-selector wheel-step host-test checks fail (touch and presets are the way to pick a model)"},
+  "Consoles": {"force": "skin A loads 2026-10-27", "live3": "skin C loads 2026-10-27", "notes": "58 models, 37 slots; to be split: the 8 models over 14 controls become AW Console Strips"},
+  "Ambience": {"force": "installed 2026-10-25", "live3": "installed 2026-10-25", "notes": "the delay / chorus / echo models"},
+  "_planned": [
+    {"plugin": "AW Console Strips", "models": 8, "notes": "ConsoleXBuss/XChannel/XPre (37 controls), ConsoleHChannel/HPre, ConsoleX3, ConsoleX2Channel/X2Pre; sectioned strip skin"}
+  ]
+}
