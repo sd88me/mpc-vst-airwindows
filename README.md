@@ -44,7 +44,7 @@ mpc-vst-plugins branch `wrapper-float-effect` (not yet merged).
 
 Into the Synths folder (`/sdcard/Synths`, `/nvme/Synths` on a Live III): the plugin folder
 `<vendor> - VST - AW <Category>/` (the `.so`, `Plugin Skins/`, `version.xml`) and the shared `AW Skin/` art folder
-side by side, then register the plugin in `MPC.settings` (mpc-vst-plugins SKILL).
+side by side (each plugin's build holds only the images its skin uses, about 11-14 MB; several plugins' folders merge), then register the plugin in `MPC.settings` (mpc-vst-plugins SKILL).
 
 **The skin folder name comes from the vendor string compiled into the `.so`** (vst.json `vendor`), not from the manufacturer in
 `MPC.settings`: change the vendor and you must rebuild. Currently `Airwindows - VST - AW <Category>`.
@@ -73,7 +73,7 @@ MPC draws live text at about 0.64 of the label height, so text is sized by its v
 mpc-vst-plugins' catalog lets one repo host several plugins, told apart by each registry entry's `asset_pattern`
 (`mmiroshnikov/mpc-airwindows` already lists 22 that way). Plan: one tag per release holding a zip per plugin and generation
 (`AW-Reverb-1.0.0-mpc-armv7.zip`, `-aarch64.zip`, ...), one `catalog/plugins/aw-<category>.json` each. Every zip must be
-self-contained, so each carries the art its skin uses.
+self-contained, so each carries the art its skin uses (about 11-14 MB, 32-bit PNGs: quantising to 8-bit flattened the knob shadows and caps).
 
 Credits: airwindows (Chris Johnson, MIT), airwin2rack (Paul Walker, MIT), skin artwork drawn here (assets/CREDITS.md),
 category overrides from schwung-airwindows (MIT).

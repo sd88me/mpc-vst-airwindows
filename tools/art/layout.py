@@ -46,7 +46,7 @@ ROLE_RX = [(r"dry/?wet|mix|wet", "white"),
            (r"gain|input|output|drive|trim|level|master|fader|boost|inv|top ?db|air|fire|stone", "red"),
            (r"freq|frq|time|size|big|delay|length|cutoff|filter|rt60|predl|speed|atk|attack|rls|release|sust|range|hipass|highpas|lowpass|lag|spd", "blue"),
            (r"tone|bright|treb|bass|dark|damp|mid|vibr|flavor|distnc|furnish|high|low|reso|crush|more", "green")]
-ROLE_LABEL = [("red", "Gain / drive"), ("blue", "Time / freq"), ("green", "Tone"), ("white", "Mix"), ("black", "Other")]
+ROLE_LABEL = [("red", "Gain"), ("blue", "Time"), ("green", "Tone"), ("white", "Mix"), ("black", "Other")]
 
 
 def role_of(name, stepped=False):

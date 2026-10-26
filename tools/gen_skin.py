@@ -17,6 +17,7 @@ Q-Link columns (experimental: only checked on an MPC One).
 import json
 import math
 import os
+import re
 import shutil
 import struct
 import sys
@@ -279,11 +280,17 @@ def main(port, style, qover):
     src = os.path.join(ROOT, "build", "art", style)
     if not os.path.isdir(src):
         sys.exit("no %s: run tools/art/run.sh --style %s --out build/art/%s first" % (src, style, style))
+    # only the artwork this plugin's skin references (32-bit PNGs kept as drawn): a release zip then carries ~11-14 MB, not all
+    # 18 MB; skins of several plugins installed side by side merge into one AW Skin/ folder
     dst = os.path.join(out, SHARED)
     shutil.rmtree(dst, ignore_errors=True)
-    shutil.copytree(src, dst, ignore=shutil.ignore_patterns("cat_*") if False else None)
+    os.makedirs(dst)
+    used = set(re.findall(re.escape(SHARED) + r"/([A-Za-z0-9_.\-]+\.png)", json.dumps(tui)))
+    for f in sorted(used):
+        shutil.copy2(os.path.join(src, f), dst)
     ncomp = sum(len(t["componentDefinition"]["componentsData"]) for t in tabs)
-    print("skin: %s (%d models, %d page(s), %d components, style %s) + %s/" % (d, nm, npages, ncomp, style, SHARED))
+    mb = sum(os.path.getsize(os.path.join(dst, f)) for f in used) / 1e6
+    print("skin: %s (%d models, %d page(s), %d components, style %s) + %s/ (%d images, %.1f MB)" % (d, nm, npages, ncomp, style, SHARED, len(used), mb))
 
 
 if __name__ == "__main__":

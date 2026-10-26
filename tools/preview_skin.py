@@ -54,7 +54,7 @@ def main(port, model, tab=0, out="preview.png"):
     fonts = {}
 
     def font(h):
-        h = max(8, int(h * 0.88))
+        h = max(8, int(h * 0.64))
         if h not in fonts:
             try:
                 fonts[h] = ImageFont.truetype(os.path.join(FONT_DIR, "TitilliumWeb-Bold.ttf"), h)
