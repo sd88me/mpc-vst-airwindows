@@ -1,0 +1,292 @@
+{
+ "presets": [
+  {
+   "name": "ZAcidLowpass",
+   "values": {
+    "model": "ZAcidLowpass",
+    "p1": 0.5,
+    "p2": 0.0,
+    "p3": 1.0,
+    "p4": 0.0,
+    "p5": 0.1,
+    "p6": 1.0
+   }
+  },
+  {
+   "name": "ZBandpass2",
+   "values": {
+    "model": "ZBandpass2",
+    "p1": 0.1,
+    "p2": 0.5,
+    "p3": 1.0,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "ZHighpass2",
+   "values": {
+    "model": "ZHighpass2",
+    "p1": 0.1,
+    "p2": 0.5,
+    "p3": 1.0,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "ZLowpass2",
+   "values": {
+    "model": "ZLowpass2",
+    "p1": 0.1,
+    "p2": 0.5,
+    "p3": 1.0,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "ZNotch2",
+   "values": {
+    "model": "ZNotch2",
+    "p1": 0.1,
+    "p2": 0.5,
+    "p3": 1.0,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "ZRegion2",
+   "values": {
+    "model": "ZRegion2",
+    "p1": 0.1,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 1.0,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "ZBandpass",
+   "values": {
+    "model": "ZBandpass",
+    "p1": 0.1,
+    "p2": 0.5,
+    "p3": 1.0,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "ZHighpass",
+   "values": {
+    "model": "ZHighpass",
+    "p1": 0.1,
+    "p2": 0.5,
+    "p3": 1.0,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "ZLowpass",
+   "values": {
+    "model": "ZLowpass",
+    "p1": 0.1,
+    "p2": 0.5,
+    "p3": 1.0,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "ZNotch",
+   "values": {
+    "model": "ZNotch",
+    "p1": 0.1,
+    "p2": 0.5,
+    "p3": 1.0,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "ZRegion",
+   "values": {
+    "model": "ZRegion",
+    "p1": 0.1,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 1.0,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "YBandpass",
+   "values": {
+    "model": "YBandpass",
+    "p1": 0.1,
+    "p2": 0.5,
+    "p3": 0.1,
+    "p4": 0.1,
+    "p5": 1.0,
+    "p6": 1.0
+   }
+  },
+  {
+   "name": "YNotBandpass",
+   "values": {
+    "model": "YNotBandpass",
+    "p1": 0.1,
+    "p2": 0.5,
+    "p3": 0.1,
+    "p4": 0.1,
+    "p5": 1.0,
+    "p6": 1.0
+   }
+  },
+  {
+   "name": "YHighpass",
+   "values": {
+    "model": "YHighpass",
+    "p1": 0.1,
+    "p2": 0.5,
+    "p3": 0.1,
+    "p4": 0.1,
+    "p5": 1.0,
+    "p6": 1.0
+   }
+  },
+  {
+   "name": "YNotHighpass",
+   "values": {
+    "model": "YNotHighpass",
+    "p1": 0.1,
+    "p2": 0.5,
+    "p3": 0.1,
+    "p4": 0.1,
+    "p5": 1.0,
+    "p6": 1.0
+   }
+  },
+  {
+   "name": "YLowpass",
+   "values": {
+    "model": "YLowpass",
+    "p1": 0.1,
+    "p2": 0.5,
+    "p3": 0.1,
+    "p4": 0.1,
+    "p5": 1.0,
+    "p6": 1.0
+   }
+  },
+  {
+   "name": "YNotLowpass",
+   "values": {
+    "model": "YNotLowpass",
+    "p1": 0.1,
+    "p2": 0.5,
+    "p3": 0.1,
+    "p4": 0.1,
+    "p5": 1.0,
+    "p6": 1.0
+   }
+  },
+  {
+   "name": "YNotch",
+   "values": {
+    "model": "YNotch",
+    "p1": 0.1,
+    "p2": 0.5,
+    "p3": 0.1,
+    "p4": 0.1,
+    "p5": 1.0,
+    "p6": 1.0
+   }
+  },
+  {
+   "name": "YNotNotch",
+   "values": {
+    "model": "YNotNotch",
+    "p1": 0.1,
+    "p2": 0.5,
+    "p3": 0.1,
+    "p4": 0.1,
+    "p5": 1.0,
+    "p6": 1.0
+   }
+  },
+  {
+   "name": "XBandpass",
+   "values": {
+    "model": "XBandpass",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.0,
+    "p4": 1.0,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "XHighpass",
+   "values": {
+    "model": "XHighpass",
+    "p1": 0.5,
+    "p2": 1.0,
+    "p3": 0.0,
+    "p4": 1.0,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "XLowpass",
+   "values": {
+    "model": "XLowpass",
+    "p1": 0.5,
+    "p2": 1.0,
+    "p3": 0.0,
+    "p4": 1.0,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "XNotch",
+   "values": {
+    "model": "XNotch",
+    "p1": 0.5,
+    "p2": 1.0,
+    "p3": 0.0,
+    "p4": 1.0,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "XRegion",
+   "values": {
+    "model": "XRegion",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.0,
+    "p5": 1.0,
+    "p6": 0.5
+   }
+  }
+ ]
+}

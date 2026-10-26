@@ -1,0 +1,342 @@
+{
+ "category": "Brightness",
+ "name": "AW Brightness",
+ "vendor": "Airwindows",
+ "slots": 6,
+ "models": [
+  {
+   "name": "Air4",
+   "params": [
+    {
+     "name": "Air",
+     "stepped": false
+    },
+    {
+     "name": "Gnd",
+     "stepped": false
+    },
+    {
+     "name": "DarkF",
+     "stepped": false
+    },
+    {
+     "name": "Ratio",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Air3",
+   "params": [
+    {
+     "name": "Air",
+     "stepped": false
+    },
+    {
+     "name": "Gnd",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Slew4",
+   "params": [
+    {
+     "name": "Compres",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "PlatinumSlew",
+   "params": [
+    {
+     "name": "Slew",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "DeBess",
+   "params": [
+    {
+     "name": "Intense",
+     "stepped": false
+    },
+    {
+     "name": "Sharp",
+     "stepped": false
+    },
+    {
+     "name": "Depth",
+     "stepped": false
+    },
+    {
+     "name": "Filter",
+     "stepped": false
+    },
+    {
+     "name": "Sense",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "GoldenSlew",
+   "params": [
+    {
+     "name": "Slew",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Sinew",
+   "params": [
+    {
+     "name": "Sinew",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "SlewSonic",
+   "params": [
+    {
+     "name": "Mute",
+     "stepped": false
+    },
+    {
+     "name": "Bright",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Acceleration2",
+   "params": [
+    {
+     "name": "Limit",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "DeEss",
+   "params": [
+    {
+     "name": "Intense",
+     "stepped": false
+    },
+    {
+     "name": "Max DS",
+     "stepped": false
+    },
+    {
+     "name": "Freq",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Smooth",
+   "params": [
+    {
+     "name": "Smooth",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "EverySlew",
+   "params": [
+    {
+     "name": "Slew",
+     "stepped": false
+    },
+    {
+     "name": "Depth",
+     "stepped": false
+    },
+    {
+     "name": "Halo",
+     "stepped": false
+    },
+    {
+     "name": "Inv/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Slew3",
+   "params": [
+    {
+     "name": "Clampng",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Slew2",
+   "params": [
+    {
+     "name": "Clamping",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Slew",
+   "params": [
+    {
+     "name": "Clamping",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Air2",
+   "params": [
+    {
+     "name": "Hiss",
+     "stepped": false
+    },
+    {
+     "name": "Glitter",
+     "stepped": false
+    },
+    {
+     "name": "Air",
+     "stepped": false
+    },
+    {
+     "name": "Silk",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Air",
+   "params": [
+    {
+     "name": "22K tap",
+     "stepped": false
+    },
+    {
+     "name": "15K tap",
+     "stepped": false
+    },
+    {
+     "name": "11K tap",
+     "stepped": false
+    },
+    {
+     "name": "filters Q",
+     "stepped": false
+    },
+    {
+     "name": "Output Level",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "PurestAir",
+   "params": [
+    {
+     "name": "Boost",
+     "stepped": false
+    },
+    {
+     "name": "Limit",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Acceleration",
+   "params": [
+    {
+     "name": "Limit",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "DeHiss",
+   "params": [
+    {
+     "name": "Thresh",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Hypersonic",
+   "params": []
+  },
+  {
+   "name": "HypersonX",
+   "params": [
+    {
+     "name": "Q",
+     "stepped": true
+    }
+   ]
+  },
+  {
+   "name": "Ultrasonic",
+   "params": []
+  },
+  {
+   "name": "UltrasonicLite",
+   "params": []
+  },
+  {
+   "name": "UltrasonicMed",
+   "params": []
+  },
+  {
+   "name": "UltrasonX",
+   "params": [
+    {
+     "name": "Q",
+     "stepped": true
+    }
+   ]
+  }
+ ]
+}

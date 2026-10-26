@@ -1,0 +1,174 @@
+{
+ "presets": [
+  {
+   "name": "ChannelX",
+   "values": {
+    "model": "ChannelX",
+    "p1": 0.0,
+    "p2": 0.0,
+    "p3": 1.0,
+    "p4": 0.5
+   }
+  },
+  {
+   "name": "WoodenBox",
+   "values": {
+    "model": "WoodenBox",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5
+   }
+  },
+  {
+   "name": "BussColors4",
+   "values": {
+    "model": "BussColors4",
+    "p1": 0.0,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 1.0
+   }
+  },
+  {
+   "name": "Channel9",
+   "values": {
+    "model": "Channel9",
+    "p1": 0.0,
+    "p2": 0.0,
+    "p3": 1.0,
+    "p4": 0.5
+   }
+  },
+  {
+   "name": "Apicolypse",
+   "values": {
+    "model": "Apicolypse",
+    "p1": 0.7,
+    "p2": 0.333333,
+    "p3": 0.333333,
+    "p4": 1.0
+   }
+  },
+  {
+   "name": "Neverland",
+   "values": {
+    "model": "Neverland",
+    "p1": 0.74,
+    "p2": 0.333333,
+    "p3": 0.333333,
+    "p4": 1.0
+   }
+  },
+  {
+   "name": "Elation",
+   "values": {
+    "model": "Elation",
+    "p1": 1.0,
+    "p2": 0.333333,
+    "p3": 0.333333,
+    "p4": 1.0
+   }
+  },
+  {
+   "name": "Calibre",
+   "values": {
+    "model": "Calibre",
+    "p1": 0.74,
+    "p2": 0.333333,
+    "p3": 0.333333,
+    "p4": 1.0
+   }
+  },
+  {
+   "name": "Cider",
+   "values": {
+    "model": "Cider",
+    "p1": 0.7,
+    "p2": 0.333333,
+    "p3": 0.333333,
+    "p4": 1.0
+   }
+  },
+  {
+   "name": "Crystal",
+   "values": {
+    "model": "Crystal",
+    "p1": 0.7,
+    "p2": 1.0,
+    "p3": 0.333,
+    "p4": 1.0
+   }
+  },
+  {
+   "name": "Precious",
+   "values": {
+    "model": "Precious",
+    "p1": 0.7,
+    "p2": 0.333333,
+    "p3": 0.333333,
+    "p4": 1.0
+   }
+  },
+  {
+   "name": "Luxor",
+   "values": {
+    "model": "Luxor",
+    "p1": 0.7,
+    "p2": 0.333333,
+    "p3": 0.333333,
+    "p4": 1.0
+   }
+  },
+  {
+   "name": "Channel8",
+   "values": {
+    "model": "Channel8",
+    "p1": 0.0,
+    "p2": 0.0,
+    "p3": 1.0,
+    "p4": 0.5
+   }
+  },
+  {
+   "name": "Channel7",
+   "values": {
+    "model": "Channel7",
+    "p1": 0.0,
+    "p2": 0.0,
+    "p3": 1.0,
+    "p4": 0.5
+   }
+  },
+  {
+   "name": "Channel6",
+   "values": {
+    "model": "Channel6",
+    "p1": 0.0,
+    "p2": 0.0,
+    "p3": 1.0,
+    "p4": 0.5
+   }
+  },
+  {
+   "name": "Channel5",
+   "values": {
+    "model": "Channel5",
+    "p1": 0.0,
+    "p2": 0.0,
+    "p3": 1.0,
+    "p4": 0.5
+   }
+  },
+  {
+   "name": "Channel4",
+   "values": {
+    "model": "Channel4",
+    "p1": 0.0,
+    "p2": 0.0,
+    "p3": 0.5,
+    "p4": 0.5
+   }
+  }
+ ]
+}

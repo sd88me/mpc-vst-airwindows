@@ -1,0 +1,304 @@
+{
+ "presets": [
+  {
+   "name": "ClearCoat",
+   "values": {
+    "model": "ClearCoat",
+    "p1": 0.5,
+    "p2": 1.0,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "TapeDelay2",
+   "values": {
+    "model": "TapeDelay2",
+    "p1": 1.0,
+    "p2": 0.0,
+    "p3": 0.5,
+    "p4": 0.0,
+    "p5": 0.0,
+    "p6": 1.0
+   }
+  },
+  {
+   "name": "Doublelay",
+   "values": {
+    "model": "Doublelay",
+    "p1": 0.2,
+    "p2": 0.1,
+    "p3": 0.2,
+    "p4": 0.0,
+    "p5": 0.6,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "PitchDelay",
+   "values": {
+    "model": "PitchDelay",
+    "p1": 1.0,
+    "p2": 0.0,
+    "p3": 0.5,
+    "p4": 0.0,
+    "p5": 0.5,
+    "p6": 1.0
+   }
+  },
+  {
+   "name": "SampleDelay",
+   "values": {
+    "model": "SampleDelay",
+    "p1": 0.0,
+    "p2": 0.0,
+    "p3": 0.0,
+    "p4": 1.0,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "BrightAmbience3",
+   "values": {
+    "model": "BrightAmbience3",
+    "p1": 1.0,
+    "p2": 0.0,
+    "p3": 0.0,
+    "p4": 1.0,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "TripleSpread",
+   "values": {
+    "model": "TripleSpread",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "Melt",
+   "values": {
+    "model": "Melt",
+    "p1": 0.25,
+    "p2": 0.75,
+    "p3": 1.0,
+    "p4": 1.0,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "MV2",
+   "values": {
+    "model": "MV2",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 1.0,
+    "p5": 1.0,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "MV",
+   "values": {
+    "model": "MV",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 1.0,
+    "p5": 1.0,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "ADT",
+   "values": {
+    "model": "ADT",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "kChamberAR",
+   "values": {
+    "model": "kChamberAR",
+    "p1": 1.0,
+    "p2": 0.5,
+    "p3": 0.0,
+    "p4": 0.0,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "StereoChorus",
+   "values": {
+    "model": "StereoChorus",
+    "p1": 0.0,
+    "p2": 0.0,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "PurestEcho",
+   "values": {
+    "model": "PurestEcho",
+    "p1": 1.0,
+    "p2": 1.0,
+    "p3": 0.0,
+    "p4": 0.0,
+    "p5": 0.0,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "TapeDelay",
+   "values": {
+    "model": "TapeDelay",
+    "p1": 1.0,
+    "p2": 0.0,
+    "p3": 0.5,
+    "p4": 0.0,
+    "p5": 1.0,
+    "p6": 0.0
+   }
+  },
+  {
+   "name": "StarChild2",
+   "values": {
+    "model": "StarChild2",
+    "p1": 1.0,
+    "p2": 0.7,
+    "p3": 0.2,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "StarChild",
+   "values": {
+    "model": "StarChild",
+    "p1": 1.0,
+    "p2": 0.7,
+    "p3": 0.2,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "Hombre",
+   "values": {
+    "model": "Hombre",
+    "p1": 0.421,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "BrightAmbience2",
+   "values": {
+    "model": "BrightAmbience2",
+    "p1": 0.2,
+    "p2": 0.2,
+    "p3": 0.0,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "BrightAmbience",
+   "values": {
+    "model": "BrightAmbience",
+    "p1": 0.0,
+    "p2": 0.0,
+    "p3": 0.0,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "StereoEnsemble",
+   "values": {
+    "model": "StereoEnsemble",
+    "p1": 0.5,
+    "p2": 1.0,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "StereoDoubler",
+   "values": {
+    "model": "StereoDoubler",
+    "p1": 0.6,
+    "p2": 0.6,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "Chorus",
+   "values": {
+    "model": "Chorus",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "ChorusEnsemble",
+   "values": {
+    "model": "ChorusEnsemble",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.8,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "Ensemble",
+   "values": {
+    "model": "Ensemble",
+    "p1": 0.5,
+    "p2": 0.0,
+    "p3": 1.0,
+    "p4": 1.0,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  }
+ ]
+}

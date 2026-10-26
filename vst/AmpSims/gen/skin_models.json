@@ -1,0 +1,509 @@
+{
+ "category": "Amp Sims",
+ "name": "AW Amp Sims",
+ "vendor": "Airwindows",
+ "slots": 10,
+ "models": [
+  {
+   "name": "PunchyGuitar",
+   "params": [
+    {
+     "name": "Drive",
+     "stepped": false
+    },
+    {
+     "name": "Presnce",
+     "stepped": false
+    },
+    {
+     "name": "High",
+     "stepped": false
+    },
+    {
+     "name": "Mid",
+     "stepped": false
+    },
+    {
+     "name": "Low",
+     "stepped": false
+    },
+    {
+     "name": "Sub",
+     "stepped": false
+    },
+    {
+     "name": "HSpeakr",
+     "stepped": false
+    },
+    {
+     "name": "LSpeakr",
+     "stepped": false
+    },
+    {
+     "name": "Gate",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "ChimeyDeluxe",
+   "params": [
+    {
+     "name": "Hell",
+     "stepped": false
+    },
+    {
+     "name": "Fizz",
+     "stepped": false
+    },
+    {
+     "name": "Pick",
+     "stepped": false
+    },
+    {
+     "name": "Satan",
+     "stepped": false
+    },
+    {
+     "name": "Danger",
+     "stepped": false
+    },
+    {
+     "name": "Crtical",
+     "stepped": false
+    },
+    {
+     "name": "H Meat",
+     "stepped": false
+    },
+    {
+     "name": "L Meat",
+     "stepped": false
+    },
+    {
+     "name": "Swing",
+     "stepped": false
+    },
+    {
+     "name": "Rarely",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "ChimeyGuitar2",
+   "params": [
+    {
+     "name": "Compres",
+     "stepped": false
+    },
+    {
+     "name": "Presnce",
+     "stepped": false
+    },
+    {
+     "name": "High",
+     "stepped": false
+    },
+    {
+     "name": "Mid",
+     "stepped": false
+    },
+    {
+     "name": "Low",
+     "stepped": false
+    },
+    {
+     "name": "Sub",
+     "stepped": false
+    },
+    {
+     "name": "HSpeakr",
+     "stepped": false
+    },
+    {
+     "name": "LSpeakr",
+     "stepped": false
+    },
+    {
+     "name": "Speed",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Cabs2",
+   "params": [
+    {
+     "name": "Lowpass",
+     "stepped": false
+    },
+    {
+     "name": "Hipass",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "PointyGuitar",
+   "params": [
+    {
+     "name": "Drive",
+     "stepped": false
+    },
+    {
+     "name": "Presnce",
+     "stepped": false
+    },
+    {
+     "name": "High",
+     "stepped": false
+    },
+    {
+     "name": "Mid",
+     "stepped": false
+    },
+    {
+     "name": "Low",
+     "stepped": false
+    },
+    {
+     "name": "Sub",
+     "stepped": false
+    },
+    {
+     "name": "HSpeakr",
+     "stepped": false
+    },
+    {
+     "name": "LSpeakr",
+     "stepped": false
+    },
+    {
+     "name": "Gate",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "PointyDeluxe",
+   "params": [
+    {
+     "name": "Hell",
+     "stepped": false
+    },
+    {
+     "name": "Fizz",
+     "stepped": false
+    },
+    {
+     "name": "Pick",
+     "stepped": false
+    },
+    {
+     "name": "Satan",
+     "stepped": false
+    },
+    {
+     "name": "Danger",
+     "stepped": false
+    },
+    {
+     "name": "Crtical",
+     "stepped": false
+    },
+    {
+     "name": "H Meat",
+     "stepped": false
+    },
+    {
+     "name": "L Meat",
+     "stepped": false
+    },
+    {
+     "name": "Swing",
+     "stepped": false
+    },
+    {
+     "name": "Rarely",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "ChimeyGuitar",
+   "params": [
+    {
+     "name": "Compres",
+     "stepped": false
+    },
+    {
+     "name": "Presnce",
+     "stepped": false
+    },
+    {
+     "name": "High",
+     "stepped": false
+    },
+    {
+     "name": "Mid",
+     "stepped": false
+    },
+    {
+     "name": "Low",
+     "stepped": false
+    },
+    {
+     "name": "Sub",
+     "stepped": false
+    },
+    {
+     "name": "HSpeakr",
+     "stepped": false
+    },
+    {
+     "name": "LSpeakr",
+     "stepped": false
+    },
+    {
+     "name": "Speed",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "GrindAmp",
+   "params": [
+    {
+     "name": "Gain",
+     "stepped": false
+    },
+    {
+     "name": "Tone",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "FireAmp",
+   "params": [
+    {
+     "name": "Gain",
+     "stepped": false
+    },
+    {
+     "name": "Tone",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "LeadAmp",
+   "params": [
+    {
+     "name": "Gain",
+     "stepped": false
+    },
+    {
+     "name": "Tone",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "CrickBass",
+   "params": [
+    {
+     "name": "Drive",
+     "stepped": false
+    },
+    {
+     "name": "Tone",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Wolfbot",
+   "params": []
+  },
+  {
+   "name": "LilAmp",
+   "params": [
+    {
+     "name": "Gain",
+     "stepped": false
+    },
+    {
+     "name": "Tone",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "MidAmp",
+   "params": [
+    {
+     "name": "Gain",
+     "stepped": false
+    },
+    {
+     "name": "Tone",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "BigAmp",
+   "params": [
+    {
+     "name": "Gain",
+     "stepped": false
+    },
+    {
+     "name": "Tone",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Cabs",
+   "params": [
+    {
+     "name": "CabType",
+     "stepped": true
+    },
+    {
+     "name": "Intense",
+     "stepped": false
+    },
+    {
+     "name": "Rm Loud",
+     "stepped": false
+    },
+    {
+     "name": "CabSize",
+     "stepped": false
+    },
+    {
+     "name": "OffAxis",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "BassDrive",
+   "params": [
+    {
+     "name": "Presnce",
+     "stepped": false
+    },
+    {
+     "name": "High",
+     "stepped": false
+    },
+    {
+     "name": "Mid",
+     "stepped": false
+    },
+    {
+     "name": "Low",
+     "stepped": false
+    },
+    {
+     "name": "Drive",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "BassAmp",
+   "params": [
+    {
+     "name": "High",
+     "stepped": false
+    },
+    {
+     "name": "Dry",
+     "stepped": false
+    },
+    {
+     "name": "Dub",
+     "stepped": false
+    },
+    {
+     "name": "Sub",
+     "stepped": false
+    }
+   ]
+  }
+ ]
+}

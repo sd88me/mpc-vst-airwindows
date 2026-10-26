@@ -1,0 +1,48 @@
+{
+ "name": "AW Unclassified",
+ "vendor": "Airwindows",
+ "uid": "aUnc",
+ "version": 1000,
+ "so": "aw_unclassified.so",
+ "params": "params.json",
+ "effect": true,
+ "custom_skin": true,
+ "presets": "presets.json",
+ "cc": false,
+ "targets": [
+  "armv7",
+  "aarch64"
+ ],
+ "defines": {
+  "PARAM_TEXT_MAX": 128
+ },
+ "build": {
+  "root": "../..",
+  "sources": [
+   "src/engine.cpp",
+   "vst/Unclassified/gen/models.cpp",
+   "vst/Unclassified/gen/docs.cpp",
+   "vendor/airwin2rack/src/airwin_consolidated_base.cpp",
+   "src/gen/fac/Echojam.cpp",
+   "src/gen/fac/WoodenChest.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/Echojam.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/EchojamProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/WoodenChest.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/WoodenChestProc.cpp"
+  ],
+  "cflags": [
+   "-std=gnu++17",
+   "-Isrc",
+   "-Ivendor/airwin2rack/src",
+   "-w",
+   "-O2",
+   "-DAW_SLOTS=4"
+  ],
+  "libs": [
+   "-lm"
+  ],
+  "cflags_arm": [
+   "-mfpu=neon"
+  ]
+ }
+}

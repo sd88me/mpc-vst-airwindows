@@ -1,0 +1,72 @@
+{
+ "name": "AW Bass",
+ "vendor": "Airwindows",
+ "uid": "aBas",
+ "version": 1000,
+ "so": "aw_bass.so",
+ "params": "params.json",
+ "effect": true,
+ "custom_skin": true,
+ "presets": "presets.json",
+ "cc": false,
+ "targets": [
+  "armv7",
+  "aarch64"
+ ],
+ "defines": {
+  "PARAM_TEXT_MAX": 128
+ },
+ "build": {
+  "root": "../..",
+  "sources": [
+   "src/engine.cpp",
+   "vst/Bass/gen/models.cpp",
+   "vst/Bass/gen/docs.cpp",
+   "vendor/airwin2rack/src/airwin_consolidated_base.cpp",
+   "src/gen/fac/DubSub2.cpp",
+   "src/gen/fac/OrbitKick.cpp",
+   "src/gen/fac/Elliptical.cpp",
+   "src/gen/fac/Hermepass.cpp",
+   "src/gen/fac/BassKit.cpp",
+   "src/gen/fac/DubCenter.cpp",
+   "src/gen/fac/DubSub.cpp",
+   "src/gen/fac/Floor.cpp",
+   "src/gen/fac/Infrasonic.cpp",
+   "src/gen/fac/FathomFive.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/DubSub2.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/DubSub2Proc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/OrbitKick.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/OrbitKickProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/Elliptical.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/EllipticalProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/Hermepass.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/HermepassProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/BassKit.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/BassKitProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/DubCenter.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/DubCenterProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/DubSub.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/DubSubProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/Floor.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/FloorProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/Infrasonic.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/InfrasonicProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/FathomFive.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/FathomFiveProc.cpp"
+  ],
+  "cflags": [
+   "-std=gnu++17",
+   "-Isrc",
+   "-Ivendor/airwin2rack/src",
+   "-w",
+   "-O2",
+   "-DAW_SLOTS=10"
+  ],
+  "libs": [
+   "-lm"
+  ],
+  "cflags_arm": [
+   "-mfpu=neon"
+  ]
+ }
+}

@@ -1,0 +1,631 @@
+{
+ "category": "Effects",
+ "name": "AW Effects",
+ "vendor": "Airwindows",
+ "slots": 13,
+ "models": [
+  {
+   "name": "Pafnuty",
+   "params": [
+    {
+     "name": "Second",
+     "stepped": false
+    },
+    {
+     "name": "Third",
+     "stepped": false
+    },
+    {
+     "name": "Fourth",
+     "stepped": false
+    },
+    {
+     "name": "Fifth",
+     "stepped": false
+    },
+    {
+     "name": "Sixth",
+     "stepped": false
+    },
+    {
+     "name": "Seventh",
+     "stepped": false
+    },
+    {
+     "name": "Eighth",
+     "stepped": false
+    },
+    {
+     "name": "Ninth",
+     "stepped": false
+    },
+    {
+     "name": "Tenth",
+     "stepped": false
+    },
+    {
+     "name": "Elevnth",
+     "stepped": false
+    },
+    {
+     "name": "Twelvth",
+     "stepped": false
+    },
+    {
+     "name": "Thirtnh",
+     "stepped": false
+    },
+    {
+     "name": "Inv/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "TakeCare",
+   "params": [
+    {
+     "name": "Speed",
+     "stepped": false
+    },
+    {
+     "name": "Rando",
+     "stepped": false
+    },
+    {
+     "name": "Depth",
+     "stepped": false
+    },
+    {
+     "name": "Regen",
+     "stepped": false
+    },
+    {
+     "name": "Derez",
+     "stepped": false
+    },
+    {
+     "name": "Buffer",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "RingModulator",
+   "params": [
+    {
+     "name": "Freq",
+     "stepped": false
+    },
+    {
+     "name": "Freq",
+     "stepped": false
+    },
+    {
+     "name": "Soar",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Dubly3",
+   "params": [
+    {
+     "name": "Input",
+     "stepped": false
+    },
+    {
+     "name": "Tilt",
+     "stepped": false
+    },
+    {
+     "name": "Shape",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Dubly2",
+   "params": [
+    {
+     "name": "EncAmnt",
+     "stepped": false
+    },
+    {
+     "name": "EncFreq",
+     "stepped": false
+    },
+    {
+     "name": "TapeDrv",
+     "stepped": false
+    },
+    {
+     "name": "DecAmnt",
+     "stepped": false
+    },
+    {
+     "name": "DecFreq",
+     "stepped": false
+    },
+    {
+     "name": "Out Pad",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "GalacticVibe",
+   "params": [
+    {
+     "name": "Drift",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "CloudCoat",
+   "params": [
+    {
+     "name": "Select",
+     "stepped": false
+    },
+    {
+     "name": "Sustain",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Disintegrate",
+   "params": [
+    {
+     "name": "Top dB",
+     "stepped": false
+    },
+    {
+     "name": "BufSize",
+     "stepped": false
+    },
+    {
+     "name": "Layers",
+     "stepped": false
+    },
+    {
+     "name": "Filter",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Fracture2",
+   "params": [
+    {
+     "name": "Drive",
+     "stepped": false
+    },
+    {
+     "name": "Fractre",
+     "stepped": true
+    },
+    {
+     "name": "Thresh",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Dubly",
+   "params": [
+    {
+     "name": "Dubly",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Pafnuty2",
+   "params": [
+    {
+     "name": "Second",
+     "stepped": false
+    },
+    {
+     "name": "Third",
+     "stepped": false
+    },
+    {
+     "name": "Fourth",
+     "stepped": false
+    },
+    {
+     "name": "Fifth",
+     "stepped": false
+    },
+    {
+     "name": "Sixth",
+     "stepped": false
+    },
+    {
+     "name": "Seventh",
+     "stepped": false
+    },
+    {
+     "name": "Eighth",
+     "stepped": false
+    },
+    {
+     "name": "Ninth",
+     "stepped": false
+    },
+    {
+     "name": "Tenth",
+     "stepped": false
+    },
+    {
+     "name": "Inv/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "PitchNasty",
+   "params": [
+    {
+     "name": "Note",
+     "stepped": false
+    },
+    {
+     "name": "Bend",
+     "stepped": false
+    },
+    {
+     "name": "Grind",
+     "stepped": false
+    },
+    {
+     "name": "Feedbck",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Trianglizer",
+   "params": [
+    {
+     "name": "Tri/Fat",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "ShortBuss",
+   "params": [
+    {
+     "name": "ShortBs",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "GuitarConditioner",
+   "params": []
+  },
+  {
+   "name": "Aura",
+   "params": [
+    {
+     "name": "Voicing",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "TremoSquare",
+   "params": [
+    {
+     "name": "Freq",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Tremolo",
+   "params": [
+    {
+     "name": "Speed",
+     "stepped": false
+    },
+    {
+     "name": "Depth",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "GlitchShifter",
+   "params": [
+    {
+     "name": "Note",
+     "stepped": false
+    },
+    {
+     "name": "Trim",
+     "stepped": false
+    },
+    {
+     "name": "Tighten",
+     "stepped": false
+    },
+    {
+     "name": "Feedbck",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Gringer",
+   "params": []
+  },
+  {
+   "name": "Exciter",
+   "params": [
+    {
+     "name": "Freq",
+     "stepped": false
+    },
+    {
+     "name": "Excite",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Energy2",
+   "params": [
+    {
+     "name": "Hiss",
+     "stepped": false
+    },
+    {
+     "name": "Glitter",
+     "stepped": false
+    },
+    {
+     "name": "Rat",
+     "stepped": false
+    },
+    {
+     "name": "Fizz",
+     "stepped": false
+    },
+    {
+     "name": "Scrape",
+     "stepped": false
+    },
+    {
+     "name": "Chug",
+     "stepped": false
+    },
+    {
+     "name": "Yowr",
+     "stepped": false
+    },
+    {
+     "name": "Snarl",
+     "stepped": false
+    },
+    {
+     "name": "I/Dr/Wt",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Energy",
+   "params": [
+    {
+     "name": "Hiss",
+     "stepped": false
+    },
+    {
+     "name": "Glitter",
+     "stepped": false
+    },
+    {
+     "name": "Rat",
+     "stepped": false
+    },
+    {
+     "name": "Fizz",
+     "stepped": false
+    },
+    {
+     "name": "Scrape",
+     "stepped": false
+    },
+    {
+     "name": "Chug",
+     "stepped": false
+    },
+    {
+     "name": "Yowr",
+     "stepped": false
+    },
+    {
+     "name": "Snarl",
+     "stepped": false
+    },
+    {
+     "name": "I/Dr/Wt",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Facet",
+   "params": [
+    {
+     "name": "Facet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Fracture",
+   "params": [
+    {
+     "name": "Drive",
+     "stepped": false
+    },
+    {
+     "name": "Fracture",
+     "stepped": true
+    },
+    {
+     "name": "Out Lvl",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "PowerSag2",
+   "params": [
+    {
+     "name": "Range",
+     "stepped": false
+    },
+    {
+     "name": "Inv/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "PowerSag",
+   "params": [
+    {
+     "name": "Depth",
+     "stepped": false
+    },
+    {
+     "name": "Speed",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Preponderant",
+   "params": [
+    {
+     "name": "Narrow",
+     "stepped": false
+    },
+    {
+     "name": "Medium",
+     "stepped": false
+    },
+    {
+     "name": "Wide",
+     "stepped": false
+    },
+    {
+     "name": "Resonan",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Nikola",
+   "params": [
+    {
+     "name": "Voltage",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  }
+ ]
+}

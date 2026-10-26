@@ -1,0 +1,996 @@
+{
+ "category": "Reverb",
+ "name": "AW Reverb",
+ "vendor": "Airwindows",
+ "slots": 7,
+ "models": [
+  {
+   "name": "VerbSevens",
+   "params": []
+  },
+  {
+   "name": "kRockstar2",
+   "params": [
+    {
+     "name": "Regen",
+     "stepped": false
+    },
+    {
+     "name": "Positin",
+     "stepped": false
+    },
+    {
+     "name": "DownRez",
+     "stepped": false
+    },
+    {
+     "name": "Distnce",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "kCyberCity",
+   "params": [
+    {
+     "name": "Regen",
+     "stepped": false
+    },
+    {
+     "name": "Positin",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "kWoodRoom",
+   "params": [
+    {
+     "name": "Regen",
+     "stepped": false
+    },
+    {
+     "name": "Derez",
+     "stepped": false
+    },
+    {
+     "name": "Filter",
+     "stepped": false
+    },
+    {
+     "name": "EarlyRF",
+     "stepped": false
+    },
+    {
+     "name": "Positin",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "kStation",
+   "params": [
+    {
+     "name": "Regen",
+     "stepped": false
+    },
+    {
+     "name": "Derez",
+     "stepped": false
+    },
+    {
+     "name": "Filter",
+     "stepped": false
+    },
+    {
+     "name": "EarlyRF",
+     "stepped": false
+    },
+    {
+     "name": "Positin",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "kGuitarHall2",
+   "params": [
+    {
+     "name": "Regen",
+     "stepped": false
+    },
+    {
+     "name": "Derez",
+     "stepped": false
+    },
+    {
+     "name": "Filter",
+     "stepped": false
+    },
+    {
+     "name": "EarlyRF",
+     "stepped": false
+    },
+    {
+     "name": "Positin",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "kCathedral5",
+   "params": [
+    {
+     "name": "Regen",
+     "stepped": false
+    },
+    {
+     "name": "Derez",
+     "stepped": false
+    },
+    {
+     "name": "Filter",
+     "stepped": false
+    },
+    {
+     "name": "EarlyRF",
+     "stepped": false
+    },
+    {
+     "name": "Positin",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "VerbTiny",
+   "params": [
+    {
+     "name": "Replace",
+     "stepped": false
+    },
+    {
+     "name": "Derez",
+     "stepped": false
+    },
+    {
+     "name": "Filter",
+     "stepped": false
+    },
+    {
+     "name": "Wider",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "VerbThic",
+   "params": [
+    {
+     "name": "Replace",
+     "stepped": false
+    },
+    {
+     "name": "Derez",
+     "stepped": false
+    },
+    {
+     "name": "Filter",
+     "stepped": false
+    },
+    {
+     "name": "Wider",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "kAlienSpaceship",
+   "params": [
+    {
+     "name": "Regen",
+     "stepped": false
+    },
+    {
+     "name": "Derez",
+     "stepped": false
+    },
+    {
+     "name": "Filter",
+     "stepped": false
+    },
+    {
+     "name": "EarlyRF",
+     "stepped": false
+    },
+    {
+     "name": "Positin",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "kCathedral4",
+   "params": [
+    {
+     "name": "Regen",
+     "stepped": false
+    },
+    {
+     "name": "Derez",
+     "stepped": false
+    },
+    {
+     "name": "Filter",
+     "stepped": false
+    },
+    {
+     "name": "EarlyRF",
+     "stepped": false
+    },
+    {
+     "name": "Predlay",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "kBeyond",
+   "params": [
+    {
+     "name": "Regen",
+     "stepped": false
+    },
+    {
+     "name": "Derez",
+     "stepped": false
+    },
+    {
+     "name": "Filter",
+     "stepped": false
+    },
+    {
+     "name": "EarlyRF",
+     "stepped": false
+    },
+    {
+     "name": "Predlay",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "VerbSixes",
+   "params": []
+  },
+  {
+   "name": "kCosmos",
+   "params": [
+    {
+     "name": "Regen",
+     "stepped": false
+    },
+    {
+     "name": "Derez",
+     "stepped": false
+    },
+    {
+     "name": "Filter",
+     "stepped": false
+    },
+    {
+     "name": "EarlyRF",
+     "stepped": false
+    },
+    {
+     "name": "Predlay",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Galactic3",
+   "params": [
+    {
+     "name": "Replace",
+     "stepped": false
+    },
+    {
+     "name": "Brightns",
+     "stepped": false
+    },
+    {
+     "name": "Detune",
+     "stepped": false
+    },
+    {
+     "name": "Derez",
+     "stepped": false
+    },
+    {
+     "name": "Bigness",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "kCathedral3",
+   "params": [
+    {
+     "name": "Top dB",
+     "stepped": false
+    },
+    {
+     "name": "Regen",
+     "stepped": false
+    },
+    {
+     "name": "DeRez",
+     "stepped": false
+    },
+    {
+     "name": "Predlay",
+     "stepped": false
+    },
+    {
+     "name": "Wetness",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "kPlate140",
+   "params": [
+    {
+     "name": "Input",
+     "stepped": false
+    },
+    {
+     "name": "Regen",
+     "stepped": false
+    },
+    {
+     "name": "DeRez",
+     "stepped": false
+    },
+    {
+     "name": "Predlay",
+     "stepped": false
+    },
+    {
+     "name": "Wetness",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "kPlate240",
+   "params": [
+    {
+     "name": "Input",
+     "stepped": false
+    },
+    {
+     "name": "Regen",
+     "stepped": false
+    },
+    {
+     "name": "DeRez",
+     "stepped": false
+    },
+    {
+     "name": "Predlay",
+     "stepped": false
+    },
+    {
+     "name": "Wetness",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "CreamCoat",
+   "params": [
+    {
+     "name": "Select",
+     "stepped": false
+    },
+    {
+     "name": "Regen",
+     "stepped": false
+    },
+    {
+     "name": "DeRez",
+     "stepped": false
+    },
+    {
+     "name": "Predlay",
+     "stepped": false
+    },
+    {
+     "name": "Wetness",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "kRockstar",
+   "params": [
+    {
+     "name": "Regen",
+     "stepped": false
+    },
+    {
+     "name": "Positin",
+     "stepped": false
+    },
+    {
+     "name": "DownRez",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "kGuitarHall",
+   "params": [
+    {
+     "name": "Top dB",
+     "stepped": false
+    },
+    {
+     "name": "Regen",
+     "stepped": false
+    },
+    {
+     "name": "DeRez",
+     "stepped": false
+    },
+    {
+     "name": "Predlay",
+     "stepped": false
+    },
+    {
+     "name": "Wetness",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "kPlateD",
+   "params": [
+    {
+     "name": "InputPad",
+     "stepped": false
+    },
+    {
+     "name": "Damping",
+     "stepped": false
+    },
+    {
+     "name": "Low Cut",
+     "stepped": false
+    },
+    {
+     "name": "Predelay",
+     "stepped": false
+    },
+    {
+     "name": "Wetness",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "kPlateB",
+   "params": [
+    {
+     "name": "InputPad",
+     "stepped": false
+    },
+    {
+     "name": "Damping",
+     "stepped": false
+    },
+    {
+     "name": "Low Cut",
+     "stepped": false
+    },
+    {
+     "name": "Predelay",
+     "stepped": false
+    },
+    {
+     "name": "Wetness",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "kPlateA",
+   "params": [
+    {
+     "name": "InputPad",
+     "stepped": false
+    },
+    {
+     "name": "Damping",
+     "stepped": false
+    },
+    {
+     "name": "Low Cut",
+     "stepped": false
+    },
+    {
+     "name": "Predelay",
+     "stepped": false
+    },
+    {
+     "name": "Wetness",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "kPlateC",
+   "params": [
+    {
+     "name": "InputPad",
+     "stepped": false
+    },
+    {
+     "name": "Damping",
+     "stepped": false
+    },
+    {
+     "name": "Low Cut",
+     "stepped": false
+    },
+    {
+     "name": "Predelay",
+     "stepped": false
+    },
+    {
+     "name": "Wetness",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "CrunchCoat",
+   "params": [
+    {
+     "name": "Select",
+     "stepped": false
+    },
+    {
+     "name": "Regen",
+     "stepped": false
+    },
+    {
+     "name": "DeRez",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "kCathedral2",
+   "params": [
+    {
+     "name": "Wetness",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Verbity2",
+   "params": [
+    {
+     "name": "RmSize",
+     "stepped": false
+    },
+    {
+     "name": "Sustain",
+     "stepped": false
+    },
+    {
+     "name": "Mulch",
+     "stepped": false
+    },
+    {
+     "name": "Wetness",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Galactic",
+   "params": [
+    {
+     "name": "Replace",
+     "stepped": false
+    },
+    {
+     "name": "Brightness",
+     "stepped": false
+    },
+    {
+     "name": "Detune",
+     "stepped": false
+    },
+    {
+     "name": "Bigness",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Galactic2",
+   "params": [
+    {
+     "name": "Drive",
+     "stepped": false
+    },
+    {
+     "name": "Sustain",
+     "stepped": false
+    },
+    {
+     "name": "Darken",
+     "stepped": false
+    },
+    {
+     "name": "Wetness",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Ultralight2",
+   "params": [
+    {
+     "name": "Damping",
+     "stepped": true
+    },
+    {
+     "name": "UnSolid",
+     "stepped": true
+    },
+    {
+     "name": "UnReflc",
+     "stepped": true
+    },
+    {
+     "name": "Predlay",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    },
+    {
+     "name": "Distnce",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Verbity",
+   "params": [
+    {
+     "name": "Bigness",
+     "stepped": false
+    },
+    {
+     "name": "Longness",
+     "stepped": false
+    },
+    {
+     "name": "Darkness",
+     "stepped": false
+    },
+    {
+     "name": "Wetness",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Chamber2",
+   "params": [
+    {
+     "name": "Delay",
+     "stepped": false
+    },
+    {
+     "name": "Regen",
+     "stepped": false
+    },
+    {
+     "name": "Thick",
+     "stepped": false
+    },
+    {
+     "name": "Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Chamber",
+   "params": [
+    {
+     "name": "Bigness",
+     "stepped": false
+    },
+    {
+     "name": "Longness",
+     "stepped": false
+    },
+    {
+     "name": "Liteness",
+     "stepped": false
+    },
+    {
+     "name": "Darkness",
+     "stepped": false
+    },
+    {
+     "name": "Wetness",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Infinity2",
+   "params": [
+    {
+     "name": "Filter",
+     "stepped": false
+    },
+    {
+     "name": "Size",
+     "stepped": false
+    },
+    {
+     "name": "Damping",
+     "stepped": false
+    },
+    {
+     "name": "Allpass",
+     "stepped": false
+    },
+    {
+     "name": "Feedback",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "NonlinearSpace",
+   "params": [
+    {
+     "name": "SmpRate",
+     "stepped": true
+    },
+    {
+     "name": "Livenes",
+     "stepped": false
+    },
+    {
+     "name": "Treble",
+     "stepped": false
+    },
+    {
+     "name": "Bass",
+     "stepped": false
+    },
+    {
+     "name": "Nonlin",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "kCathedral",
+   "params": [
+    {
+     "name": "Wetness",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Infinity",
+   "params": [
+    {
+     "name": "Filter",
+     "stepped": false
+    },
+    {
+     "name": "Damping",
+     "stepped": false
+    },
+    {
+     "name": "Size",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "MatrixVerb",
+   "params": [
+    {
+     "name": "Filter",
+     "stepped": false
+    },
+    {
+     "name": "Damping",
+     "stepped": false
+    },
+    {
+     "name": "Speed",
+     "stepped": false
+    },
+    {
+     "name": "Vibrato",
+     "stepped": false
+    },
+    {
+     "name": "RmSize",
+     "stepped": false
+    },
+    {
+     "name": "Flavor",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "PocketVerbs",
+   "params": [
+    {
+     "name": "Type",
+     "stepped": true
+    },
+    {
+     "name": "Size",
+     "stepped": false
+    },
+    {
+     "name": "Gating",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Reverb",
+   "params": [
+    {
+     "name": "Big",
+     "stepped": false
+    },
+    {
+     "name": "Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Ultralight",
+   "params": [
+    {
+     "name": "RT60",
+     "stepped": true
+    },
+    {
+     "name": "Furnish",
+     "stepped": true
+    },
+    {
+     "name": "SolidWl",
+     "stepped": true
+    },
+    {
+     "name": "ReflcWl",
+     "stepped": true
+    },
+    {
+     "name": "Predlay",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    },
+    {
+     "name": "Distnce",
+     "stepped": false
+    }
+   ]
+  }
+ ]
+}

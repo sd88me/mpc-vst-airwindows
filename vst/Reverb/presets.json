@@ -1,0 +1,550 @@
+{
+ "presets": [
+  {
+   "name": "VerbSevens",
+   "values": {
+    "model": "VerbSevens",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "kRockstar2",
+   "values": {
+    "model": "kRockstar2",
+    "p1": 0.5,
+    "p2": 0.75,
+    "p3": 1.0,
+    "p4": 0.25,
+    "p5": 0.5,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "kCyberCity",
+   "values": {
+    "model": "kCyberCity",
+    "p1": 0.5,
+    "p2": 1.0,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "kWoodRoom",
+   "values": {
+    "model": "kWoodRoom",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.25,
+    "p4": 0.5,
+    "p5": 0.75,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "kStation",
+   "values": {
+    "model": "kStation",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.9,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "kGuitarHall2",
+   "values": {
+    "model": "kGuitarHall2",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "kCathedral5",
+   "values": {
+    "model": "kCathedral5",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.24,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "VerbTiny",
+   "values": {
+    "model": "VerbTiny",
+    "p1": 0.5,
+    "p2": 1.0,
+    "p3": 1.0,
+    "p4": 0.0,
+    "p5": 1.0,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "VerbThic",
+   "values": {
+    "model": "VerbThic",
+    "p1": 0.5,
+    "p2": 1.0,
+    "p3": 1.0,
+    "p4": 0.0,
+    "p5": 1.0,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "kAlienSpaceship",
+   "values": {
+    "model": "kAlienSpaceship",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "kCathedral4",
+   "values": {
+    "model": "kCathedral4",
+    "p1": 0.5,
+    "p2": 1.0,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.0,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "kBeyond",
+   "values": {
+    "model": "kBeyond",
+    "p1": 0.5,
+    "p2": 1.0,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.0,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "VerbSixes",
+   "values": {
+    "model": "VerbSixes",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "kCosmos",
+   "values": {
+    "model": "kCosmos",
+    "p1": 0.5,
+    "p2": 1.0,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.0,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "Galactic3",
+   "values": {
+    "model": "Galactic3",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 1.0,
+    "p5": 1.0,
+    "p6": 1.0,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "kCathedral3",
+   "values": {
+    "model": "kCathedral3",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 1.0,
+    "p4": 0.0,
+    "p5": 0.25,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "kPlate140",
+   "values": {
+    "model": "kPlate140",
+    "p1": 1.0,
+    "p2": 0.5,
+    "p3": 1.0,
+    "p4": 0.0,
+    "p5": 0.25,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "kPlate240",
+   "values": {
+    "model": "kPlate240",
+    "p1": 1.0,
+    "p2": 0.5,
+    "p3": 1.0,
+    "p4": 0.0,
+    "p5": 0.25,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "CreamCoat",
+   "values": {
+    "model": "CreamCoat",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 1.0,
+    "p4": 0.0,
+    "p5": 0.25,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "kRockstar",
+   "values": {
+    "model": "kRockstar",
+    "p1": 0.5,
+    "p2": 1.0,
+    "p3": 1.0,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "kGuitarHall",
+   "values": {
+    "model": "kGuitarHall",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 1.0,
+    "p4": 0.0,
+    "p5": 0.25,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "kPlateD",
+   "values": {
+    "model": "kPlateD",
+    "p1": 1.0,
+    "p2": 0.5,
+    "p3": 1.0,
+    "p4": 0.0,
+    "p5": 0.25,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "kPlateB",
+   "values": {
+    "model": "kPlateB",
+    "p1": 1.0,
+    "p2": 0.5,
+    "p3": 1.0,
+    "p4": 0.0,
+    "p5": 0.25,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "kPlateA",
+   "values": {
+    "model": "kPlateA",
+    "p1": 1.0,
+    "p2": 0.5,
+    "p3": 1.0,
+    "p4": 0.0,
+    "p5": 0.25,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "kPlateC",
+   "values": {
+    "model": "kPlateC",
+    "p1": 1.0,
+    "p2": 0.5,
+    "p3": 1.0,
+    "p4": 0.0,
+    "p5": 0.25,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "CrunchCoat",
+   "values": {
+    "model": "CrunchCoat",
+    "p1": 0.5,
+    "p2": 0.0,
+    "p3": 1.0,
+    "p4": 1.0,
+    "p5": 0.5,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "kCathedral2",
+   "values": {
+    "model": "kCathedral2",
+    "p1": 1.0,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "Verbity2",
+   "values": {
+    "model": "Verbity2",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 1.0,
+    "p5": 0.5,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "Galactic",
+   "values": {
+    "model": "Galactic",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 1.0,
+    "p5": 1.0,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "Galactic2",
+   "values": {
+    "model": "Galactic2",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 1.0,
+    "p5": 0.5,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "Ultralight2",
+   "values": {
+    "model": "Ultralight2",
+    "p1": 0.65,
+    "p2": 0.75,
+    "p3": 0.75,
+    "p4": 0.54,
+    "p5": 0.5,
+    "p6": 0.0,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "Verbity",
+   "values": {
+    "model": "Verbity",
+    "p1": 0.25,
+    "p2": 0.0,
+    "p3": 0.25,
+    "p4": 0.25,
+    "p5": 0.5,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "Chamber2",
+   "values": {
+    "model": "Chamber2",
+    "p1": 0.34,
+    "p2": 0.31,
+    "p3": 0.28,
+    "p4": 0.25,
+    "p5": 0.5,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "Chamber",
+   "values": {
+    "model": "Chamber",
+    "p1": 0.35,
+    "p2": 0.35,
+    "p3": 0.35,
+    "p4": 0.35,
+    "p5": 0.35,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "Infinity2",
+   "values": {
+    "model": "Infinity2",
+    "p1": 1.0,
+    "p2": 0.5,
+    "p3": 0.0,
+    "p4": 1.0,
+    "p5": 1.0,
+    "p6": 1.0,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "NonlinearSpace",
+   "values": {
+    "model": "NonlinearSpace",
+    "p1": 0.3,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 1.0,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "kCathedral",
+   "values": {
+    "model": "kCathedral",
+    "p1": 1.0,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "Infinity",
+   "values": {
+    "model": "Infinity",
+    "p1": 1.0,
+    "p2": 0.0,
+    "p3": 0.5,
+    "p4": 1.0,
+    "p5": 0.5,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "MatrixVerb",
+   "values": {
+    "model": "MatrixVerb",
+    "p1": 1.0,
+    "p2": 0.0,
+    "p3": 0.0,
+    "p4": 0.0,
+    "p5": 0.5,
+    "p6": 0.5,
+    "p7": 1.0
+   }
+  },
+  {
+   "name": "PocketVerbs",
+   "values": {
+    "model": "PocketVerbs",
+    "p1": 0.0,
+    "p2": 0.5,
+    "p3": 0.0,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "Reverb",
+   "values": {
+    "model": "Reverb",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "Ultralight",
+   "values": {
+    "model": "Ultralight",
+    "p1": 0.65,
+    "p2": 0.75,
+    "p3": 0.75,
+    "p4": 0.75,
+    "p5": 0.54,
+    "p6": 0.5,
+    "p7": 0.0
+   }
+  }
+ ]
+}

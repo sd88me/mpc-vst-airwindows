@@ -1,0 +1,281 @@
+{
+ "category": "Dithers",
+ "name": "AW Dithers",
+ "vendor": "Airwindows",
+ "slots": 10,
+ "models": [
+  {
+   "name": "Dark",
+   "params": [
+    {
+     "name": "Quant",
+     "stepped": true
+    },
+    {
+     "name": "DeRez",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "PaulWide",
+   "params": [
+    {
+     "name": "Quant",
+     "stepped": true
+    },
+    {
+     "name": "DeRez",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "PaulDither",
+   "params": [
+    {
+     "name": "Quant",
+     "stepped": true
+    },
+    {
+     "name": "DeRez",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "TPDFWide",
+   "params": [
+    {
+     "name": "Quant",
+     "stepped": true
+    },
+    {
+     "name": "DeRez",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "TPDFDither",
+   "params": [
+    {
+     "name": "Quant",
+     "stepped": true
+    },
+    {
+     "name": "DeRez",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "NotJustAnotherDither",
+   "params": [
+    {
+     "name": "Quant",
+     "stepped": true
+    },
+    {
+     "name": "DeRez",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "NotJustAnotherCD",
+   "params": []
+  },
+  {
+   "name": "Beam",
+   "params": [
+    {
+     "name": "Quant",
+     "stepped": true
+    },
+    {
+     "name": "Focus",
+     "stepped": false
+    },
+    {
+     "name": "DeRez",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "TapeDither",
+   "params": [
+    {
+     "name": "Quant",
+     "stepped": true
+    },
+    {
+     "name": "DeRez",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "SpatializeDither",
+   "params": [
+    {
+     "name": "Quant",
+     "stepped": true
+    },
+    {
+     "name": "DeRez",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "VinylDither",
+   "params": [
+    {
+     "name": "Quant",
+     "stepped": true
+    },
+    {
+     "name": "DeRez",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "DoublePaul",
+   "params": []
+  },
+  {
+   "name": "Ditherbox",
+   "params": [
+    {
+     "name": "Type",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "BuildATPDF",
+   "params": [
+    {
+     "name": "First",
+     "stepped": false
+    },
+    {
+     "name": "Second",
+     "stepped": false
+    },
+    {
+     "name": "Third",
+     "stepped": false
+    },
+    {
+     "name": "Fourth",
+     "stepped": false
+    },
+    {
+     "name": "Fifth",
+     "stepped": false
+    },
+    {
+     "name": "Sixth",
+     "stepped": false
+    },
+    {
+     "name": "Seventh",
+     "stepped": false
+    },
+    {
+     "name": "Eighth",
+     "stepped": false
+    },
+    {
+     "name": "Ninth",
+     "stepped": false
+    },
+    {
+     "name": "Tenth",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "NodeDither",
+   "params": [
+    {
+     "name": "Node",
+     "stepped": false
+    },
+    {
+     "name": "Phase",
+     "stepped": true
+    }
+   ]
+  },
+  {
+   "name": "StudioTan",
+   "params": [
+    {
+     "name": "Quantzr",
+     "stepped": true
+    }
+   ]
+  },
+  {
+   "name": "DitherMeTimbers",
+   "params": []
+  },
+  {
+   "name": "DitherMeDiskers",
+   "params": []
+  },
+  {
+   "name": "RawTimbers",
+   "params": [
+    {
+     "name": "Quant",
+     "stepped": true
+    },
+    {
+     "name": "DeRez",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "RawGlitters",
+   "params": [
+    {
+     "name": "Quant",
+     "stepped": true
+    },
+    {
+     "name": "DeRez",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "NaturalizeDither",
+   "params": []
+  },
+  {
+   "name": "HighGlossDither",
+   "params": []
+  },
+  {
+   "name": "DitherFloat",
+   "params": [
+    {
+     "name": "Offset",
+     "stepped": false
+    },
+    {
+     "name": "Dither",
+     "stepped": false
+    }
+   ]
+  }
+ ]
+}

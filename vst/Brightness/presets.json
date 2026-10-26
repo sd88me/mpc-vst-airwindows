@@ -1,0 +1,316 @@
+{
+ "presets": [
+  {
+   "name": "Air4",
+   "values": {
+    "model": "Air4",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.52,
+    "p4": 0.0,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "Air3",
+   "values": {
+    "model": "Air3",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "Slew4",
+   "values": {
+    "model": "Slew4",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "PlatinumSlew",
+   "values": {
+    "model": "PlatinumSlew",
+    "p1": 0.0,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "DeBess",
+   "values": {
+    "model": "DeBess",
+    "p1": 0.0,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.0,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "GoldenSlew",
+   "values": {
+    "model": "GoldenSlew",
+    "p1": 0.0,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "Sinew",
+   "values": {
+    "model": "Sinew",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "SlewSonic",
+   "values": {
+    "model": "SlewSonic",
+    "p1": 0.5,
+    "p2": 0.0,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "Acceleration2",
+   "values": {
+    "model": "Acceleration2",
+    "p1": 0.32,
+    "p2": 1.0,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "DeEss",
+   "values": {
+    "model": "DeEss",
+    "p1": 0.0,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "Smooth",
+   "values": {
+    "model": "Smooth",
+    "p1": 0.0,
+    "p2": 1.0,
+    "p3": 1.0,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "EverySlew",
+   "values": {
+    "model": "EverySlew",
+    "p1": 0.0,
+    "p2": 1.0,
+    "p3": 0.16,
+    "p4": 1.0,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "Slew3",
+   "values": {
+    "model": "Slew3",
+    "p1": 0.0,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "Slew2",
+   "values": {
+    "model": "Slew2",
+    "p1": 0.0,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "Slew",
+   "values": {
+    "model": "Slew",
+    "p1": 0.0,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "Air2",
+   "values": {
+    "model": "Air2",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.0,
+    "p5": 1.0,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "Air",
+   "values": {
+    "model": "Air",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.0,
+    "p5": 1.0,
+    "p6": 1.0
+   }
+  },
+  {
+   "name": "PurestAir",
+   "values": {
+    "model": "PurestAir",
+    "p1": 0.5,
+    "p2": 0.0,
+    "p3": 1.0,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "Acceleration",
+   "values": {
+    "model": "Acceleration",
+    "p1": 0.32,
+    "p2": 1.0,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "DeHiss",
+   "values": {
+    "model": "DeHiss",
+    "p1": 0.0,
+    "p2": 1.0,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "Hypersonic",
+   "values": {
+    "model": "Hypersonic",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "HypersonX",
+   "values": {
+    "model": "HypersonX",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "Ultrasonic",
+   "values": {
+    "model": "Ultrasonic",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "UltrasonicLite",
+   "values": {
+    "model": "UltrasonicLite",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "UltrasonicMed",
+   "values": {
+    "model": "UltrasonicMed",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "UltrasonX",
+   "values": {
+    "model": "UltrasonX",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  }
+ ]
+}

@@ -1,0 +1,130 @@
+{
+ "presets": [
+  {
+   "name": "DeNoise",
+   "values": {
+    "model": "DeNoise",
+    "p1": 0.0,
+    "p2": 0.0,
+    "p3": 0.0,
+    "p4": 0.0,
+    "p5": 0.0,
+    "p6": 0.0,
+    "p7": 0.25,
+    "p8": 1.0
+   }
+  },
+  {
+   "name": "Noise",
+   "values": {
+    "model": "Noise",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 1.0,
+    "p5": 0.0,
+    "p6": 1.0,
+    "p7": 0.5,
+    "p8": 0.5
+   }
+  },
+  {
+   "name": "Texturize",
+   "values": {
+    "model": "Texturize",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5,
+    "p7": 0.5,
+    "p8": 0.5
+   }
+  },
+  {
+   "name": "TexturizeMS",
+   "values": {
+    "model": "TexturizeMS",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5,
+    "p7": 0.5,
+    "p8": 0.5
+   }
+  },
+  {
+   "name": "VoiceOfTheStarship",
+   "values": {
+    "model": "VoiceOfTheStarship",
+    "p1": 0.5,
+    "p2": 0.0,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5,
+    "p7": 0.5,
+    "p8": 0.5
+   }
+  },
+  {
+   "name": "DarkNoise",
+   "values": {
+    "model": "DarkNoise",
+    "p1": 0.5,
+    "p2": 1.0,
+    "p3": 1.0,
+    "p4": 1.0,
+    "p5": 0.5,
+    "p6": 0.5,
+    "p7": 0.5,
+    "p8": 0.5
+   }
+  },
+  {
+   "name": "ElectroHat",
+   "values": {
+    "model": "ElectroHat",
+    "p1": 0.0,
+    "p2": 0.5,
+    "p3": 1.0,
+    "p4": 0.1,
+    "p5": 1.0,
+    "p6": 0.5,
+    "p7": 0.5,
+    "p8": 0.5
+   }
+  },
+  {
+   "name": "Silhouette",
+   "values": {
+    "model": "Silhouette",
+    "p1": 0.0,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5,
+    "p7": 0.5,
+    "p8": 0.5
+   }
+  },
+  {
+   "name": "TapeDust",
+   "values": {
+    "model": "TapeDust",
+    "p1": 0.0,
+    "p2": 1.0,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5,
+    "p7": 0.5,
+    "p8": 0.5
+   }
+  }
+ ]
+}

@@ -1,0 +1,5 @@
+build/
+vst/*/build/
+__pycache__/
+*.pyc
+preview.png

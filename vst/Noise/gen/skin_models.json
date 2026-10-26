@@ -1,0 +1,201 @@
+{
+ "category": "Noise",
+ "name": "AW Noise",
+ "vendor": "Airwindows",
+ "slots": 8,
+ "models": [
+  {
+   "name": "DeNoise",
+   "params": [
+    {
+     "name": "High",
+     "stepped": false
+    },
+    {
+     "name": "HMid",
+     "stepped": false
+    },
+    {
+     "name": "Mid",
+     "stepped": false
+    },
+    {
+     "name": "LMid",
+     "stepped": false
+    },
+    {
+     "name": "Bass",
+     "stepped": false
+    },
+    {
+     "name": "Sub",
+     "stepped": false
+    },
+    {
+     "name": "Speed",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Noise",
+   "params": [
+    {
+     "name": "HighCut",
+     "stepped": false
+    },
+    {
+     "name": "LowCut",
+     "stepped": false
+    },
+    {
+     "name": "LShape",
+     "stepped": false
+    },
+    {
+     "name": "Decay",
+     "stepped": false
+    },
+    {
+     "name": "Distnc",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Texturize",
+   "params": [
+    {
+     "name": "Bright",
+     "stepped": false
+    },
+    {
+     "name": "Punchy",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "TexturizeMS",
+   "params": [
+    {
+     "name": "BrightM",
+     "stepped": false
+    },
+    {
+     "name": "PunchyM",
+     "stepped": false
+    },
+    {
+     "name": "DryWetM",
+     "stepped": false
+    },
+    {
+     "name": "BrightS",
+     "stepped": false
+    },
+    {
+     "name": "PunchyS",
+     "stepped": false
+    },
+    {
+     "name": "DryWetS",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "VoiceOfTheStarship",
+   "params": [
+    {
+     "name": "Filter",
+     "stepped": false
+    },
+    {
+     "name": "Algrthm",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "DarkNoise",
+   "params": [
+    {
+     "name": "Freq",
+     "stepped": false
+    },
+    {
+     "name": "Dark",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "ElectroHat",
+   "params": [
+    {
+     "name": "HiHat",
+     "stepped": true
+    },
+    {
+     "name": "Trim",
+     "stepped": false
+    },
+    {
+     "name": "Bright",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Silhouette",
+   "params": [
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "TapeDust",
+   "params": [
+    {
+     "name": "Dust",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  }
+ ]
+}

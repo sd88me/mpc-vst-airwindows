@@ -1,0 +1,343 @@
+{
+ "category": "Distortion",
+ "name": "AW Distortion",
+ "vendor": "Airwindows",
+ "slots": 10,
+ "models": [
+  {
+   "name": "PunchyDeluxe",
+   "params": [
+    {
+     "name": "Hell",
+     "stepped": false
+    },
+    {
+     "name": "Fizz",
+     "stepped": false
+    },
+    {
+     "name": "Pick",
+     "stepped": false
+    },
+    {
+     "name": "Satan",
+     "stepped": false
+    },
+    {
+     "name": "Danger",
+     "stepped": false
+    },
+    {
+     "name": "Crtical",
+     "stepped": false
+    },
+    {
+     "name": "H Meat",
+     "stepped": false
+    },
+    {
+     "name": "L Meat",
+     "stepped": false
+    },
+    {
+     "name": "Swing",
+     "stepped": false
+    },
+    {
+     "name": "Rarely",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Distortion",
+   "params": [
+    {
+     "name": "Input",
+     "stepped": false
+    },
+    {
+     "name": "Mode",
+     "stepped": true
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Edge",
+   "params": [
+    {
+     "name": "Gain",
+     "stepped": false
+    },
+    {
+     "name": "Lowpass",
+     "stepped": false
+    },
+    {
+     "name": "Highpass",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Dirt",
+   "params": [
+    {
+     "name": "Gain",
+     "stepped": false
+    },
+    {
+     "name": "Lowpass",
+     "stepped": false
+    },
+    {
+     "name": "Highpass",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Mackity",
+   "params": [
+    {
+     "name": "In Trim",
+     "stepped": false
+    },
+    {
+     "name": "Out Pad",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Density3",
+   "params": [
+    {
+     "name": "Density",
+     "stepped": false
+    },
+    {
+     "name": "Highpas",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "ZOutputStage",
+   "params": [
+    {
+     "name": "Input",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Density2",
+   "params": [
+    {
+     "name": "Density",
+     "stepped": false
+    },
+    {
+     "name": "Highpass",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Zoom",
+   "params": [
+    {
+     "name": "Zoom",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Density",
+   "params": [
+    {
+     "name": "Density",
+     "stepped": false
+    },
+    {
+     "name": "Highpass",
+     "stepped": false
+    },
+    {
+     "name": "Out Level",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Drive",
+   "params": [
+    {
+     "name": "Drive",
+     "stepped": false
+    },
+    {
+     "name": "Highpass",
+     "stepped": false
+    },
+    {
+     "name": "Out Level",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Loud",
+   "params": [
+    {
+     "name": "Boost",
+     "stepped": false
+    },
+    {
+     "name": "Output Level",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "HardVacuum",
+   "params": [
+    {
+     "name": "Drive",
+     "stepped": false
+    },
+    {
+     "name": "Warmth",
+     "stepped": false
+    },
+    {
+     "name": "Aura",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "HighImpact",
+   "params": [
+    {
+     "name": "Impact",
+     "stepped": false
+    },
+    {
+     "name": "Output Level",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "MultiBandDistortion",
+   "params": [
+    {
+     "name": "Freqcy",
+     "stepped": false
+    },
+    {
+     "name": "H Gain",
+     "stepped": false
+    },
+    {
+     "name": "L Gain",
+     "stepped": false
+    },
+    {
+     "name": "H Hard",
+     "stepped": false
+    },
+    {
+     "name": "L Hard",
+     "stepped": false
+    },
+    {
+     "name": "H Mtrx",
+     "stepped": false
+    },
+    {
+     "name": "L Mtrx",
+     "stepped": false
+    },
+    {
+     "name": "Stable",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    }
+   ]
+  }
+ ]
+}

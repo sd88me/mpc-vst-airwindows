@@ -1,0 +1,69 @@
+{
+ "name": "AW Noise",
+ "vendor": "Airwindows",
+ "uid": "aNoi",
+ "version": 1000,
+ "so": "aw_noise.so",
+ "params": "params.json",
+ "effect": true,
+ "custom_skin": true,
+ "presets": "presets.json",
+ "cc": false,
+ "targets": [
+  "armv7",
+  "aarch64"
+ ],
+ "defines": {
+  "PARAM_TEXT_MAX": 128
+ },
+ "build": {
+  "root": "../..",
+  "sources": [
+   "src/engine.cpp",
+   "vst/Noise/gen/models.cpp",
+   "vst/Noise/gen/docs.cpp",
+   "vendor/airwin2rack/src/airwin_consolidated_base.cpp",
+   "src/gen/fac/DeNoise.cpp",
+   "src/gen/fac/Noise.cpp",
+   "src/gen/fac/Texturize.cpp",
+   "src/gen/fac/TexturizeMS.cpp",
+   "src/gen/fac/VoiceOfTheStarship.cpp",
+   "src/gen/fac/DarkNoise.cpp",
+   "src/gen/fac/ElectroHat.cpp",
+   "src/gen/fac/Silhouette.cpp",
+   "src/gen/fac/TapeDust.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/DeNoise.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/DeNoiseProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/Noise.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/NoiseProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/Texturize.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/TexturizeProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/TexturizeMS.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/TexturizeMSProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/VoiceOfTheStarship.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/VoiceOfTheStarshipProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/DarkNoise.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/DarkNoiseProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/ElectroHat.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/ElectroHatProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/Silhouette.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/SilhouetteProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/TapeDust.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/TapeDustProc.cpp"
+  ],
+  "cflags": [
+   "-std=gnu++17",
+   "-Isrc",
+   "-Ivendor/airwin2rack/src",
+   "-w",
+   "-O2",
+   "-DAW_SLOTS=8"
+  ],
+  "libs": [
+   "-lm"
+  ],
+  "cflags_arm": [
+   "-mfpu=neon"
+  ]
+ }
+}

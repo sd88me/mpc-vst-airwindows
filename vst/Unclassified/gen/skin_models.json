@@ -1,0 +1,46 @@
+{
+ "category": "Unclassified",
+ "name": "AW Unclassified",
+ "vendor": "Airwindows",
+ "slots": 4,
+ "models": [
+  {
+   "name": "Echojam",
+   "params": [
+    {
+     "name": "Select",
+     "stepped": false
+    },
+    {
+     "name": "Regen",
+     "stepped": false
+    },
+    {
+     "name": "Speed",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "WoodenChest",
+   "params": [
+    {
+     "name": "Select",
+     "stepped": false
+    },
+    {
+     "name": "Reso",
+     "stepped": false
+    },
+    {
+     "name": "Depth",
+     "stepped": false
+    }
+   ]
+  }
+ ]
+}

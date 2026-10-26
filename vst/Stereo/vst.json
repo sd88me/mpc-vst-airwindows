@@ -1,0 +1,78 @@
+{
+ "name": "AW Stereo",
+ "vendor": "Airwindows",
+ "uid": "aSte",
+ "version": 1000,
+ "so": "aw_stereo.so",
+ "params": "params.json",
+ "effect": true,
+ "custom_skin": true,
+ "presets": "presets.json",
+ "cc": false,
+ "targets": [
+  "armv7",
+  "aarch64"
+ ],
+ "defines": {
+  "PARAM_TEXT_MAX": 128
+ },
+ "build": {
+  "root": "../..",
+  "sources": [
+   "src/engine.cpp",
+   "vst/Stereo/gen/models.cpp",
+   "vst/Stereo/gen/docs.cpp",
+   "vendor/airwin2rack/src/airwin_consolidated_base.cpp",
+   "src/gen/fac/Srsly3.cpp",
+   "src/gen/fac/Srsly2.cpp",
+   "src/gen/fac/Srsly.cpp",
+   "src/gen/fac/SweetWide.cpp",
+   "src/gen/fac/Wider.cpp",
+   "src/gen/fac/StereoFX.cpp",
+   "src/gen/fac/ToVinyl4.cpp",
+   "src/gen/fac/AutoPan.cpp",
+   "src/gen/fac/LRFlipTimer.cpp",
+   "src/gen/fac/MSFlipTimer.cpp",
+   "src/gen/fac/Sidepass.cpp",
+   "src/gen/fac/SideDull.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/Srsly3.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/Srsly3Proc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/Srsly2.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/Srsly2Proc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/Srsly.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/SrslyProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/SweetWide.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/SweetWideProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/Wider.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/WiderProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/StereoFX.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/StereoFXProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/ToVinyl4.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/ToVinyl4Proc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/AutoPan.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/AutoPanProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/LRFlipTimer.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/LRFlipTimerProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/MSFlipTimer.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/MSFlipTimerProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/Sidepass.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/SidepassProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/SideDull.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/SideDullProc.cpp"
+  ],
+  "cflags": [
+   "-std=gnu++17",
+   "-Isrc",
+   "-Ivendor/airwin2rack/src",
+   "-w",
+   "-O2",
+   "-DAW_SLOTS=6"
+  ],
+  "libs": [
+   "-lm"
+  ],
+  "cflags_arm": [
+   "-mfpu=neon"
+  ]
+ }
+}

@@ -1,0 +1,521 @@
+{
+ "category": "Ambience",
+ "name": "AW Ambience",
+ "vendor": "Airwindows",
+ "slots": 6,
+ "models": [
+  {
+   "name": "ClearCoat",
+   "params": [
+    {
+     "name": "Select",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "TapeDelay2",
+   "params": [
+    {
+     "name": "Time",
+     "stepped": false
+    },
+    {
+     "name": "Regen",
+     "stepped": false
+    },
+    {
+     "name": "Freq",
+     "stepped": false
+    },
+    {
+     "name": "Reso",
+     "stepped": false
+    },
+    {
+     "name": "Flutter",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Doublelay",
+   "params": [
+    {
+     "name": "Detune",
+     "stepped": false
+    },
+    {
+     "name": "Delay L",
+     "stepped": false
+    },
+    {
+     "name": "Delay R",
+     "stepped": false
+    },
+    {
+     "name": "Feedbk",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "PitchDelay",
+   "params": [
+    {
+     "name": "Time",
+     "stepped": false
+    },
+    {
+     "name": "Regen",
+     "stepped": false
+    },
+    {
+     "name": "Freq",
+     "stepped": false
+    },
+    {
+     "name": "Reso",
+     "stepped": false
+    },
+    {
+     "name": "Pitch",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "SampleDelay",
+   "params": [
+    {
+     "name": "ms",
+     "stepped": false
+    },
+    {
+     "name": "Samples",
+     "stepped": true
+    },
+    {
+     "name": "Subsamp",
+     "stepped": false
+    },
+    {
+     "name": "Inv/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "BrightAmbience3",
+   "params": [
+    {
+     "name": "Start",
+     "stepped": false
+    },
+    {
+     "name": "Length",
+     "stepped": false
+    },
+    {
+     "name": "Feedback",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "TripleSpread",
+   "params": [
+    {
+     "name": "Spread",
+     "stepped": false
+    },
+    {
+     "name": "Tighten",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Melt",
+   "params": [
+    {
+     "name": "Depth",
+     "stepped": false
+    },
+    {
+     "name": "Range",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "MV2",
+   "params": [
+    {
+     "name": "Depth",
+     "stepped": false
+    },
+    {
+     "name": "Bright",
+     "stepped": false
+    },
+    {
+     "name": "Regen",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "MV",
+   "params": [
+    {
+     "name": "Depth",
+     "stepped": false
+    },
+    {
+     "name": "Bright",
+     "stepped": false
+    },
+    {
+     "name": "Regen",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "ADT",
+   "params": [
+    {
+     "name": "Headrm",
+     "stepped": false
+    },
+    {
+     "name": "A Delay",
+     "stepped": false
+    },
+    {
+     "name": "A Level",
+     "stepped": false
+    },
+    {
+     "name": "B Delay",
+     "stepped": false
+    },
+    {
+     "name": "B Level",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "kChamberAR",
+   "params": [
+    {
+     "name": "Input",
+     "stepped": false
+    },
+    {
+     "name": "Delay",
+     "stepped": false
+    },
+    {
+     "name": "Regen",
+     "stepped": false
+    },
+    {
+     "name": "Low Cut",
+     "stepped": false
+    },
+    {
+     "name": "Wetness",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "StereoChorus",
+   "params": [
+    {
+     "name": "Speed",
+     "stepped": false
+    },
+    {
+     "name": "Depth",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "PurestEcho",
+   "params": [
+    {
+     "name": "Time",
+     "stepped": false
+    },
+    {
+     "name": "Tap 1",
+     "stepped": false
+    },
+    {
+     "name": "Tap 2",
+     "stepped": false
+    },
+    {
+     "name": "Tap 3",
+     "stepped": false
+    },
+    {
+     "name": "Tap 4",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "TapeDelay",
+   "params": [
+    {
+     "name": "Dry",
+     "stepped": false
+    },
+    {
+     "name": "Wet",
+     "stepped": false
+    },
+    {
+     "name": "Delay",
+     "stepped": false
+    },
+    {
+     "name": "Feedbak",
+     "stepped": false
+    },
+    {
+     "name": "Lean/Ft",
+     "stepped": false
+    },
+    {
+     "name": "Depth",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "StarChild2",
+   "params": [
+    {
+     "name": "Sustain",
+     "stepped": false
+    },
+    {
+     "name": "Grain",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "StarChild",
+   "params": [
+    {
+     "name": "Sustain",
+     "stepped": false
+    },
+    {
+     "name": "Grain",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Hombre",
+   "params": [
+    {
+     "name": "Voicing",
+     "stepped": false
+    },
+    {
+     "name": "Intensity",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "BrightAmbience2",
+   "params": [
+    {
+     "name": "Start",
+     "stepped": false
+    },
+    {
+     "name": "Length",
+     "stepped": false
+    },
+    {
+     "name": "Feedbck",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "BrightAmbience",
+   "params": [
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    },
+    {
+     "name": "Sustain",
+     "stepped": false
+    },
+    {
+     "name": "Decay",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "StereoEnsemble",
+   "params": [
+    {
+     "name": "Depth",
+     "stepped": false
+    },
+    {
+     "name": "FXlevel",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "StereoDoubler",
+   "params": [
+    {
+     "name": "Detune",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Chorus",
+   "params": [
+    {
+     "name": "Speed",
+     "stepped": false
+    },
+    {
+     "name": "Range",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "ChorusEnsemble",
+   "params": [
+    {
+     "name": "Speed",
+     "stepped": false
+    },
+    {
+     "name": "Range",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Ensemble",
+   "params": [
+    {
+     "name": "Ensemble",
+     "stepped": false
+    },
+    {
+     "name": "Fullness",
+     "stepped": false
+    },
+    {
+     "name": "Brighten",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  }
+ ]
+}

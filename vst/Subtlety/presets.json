@@ -1,0 +1,264 @@
+{
+ "presets": [
+  {
+   "name": "PurestWarm3",
+   "values": {
+    "model": "PurestWarm3",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "Mastering2",
+   "values": {
+    "model": "Mastering2",
+    "p1": 0.0,
+    "p2": 0.0,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5,
+    "p7": 1.0
+   }
+  },
+  {
+   "name": "Discontapeity",
+   "values": {
+    "model": "Discontapeity",
+    "p1": 0.0,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "Mastering",
+   "values": {
+    "model": "Mastering",
+    "p1": 0.0,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 1.0,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "Discontinuity",
+   "values": {
+    "model": "Discontinuity",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "Hype",
+   "values": {
+    "model": "Hype",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "Shape",
+   "values": {
+    "model": "Shape",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "Inflamer",
+   "values": {
+    "model": "Inflamer",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 1.0,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "Sweeten",
+   "values": {
+    "model": "Sweeten",
+    "p1": 0.0,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "PurestWarm2",
+   "values": {
+    "model": "PurestWarm2",
+    "p1": 0.0,
+    "p2": 0.0,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "PurestWarm",
+   "values": {
+    "model": "PurestWarm",
+    "p1": 0.0,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "Coils2",
+   "values": {
+    "model": "Coils2",
+    "p1": 0.0,
+    "p2": 0.0,
+    "p3": 1.0,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "Interstage",
+   "values": {
+    "model": "Interstage",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "PhaseNudge",
+   "values": {
+    "model": "PhaseNudge",
+    "p1": 0.0,
+    "p2": 1.0,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "Remap",
+   "values": {
+    "model": "Remap",
+    "p1": 0.5,
+    "p2": 1.0,
+    "p3": 1.0,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "SingleEndedTriode",
+   "values": {
+    "model": "SingleEndedTriode",
+    "p1": 0.0,
+    "p2": 0.0,
+    "p3": 0.0,
+    "p4": 0.0,
+    "p5": 0.5,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "Coils",
+   "values": {
+    "model": "Coils",
+    "p1": 0.0,
+    "p2": 0.5,
+    "p3": 1.0,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "Desk",
+   "values": {
+    "model": "Desk",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "TransDesk",
+   "values": {
+    "model": "TransDesk",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  },
+  {
+   "name": "TubeDesk",
+   "values": {
+    "model": "TubeDesk",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5,
+    "p7": 0.5
+   }
+  }
+ ]
+}

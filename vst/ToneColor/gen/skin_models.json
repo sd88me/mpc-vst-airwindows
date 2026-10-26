@@ -1,0 +1,329 @@
+{
+ "category": "Tone Color",
+ "name": "AW Tone Color",
+ "vendor": "Airwindows",
+ "slots": 4,
+ "models": [
+  {
+   "name": "ChannelX",
+   "params": [
+    {
+     "name": "Console Type",
+     "stepped": true
+    },
+    {
+     "name": "Drive",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "WoodenBox",
+   "params": [
+    {
+     "name": "Select",
+     "stepped": false
+    },
+    {
+     "name": "Reso",
+     "stepped": false
+    },
+    {
+     "name": "Depth",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "BussColors4",
+   "params": [
+    {
+     "name": "Color",
+     "stepped": true
+    },
+    {
+     "name": "Input Trim",
+     "stepped": false
+    },
+    {
+     "name": "Output Trim",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Channel9",
+   "params": [
+    {
+     "name": "Console Type",
+     "stepped": true
+    },
+    {
+     "name": "Drive",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Apicolypse",
+   "params": [
+    {
+     "name": "Hardns",
+     "stepped": false
+    },
+    {
+     "name": "Persnlty",
+     "stepped": false
+    },
+    {
+     "name": "Drive",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Neverland",
+   "params": [
+    {
+     "name": "Hardns",
+     "stepped": false
+    },
+    {
+     "name": "Persnlty",
+     "stepped": false
+    },
+    {
+     "name": "Drive",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Elation",
+   "params": [
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    },
+    {
+     "name": "Persnlty",
+     "stepped": false
+    },
+    {
+     "name": "Drive",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Calibre",
+   "params": [
+    {
+     "name": "Hardns",
+     "stepped": false
+    },
+    {
+     "name": "Persnlty",
+     "stepped": false
+    },
+    {
+     "name": "Drive",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Cider",
+   "params": [
+    {
+     "name": "Hardns",
+     "stepped": false
+    },
+    {
+     "name": "Persnlty",
+     "stepped": false
+    },
+    {
+     "name": "Drive",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Crystal",
+   "params": [
+    {
+     "name": "Hardnss",
+     "stepped": false
+    },
+    {
+     "name": "Personl",
+     "stepped": false
+    },
+    {
+     "name": "Drive",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Precious",
+   "params": [
+    {
+     "name": "Hardns",
+     "stepped": false
+    },
+    {
+     "name": "Persnlty",
+     "stepped": false
+    },
+    {
+     "name": "Drive",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Luxor",
+   "params": [
+    {
+     "name": "Hardns",
+     "stepped": false
+    },
+    {
+     "name": "Persnlty",
+     "stepped": false
+    },
+    {
+     "name": "Drive",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Channel8",
+   "params": [
+    {
+     "name": "Console Type",
+     "stepped": true
+    },
+    {
+     "name": "Drive",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Channel7",
+   "params": [
+    {
+     "name": "Console Type",
+     "stepped": true
+    },
+    {
+     "name": "Drive",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Channel6",
+   "params": [
+    {
+     "name": "Console Type",
+     "stepped": true
+    },
+    {
+     "name": "Drive",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Channel5",
+   "params": [
+    {
+     "name": "Console Type",
+     "stepped": true
+    },
+    {
+     "name": "Drive",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Channel4",
+   "params": [
+    {
+     "name": "Console Type",
+     "stepped": true
+    },
+    {
+     "name": "Drive",
+     "stepped": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,193 @@
+{
+ "category": "Biquads",
+ "name": "AW Biquads",
+ "vendor": "Airwindows",
+ "slots": 5,
+ "models": [
+  {
+   "name": "BiquadStack",
+   "params": [
+    {
+     "name": "Freq",
+     "stepped": false
+    },
+    {
+     "name": "Level",
+     "stepped": false
+    },
+    {
+     "name": "Reso",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "BiquadNonLin",
+   "params": [
+    {
+     "name": "Type",
+     "stepped": false
+    },
+    {
+     "name": "Freq",
+     "stepped": false
+    },
+    {
+     "name": "Q",
+     "stepped": false
+    },
+    {
+     "name": "NonLin",
+     "stepped": false
+    },
+    {
+     "name": "Inv/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "BiquadHiLo",
+   "params": [
+    {
+     "name": "Highpas",
+     "stepped": false
+    },
+    {
+     "name": "Lowpass",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "BiquadPlus",
+   "params": [
+    {
+     "name": "Type",
+     "stepped": true
+    },
+    {
+     "name": "Freq",
+     "stepped": false
+    },
+    {
+     "name": "Q",
+     "stepped": false
+    },
+    {
+     "name": "Inv/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Biquad",
+   "params": [
+    {
+     "name": "Type",
+     "stepped": true
+    },
+    {
+     "name": "Freq",
+     "stepped": false
+    },
+    {
+     "name": "Q",
+     "stepped": false
+    },
+    {
+     "name": "Inv/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "BiquadDouble",
+   "params": [
+    {
+     "name": "Type",
+     "stepped": true
+    },
+    {
+     "name": "Freq",
+     "stepped": false
+    },
+    {
+     "name": "Q",
+     "stepped": false
+    },
+    {
+     "name": "Inv/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "BiquadOneHalf",
+   "params": [
+    {
+     "name": "Type",
+     "stepped": true
+    },
+    {
+     "name": "Freq",
+     "stepped": false
+    },
+    {
+     "name": "Q",
+     "stepped": false
+    },
+    {
+     "name": "Inv/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "BiquadTriple",
+   "params": [
+    {
+     "name": "Type",
+     "stepped": true
+    },
+    {
+     "name": "Freq",
+     "stepped": false
+    },
+    {
+     "name": "Q",
+     "stepped": false
+    },
+    {
+     "name": "Inv/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Biquad2",
+   "params": [
+    {
+     "name": "Type",
+     "stepped": true
+    },
+    {
+     "name": "Freq",
+     "stepped": false
+    },
+    {
+     "name": "Q",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Inv/Wet",
+     "stepped": false
+    }
+   ]
+  }
+ ]
+}

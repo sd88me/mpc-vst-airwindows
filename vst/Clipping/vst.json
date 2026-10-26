@@ -1,0 +1,69 @@
+{
+ "name": "AW Clipping",
+ "vendor": "Airwindows",
+ "uid": "aCli",
+ "version": 1000,
+ "so": "aw_clipping.so",
+ "params": "params.json",
+ "effect": true,
+ "custom_skin": true,
+ "presets": "presets.json",
+ "cc": false,
+ "targets": [
+  "armv7",
+  "aarch64"
+ ],
+ "defines": {
+  "PARAM_TEXT_MAX": 128
+ },
+ "build": {
+  "root": "../..",
+  "sources": [
+   "src/engine.cpp",
+   "vst/Clipping/gen/models.cpp",
+   "vst/Clipping/gen/docs.cpp",
+   "vendor/airwin2rack/src/airwin_consolidated_base.cpp",
+   "src/gen/fac/ADClip9.cpp",
+   "src/gen/fac/ClipOnly3.cpp",
+   "src/gen/fac/ADClip8.cpp",
+   "src/gen/fac/ClipOnly2.cpp",
+   "src/gen/fac/ClipSoftly.cpp",
+   "src/gen/fac/OneCornerClip.cpp",
+   "src/gen/fac/ADClip7.cpp",
+   "src/gen/fac/AQuickVoiceClip.cpp",
+   "src/gen/fac/FinalClip.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/ADClip9.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/ADClip9Proc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/ClipOnly3.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/ClipOnly3Proc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/ADClip8.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/ADClip8Proc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/ClipOnly2.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/ClipOnly2Proc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/ClipSoftly.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/ClipSoftlyProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/OneCornerClip.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/OneCornerClipProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/ADClip7.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/ADClip7Proc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/AQuickVoiceClip.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/AQuickVoiceClipProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/FinalClip.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/FinalClipProc.cpp"
+  ],
+  "cflags": [
+   "-std=gnu++17",
+   "-Isrc",
+   "-Ivendor/airwin2rack/src",
+   "-w",
+   "-O2",
+   "-DAW_SLOTS=5"
+  ],
+  "libs": [
+   "-lm"
+  ],
+  "cflags_arm": [
+   "-mfpu=neon"
+  ]
+ }
+}

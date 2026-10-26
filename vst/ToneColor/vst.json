@@ -1,0 +1,93 @@
+{
+ "name": "AW Tone Color",
+ "vendor": "Airwindows",
+ "uid": "aTon",
+ "version": 1000,
+ "so": "aw_tonecolor.so",
+ "params": "params.json",
+ "effect": true,
+ "custom_skin": true,
+ "presets": "presets.json",
+ "cc": false,
+ "targets": [
+  "armv7",
+  "aarch64"
+ ],
+ "defines": {
+  "PARAM_TEXT_MAX": 128
+ },
+ "build": {
+  "root": "../..",
+  "sources": [
+   "src/engine.cpp",
+   "vst/ToneColor/gen/models.cpp",
+   "vst/ToneColor/gen/docs.cpp",
+   "vendor/airwin2rack/src/airwin_consolidated_base.cpp",
+   "src/gen/fac/ChannelX.cpp",
+   "src/gen/fac/WoodenBox.cpp",
+   "src/gen/fac/BussColors4.cpp",
+   "src/gen/fac/Channel9.cpp",
+   "src/gen/fac/Apicolypse.cpp",
+   "src/gen/fac/Neverland.cpp",
+   "src/gen/fac/Elation.cpp",
+   "src/gen/fac/Calibre.cpp",
+   "src/gen/fac/Cider.cpp",
+   "src/gen/fac/Crystal.cpp",
+   "src/gen/fac/Precious.cpp",
+   "src/gen/fac/Luxor.cpp",
+   "src/gen/fac/Channel8.cpp",
+   "src/gen/fac/Channel7.cpp",
+   "src/gen/fac/Channel6.cpp",
+   "src/gen/fac/Channel5.cpp",
+   "src/gen/fac/Channel4.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/ChannelX.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/ChannelXProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/WoodenBox.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/WoodenBoxProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/BussColors4.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/BussColors4Proc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/Channel9.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/Channel9Proc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/Apicolypse.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/ApicolypseProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/Neverland.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/NeverlandProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/Elation.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/ElationProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/Calibre.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/CalibreProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/Cider.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/CiderProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/Crystal.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/CrystalProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/Precious.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/PreciousProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/Luxor.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/LuxorProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/Channel8.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/Channel8Proc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/Channel7.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/Channel7Proc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/Channel6.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/Channel6Proc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/Channel5.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/Channel5Proc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/Channel4.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/Channel4Proc.cpp"
+  ],
+  "cflags": [
+   "-std=gnu++17",
+   "-Isrc",
+   "-Ivendor/airwin2rack/src",
+   "-w",
+   "-O2",
+   "-DAW_SLOTS=4"
+  ],
+  "libs": [
+   "-lm"
+  ],
+  "cflags_arm": [
+   "-mfpu=neon"
+  ]
+ }
+}

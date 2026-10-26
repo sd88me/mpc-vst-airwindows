@@ -1,0 +1,103 @@
+{
+ "presets": [
+  {
+   "name": "BiquadStack",
+   "values": {
+    "model": "BiquadStack",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5
+   }
+  },
+  {
+   "name": "BiquadNonLin",
+   "values": {
+    "model": "BiquadNonLin",
+    "p1": 0.0,
+    "p2": 0.5,
+    "p3": 0.7071,
+    "p4": 0.0,
+    "p5": 1.0
+   }
+  },
+  {
+   "name": "BiquadHiLo",
+   "values": {
+    "model": "BiquadHiLo",
+    "p1": 0.0,
+    "p2": 0.0,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5
+   }
+  },
+  {
+   "name": "BiquadPlus",
+   "values": {
+    "model": "BiquadPlus",
+    "p1": 1.0,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 1.0,
+    "p5": 0.5
+   }
+  },
+  {
+   "name": "Biquad",
+   "values": {
+    "model": "Biquad",
+    "p1": 1.0,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 1.0,
+    "p5": 0.5
+   }
+  },
+  {
+   "name": "BiquadDouble",
+   "values": {
+    "model": "BiquadDouble",
+    "p1": 1.0,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 1.0,
+    "p5": 0.5
+   }
+  },
+  {
+   "name": "BiquadOneHalf",
+   "values": {
+    "model": "BiquadOneHalf",
+    "p1": 0.0,
+    "p2": 0.0,
+    "p3": 0.0,
+    "p4": 0.0,
+    "p5": 0.5
+   }
+  },
+  {
+   "name": "BiquadTriple",
+   "values": {
+    "model": "BiquadTriple",
+    "p1": 1.0,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 1.0,
+    "p5": 0.5
+   }
+  },
+  {
+   "name": "Biquad2",
+   "values": {
+    "model": "Biquad2",
+    "p1": 1.0,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 1.0,
+    "p5": 1.0
+   }
+  }
+ ]
+}

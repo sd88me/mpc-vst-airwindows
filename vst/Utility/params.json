@@ -1,0 +1,296 @@
+{
+ "name": "AW Utility",
+ "params": [
+  {
+   "key": "model",
+   "name": "Model",
+   "options": [
+    "SoftClock3",
+    "SoftClock2",
+    "SoftClock",
+    "BitShiftPan",
+    "BitShiftGain",
+    "PurestGain",
+    "PurestDualPan",
+    "BitDualPan",
+    "PurestFade",
+    "Monitoring3",
+    "Monitoring2",
+    "Monitoring",
+    "EveryTrim",
+    "HermeTrim",
+    "DubPlate2",
+    "DubPlate",
+    "CansAW",
+    "Cans",
+    "SlewOnly",
+    "SubsOnly",
+    "PeaksOnly",
+    "Golem",
+    "DCVoltage",
+    "LRConvolve3",
+    "LRConvolve2",
+    "LRConvolve",
+    "EdIsDim",
+    "MidSide",
+    "uLawEncode",
+    "uLawDecode",
+    "RightoMono",
+    "LeftoMono",
+    "Balanced",
+    "Flipity",
+    "MoNoam",
+    "VoiceTrick",
+    "DeCrackle",
+    "ContentHideD"
+   ],
+   "default": 0,
+   "refresh_display": true,
+   "type": "stepper"
+  },
+  {
+   "key": "p1",
+   "name": "P1",
+   "min": 0,
+   "max": 1,
+   "default": 0.5,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "p2",
+   "name": "P2",
+   "min": 0,
+   "max": 1,
+   "default": 0.5,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "p3",
+   "name": "P3",
+   "min": 0,
+   "max": 1,
+   "default": 0.5,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "p4",
+   "name": "P4",
+   "min": 0,
+   "max": 1,
+   "default": 0.5,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "p5",
+   "name": "P5",
+   "min": 0,
+   "max": 1,
+   "default": 0.5,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "p6",
+   "name": "P6",
+   "min": 0,
+   "max": 1,
+   "default": 0.5,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "p7",
+   "name": "P7",
+   "min": 0,
+   "max": 1,
+   "default": 0.5,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "p8",
+   "name": "P8",
+   "min": 0,
+   "max": 1,
+   "default": 0.5,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "p9",
+   "name": "P9",
+   "min": 0,
+   "max": 1,
+   "default": 0.5,
+   "dynamic_name": true,
+   "dynamic_display": true
+  },
+  {
+   "key": "man_page",
+   "name": "Manual Page",
+   "min": 0,
+   "max": 39,
+   "default": 0,
+   "display": "int",
+   "refresh_display": true
+  },
+  {
+   "key": "man_info",
+   "name": "Manual",
+   "min": 0,
+   "max": 0,
+   "default": 0,
+   "display": "string",
+   "type": "readout"
+  },
+  {
+   "key": "info",
+   "name": "About",
+   "min": 0,
+   "max": 0,
+   "default": 0,
+   "display": "string",
+   "type": "readout"
+  },
+  {
+   "key": "m1",
+   "name": "Line 1",
+   "min": 0,
+   "max": 0,
+   "default": 0,
+   "display": "string",
+   "type": "readout"
+  },
+  {
+   "key": "m2",
+   "name": "Line 2",
+   "min": 0,
+   "max": 0,
+   "default": 0,
+   "display": "string",
+   "type": "readout"
+  },
+  {
+   "key": "m3",
+   "name": "Line 3",
+   "min": 0,
+   "max": 0,
+   "default": 0,
+   "display": "string",
+   "type": "readout"
+  },
+  {
+   "key": "m4",
+   "name": "Line 4",
+   "min": 0,
+   "max": 0,
+   "default": 0,
+   "display": "string",
+   "type": "readout"
+  },
+  {
+   "key": "m5",
+   "name": "Line 5",
+   "min": 0,
+   "max": 0,
+   "default": 0,
+   "display": "string",
+   "type": "readout"
+  },
+  {
+   "key": "m6",
+   "name": "Line 6",
+   "min": 0,
+   "max": 0,
+   "default": 0,
+   "display": "string",
+   "type": "readout"
+  },
+  {
+   "key": "m7",
+   "name": "Line 7",
+   "min": 0,
+   "max": 0,
+   "default": 0,
+   "display": "string",
+   "type": "readout"
+  },
+  {
+   "key": "m8",
+   "name": "Line 8",
+   "min": 0,
+   "max": 0,
+   "default": 0,
+   "display": "string",
+   "type": "readout"
+  },
+  {
+   "key": "m9",
+   "name": "Line 9",
+   "min": 0,
+   "max": 0,
+   "default": 0,
+   "display": "string",
+   "type": "readout"
+  },
+  {
+   "key": "m10",
+   "name": "Line 10",
+   "min": 0,
+   "max": 0,
+   "default": 0,
+   "display": "string",
+   "type": "readout"
+  },
+  {
+   "key": "m11",
+   "name": "Line 11",
+   "min": 0,
+   "max": 0,
+   "default": 0,
+   "display": "string",
+   "type": "readout"
+  },
+  {
+   "key": "m12",
+   "name": "Line 12",
+   "min": 0,
+   "max": 0,
+   "default": 0,
+   "display": "string",
+   "type": "readout"
+  },
+  {
+   "key": "model_prev",
+   "name": "<",
+   "momentary": true,
+   "step_of": "model",
+   "step_delta": -1
+  },
+  {
+   "key": "model_next",
+   "name": ">",
+   "momentary": true,
+   "step_of": "model",
+   "step_delta": 1
+  },
+  {
+   "key": "page_prev",
+   "name": "<",
+   "momentary": true,
+   "step_of": "man_page",
+   "step_delta": -1
+  },
+  {
+   "key": "page_next",
+   "name": ">",
+   "momentary": true,
+   "step_of": "man_page",
+   "step_delta": 1
+  }
+ ]
+}

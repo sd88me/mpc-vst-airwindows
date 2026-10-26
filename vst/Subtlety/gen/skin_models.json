@@ -1,0 +1,263 @@
+{
+ "category": "Subtlety",
+ "name": "AW Subtlety",
+ "vendor": "Airwindows",
+ "slots": 7,
+ "models": [
+  {
+   "name": "PurestWarm3",
+   "params": [
+    {
+     "name": "Asym",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Mastering2",
+   "params": [
+    {
+     "name": "Sidepas",
+     "stepped": false
+    },
+    {
+     "name": "Glue",
+     "stepped": false
+    },
+    {
+     "name": "Scope",
+     "stepped": false
+    },
+    {
+     "name": "Skronk",
+     "stepped": false
+    },
+    {
+     "name": "Girth",
+     "stepped": false
+    },
+    {
+     "name": "Drive",
+     "stepped": false
+    },
+    {
+     "name": "Dither",
+     "stepped": true
+    }
+   ]
+  },
+  {
+   "name": "Discontapeity",
+   "params": [
+    {
+     "name": "More",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Mastering",
+   "params": [
+    {
+     "name": "Glue",
+     "stepped": false
+    },
+    {
+     "name": "Scope",
+     "stepped": false
+    },
+    {
+     "name": "Skronk",
+     "stepped": false
+    },
+    {
+     "name": "Girth",
+     "stepped": false
+    },
+    {
+     "name": "Drive",
+     "stepped": false
+    },
+    {
+     "name": "Dither",
+     "stepped": true
+    }
+   ]
+  },
+  {
+   "name": "Discontinuity",
+   "params": [
+    {
+     "name": "Top dB",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Hype",
+   "params": []
+  },
+  {
+   "name": "Shape",
+   "params": [
+    {
+     "name": "Shape",
+     "stepped": false
+    },
+    {
+     "name": "Neg/Pos",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Inflamer",
+   "params": [
+    {
+     "name": "Drive",
+     "stepped": false
+    },
+    {
+     "name": "Curve",
+     "stepped": false
+    },
+    {
+     "name": "Effect",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Sweeten",
+   "params": [
+    {
+     "name": "Sweeten",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "PurestWarm2",
+   "params": [
+    {
+     "name": "Dry/Pos",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Neg",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "PurestWarm",
+   "params": [
+    {
+     "name": "Polarity",
+     "stepped": true
+    }
+   ]
+  },
+  {
+   "name": "Coils2",
+   "params": [
+    {
+     "name": "Saturate",
+     "stepped": false
+    },
+    {
+     "name": "Cheapness",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Interstage",
+   "params": []
+  },
+  {
+   "name": "PhaseNudge",
+   "params": [
+    {
+     "name": "Phase Nudge",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Remap",
+   "params": [
+    {
+     "name": "Remap",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "SingleEndedTriode",
+   "params": [
+    {
+     "name": "Triode",
+     "stepped": false
+    },
+    {
+     "name": "Clas AB",
+     "stepped": false
+    },
+    {
+     "name": "Clas B",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Coils",
+   "params": [
+    {
+     "name": "Saturat",
+     "stepped": false
+    },
+    {
+     "name": "Core DC",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Desk",
+   "params": []
+  },
+  {
+   "name": "TransDesk",
+   "params": []
+  },
+  {
+   "name": "TubeDesk",
+   "params": []
+  }
+ ]
+}

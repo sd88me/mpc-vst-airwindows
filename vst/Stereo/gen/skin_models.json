@@ -1,0 +1,212 @@
+{
+ "category": "Stereo",
+ "name": "AW Stereo",
+ "vendor": "Airwindows",
+ "slots": 6,
+ "models": [
+  {
+   "name": "Srsly3",
+   "params": [
+    {
+     "name": "Center",
+     "stepped": false
+    },
+    {
+     "name": "Space",
+     "stepped": false
+    },
+    {
+     "name": "Level",
+     "stepped": false
+    },
+    {
+     "name": "Q",
+     "stepped": false
+    },
+    {
+     "name": "Nonlin",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Srsly2",
+   "params": [
+    {
+     "name": "Center",
+     "stepped": false
+    },
+    {
+     "name": "Space",
+     "stepped": false
+    },
+    {
+     "name": "Level",
+     "stepped": false
+    },
+    {
+     "name": "Q",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Srsly",
+   "params": [
+    {
+     "name": "Center",
+     "stepped": false
+    },
+    {
+     "name": "Space",
+     "stepped": false
+    },
+    {
+     "name": "Level",
+     "stepped": false
+    },
+    {
+     "name": "Q",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "SweetWide",
+   "params": [
+    {
+     "name": "Soar",
+     "stepped": false
+    },
+    {
+     "name": "Un/Wide",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Wider",
+   "params": [
+    {
+     "name": "Width",
+     "stepped": false
+    },
+    {
+     "name": "Center",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "StereoFX",
+   "params": [
+    {
+     "name": "Wide",
+     "stepped": false
+    },
+    {
+     "name": "MonoBs",
+     "stepped": false
+    },
+    {
+     "name": "CSquish",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "ToVinyl4",
+   "params": [
+    {
+     "name": "Mid HiP",
+     "stepped": false
+    },
+    {
+     "name": "SideHiP",
+     "stepped": false
+    },
+    {
+     "name": "H Limit",
+     "stepped": false
+    },
+    {
+     "name": "Gv Wear",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "AutoPan",
+   "params": [
+    {
+     "name": "Rate",
+     "stepped": false
+    },
+    {
+     "name": "Phase",
+     "stepped": false
+    },
+    {
+     "name": "Wide",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "LRFlipTimer",
+   "params": [
+    {
+     "name": "Minutes",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "MSFlipTimer",
+   "params": [
+    {
+     "name": "Minutes",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Sidepass",
+   "params": [
+    {
+     "name": "Cutoff",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "SideDull",
+   "params": [
+    {
+     "name": "Cutoff",
+     "stepped": false
+    }
+   ]
+  }
+ ]
+}

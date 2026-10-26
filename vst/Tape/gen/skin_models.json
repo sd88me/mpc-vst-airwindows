@@ -1,0 +1,332 @@
+{
+ "category": "Tape",
+ "name": "AW Tape",
+ "vendor": "Airwindows",
+ "slots": 10,
+ "models": [
+  {
+   "name": "ToTape9",
+   "params": [
+    {
+     "name": "Input",
+     "stepped": false
+    },
+    {
+     "name": "Tilt",
+     "stepped": false
+    },
+    {
+     "name": "Shape",
+     "stepped": false
+    },
+    {
+     "name": "Flutter",
+     "stepped": false
+    },
+    {
+     "name": "FlutSpd",
+     "stepped": false
+    },
+    {
+     "name": "Bias",
+     "stepped": false
+    },
+    {
+     "name": "HeadBmp",
+     "stepped": false
+    },
+    {
+     "name": "HeadFrq",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "TapeHack2",
+   "params": [
+    {
+     "name": "Input",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "ToTape8",
+   "params": [
+    {
+     "name": "Input",
+     "stepped": false
+    },
+    {
+     "name": "Tilt",
+     "stepped": false
+    },
+    {
+     "name": "Shape",
+     "stepped": false
+    },
+    {
+     "name": "Flutter",
+     "stepped": false
+    },
+    {
+     "name": "FlutSpd",
+     "stepped": false
+    },
+    {
+     "name": "Bias",
+     "stepped": false
+    },
+    {
+     "name": "HeadBmp",
+     "stepped": false
+    },
+    {
+     "name": "HeadFrq",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "ToTape7",
+   "params": [
+    {
+     "name": "EncAmt",
+     "stepped": false
+    },
+    {
+     "name": "EncFreq",
+     "stepped": false
+    },
+    {
+     "name": "TapeDrv",
+     "stepped": false
+    },
+    {
+     "name": "Flutter",
+     "stepped": false
+    },
+    {
+     "name": "FlutSpd",
+     "stepped": false
+    },
+    {
+     "name": "Bias",
+     "stepped": false
+    },
+    {
+     "name": "HeadBmp",
+     "stepped": false
+    },
+    {
+     "name": "HeadFrq",
+     "stepped": false
+    },
+    {
+     "name": "DecAmt",
+     "stepped": false
+    },
+    {
+     "name": "DecFreq",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "ToTape6",
+   "params": [
+    {
+     "name": "Input",
+     "stepped": false
+    },
+    {
+     "name": "Soften",
+     "stepped": false
+    },
+    {
+     "name": "Head B",
+     "stepped": false
+    },
+    {
+     "name": "Flutter",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "FromTape",
+   "params": [
+    {
+     "name": "Louder",
+     "stepped": false
+    },
+    {
+     "name": "Softer",
+     "stepped": false
+    },
+    {
+     "name": "Weight",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "TapeHack",
+   "params": [
+    {
+     "name": "Input",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Tape",
+   "params": [
+    {
+     "name": "Slam",
+     "stepped": false
+    },
+    {
+     "name": "Bump",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "IronOxideClassic2",
+   "params": [
+    {
+     "name": "Input Trim",
+     "stepped": false
+    },
+    {
+     "name": "Tape Speed",
+     "stepped": false
+    },
+    {
+     "name": "Output Trim",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "IronOxide5",
+   "params": [
+    {
+     "name": "Input Trim",
+     "stepped": false
+    },
+    {
+     "name": "Tape High",
+     "stepped": false
+    },
+    {
+     "name": "Tape Low",
+     "stepped": false
+    },
+    {
+     "name": "Flutter",
+     "stepped": false
+    },
+    {
+     "name": "Noise",
+     "stepped": false
+    },
+    {
+     "name": "Output Trim",
+     "stepped": false
+    },
+    {
+     "name": "Inv/Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "ToTape5",
+   "params": [
+    {
+     "name": "Louder",
+     "stepped": false
+    },
+    {
+     "name": "Softer",
+     "stepped": false
+    },
+    {
+     "name": "Fatter",
+     "stepped": false
+    },
+    {
+     "name": "Flutter",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "IronOxideClassic",
+   "params": [
+    {
+     "name": "Input Trim",
+     "stepped": false
+    },
+    {
+     "name": "Tape Speed",
+     "stepped": false
+    },
+    {
+     "name": "Output Trim",
+     "stepped": false
+    }
+   ]
+  }
+ ]
+}

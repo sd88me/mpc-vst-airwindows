@@ -1,0 +1,244 @@
+{
+ "presets": [
+  {
+   "name": "Spiral3",
+   "values": {
+    "model": "Spiral3",
+    "p1": 0.1,
+    "p2": 0.5,
+    "p3": 1.0,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "Weave",
+   "values": {
+    "model": "Weave",
+    "p1": 0.1,
+    "p2": 0.5,
+    "p3": 1.0,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "PurestSaturation",
+   "values": {
+    "model": "PurestSaturation",
+    "p1": 0.1,
+    "p2": 1.0,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "SquareRoot",
+   "values": {
+    "model": "SquareRoot",
+    "p1": 0.5,
+    "p2": 0.0,
+    "p3": 0.5,
+    "p4": 1.0,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "Hypersoft",
+   "values": {
+    "model": "Hypersoft",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "Longhand",
+   "values": {
+    "model": "Longhand",
+    "p1": 0.445,
+    "p2": 1.0,
+    "p3": 1.0,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "Creature",
+   "values": {
+    "model": "Creature",
+    "p1": 0.26,
+    "p2": 0.26,
+    "p3": 1.0,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "Huge",
+   "values": {
+    "model": "Huge",
+    "p1": 0.2,
+    "p2": 0.2,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "NCSeventeen",
+   "values": {
+    "model": "NCSeventeen",
+    "p1": 0.0,
+    "p2": 1.0,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "Tube2",
+   "values": {
+    "model": "Tube2",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "Tube",
+   "values": {
+    "model": "Tube",
+    "p1": 0.0,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "Spiral2",
+   "values": {
+    "model": "Spiral2",
+    "p1": 0.5,
+    "p2": 0.0,
+    "p3": 0.5,
+    "p4": 1.0,
+    "p5": 1.0,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "PurestDrive",
+   "values": {
+    "model": "PurestDrive",
+    "p1": 0.0,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "Focus",
+   "values": {
+    "model": "Focus",
+    "p1": 0.0,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 1.0,
+    "p5": 1.0,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "Mojo",
+   "values": {
+    "model": "Mojo",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "Dyno",
+   "values": {
+    "model": "Dyno",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "Spiral",
+   "values": {
+    "model": "Spiral",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "UnBox",
+   "values": {
+    "model": "UnBox",
+    "p1": 0.5,
+    "p2": 0.0,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "Desk4",
+   "values": {
+    "model": "Desk4",
+    "p1": 0.27,
+    "p2": 0.18,
+    "p3": 0.26,
+    "p4": 0.54,
+    "p5": 0.84,
+    "p6": 1.0
+   }
+  },
+  {
+   "name": "Righteous4",
+   "values": {
+    "model": "Righteous4",
+    "p1": 0.0,
+    "p2": 0.0,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  }
+ ]
+}

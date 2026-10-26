@@ -1,0 +1,69 @@
+{
+ "name": "AW Biquads",
+ "vendor": "Airwindows",
+ "uid": "aBiq",
+ "version": 1000,
+ "so": "aw_biquads.so",
+ "params": "params.json",
+ "effect": true,
+ "custom_skin": true,
+ "presets": "presets.json",
+ "cc": false,
+ "targets": [
+  "armv7",
+  "aarch64"
+ ],
+ "defines": {
+  "PARAM_TEXT_MAX": 128
+ },
+ "build": {
+  "root": "../..",
+  "sources": [
+   "src/engine.cpp",
+   "vst/Biquads/gen/models.cpp",
+   "vst/Biquads/gen/docs.cpp",
+   "vendor/airwin2rack/src/airwin_consolidated_base.cpp",
+   "src/gen/fac/BiquadStack.cpp",
+   "src/gen/fac/BiquadNonLin.cpp",
+   "src/gen/fac/BiquadHiLo.cpp",
+   "src/gen/fac/BiquadPlus.cpp",
+   "src/gen/fac/Biquad.cpp",
+   "src/gen/fac/BiquadDouble.cpp",
+   "src/gen/fac/BiquadOneHalf.cpp",
+   "src/gen/fac/BiquadTriple.cpp",
+   "src/gen/fac/Biquad2.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/BiquadStack.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/BiquadStackProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/BiquadNonLin.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/BiquadNonLinProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/BiquadHiLo.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/BiquadHiLoProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/BiquadPlus.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/BiquadPlusProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/Biquad.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/BiquadProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/BiquadDouble.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/BiquadDoubleProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/BiquadOneHalf.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/BiquadOneHalfProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/BiquadTriple.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/BiquadTripleProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/Biquad2.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/Biquad2Proc.cpp"
+  ],
+  "cflags": [
+   "-std=gnu++17",
+   "-Isrc",
+   "-Ivendor/airwin2rack/src",
+   "-w",
+   "-O2",
+   "-DAW_SLOTS=5"
+  ],
+  "libs": [
+   "-lm"
+  ],
+  "cflags_arm": [
+   "-mfpu=neon"
+  ]
+ }
+}

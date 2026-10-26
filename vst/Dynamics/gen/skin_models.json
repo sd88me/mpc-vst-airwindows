@@ -1,0 +1,681 @@
+{
+ "category": "Dynamics",
+ "name": "AW Dynamics",
+ "vendor": "Airwindows",
+ "slots": 10,
+ "models": [
+  {
+   "name": "Dynamics3",
+   "params": [
+    {
+     "name": "Thresh",
+     "stepped": false
+    },
+    {
+     "name": "Attack",
+     "stepped": false
+    },
+    {
+     "name": "Release",
+     "stepped": false
+    },
+    {
+     "name": "Inv/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Pressure6",
+   "params": [
+    {
+     "name": "Compres",
+     "stepped": false
+    },
+    {
+     "name": "Ratio",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Dynamics2",
+   "params": [
+    {
+     "name": "Thresh",
+     "stepped": false
+    },
+    {
+     "name": "Attack",
+     "stepped": false
+    },
+    {
+     "name": "Release",
+     "stepped": false
+    },
+    {
+     "name": "Gate",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "BeziComp",
+   "params": [
+    {
+     "name": "Comp",
+     "stepped": false
+    },
+    {
+     "name": "Speed",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Pop3",
+   "params": [
+    {
+     "name": "Thresld",
+     "stepped": false
+    },
+    {
+     "name": "C Ratio",
+     "stepped": false
+    },
+    {
+     "name": "C Atk",
+     "stepped": false
+    },
+    {
+     "name": "C Rls",
+     "stepped": false
+    },
+    {
+     "name": "Thresld",
+     "stepped": false
+    },
+    {
+     "name": "G Ratio",
+     "stepped": false
+    },
+    {
+     "name": "G Sust",
+     "stepped": false
+    },
+    {
+     "name": "G Rls",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Pop2",
+   "params": [
+    {
+     "name": "Compres",
+     "stepped": false
+    },
+    {
+     "name": "Attack",
+     "stepped": false
+    },
+    {
+     "name": "Release",
+     "stepped": false
+    },
+    {
+     "name": "Drive",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "X2Buss",
+   "params": [
+    {
+     "name": "High",
+     "stepped": false
+    },
+    {
+     "name": "HMid",
+     "stepped": false
+    },
+    {
+     "name": "LMid",
+     "stepped": false
+    },
+    {
+     "name": "Bass",
+     "stepped": false
+    },
+    {
+     "name": "HighF",
+     "stepped": false
+    },
+    {
+     "name": "HMidF",
+     "stepped": false
+    },
+    {
+     "name": "LMidF",
+     "stepped": false
+    },
+    {
+     "name": "BassF",
+     "stepped": false
+    },
+    {
+     "name": "Thresh",
+     "stepped": false
+    },
+    {
+     "name": "Fader",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Pressure5",
+   "params": [
+    {
+     "name": "Pressre",
+     "stepped": false
+    },
+    {
+     "name": "Speed",
+     "stepped": false
+    },
+    {
+     "name": "Mewines",
+     "stepped": false
+    },
+    {
+     "name": "PawClaw",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "StoneFireComp",
+   "params": [
+    {
+     "name": "Fire Th",
+     "stepped": false
+    },
+    {
+     "name": "Attack",
+     "stepped": false
+    },
+    {
+     "name": "Release",
+     "stepped": false
+    },
+    {
+     "name": "Fire",
+     "stepped": false
+    },
+    {
+     "name": "StoneTh",
+     "stepped": false
+    },
+    {
+     "name": "Attack",
+     "stepped": false
+    },
+    {
+     "name": "Release",
+     "stepped": false
+    },
+    {
+     "name": "Stone",
+     "stepped": false
+    },
+    {
+     "name": "Range",
+     "stepped": false
+    },
+    {
+     "name": "Ratio",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Dynamics",
+   "params": [
+    {
+     "name": "Comp",
+     "stepped": false
+    },
+    {
+     "name": "Speed",
+     "stepped": false
+    },
+    {
+     "name": "Gate",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Pop",
+   "params": [
+    {
+     "name": "Intenst",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "DigitalBlack",
+   "params": [
+    {
+     "name": "Thresh",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Logical4",
+   "params": [
+    {
+     "name": "Threshold",
+     "stepped": false
+    },
+    {
+     "name": "Ratio",
+     "stepped": false
+    },
+    {
+     "name": "Speed",
+     "stepped": false
+    },
+    {
+     "name": "MakeupGn",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "VariMu",
+   "params": [
+    {
+     "name": "Intensty",
+     "stepped": false
+    },
+    {
+     "name": "Speed",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "ButterComp2",
+   "params": [
+    {
+     "name": "Compress",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "curve",
+   "params": []
+  },
+  {
+   "name": "Overheads",
+   "params": [
+    {
+     "name": "Compr",
+     "stepped": false
+    },
+    {
+     "name": "Sharp",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Recurve",
+   "params": []
+  },
+  {
+   "name": "Pyewacket",
+   "params": [
+    {
+     "name": "Input Gain",
+     "stepped": false
+    },
+    {
+     "name": "Release",
+     "stepped": false
+    },
+    {
+     "name": "Output Gain",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "BlockParty",
+   "params": [
+    {
+     "name": "Pound",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "SoftGate",
+   "params": [
+    {
+     "name": "Thresh",
+     "stepped": false
+    },
+    {
+     "name": "Darken",
+     "stepped": false
+    },
+    {
+     "name": "Silence",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Thunder",
+   "params": [
+    {
+     "name": "Thunder",
+     "stepped": false
+    },
+    {
+     "name": "Output Trim",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Compresaturator",
+   "params": [
+    {
+     "name": "Drive",
+     "stepped": false
+    },
+    {
+     "name": "Clamp",
+     "stepped": false
+    },
+    {
+     "name": "Expand",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "DrumSlam",
+   "params": [
+    {
+     "name": "Drive",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "ButterComp",
+   "params": [
+    {
+     "name": "Compress",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "BrassRider",
+   "params": [
+    {
+     "name": "Thresh",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Point",
+   "params": [
+    {
+     "name": "Input Trim",
+     "stepped": false
+    },
+    {
+     "name": "Point",
+     "stepped": false
+    },
+    {
+     "name": "Reaction Speed",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Gatelope",
+   "params": [
+    {
+     "name": "Thresh",
+     "stepped": false
+    },
+    {
+     "name": "TrebSus",
+     "stepped": false
+    },
+    {
+     "name": "BassSus",
+     "stepped": false
+    },
+    {
+     "name": "AttackS",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "PodcastDeluxe",
+   "params": [
+    {
+     "name": "Boost",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Podcast",
+   "params": [
+    {
+     "name": "Boost",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Swell",
+   "params": [
+    {
+     "name": "Thresh",
+     "stepped": false
+    },
+    {
+     "name": "Swell",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "PurestSquish",
+   "params": [
+    {
+     "name": "Squish",
+     "stepped": false
+    },
+    {
+     "name": "BassBlm",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Pressure4",
+   "params": [
+    {
+     "name": "Pressure",
+     "stepped": false
+    },
+    {
+     "name": "Speed",
+     "stepped": false
+    },
+    {
+     "name": "Mewiness",
+     "stepped": false
+    },
+    {
+     "name": "Output Gain",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Surge",
+   "params": [
+    {
+     "name": "Surge",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "SurgeTide",
+   "params": [
+    {
+     "name": "SurgeNode",
+     "stepped": false
+    },
+    {
+     "name": "SurgeRate",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  }
+ ]
+}

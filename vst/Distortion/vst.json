@@ -1,0 +1,87 @@
+{
+ "name": "AW Distortion",
+ "vendor": "Airwindows",
+ "uid": "aDis",
+ "version": 1000,
+ "so": "aw_distortion.so",
+ "params": "params.json",
+ "effect": true,
+ "custom_skin": true,
+ "presets": "presets.json",
+ "cc": false,
+ "targets": [
+  "armv7",
+  "aarch64"
+ ],
+ "defines": {
+  "PARAM_TEXT_MAX": 128
+ },
+ "build": {
+  "root": "../..",
+  "sources": [
+   "src/engine.cpp",
+   "vst/Distortion/gen/models.cpp",
+   "vst/Distortion/gen/docs.cpp",
+   "vendor/airwin2rack/src/airwin_consolidated_base.cpp",
+   "src/gen/fac/PunchyDeluxe.cpp",
+   "src/gen/fac/Distortion.cpp",
+   "src/gen/fac/Edge.cpp",
+   "src/gen/fac/Dirt.cpp",
+   "src/gen/fac/Mackity.cpp",
+   "src/gen/fac/Density3.cpp",
+   "src/gen/fac/ZOutputStage.cpp",
+   "src/gen/fac/Density2.cpp",
+   "src/gen/fac/Zoom.cpp",
+   "src/gen/fac/Density.cpp",
+   "src/gen/fac/Drive.cpp",
+   "src/gen/fac/Loud.cpp",
+   "src/gen/fac/HardVacuum.cpp",
+   "src/gen/fac/HighImpact.cpp",
+   "src/gen/fac/MultiBandDistortion.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/PunchyDeluxe.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/PunchyDeluxeProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/Distortion.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/DistortionProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/Edge.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/EdgeProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/Dirt.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/DirtProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/Mackity.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/MackityProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/Density3.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/Density3Proc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/ZOutputStage.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/ZOutputStageProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/Density2.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/Density2Proc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/Zoom.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/ZoomProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/Density.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/DensityProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/Drive.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/DriveProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/Loud.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/LoudProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/HardVacuum.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/HardVacuumProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/HighImpact.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/HighImpactProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/MultiBandDistortion.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/MultiBandDistortionProc.cpp"
+  ],
+  "cflags": [
+   "-std=gnu++17",
+   "-Isrc",
+   "-Ivendor/airwin2rack/src",
+   "-w",
+   "-O2",
+   "-DAW_SLOTS=10"
+  ],
+  "libs": [
+   "-lm"
+  ],
+  "cflags_arm": [
+   "-mfpu=neon"
+  ]
+ }
+}

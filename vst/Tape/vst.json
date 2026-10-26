@@ -1,0 +1,78 @@
+{
+ "name": "AW Tape",
+ "vendor": "Airwindows",
+ "uid": "aTap",
+ "version": 1000,
+ "so": "aw_tape.so",
+ "params": "params.json",
+ "effect": true,
+ "custom_skin": true,
+ "presets": "presets.json",
+ "cc": false,
+ "targets": [
+  "armv7",
+  "aarch64"
+ ],
+ "defines": {
+  "PARAM_TEXT_MAX": 128
+ },
+ "build": {
+  "root": "../..",
+  "sources": [
+   "src/engine.cpp",
+   "vst/Tape/gen/models.cpp",
+   "vst/Tape/gen/docs.cpp",
+   "vendor/airwin2rack/src/airwin_consolidated_base.cpp",
+   "src/gen/fac/ToTape9.cpp",
+   "src/gen/fac/TapeHack2.cpp",
+   "src/gen/fac/ToTape8.cpp",
+   "src/gen/fac/ToTape7.cpp",
+   "src/gen/fac/ToTape6.cpp",
+   "src/gen/fac/FromTape.cpp",
+   "src/gen/fac/TapeHack.cpp",
+   "src/gen/fac/Tape.cpp",
+   "src/gen/fac/IronOxideClassic2.cpp",
+   "src/gen/fac/IronOxide5.cpp",
+   "src/gen/fac/ToTape5.cpp",
+   "src/gen/fac/IronOxideClassic.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/ToTape9.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/ToTape9Proc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/TapeHack2.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/TapeHack2Proc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/ToTape8.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/ToTape8Proc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/ToTape7.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/ToTape7Proc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/ToTape6.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/ToTape6Proc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/FromTape.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/FromTapeProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/TapeHack.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/TapeHackProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/Tape.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/TapeProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/IronOxideClassic2.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/IronOxideClassic2Proc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/IronOxide5.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/IronOxide5Proc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/ToTape5.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/ToTape5Proc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/IronOxideClassic.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/IronOxideClassicProc.cpp"
+  ],
+  "cflags": [
+   "-std=gnu++17",
+   "-Isrc",
+   "-Ivendor/airwin2rack/src",
+   "-w",
+   "-O2",
+   "-DAW_SLOTS=10"
+  ],
+  "libs": [
+   "-lm"
+  ],
+  "cflags_arm": [
+   "-mfpu=neon"
+  ]
+ }
+}

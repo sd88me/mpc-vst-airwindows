@@ -1,0 +1,1530 @@
+{
+ "category": "Consoles",
+ "name": "AW Consoles",
+ "vendor": "Airwindows",
+ "slots": 37,
+ "models": [
+  {
+   "name": "CStrip",
+   "params": [
+    {
+     "name": "Treble",
+     "stepped": false
+    },
+    {
+     "name": "Mid",
+     "stepped": false
+    },
+    {
+     "name": "Bass",
+     "stepped": false
+    },
+    {
+     "name": "Lowpass",
+     "stepped": false
+    },
+    {
+     "name": "TrebFrq",
+     "stepped": false
+    },
+    {
+     "name": "BassFrq",
+     "stepped": false
+    },
+    {
+     "name": "Hipass",
+     "stepped": false
+    },
+    {
+     "name": "Gate",
+     "stepped": false
+    },
+    {
+     "name": "Compres",
+     "stepped": false
+    },
+    {
+     "name": "CompSpd",
+     "stepped": false
+    },
+    {
+     "name": "TimeLag",
+     "stepped": false
+    },
+    {
+     "name": "OutGain",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "ConsoleHBuss",
+   "params": [
+    {
+     "name": "High",
+     "stepped": false
+    },
+    {
+     "name": "Mid",
+     "stepped": false
+    },
+    {
+     "name": "Low",
+     "stepped": false
+    },
+    {
+     "name": "Thresh",
+     "stepped": false
+    },
+    {
+     "name": "Lowpass",
+     "stepped": false
+    },
+    {
+     "name": "Hipass",
+     "stepped": false
+    },
+    {
+     "name": "Pan",
+     "stepped": false
+    },
+    {
+     "name": "Fader",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "ConsoleHChannel",
+   "params": [
+    {
+     "name": "Trim",
+     "stepped": true
+    },
+    {
+     "name": "More",
+     "stepped": false
+    },
+    {
+     "name": "High",
+     "stepped": false
+    },
+    {
+     "name": "Mid",
+     "stepped": false
+    },
+    {
+     "name": "Low",
+     "stepped": false
+    },
+    {
+     "name": "CrossFd",
+     "stepped": false
+    },
+    {
+     "name": "Tr Freq",
+     "stepped": false
+    },
+    {
+     "name": "Treble",
+     "stepped": false
+    },
+    {
+     "name": "TrCrush",
+     "stepped": false
+    },
+    {
+     "name": "HM Freq",
+     "stepped": false
+    },
+    {
+     "name": "HighMid",
+     "stepped": false
+    },
+    {
+     "name": "HMCrush",
+     "stepped": false
+    },
+    {
+     "name": "LM Freq",
+     "stepped": false
+    },
+    {
+     "name": "LowMid",
+     "stepped": false
+    },
+    {
+     "name": "LMCrush",
+     "stepped": false
+    },
+    {
+     "name": "Bs Freq",
+     "stepped": false
+    },
+    {
+     "name": "Bass",
+     "stepped": false
+    },
+    {
+     "name": "BsCrush",
+     "stepped": false
+    },
+    {
+     "name": "Thresh",
+     "stepped": false
+    },
+    {
+     "name": "Attack",
+     "stepped": false
+    },
+    {
+     "name": "Release",
+     "stepped": false
+    },
+    {
+     "name": "Gate",
+     "stepped": false
+    },
+    {
+     "name": "Lowpass",
+     "stepped": false
+    },
+    {
+     "name": "Hipass",
+     "stepped": false
+    },
+    {
+     "name": "Pan",
+     "stepped": false
+    },
+    {
+     "name": "Fader",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "ConsoleHPre",
+   "params": [
+    {
+     "name": "Trim",
+     "stepped": true
+    },
+    {
+     "name": "More",
+     "stepped": false
+    },
+    {
+     "name": "High",
+     "stepped": false
+    },
+    {
+     "name": "Mid",
+     "stepped": false
+    },
+    {
+     "name": "Low",
+     "stepped": false
+    },
+    {
+     "name": "CrossFd",
+     "stepped": false
+    },
+    {
+     "name": "Tr Freq",
+     "stepped": false
+    },
+    {
+     "name": "Treble",
+     "stepped": false
+    },
+    {
+     "name": "TrCrush",
+     "stepped": false
+    },
+    {
+     "name": "HM Freq",
+     "stepped": false
+    },
+    {
+     "name": "HighMid",
+     "stepped": false
+    },
+    {
+     "name": "HMCrush",
+     "stepped": false
+    },
+    {
+     "name": "LM Freq",
+     "stepped": false
+    },
+    {
+     "name": "LowMid",
+     "stepped": false
+    },
+    {
+     "name": "LMCrush",
+     "stepped": false
+    },
+    {
+     "name": "Bs Freq",
+     "stepped": false
+    },
+    {
+     "name": "Bass",
+     "stepped": false
+    },
+    {
+     "name": "BsCrush",
+     "stepped": false
+    },
+    {
+     "name": "Thresh",
+     "stepped": false
+    },
+    {
+     "name": "Attack",
+     "stepped": false
+    },
+    {
+     "name": "Release",
+     "stepped": false
+    },
+    {
+     "name": "Gate",
+     "stepped": false
+    },
+    {
+     "name": "Lowpass",
+     "stepped": false
+    },
+    {
+     "name": "Hipass",
+     "stepped": false
+    },
+    {
+     "name": "Fader",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "ConsoleX2Buss",
+   "params": [
+    {
+     "name": "High",
+     "stepped": false
+    },
+    {
+     "name": "HMid",
+     "stepped": false
+    },
+    {
+     "name": "LMid",
+     "stepped": false
+    },
+    {
+     "name": "Bass",
+     "stepped": false
+    },
+    {
+     "name": "HighF",
+     "stepped": false
+    },
+    {
+     "name": "HMidF",
+     "stepped": false
+    },
+    {
+     "name": "LMidF",
+     "stepped": false
+    },
+    {
+     "name": "BassF",
+     "stepped": false
+    },
+    {
+     "name": "Thresh",
+     "stepped": false
+    },
+    {
+     "name": "Pan",
+     "stepped": false
+    },
+    {
+     "name": "Fader",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "ConsoleX2Channel",
+   "params": [
+    {
+     "name": "Trim",
+     "stepped": true
+    },
+    {
+     "name": "More",
+     "stepped": false
+    },
+    {
+     "name": "High",
+     "stepped": false
+    },
+    {
+     "name": "HMid",
+     "stepped": false
+    },
+    {
+     "name": "LMid",
+     "stepped": false
+    },
+    {
+     "name": "Bass",
+     "stepped": false
+    },
+    {
+     "name": "HighF",
+     "stepped": false
+    },
+    {
+     "name": "HMidF",
+     "stepped": false
+    },
+    {
+     "name": "LMidF",
+     "stepped": false
+    },
+    {
+     "name": "BassF",
+     "stepped": false
+    },
+    {
+     "name": "Thresh",
+     "stepped": false
+    },
+    {
+     "name": "Attack",
+     "stepped": false
+    },
+    {
+     "name": "Release",
+     "stepped": false
+    },
+    {
+     "name": "Gate",
+     "stepped": false
+    },
+    {
+     "name": "Lowpass",
+     "stepped": false
+    },
+    {
+     "name": "Hipass",
+     "stepped": false
+    },
+    {
+     "name": "Pan",
+     "stepped": false
+    },
+    {
+     "name": "Fader",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "ConsoleX2Pre",
+   "params": [
+    {
+     "name": "Trim",
+     "stepped": true
+    },
+    {
+     "name": "More",
+     "stepped": false
+    },
+    {
+     "name": "High",
+     "stepped": false
+    },
+    {
+     "name": "HMid",
+     "stepped": false
+    },
+    {
+     "name": "LMid",
+     "stepped": false
+    },
+    {
+     "name": "Bass",
+     "stepped": false
+    },
+    {
+     "name": "HighF",
+     "stepped": false
+    },
+    {
+     "name": "HMidF",
+     "stepped": false
+    },
+    {
+     "name": "LMidF",
+     "stepped": false
+    },
+    {
+     "name": "BassF",
+     "stepped": false
+    },
+    {
+     "name": "Thresh",
+     "stepped": false
+    },
+    {
+     "name": "Attack",
+     "stepped": false
+    },
+    {
+     "name": "Release",
+     "stepped": false
+    },
+    {
+     "name": "Gate",
+     "stepped": false
+    },
+    {
+     "name": "Lowpass",
+     "stepped": false
+    },
+    {
+     "name": "Hipass",
+     "stepped": false
+    },
+    {
+     "name": "Fader",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "ConsoleX3",
+   "params": [
+    {
+     "name": "High",
+     "stepped": false
+    },
+    {
+     "name": "HMid",
+     "stepped": false
+    },
+    {
+     "name": "LMid",
+     "stepped": false
+    },
+    {
+     "name": "Bass",
+     "stepped": false
+    },
+    {
+     "name": "HighF",
+     "stepped": false
+    },
+    {
+     "name": "HMidF",
+     "stepped": false
+    },
+    {
+     "name": "LMidF",
+     "stepped": false
+    },
+    {
+     "name": "BassF",
+     "stepped": false
+    },
+    {
+     "name": "Thresh",
+     "stepped": false
+    },
+    {
+     "name": "Attack",
+     "stepped": false
+    },
+    {
+     "name": "Release",
+     "stepped": false
+    },
+    {
+     "name": "Inv/Wet",
+     "stepped": false
+    },
+    {
+     "name": "Input",
+     "stepped": false
+    },
+    {
+     "name": "Cha/Bus",
+     "stepped": false
+    },
+    {
+     "name": "Smooth",
+     "stepped": false
+    },
+    {
+     "name": "More",
+     "stepped": false
+    },
+    {
+     "name": "Lowpass",
+     "stepped": false
+    },
+    {
+     "name": "LowpasQ",
+     "stepped": false
+    },
+    {
+     "name": "Hipass",
+     "stepped": false
+    },
+    {
+     "name": "HipassQ",
+     "stepped": false
+    },
+    {
+     "name": "Pan",
+     "stepped": false
+    },
+    {
+     "name": "Fader",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "ConsoleXBuss",
+   "params": [
+    {
+     "name": "Highpas",
+     "stepped": false
+    },
+    {
+     "name": "Lowpass",
+     "stepped": false
+    },
+    {
+     "name": "Air",
+     "stepped": false
+    },
+    {
+     "name": "Fire",
+     "stepped": false
+    },
+    {
+     "name": "Stone",
+     "stepped": false
+    },
+    {
+     "name": "Range",
+     "stepped": false
+    },
+    {
+     "name": "FC Thrs",
+     "stepped": false
+    },
+    {
+     "name": "SC Thrs",
+     "stepped": false
+    },
+    {
+     "name": "FC Rati",
+     "stepped": false
+    },
+    {
+     "name": "SC Rati",
+     "stepped": false
+    },
+    {
+     "name": "FC Atk",
+     "stepped": false
+    },
+    {
+     "name": "SC Atk",
+     "stepped": false
+    },
+    {
+     "name": "FC Rls",
+     "stepped": false
+    },
+    {
+     "name": "SC Rls",
+     "stepped": false
+    },
+    {
+     "name": "FG Thrs",
+     "stepped": false
+    },
+    {
+     "name": "SG Thrs",
+     "stepped": false
+    },
+    {
+     "name": "FG Rati",
+     "stepped": false
+    },
+    {
+     "name": "SG Rati",
+     "stepped": false
+    },
+    {
+     "name": "FG Sust",
+     "stepped": false
+    },
+    {
+     "name": "SG Sust",
+     "stepped": false
+    },
+    {
+     "name": "FG Rls",
+     "stepped": false
+    },
+    {
+     "name": "SG Rls",
+     "stepped": false
+    },
+    {
+     "name": "Tr Freq",
+     "stepped": false
+    },
+    {
+     "name": "Treble",
+     "stepped": false
+    },
+    {
+     "name": "Tr Reso",
+     "stepped": false
+    },
+    {
+     "name": "HM Freq",
+     "stepped": false
+    },
+    {
+     "name": "HighMid",
+     "stepped": false
+    },
+    {
+     "name": "HM Reso",
+     "stepped": false
+    },
+    {
+     "name": "LM Freq",
+     "stepped": false
+    },
+    {
+     "name": "LowMid",
+     "stepped": false
+    },
+    {
+     "name": "LM Reso",
+     "stepped": false
+    },
+    {
+     "name": "Bs Freq",
+     "stepped": false
+    },
+    {
+     "name": "Bass",
+     "stepped": false
+    },
+    {
+     "name": "Bs Reso",
+     "stepped": false
+    },
+    {
+     "name": "Top dB",
+     "stepped": false
+    },
+    {
+     "name": "Pan",
+     "stepped": false
+    },
+    {
+     "name": "Fader",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "ConsoleXChannel",
+   "params": [
+    {
+     "name": "Highpas",
+     "stepped": false
+    },
+    {
+     "name": "Lowpass",
+     "stepped": false
+    },
+    {
+     "name": "Air",
+     "stepped": false
+    },
+    {
+     "name": "Fire",
+     "stepped": false
+    },
+    {
+     "name": "Stone",
+     "stepped": false
+    },
+    {
+     "name": "Range",
+     "stepped": false
+    },
+    {
+     "name": "FC Thrs",
+     "stepped": false
+    },
+    {
+     "name": "SC Thrs",
+     "stepped": false
+    },
+    {
+     "name": "FC Rati",
+     "stepped": false
+    },
+    {
+     "name": "SC Rati",
+     "stepped": false
+    },
+    {
+     "name": "FC Atk",
+     "stepped": false
+    },
+    {
+     "name": "SC Atk",
+     "stepped": false
+    },
+    {
+     "name": "FC Rls",
+     "stepped": false
+    },
+    {
+     "name": "SC Rls",
+     "stepped": false
+    },
+    {
+     "name": "FG Thrs",
+     "stepped": false
+    },
+    {
+     "name": "SG Thrs",
+     "stepped": false
+    },
+    {
+     "name": "FG Rati",
+     "stepped": false
+    },
+    {
+     "name": "SG Rati",
+     "stepped": false
+    },
+    {
+     "name": "FG Sust",
+     "stepped": false
+    },
+    {
+     "name": "SG Sust",
+     "stepped": false
+    },
+    {
+     "name": "FG Rls",
+     "stepped": false
+    },
+    {
+     "name": "SG Rls",
+     "stepped": false
+    },
+    {
+     "name": "Tr Freq",
+     "stepped": false
+    },
+    {
+     "name": "Treble",
+     "stepped": false
+    },
+    {
+     "name": "Tr Reso",
+     "stepped": false
+    },
+    {
+     "name": "HM Freq",
+     "stepped": false
+    },
+    {
+     "name": "HighMid",
+     "stepped": false
+    },
+    {
+     "name": "HM Reso",
+     "stepped": false
+    },
+    {
+     "name": "LM Freq",
+     "stepped": false
+    },
+    {
+     "name": "LowMid",
+     "stepped": false
+    },
+    {
+     "name": "LM Reso",
+     "stepped": false
+    },
+    {
+     "name": "Bs Freq",
+     "stepped": false
+    },
+    {
+     "name": "Bass",
+     "stepped": false
+    },
+    {
+     "name": "Bs Reso",
+     "stepped": false
+    },
+    {
+     "name": "Top dB",
+     "stepped": false
+    },
+    {
+     "name": "Pan",
+     "stepped": false
+    },
+    {
+     "name": "Fader",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "ConsoleXPre",
+   "params": [
+    {
+     "name": "Highpas",
+     "stepped": false
+    },
+    {
+     "name": "Lowpass",
+     "stepped": false
+    },
+    {
+     "name": "Air",
+     "stepped": false
+    },
+    {
+     "name": "Fire",
+     "stepped": false
+    },
+    {
+     "name": "Stone",
+     "stepped": false
+    },
+    {
+     "name": "Range",
+     "stepped": false
+    },
+    {
+     "name": "FC Thrs",
+     "stepped": false
+    },
+    {
+     "name": "SC Thrs",
+     "stepped": false
+    },
+    {
+     "name": "FC Rati",
+     "stepped": false
+    },
+    {
+     "name": "SC Rati",
+     "stepped": false
+    },
+    {
+     "name": "FC Atk",
+     "stepped": false
+    },
+    {
+     "name": "SC Atk",
+     "stepped": false
+    },
+    {
+     "name": "FC Rls",
+     "stepped": false
+    },
+    {
+     "name": "SC Rls",
+     "stepped": false
+    },
+    {
+     "name": "FG Thrs",
+     "stepped": false
+    },
+    {
+     "name": "SG Thrs",
+     "stepped": false
+    },
+    {
+     "name": "FG Rati",
+     "stepped": false
+    },
+    {
+     "name": "SG Rati",
+     "stepped": false
+    },
+    {
+     "name": "FG Sust",
+     "stepped": false
+    },
+    {
+     "name": "SG Sust",
+     "stepped": false
+    },
+    {
+     "name": "FG Rls",
+     "stepped": false
+    },
+    {
+     "name": "SG Rls",
+     "stepped": false
+    },
+    {
+     "name": "Tr Freq",
+     "stepped": false
+    },
+    {
+     "name": "Treble",
+     "stepped": false
+    },
+    {
+     "name": "Tr Reso",
+     "stepped": false
+    },
+    {
+     "name": "HM Freq",
+     "stepped": false
+    },
+    {
+     "name": "HighMid",
+     "stepped": false
+    },
+    {
+     "name": "HM Reso",
+     "stepped": false
+    },
+    {
+     "name": "LM Freq",
+     "stepped": false
+    },
+    {
+     "name": "LowMid",
+     "stepped": false
+    },
+    {
+     "name": "LM Reso",
+     "stepped": false
+    },
+    {
+     "name": "Bs Freq",
+     "stepped": false
+    },
+    {
+     "name": "Bass",
+     "stepped": false
+    },
+    {
+     "name": "Bs Reso",
+     "stepped": false
+    },
+    {
+     "name": "Top dB",
+     "stepped": false
+    },
+    {
+     "name": "Pan",
+     "stepped": false
+    },
+    {
+     "name": "Fader",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "PurestConsole4Buss",
+   "params": [
+    {
+     "name": "Smooth",
+     "stepped": false
+    },
+    {
+     "name": "Pan",
+     "stepped": false
+    },
+    {
+     "name": "Fader",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "PurestConsole4Channel",
+   "params": [
+    {
+     "name": "Smooth",
+     "stepped": false
+    },
+    {
+     "name": "Pan",
+     "stepped": false
+    },
+    {
+     "name": "Fader",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Console9Buss",
+   "params": [
+    {
+     "name": "Pan",
+     "stepped": false
+    },
+    {
+     "name": "Fader",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Console9Channel",
+   "params": [
+    {
+     "name": "Pan",
+     "stepped": false
+    },
+    {
+     "name": "Fader",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "ConsoleLABuss",
+   "params": [
+    {
+     "name": "Master",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "ConsoleLAChannel",
+   "params": [
+    {
+     "name": "Treble",
+     "stepped": false
+    },
+    {
+     "name": "Mid",
+     "stepped": false
+    },
+    {
+     "name": "Bass",
+     "stepped": false
+    },
+    {
+     "name": "Pan",
+     "stepped": false
+    },
+    {
+     "name": "Fader",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "ConsoleMCBuss",
+   "params": [
+    {
+     "name": "Master",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "ConsoleMCChannel",
+   "params": [
+    {
+     "name": "Treble",
+     "stepped": false
+    },
+    {
+     "name": "MidFreq",
+     "stepped": false
+    },
+    {
+     "name": "MidPeak",
+     "stepped": false
+    },
+    {
+     "name": "Bass",
+     "stepped": false
+    },
+    {
+     "name": "Pan",
+     "stepped": false
+    },
+    {
+     "name": "Fader",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "ConsoleMDBuss",
+   "params": [
+    {
+     "name": "Master",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "ConsoleMDChannel",
+   "params": [
+    {
+     "name": "Treble",
+     "stepped": false
+    },
+    {
+     "name": "MidFreq",
+     "stepped": false
+    },
+    {
+     "name": "MidPeak",
+     "stepped": false
+    },
+    {
+     "name": "Bass",
+     "stepped": false
+    },
+    {
+     "name": "Pan",
+     "stepped": false
+    },
+    {
+     "name": "Fader",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Console8LiteChannel",
+   "params": [
+    {
+     "name": "Fader",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Console8LiteBuss",
+   "params": [
+    {
+     "name": "Fader",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Console8BussHype",
+   "params": []
+  },
+  {
+   "name": "Console8BussIn",
+   "params": []
+  },
+  {
+   "name": "Console8BussOut",
+   "params": [
+    {
+     "name": "Fader",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Console8ChannelHype",
+   "params": []
+  },
+  {
+   "name": "Console8ChannelIn",
+   "params": []
+  },
+  {
+   "name": "Console8ChannelOut",
+   "params": [
+    {
+     "name": "Fader",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Console8SubHype",
+   "params": []
+  },
+  {
+   "name": "Console8SubIn",
+   "params": []
+  },
+  {
+   "name": "Console8SubOut",
+   "params": [
+    {
+     "name": "Fader",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Console0Channel",
+   "params": [
+    {
+     "name": "Vol",
+     "stepped": false
+    },
+    {
+     "name": "Pan",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Console0Buss",
+   "params": [
+    {
+     "name": "Vol",
+     "stepped": false
+    },
+    {
+     "name": "Pan",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "PurestConsole3Buss",
+   "params": []
+  },
+  {
+   "name": "PurestConsole3Channel",
+   "params": []
+  },
+  {
+   "name": "PurestConsole2Buss",
+   "params": []
+  },
+  {
+   "name": "PurestConsole2Channel",
+   "params": []
+  },
+  {
+   "name": "Console7Buss",
+   "params": [
+    {
+     "name": "Master",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Console7Channel",
+   "params": [
+    {
+     "name": "Fader",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Console7Cascade",
+   "params": [
+    {
+     "name": "Cascade",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Console7Crunch",
+   "params": [
+    {
+     "name": "Crunch",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "PurestConsoleBuss",
+   "params": []
+  },
+  {
+   "name": "PurestConsoleChannel",
+   "params": []
+  },
+  {
+   "name": "Console6Buss",
+   "params": [
+    {
+     "name": "Input",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Console6Channel",
+   "params": [
+    {
+     "name": "Input",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "PDBuss",
+   "params": [
+    {
+     "name": "Gain",
+     "stepped": false
+    },
+    {
+     "name": "Drive",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "PDChannel",
+   "params": [
+    {
+     "name": "Gain",
+     "stepped": false
+    },
+    {
+     "name": "Drive",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Console5Buss",
+   "params": [
+    {
+     "name": "Input",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Console5Channel",
+   "params": [
+    {
+     "name": "Input",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Console5DarkCh",
+   "params": [
+    {
+     "name": "Input",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "C5RawBuss",
+   "params": [
+    {
+     "name": "Center",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "C5RawChannel",
+   "params": [
+    {
+     "name": "Center",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "AtmosphereBuss",
+   "params": [
+    {
+     "name": "Input",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "AtmosphereChannel",
+   "params": [
+    {
+     "name": "Input",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Console4Buss",
+   "params": [
+    {
+     "name": "Trim",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Console4Channel",
+   "params": [
+    {
+     "name": "Trim",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "EveryConsole",
+   "params": [
+    {
+     "name": "ConType",
+     "stepped": true
+    },
+    {
+     "name": "InTrim",
+     "stepped": false
+    },
+    {
+     "name": "OutTrim",
+     "stepped": false
+    }
+   ]
+  }
+ ]
+}

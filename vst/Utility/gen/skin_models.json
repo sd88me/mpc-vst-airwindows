@@ -1,0 +1,514 @@
+{
+ "category": "Utility",
+ "name": "AW Utility",
+ "vendor": "Airwindows",
+ "slots": 9,
+ "models": [
+  {
+   "name": "SoftClock3",
+   "params": [
+    {
+     "name": "Tempo",
+     "stepped": false
+    },
+    {
+     "name": "Count",
+     "stepped": false
+    },
+    {
+     "name": "Tuple",
+     "stepped": false
+    },
+    {
+     "name": "Triplet",
+     "stepped": true
+    },
+    {
+     "name": "Flavor",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "SoftClock2",
+   "params": [
+    {
+     "name": "Tempo",
+     "stepped": false
+    },
+    {
+     "name": "Count",
+     "stepped": false
+    },
+    {
+     "name": "Tuple",
+     "stepped": false
+    },
+    {
+     "name": "Swing",
+     "stepped": false
+    },
+    {
+     "name": "Peak",
+     "stepped": false
+    },
+    {
+     "name": "Valley",
+     "stepped": false
+    },
+    {
+     "name": "Accents",
+     "stepped": false
+    },
+    {
+     "name": "Boost",
+     "stepped": false
+    },
+    {
+     "name": "Speed",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "SoftClock",
+   "params": [
+    {
+     "name": "Tempo",
+     "stepped": false
+    },
+    {
+     "name": "Count",
+     "stepped": false
+    },
+    {
+     "name": "Tuple",
+     "stepped": false
+    },
+    {
+     "name": "Swing",
+     "stepped": false
+    },
+    {
+     "name": "BigBeat",
+     "stepped": false
+    },
+    {
+     "name": "Accents",
+     "stepped": false
+    },
+    {
+     "name": "Boost",
+     "stepped": false
+    },
+    {
+     "name": "Speed",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "BitShiftPan",
+   "params": [
+    {
+     "name": "Vol",
+     "stepped": false
+    },
+    {
+     "name": "Pan",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "BitShiftGain",
+   "params": [
+    {
+     "name": "BitShift",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "PurestGain",
+   "params": [
+    {
+     "name": "Gain",
+     "stepped": false
+    },
+    {
+     "name": "Slow Fade",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "PurestDualPan",
+   "params": [
+    {
+     "name": "L Vol",
+     "stepped": false
+    },
+    {
+     "name": "L Pan",
+     "stepped": false
+    },
+    {
+     "name": "R Vol",
+     "stepped": false
+    },
+    {
+     "name": "R Pan",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "BitDualPan",
+   "params": [
+    {
+     "name": "L Vol",
+     "stepped": false
+    },
+    {
+     "name": "L Pan",
+     "stepped": false
+    },
+    {
+     "name": "R Vol",
+     "stepped": false
+    },
+    {
+     "name": "R Pan",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "PurestFade",
+   "params": [
+    {
+     "name": "Gain",
+     "stepped": false
+    },
+    {
+     "name": "Fade",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Monitoring3",
+   "params": [
+    {
+     "name": "Monitor",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Monitoring2",
+   "params": [
+    {
+     "name": "Monitor",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Monitoring",
+   "params": [
+    {
+     "name": "Monitor",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "EveryTrim",
+   "params": [
+    {
+     "name": "Left",
+     "stepped": false
+    },
+    {
+     "name": "Right",
+     "stepped": false
+    },
+    {
+     "name": "Mid",
+     "stepped": false
+    },
+    {
+     "name": "Side",
+     "stepped": false
+    },
+    {
+     "name": "Master",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "HermeTrim",
+   "params": [
+    {
+     "name": "Left",
+     "stepped": false
+    },
+    {
+     "name": "Right",
+     "stepped": false
+    },
+    {
+     "name": "Mid",
+     "stepped": false
+    },
+    {
+     "name": "Side",
+     "stepped": false
+    },
+    {
+     "name": "Master",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "DubPlate2",
+   "params": [
+    {
+     "name": "Input",
+     "stepped": false
+    },
+    {
+     "name": "Treble",
+     "stepped": false
+    },
+    {
+     "name": "Bass",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "DubPlate",
+   "params": []
+  },
+  {
+   "name": "CansAW",
+   "params": [
+    {
+     "name": "seatPos",
+     "stepped": true
+    }
+   ]
+  },
+  {
+   "name": "Cans",
+   "params": [
+    {
+     "name": "Room",
+     "stepped": true
+    },
+    {
+     "name": "Diffuse",
+     "stepped": false
+    },
+    {
+     "name": "Damping",
+     "stepped": false
+    },
+    {
+     "name": "Crossfd",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "SlewOnly",
+   "params": []
+  },
+  {
+   "name": "SubsOnly",
+   "params": []
+  },
+  {
+   "name": "PeaksOnly",
+   "params": []
+  },
+  {
+   "name": "Golem",
+   "params": [
+    {
+     "name": "Balance",
+     "stepped": false
+    },
+    {
+     "name": "Offset",
+     "stepped": false
+    },
+    {
+     "name": "Phase",
+     "stepped": true
+    }
+   ]
+  },
+  {
+   "name": "DCVoltage",
+   "params": [
+    {
+     "name": "Voltage",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "LRConvolve3",
+   "params": [
+    {
+     "name": "Smooth",
+     "stepped": false
+    },
+    {
+     "name": "Channel",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "LRConvolve2",
+   "params": [
+    {
+     "name": "Soar",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "LRConvolve",
+   "params": []
+  },
+  {
+   "name": "EdIsDim",
+   "params": [
+    {
+     "name": "ediS/diM",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "MidSide",
+   "params": [
+    {
+     "name": "Mid/Side",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "uLawEncode",
+   "params": [
+    {
+     "name": "Gain",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "uLawDecode",
+   "params": [
+    {
+     "name": "Gain",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "RightoMono",
+   "params": []
+  },
+  {
+   "name": "LeftoMono",
+   "params": []
+  },
+  {
+   "name": "Balanced",
+   "params": [
+    {
+     "name": "BitShift",
+     "stepped": true
+    }
+   ]
+  },
+  {
+   "name": "Flipity",
+   "params": [
+    {
+     "name": "Flipity",
+     "stepped": true
+    }
+   ]
+  },
+  {
+   "name": "MoNoam",
+   "params": [
+    {
+     "name": "Monotor",
+     "stepped": true
+    }
+   ]
+  },
+  {
+   "name": "VoiceTrick",
+   "params": [
+    {
+     "name": "Tone",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "DeCrackle",
+   "params": [
+    {
+     "name": "Filter",
+     "stepped": false
+    },
+    {
+     "name": "Window",
+     "stepped": false
+    },
+    {
+     "name": "Thresld",
+     "stepped": false
+    },
+    {
+     "name": "Surface",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "ContentHideD",
+   "params": []
+  }
+ ]
+}

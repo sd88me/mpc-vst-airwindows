@@ -1,0 +1,103 @@
+{
+ "presets": [
+  {
+   "name": "ADClip9",
+   "values": {
+    "model": "ADClip9",
+    "p1": 0.0,
+    "p2": 0.0,
+    "p3": 0.7,
+    "p4": 0.75,
+    "p5": 0.0
+   }
+  },
+  {
+   "name": "ClipOnly3",
+   "values": {
+    "model": "ClipOnly3",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5
+   }
+  },
+  {
+   "name": "ADClip8",
+   "values": {
+    "model": "ADClip8",
+    "p1": 0.0,
+    "p2": 0.883,
+    "p3": 0.0,
+    "p4": 0.5,
+    "p5": 0.5
+   }
+  },
+  {
+   "name": "ClipOnly2",
+   "values": {
+    "model": "ClipOnly2",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5
+   }
+  },
+  {
+   "name": "ClipSoftly",
+   "values": {
+    "model": "ClipSoftly",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5
+   }
+  },
+  {
+   "name": "OneCornerClip",
+   "values": {
+    "model": "OneCornerClip",
+    "p1": 0.333333,
+    "p2": 0.966,
+    "p3": 0.966,
+    "p4": 0.618,
+    "p5": 1.0
+   }
+  },
+  {
+   "name": "ADClip7",
+   "values": {
+    "model": "ADClip7",
+    "p1": 0.0,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.0,
+    "p5": 0.5
+   }
+  },
+  {
+   "name": "AQuickVoiceClip",
+   "values": {
+    "model": "AQuickVoiceClip",
+    "p1": 0.42,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5
+   }
+  },
+  {
+   "name": "FinalClip",
+   "values": {
+    "model": "FinalClip",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5
+   }
+  }
+ ]
+}

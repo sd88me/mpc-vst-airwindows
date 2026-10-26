@@ -1,0 +1,1162 @@
+{
+ "category": "Filter",
+ "name": "AW Filter",
+ "vendor": "Airwindows",
+ "slots": 10,
+ "models": [
+  {
+   "name": "BezEQ4",
+   "params": [
+    {
+     "name": "High",
+     "stepped": false
+    },
+    {
+     "name": "HMid",
+     "stepped": false
+    },
+    {
+     "name": "LMid",
+     "stepped": false
+    },
+    {
+     "name": "Bass",
+     "stepped": false
+    },
+    {
+     "name": "HighF",
+     "stepped": false
+    },
+    {
+     "name": "HMidF",
+     "stepped": false
+    },
+    {
+     "name": "LMidF",
+     "stepped": false
+    },
+    {
+     "name": "BassF",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "FastDistance",
+   "params": [
+    {
+     "name": "Distnce",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "BezEQ3",
+   "params": [
+    {
+     "name": "High",
+     "stepped": false
+    },
+    {
+     "name": "HMid",
+     "stepped": false
+    },
+    {
+     "name": "LMid",
+     "stepped": false
+    },
+    {
+     "name": "Bass",
+     "stepped": false
+    },
+    {
+     "name": "HighF",
+     "stepped": false
+    },
+    {
+     "name": "HMidF",
+     "stepped": false
+    },
+    {
+     "name": "LMidF",
+     "stepped": false
+    },
+    {
+     "name": "BassF",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Suzan",
+   "params": [
+    {
+     "name": "Freq",
+     "stepped": false
+    },
+    {
+     "name": "Reso",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "SmoothEQ3",
+   "params": [
+    {
+     "name": "High",
+     "stepped": false
+    },
+    {
+     "name": "Mid",
+     "stepped": false
+    },
+    {
+     "name": "Bass",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "PearEQ",
+   "params": [
+    {
+     "name": "High",
+     "stepped": false
+    },
+    {
+     "name": "HMid",
+     "stepped": false
+    },
+    {
+     "name": "Mid",
+     "stepped": false
+    },
+    {
+     "name": "LMid",
+     "stepped": false
+    },
+    {
+     "name": "Bass",
+     "stepped": false
+    },
+    {
+     "name": "Sub",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "PearLiteEQ",
+   "params": [
+    {
+     "name": "High",
+     "stepped": false
+    },
+    {
+     "name": "HMid",
+     "stepped": false
+    },
+    {
+     "name": "LMid",
+     "stepped": false
+    },
+    {
+     "name": "Bass",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "RetroBass",
+   "params": [
+    {
+     "name": "Freq",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "FatEQ",
+   "params": [
+    {
+     "name": "High",
+     "stepped": false
+    },
+    {
+     "name": "HMid",
+     "stepped": false
+    },
+    {
+     "name": "LMid",
+     "stepped": false
+    },
+    {
+     "name": "Bass",
+     "stepped": false
+    },
+    {
+     "name": "Out",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "SmoothEQ2",
+   "params": [
+    {
+     "name": "High",
+     "stepped": false
+    },
+    {
+     "name": "HMid",
+     "stepped": false
+    },
+    {
+     "name": "LMid",
+     "stepped": false
+    },
+    {
+     "name": "Bass",
+     "stepped": false
+    },
+    {
+     "name": "HighF",
+     "stepped": false
+    },
+    {
+     "name": "HMidF",
+     "stepped": false
+    },
+    {
+     "name": "LMidF",
+     "stepped": false
+    },
+    {
+     "name": "BassF",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "BezEQ2",
+   "params": [
+    {
+     "name": "Treble",
+     "stepped": false
+    },
+    {
+     "name": "x",
+     "stepped": false
+    },
+    {
+     "name": "Mid",
+     "stepped": false
+    },
+    {
+     "name": "x",
+     "stepped": false
+    },
+    {
+     "name": "Bass",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "SmoothEQ",
+   "params": [
+    {
+     "name": "High",
+     "stepped": false
+    },
+    {
+     "name": "Mid",
+     "stepped": false
+    },
+    {
+     "name": "Low",
+     "stepped": false
+    },
+    {
+     "name": "XoverH",
+     "stepped": false
+    },
+    {
+     "name": "XoverL",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Parametric",
+   "params": [
+    {
+     "name": "Tr Freq",
+     "stepped": false
+    },
+    {
+     "name": "Treble",
+     "stepped": false
+    },
+    {
+     "name": "Tr Reso",
+     "stepped": false
+    },
+    {
+     "name": "HM Freq",
+     "stepped": false
+    },
+    {
+     "name": "HighMid",
+     "stepped": false
+    },
+    {
+     "name": "HM Reso",
+     "stepped": false
+    },
+    {
+     "name": "LM Freq",
+     "stepped": false
+    },
+    {
+     "name": "LowMid",
+     "stepped": false
+    },
+    {
+     "name": "LM Reso",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Dattorro",
+   "params": [
+    {
+     "name": "Freq",
+     "stepped": false
+    },
+    {
+     "name": "Reso",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Donut",
+   "params": [
+    {
+     "name": "Attack",
+     "stepped": false
+    },
+    {
+     "name": "Release",
+     "stepped": false
+    },
+    {
+     "name": "BaseFrq",
+     "stepped": false
+    },
+    {
+     "name": "MoveFrq",
+     "stepped": false
+    },
+    {
+     "name": "BaseRes",
+     "stepped": false
+    },
+    {
+     "name": "MoveRes",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Silken",
+   "params": [
+    {
+     "name": "Silken",
+     "stepped": false
+    },
+    {
+     "name": "Freq",
+     "stepped": false
+    },
+    {
+     "name": "Window",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Stonefire",
+   "params": [
+    {
+     "name": "Air",
+     "stepped": false
+    },
+    {
+     "name": "Fire",
+     "stepped": false
+    },
+    {
+     "name": "Stone",
+     "stepped": false
+    },
+    {
+     "name": "Range",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "AngleEQ",
+   "params": [
+    {
+     "name": "High",
+     "stepped": false
+    },
+    {
+     "name": "Mid",
+     "stepped": false
+    },
+    {
+     "name": "Low",
+     "stepped": false
+    },
+    {
+     "name": "HiFreq",
+     "stepped": false
+    },
+    {
+     "name": "MHiFreq",
+     "stepped": false
+    },
+    {
+     "name": "MLoFreq",
+     "stepped": false
+    },
+    {
+     "name": "LoFreq",
+     "stepped": false
+    },
+    {
+     "name": "Inv/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "AngleFilter",
+   "params": [
+    {
+     "name": "Freq",
+     "stepped": false
+    },
+    {
+     "name": "Hard",
+     "stepped": false
+    },
+    {
+     "name": "Reso",
+     "stepped": false
+    },
+    {
+     "name": "Poles",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Isolator3",
+   "params": [
+    {
+     "name": "Iso",
+     "stepped": false
+    },
+    {
+     "name": "Q",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "BezEQ",
+   "params": [
+    {
+     "name": "Treble",
+     "stepped": false
+    },
+    {
+     "name": "x",
+     "stepped": false
+    },
+    {
+     "name": "Mid",
+     "stepped": false
+    },
+    {
+     "name": "x",
+     "stepped": false
+    },
+    {
+     "name": "Bass",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Baxandall3",
+   "params": [
+    {
+     "name": "Input",
+     "stepped": false
+    },
+    {
+     "name": "Treble",
+     "stepped": false
+    },
+    {
+     "name": "Bass",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Baxandall2",
+   "params": [
+    {
+     "name": "Treble",
+     "stepped": false
+    },
+    {
+     "name": "Bass",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Baxandall",
+   "params": [
+    {
+     "name": "Treble",
+     "stepped": false
+    },
+    {
+     "name": "Bass",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Pear2",
+   "params": [
+    {
+     "name": "Freq",
+     "stepped": false
+    },
+    {
+     "name": "NonLin",
+     "stepped": false
+    },
+    {
+     "name": "Poles",
+     "stepped": false
+    },
+    {
+     "name": "Inv/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Capacitor2",
+   "params": [
+    {
+     "name": "Lowpass",
+     "stepped": false
+    },
+    {
+     "name": "Highpass",
+     "stepped": false
+    },
+    {
+     "name": "NonLin",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Distance3",
+   "params": [
+    {
+     "name": "Distance",
+     "stepped": false
+    },
+    {
+     "name": "Top dB",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Pear",
+   "params": [
+    {
+     "name": "bitFreq",
+     "stepped": false
+    },
+    {
+     "name": "Poles",
+     "stepped": false
+    },
+    {
+     "name": "Inv/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "ResEQ2",
+   "params": [
+    {
+     "name": "MSweep",
+     "stepped": false
+    },
+    {
+     "name": "MBoost",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "SubTight",
+   "params": [
+    {
+     "name": "Trim",
+     "stepped": false
+    },
+    {
+     "name": "Steep",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "CStrip2",
+   "params": [
+    {
+     "name": "Treble",
+     "stepped": false
+    },
+    {
+     "name": "Mid",
+     "stepped": false
+    },
+    {
+     "name": "Bass",
+     "stepped": false
+    },
+    {
+     "name": "TrebFrq",
+     "stepped": false
+    },
+    {
+     "name": "BassFrq",
+     "stepped": false
+    },
+    {
+     "name": "LowCap",
+     "stepped": false
+    },
+    {
+     "name": "HiCap",
+     "stepped": false
+    },
+    {
+     "name": "Compres",
+     "stepped": false
+    },
+    {
+     "name": "CompSpd",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Weight",
+   "params": [
+    {
+     "name": "Freq",
+     "stepped": false
+    },
+    {
+     "name": "Weight",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Isolator2",
+   "params": [
+    {
+     "name": "Freq",
+     "stepped": false
+    },
+    {
+     "name": "Reso",
+     "stepped": false
+    },
+    {
+     "name": "High",
+     "stepped": false
+    },
+    {
+     "name": "Low",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Kalman",
+   "params": [
+    {
+     "name": "Kalman",
+     "stepped": false
+    },
+    {
+     "name": "Inv/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "PrimeFIR",
+   "params": [
+    {
+     "name": "Freq",
+     "stepped": false
+    },
+    {
+     "name": "Window",
+     "stepped": false
+    },
+    {
+     "name": "Prime",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Holt2",
+   "params": [
+    {
+     "name": "Freq",
+     "stepped": false
+    },
+    {
+     "name": "Reso",
+     "stepped": false
+    },
+    {
+     "name": "Poles",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Holt",
+   "params": [
+    {
+     "name": "Freq",
+     "stepped": false
+    },
+    {
+     "name": "Reso",
+     "stepped": false
+    },
+    {
+     "name": "Poles",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "ToneSlant",
+   "params": [
+    {
+     "name": "Voicing",
+     "stepped": false
+    },
+    {
+     "name": "Highs",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "AverMatrix",
+   "params": [
+    {
+     "name": "Average",
+     "stepped": false
+    },
+    {
+     "name": "Depth",
+     "stepped": false
+    },
+    {
+     "name": "Inv/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Average",
+   "params": [
+    {
+     "name": "Average",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "MackEQ",
+   "params": [
+    {
+     "name": "Trim",
+     "stepped": false
+    },
+    {
+     "name": "Hi",
+     "stepped": false
+    },
+    {
+     "name": "Lo",
+     "stepped": false
+    },
+    {
+     "name": "Gain",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Hull2",
+   "params": [
+    {
+     "name": "Treble",
+     "stepped": false
+    },
+    {
+     "name": "Mid",
+     "stepped": false
+    },
+    {
+     "name": "Bass",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Hull",
+   "params": [
+    {
+     "name": "Freq",
+     "stepped": false
+    },
+    {
+     "name": "Bright",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "EQ",
+   "params": [
+    {
+     "name": "Treble",
+     "stepped": false
+    },
+    {
+     "name": "Mid",
+     "stepped": false
+    },
+    {
+     "name": "Bass",
+     "stepped": false
+    },
+    {
+     "name": "Lowpass",
+     "stepped": false
+    },
+    {
+     "name": "TrebFrq",
+     "stepped": false
+    },
+    {
+     "name": "BassFrq",
+     "stepped": false
+    },
+    {
+     "name": "Hipass",
+     "stepped": false
+    },
+    {
+     "name": "OutGain",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Capacitor",
+   "params": [
+    {
+     "name": "Lowpass",
+     "stepped": false
+    },
+    {
+     "name": "Highpass",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Isolator",
+   "params": [
+    {
+     "name": "Freq",
+     "stepped": false
+    },
+    {
+     "name": "High",
+     "stepped": false
+    },
+    {
+     "name": "Low",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "TapeFat",
+   "params": [
+    {
+     "name": "Lean/Ft",
+     "stepped": false
+    },
+    {
+     "name": "Depth",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "ResEQ",
+   "params": [
+    {
+     "name": "Reso 1",
+     "stepped": false
+    },
+    {
+     "name": "Reso 2",
+     "stepped": false
+    },
+    {
+     "name": "Reso 3",
+     "stepped": false
+    },
+    {
+     "name": "Reso 4",
+     "stepped": false
+    },
+    {
+     "name": "Reso 5",
+     "stepped": false
+    },
+    {
+     "name": "Reso 6",
+     "stepped": false
+    },
+    {
+     "name": "Reso 7",
+     "stepped": false
+    },
+    {
+     "name": "Reso 8",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Lowpass2",
+   "params": [
+    {
+     "name": "Lowpass",
+     "stepped": false
+    },
+    {
+     "name": "Sft/Hrd",
+     "stepped": false
+    },
+    {
+     "name": "Poles",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Highpass2",
+   "params": [
+    {
+     "name": "Hipass",
+     "stepped": false
+    },
+    {
+     "name": "Ls/Tite",
+     "stepped": false
+    },
+    {
+     "name": "Poles",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Distance",
+   "params": [
+    {
+     "name": "Distance",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Distance2",
+   "params": [
+    {
+     "name": "Atmosph",
+     "stepped": false
+    },
+    {
+     "name": "Darken",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Lowpass",
+   "params": [
+    {
+     "name": "Lowpass",
+     "stepped": false
+    },
+    {
+     "name": "Soft/Hard",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Highpass",
+   "params": [
+    {
+     "name": "Highpass",
+     "stepped": false
+    },
+    {
+     "name": "Loose/Tight",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  }
+ ]
+}

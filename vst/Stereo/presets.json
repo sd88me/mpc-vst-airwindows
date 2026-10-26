@@ -1,0 +1,148 @@
+{
+ "presets": [
+  {
+   "name": "Srsly3",
+   "values": {
+    "model": "Srsly3",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 1.0,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 1.0
+   }
+  },
+  {
+   "name": "Srsly2",
+   "values": {
+    "model": "Srsly2",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 1.0,
+    "p4": 0.5,
+    "p5": 1.0,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "Srsly",
+   "values": {
+    "model": "Srsly",
+    "p1": 0.0,
+    "p2": 0.0,
+    "p3": 1.0,
+    "p4": 0.5,
+    "p5": 1.0,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "SweetWide",
+   "values": {
+    "model": "SweetWide",
+    "p1": 0.0,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "Wider",
+   "values": {
+    "model": "Wider",
+    "p1": 0.5,
+    "p2": 0.5,
+    "p3": 1.0,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "StereoFX",
+   "values": {
+    "model": "StereoFX",
+    "p1": 0.0,
+    "p2": 0.0,
+    "p3": 0.0,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "ToVinyl4",
+   "values": {
+    "model": "ToVinyl4",
+    "p1": 0.203419,
+    "p2": 0.342405,
+    "p3": 0.32,
+    "p4": 0.064,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "AutoPan",
+   "values": {
+    "model": "AutoPan",
+    "p1": 0.1,
+    "p2": 0.5,
+    "p3": 0.0,
+    "p4": 1.0,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "LRFlipTimer",
+   "values": {
+    "model": "LRFlipTimer",
+    "p1": 0.0,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "MSFlipTimer",
+   "values": {
+    "model": "MSFlipTimer",
+    "p1": 0.0,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "Sidepass",
+   "values": {
+    "model": "Sidepass",
+    "p1": 0.0,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  },
+  {
+   "name": "SideDull",
+   "values": {
+    "model": "SideDull",
+    "p1": 0.0,
+    "p2": 0.5,
+    "p3": 0.5,
+    "p4": 0.5,
+    "p5": 0.5,
+    "p6": 0.5
+   }
+  }
+ ]
+}

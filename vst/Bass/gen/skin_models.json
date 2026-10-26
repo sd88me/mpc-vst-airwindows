@@ -1,0 +1,233 @@
+{
+ "category": "Bass",
+ "name": "AW Bass",
+ "vendor": "Airwindows",
+ "slots": 10,
+ "models": [
+  {
+   "name": "DubSub2",
+   "params": [
+    {
+     "name": "HeadBmp",
+     "stepped": false
+    },
+    {
+     "name": "HeadFrq",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "OrbitKick",
+   "params": [
+    {
+     "name": "Drop",
+     "stepped": false
+    },
+    {
+     "name": "Shape",
+     "stepped": false
+    },
+    {
+     "name": "Start",
+     "stepped": false
+    },
+    {
+     "name": "Finish",
+     "stepped": false
+    },
+    {
+     "name": "Thresh",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Elliptical",
+   "params": [
+    {
+     "name": "Cutoff",
+     "stepped": false
+    },
+    {
+     "name": "Slope",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Hermepass",
+   "params": [
+    {
+     "name": "Cutoff",
+     "stepped": false
+    },
+    {
+     "name": "Slope",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "BassKit",
+   "params": [
+    {
+     "name": "Drive",
+     "stepped": false
+    },
+    {
+     "name": "Voicing",
+     "stepped": false
+    },
+    {
+     "name": "BassOut",
+     "stepped": false
+    },
+    {
+     "name": "SubOut",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "DubCenter",
+   "params": [
+    {
+     "name": "TGrind",
+     "stepped": false
+    },
+    {
+     "name": "Grd/Out",
+     "stepped": false
+    },
+    {
+     "name": "XOver",
+     "stepped": false
+    },
+    {
+     "name": "BsDrive",
+     "stepped": false
+    },
+    {
+     "name": "BsVoice",
+     "stepped": false
+    },
+    {
+     "name": "BassOut",
+     "stepped": false
+    },
+    {
+     "name": "SbDrive",
+     "stepped": false
+    },
+    {
+     "name": "SbVoice",
+     "stepped": false
+    },
+    {
+     "name": "SubOut",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "DubSub",
+   "params": [
+    {
+     "name": "TGrind",
+     "stepped": false
+    },
+    {
+     "name": "Grd/Out",
+     "stepped": false
+    },
+    {
+     "name": "XOver",
+     "stepped": false
+    },
+    {
+     "name": "BsDrive",
+     "stepped": false
+    },
+    {
+     "name": "BsVoice",
+     "stepped": false
+    },
+    {
+     "name": "BassOut",
+     "stepped": false
+    },
+    {
+     "name": "SbDrive",
+     "stepped": false
+    },
+    {
+     "name": "SbVoice",
+     "stepped": false
+    },
+    {
+     "name": "SubOut",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Floor",
+   "params": [
+    {
+     "name": "Floor",
+     "stepped": false
+    },
+    {
+     "name": "Drive",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Infrasonic",
+   "params": []
+  },
+  {
+   "name": "FathomFive",
+   "params": [
+    {
+     "name": "Root Note",
+     "stepped": false
+    },
+    {
+     "name": "SubOctave",
+     "stepped": false
+    },
+    {
+     "name": "Frequency",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  }
+ ]
+}

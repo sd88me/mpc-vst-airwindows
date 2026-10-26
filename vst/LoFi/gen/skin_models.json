@@ -1,0 +1,381 @@
+{
+ "category": "Lo-Fi",
+ "name": "AW Lo-Fi",
+ "vendor": "Airwindows",
+ "slots": 10,
+ "models": [
+  {
+   "name": "DeRez5",
+   "params": [
+    {
+     "name": "Derez",
+     "stepped": false
+    },
+    {
+     "name": "Trim",
+     "stepped": false
+    },
+    {
+     "name": "Square",
+     "stepped": false
+    },
+    {
+     "name": "Bright",
+     "stepped": false
+    },
+    {
+     "name": "Bassis",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "DeRez4",
+   "params": [
+    {
+     "name": "DownRez",
+     "stepped": false
+    },
+    {
+     "name": "Bright",
+     "stepped": false
+    },
+    {
+     "name": "Bassis",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "DeBez",
+   "params": [
+    {
+     "name": "DeBez",
+     "stepped": false
+    },
+    {
+     "name": "DeRez",
+     "stepped": false
+    },
+    {
+     "name": "Inv/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "HipCrush",
+   "params": [
+    {
+     "name": "Hi Freq",
+     "stepped": false
+    },
+    {
+     "name": "High",
+     "stepped": false
+    },
+    {
+     "name": "HiCrush",
+     "stepped": false
+    },
+    {
+     "name": "MidFreq",
+     "stepped": false
+    },
+    {
+     "name": "Mid",
+     "stepped": false
+    },
+    {
+     "name": "MdCrush",
+     "stepped": false
+    },
+    {
+     "name": "Lo Freq",
+     "stepped": false
+    },
+    {
+     "name": "Low",
+     "stepped": false
+    },
+    {
+     "name": "LoCrush",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Flutter2",
+   "params": [
+    {
+     "name": "Flutter",
+     "stepped": false
+    },
+    {
+     "name": "Speed",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "DeRez3",
+   "params": [
+    {
+     "name": "Rate",
+     "stepped": false
+    },
+    {
+     "name": "Rez",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Pockey2",
+   "params": [
+    {
+     "name": "DeFreq",
+     "stepped": false
+    },
+    {
+     "name": "DeRez",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "CrunchyGrooveWear",
+   "params": [
+    {
+     "name": "Freq",
+     "stepped": false
+    },
+    {
+     "name": "Apply",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "GrooveWear",
+   "params": [
+    {
+     "name": "Wear",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Pockey",
+   "params": [
+    {
+     "name": "DeFreq",
+     "stepped": false
+    },
+    {
+     "name": "DeRez",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Flutter",
+   "params": [
+    {
+     "name": "Flutter",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "DeRez2",
+   "params": [
+    {
+     "name": "Rate",
+     "stepped": false
+    },
+    {
+     "name": "Rez",
+     "stepped": false
+    },
+    {
+     "name": "Hard",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "BitGlitter",
+   "params": [
+    {
+     "name": "Input",
+     "stepped": false
+    },
+    {
+     "name": "Glitter",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "DeRez",
+   "params": [
+    {
+     "name": "Rate",
+     "stepped": false
+    },
+    {
+     "name": "Rez",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "TapeBias",
+   "params": [
+    {
+     "name": "Bias",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "ChromeOxide",
+   "params": [
+    {
+     "name": "Intense",
+     "stepped": false
+    },
+    {
+     "name": "Bias",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Cojones",
+   "params": [
+    {
+     "name": "Breathy",
+     "stepped": false
+    },
+    {
+     "name": "Cojones",
+     "stepped": false
+    },
+    {
+     "name": "Body",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Vibrato",
+   "params": [
+    {
+     "name": "Speed",
+     "stepped": false
+    },
+    {
+     "name": "Depth",
+     "stepped": false
+    },
+    {
+     "name": "FMSpeed",
+     "stepped": false
+    },
+    {
+     "name": "FMDepth",
+     "stepped": false
+    },
+    {
+     "name": "Inv/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Bite",
+   "params": [
+    {
+     "name": "Bite",
+     "stepped": false
+    },
+    {
+     "name": "Output Level",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Deckwrecka",
+   "params": [
+    {
+     "name": "Wreck",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "DustBunny",
+   "params": [
+    {
+     "name": "Bunny",
+     "stepped": false
+    }
+   ]
+  }
+ ]
+}

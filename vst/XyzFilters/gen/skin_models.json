@@ -1,0 +1,596 @@
+{
+ "category": "XYZ Filters",
+ "name": "AW XYZ Filters",
+ "vendor": "Airwindows",
+ "slots": 6,
+ "models": [
+  {
+   "name": "ZAcidLowpass",
+   "params": [
+    {
+     "name": "Cutoff",
+     "stepped": false
+    },
+    {
+     "name": "Over",
+     "stepped": false
+    },
+    {
+     "name": "Under",
+     "stepped": false
+    },
+    {
+     "name": "Meltdwn",
+     "stepped": false
+    },
+    {
+     "name": "Drive",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "ZBandpass2",
+   "params": [
+    {
+     "name": "Input",
+     "stepped": false
+    },
+    {
+     "name": "Freq",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Poles",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "ZHighpass2",
+   "params": [
+    {
+     "name": "Input",
+     "stepped": false
+    },
+    {
+     "name": "Freq",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Poles",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "ZLowpass2",
+   "params": [
+    {
+     "name": "Input",
+     "stepped": false
+    },
+    {
+     "name": "Freq",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Poles",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "ZNotch2",
+   "params": [
+    {
+     "name": "Input",
+     "stepped": false
+    },
+    {
+     "name": "Freq",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Poles",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "ZRegion2",
+   "params": [
+    {
+     "name": "Input",
+     "stepped": false
+    },
+    {
+     "name": "First",
+     "stepped": false
+    },
+    {
+     "name": "Last",
+     "stepped": false
+    },
+    {
+     "name": "Poles",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "ZBandpass",
+   "params": [
+    {
+     "name": "Input",
+     "stepped": false
+    },
+    {
+     "name": "Freq",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Poles",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "ZHighpass",
+   "params": [
+    {
+     "name": "Input",
+     "stepped": false
+    },
+    {
+     "name": "Freq",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Poles",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "ZLowpass",
+   "params": [
+    {
+     "name": "Input",
+     "stepped": false
+    },
+    {
+     "name": "Freq",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Poles",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "ZNotch",
+   "params": [
+    {
+     "name": "Input",
+     "stepped": false
+    },
+    {
+     "name": "Freq",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Poles",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "ZRegion",
+   "params": [
+    {
+     "name": "Input",
+     "stepped": false
+    },
+    {
+     "name": "First",
+     "stepped": false
+    },
+    {
+     "name": "Last",
+     "stepped": false
+    },
+    {
+     "name": "Poles",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "YBandpass",
+   "params": [
+    {
+     "name": "Gain",
+     "stepped": false
+    },
+    {
+     "name": "Freq",
+     "stepped": false
+    },
+    {
+     "name": "Reson8",
+     "stepped": false
+    },
+    {
+     "name": "ResEdge",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "YNotBandpass",
+   "params": [
+    {
+     "name": "Gain",
+     "stepped": false
+    },
+    {
+     "name": "Freq",
+     "stepped": false
+    },
+    {
+     "name": "Reson8",
+     "stepped": false
+    },
+    {
+     "name": "ResEdge",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "YHighpass",
+   "params": [
+    {
+     "name": "Gain",
+     "stepped": false
+    },
+    {
+     "name": "Freq",
+     "stepped": false
+    },
+    {
+     "name": "Reson8",
+     "stepped": false
+    },
+    {
+     "name": "ResEdge",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "YNotHighpass",
+   "params": [
+    {
+     "name": "Gain",
+     "stepped": false
+    },
+    {
+     "name": "Freq",
+     "stepped": false
+    },
+    {
+     "name": "Reson8",
+     "stepped": false
+    },
+    {
+     "name": "ResEdge",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "YLowpass",
+   "params": [
+    {
+     "name": "Gain",
+     "stepped": false
+    },
+    {
+     "name": "Freq",
+     "stepped": false
+    },
+    {
+     "name": "Reson8",
+     "stepped": false
+    },
+    {
+     "name": "ResEdge",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "YNotLowpass",
+   "params": [
+    {
+     "name": "Gain",
+     "stepped": false
+    },
+    {
+     "name": "Freq",
+     "stepped": false
+    },
+    {
+     "name": "Reson8",
+     "stepped": false
+    },
+    {
+     "name": "ResEdge",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "YNotch",
+   "params": [
+    {
+     "name": "Gain",
+     "stepped": false
+    },
+    {
+     "name": "Freq",
+     "stepped": false
+    },
+    {
+     "name": "Reson8",
+     "stepped": false
+    },
+    {
+     "name": "ResEdge",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "YNotNotch",
+   "params": [
+    {
+     "name": "Gain",
+     "stepped": false
+    },
+    {
+     "name": "Freq",
+     "stepped": false
+    },
+    {
+     "name": "Reson8",
+     "stepped": false
+    },
+    {
+     "name": "ResEdge",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "XBandpass",
+   "params": [
+    {
+     "name": "Gain",
+     "stepped": false
+    },
+    {
+     "name": "Freq",
+     "stepped": false
+    },
+    {
+     "name": "Nuke",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "XHighpass",
+   "params": [
+    {
+     "name": "Gain",
+     "stepped": false
+    },
+    {
+     "name": "Freq",
+     "stepped": false
+    },
+    {
+     "name": "Nuke",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "XLowpass",
+   "params": [
+    {
+     "name": "Gain",
+     "stepped": false
+    },
+    {
+     "name": "Freq",
+     "stepped": false
+    },
+    {
+     "name": "Nuke",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "XNotch",
+   "params": [
+    {
+     "name": "Gain",
+     "stepped": false
+    },
+    {
+     "name": "Freq",
+     "stepped": false
+    },
+    {
+     "name": "Nuke",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "XRegion",
+   "params": [
+    {
+     "name": "Gain",
+     "stepped": false
+    },
+    {
+     "name": "First",
+     "stepped": false
+    },
+    {
+     "name": "Last",
+     "stepped": false
+    },
+    {
+     "name": "Nuke",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  }
+ ]
+}

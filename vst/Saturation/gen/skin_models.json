@@ -1,0 +1,319 @@
+{
+ "category": "Saturation",
+ "name": "AW Saturation",
+ "vendor": "Airwindows",
+ "slots": 6,
+ "models": [
+  {
+   "name": "Spiral3",
+   "params": [
+    {
+     "name": "Input",
+     "stepped": false
+    },
+    {
+     "name": "Smooth",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Weave",
+   "params": [
+    {
+     "name": "Input",
+     "stepped": false
+    },
+    {
+     "name": "Smooth",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "PurestSaturation",
+   "params": [
+    {
+     "name": "Input",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "SquareRoot",
+   "params": [
+    {
+     "name": "In",
+     "stepped": false
+    },
+    {
+     "name": "Soar",
+     "stepped": false
+    },
+    {
+     "name": "Out",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Hypersoft",
+   "params": [
+    {
+     "name": "Input",
+     "stepped": false
+    },
+    {
+     "name": "Depth",
+     "stepped": false
+    },
+    {
+     "name": "Bright",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Longhand",
+   "params": [
+    {
+     "name": "Input",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Creature",
+   "params": [
+    {
+     "name": "Drive",
+     "stepped": false
+    },
+    {
+     "name": "Depth",
+     "stepped": false
+    },
+    {
+     "name": "Inv/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Huge",
+   "params": [
+    {
+     "name": "Huge",
+     "stepped": false
+    },
+    {
+     "name": "Nasty",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "NCSeventeen",
+   "params": [
+    {
+     "name": "LOUDER",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Tube2",
+   "params": [
+    {
+     "name": "Input",
+     "stepped": false
+    },
+    {
+     "name": "Tube",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Tube",
+   "params": [
+    {
+     "name": "TUBE",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Spiral2",
+   "params": [
+    {
+     "name": "Input",
+     "stepped": false
+    },
+    {
+     "name": "Highpass",
+     "stepped": false
+    },
+    {
+     "name": "Presence",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "PurestDrive",
+   "params": [
+    {
+     "name": "Drive",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Focus",
+   "params": [
+    {
+     "name": "Boost",
+     "stepped": false
+    },
+    {
+     "name": "Focus",
+     "stepped": false
+    },
+    {
+     "name": "Mode",
+     "stepped": true
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Mojo",
+   "params": [
+    {
+     "name": "Input",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Dyno",
+   "params": [
+    {
+     "name": "Input",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Spiral",
+   "params": []
+  },
+  {
+   "name": "UnBox",
+   "params": [
+    {
+     "name": "Input",
+     "stepped": false
+    },
+    {
+     "name": "UnBox",
+     "stepped": false
+    },
+    {
+     "name": "Output",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Desk4",
+   "params": [
+    {
+     "name": "Overdrive",
+     "stepped": false
+    },
+    {
+     "name": "Hi Choke",
+     "stepped": false
+    },
+    {
+     "name": "Power Sag",
+     "stepped": false
+    },
+    {
+     "name": "Frequency",
+     "stepped": false
+    },
+    {
+     "name": "Output Trim",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "Righteous4",
+   "params": [
+    {
+     "name": "LTarget",
+     "stepped": false
+    },
+    {
+     "name": "BtDepth",
+     "stepped": true
+    }
+   ]
+  }
+ ]
+}

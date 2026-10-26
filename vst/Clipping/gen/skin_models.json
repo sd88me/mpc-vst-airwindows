@@ -1,0 +1,121 @@
+{
+ "category": "Clipping",
+ "name": "AW Clipping",
+ "vendor": "Airwindows",
+ "slots": 5,
+ "models": [
+  {
+   "name": "ADClip9",
+   "params": [
+    {
+     "name": "Boost",
+     "stepped": false
+    },
+    {
+     "name": "Match",
+     "stepped": false
+    },
+    {
+     "name": "Noise",
+     "stepped": false
+    },
+    {
+     "name": "Ceiling",
+     "stepped": false
+    },
+    {
+     "name": "Mode",
+     "stepped": true
+    }
+   ]
+  },
+  {
+   "name": "ClipOnly3",
+   "params": []
+  },
+  {
+   "name": "ADClip8",
+   "params": [
+    {
+     "name": "Boost",
+     "stepped": false
+    },
+    {
+     "name": "Ceiling",
+     "stepped": false
+    },
+    {
+     "name": "Mode",
+     "stepped": true
+    }
+   ]
+  },
+  {
+   "name": "ClipOnly2",
+   "params": []
+  },
+  {
+   "name": "ClipSoftly",
+   "params": []
+  },
+  {
+   "name": "OneCornerClip",
+   "params": [
+    {
+     "name": "Input",
+     "stepped": false
+    },
+    {
+     "name": "Pos Thr",
+     "stepped": false
+    },
+    {
+     "name": "Neg Thr",
+     "stepped": false
+    },
+    {
+     "name": "Voicing",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "ADClip7",
+   "params": [
+    {
+     "name": "Boost",
+     "stepped": false
+    },
+    {
+     "name": "Soften",
+     "stepped": false
+    },
+    {
+     "name": "Enhance",
+     "stepped": false
+    },
+    {
+     "name": "Mode",
+     "stepped": true
+    }
+   ]
+  },
+  {
+   "name": "AQuickVoiceClip",
+   "params": [
+    {
+     "name": "Highpass",
+     "stepped": false
+    }
+   ]
+  },
+  {
+   "name": "FinalClip",
+   "params": []
+  }
+ ]
+}
