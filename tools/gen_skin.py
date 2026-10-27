@@ -175,9 +175,9 @@ def model_panel(params, first, pidx_of_slot, cond, style, qover):
         p = ps[i]; pi = pidx_of_slot(first + i); role = LY.role_of(p["name"], p["stepped"])
         out.append(control("awKnob_%s_%s" % (sz, role), p["name"], pi, round(x - S / 2), round(cy - S / 2), S, S, cond))
         out.append(label("Name", pi, round(x - spacing / 2), round(cy + ldy - lh / 2), round(spacing), lh, LY.mpc_h(lp), st["legend"], cond=cond))
-        if qover:   # the Q-Link badge in front of the name (64 x 32 image, badge in the middle: see render_badges)
+        if qover:   # the Q-Link badge in front of the name (64 x 64 image, badge in the middle: see render_badges)
             bx = x - text_w(lp, p["name"]) / 2 - 16
-            out.append(image("badge_%d_%d.png" % ((i // 4) % 4, i % 8 + 1), round(bx - 32), round(cy + ldy - 16), 64, 32, cond))
+            out.append(image("badge_%d_%d.png" % ((i // 4) % 4, i % 8 + 1), round(bx - 32), round(cy + ldy - 32), 64, 64, cond))
         out.append(label("Value", pi, round(x - spacing / 2), round(cy + vdy - vh / 2), round(spacing), vh, LY.mpc_h(vp), st["value"],
                          style="SemiBold", cond=cond))
     return out

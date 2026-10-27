@@ -285,12 +285,12 @@ def render_qover(style, out):
 
 
 def render_badges(style, out):
-    """Q-Link badges, one per column colour and Force knob number (1-8). The image is 64 x 32 with the badge in its middle: the
-    MPC Live III draws an image only when it is at least 64 px wide (smaller ones vanish, larger ones are cropped, not scaled)."""
+    """Q-Link badges, one per column colour and Force knob number (1-8). The image is 64 x 64 with the badge in its middle: the
+    MPC Live III drew 64 x 64 images reliably but not smaller ones (28, 56) and sometimes not 64 x 32 (device tests 2026-10-27)."""
     for g in range(4):
         for k in range(1, 9):
-            im = Image.new("RGBA", (64 * SS, 32 * SS), (0, 0, 0, 0)); draw_badge(ImageDraw.Draw(im), 32, 16, g, k)
-            im.resize((64, 32), Image.LANCZOS).save(os.path.join(out, f"badge_{g}_{k}.png"))
+            im = Image.new("RGBA", (64 * SS, 64 * SS), (0, 0, 0, 0)); draw_badge(ImageDraw.Draw(im), 32, 32, g, k)
+            im.resize((64, 64), Image.LANCZOS).save(os.path.join(out, f"badge_{g}_{k}.png"))
     print("badges", flush=True)
 
 
