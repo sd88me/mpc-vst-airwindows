@@ -179,6 +179,14 @@ bool step_press(inst_t *s, const char *key, const char *val) {
 
 void set_param(void *p, const char *key, const char *val) {
     inst_t *s = (inst_t *)p;
+    if (FILE *lf = fopen("/tmp/aw_steplog", "r+")) {   // debug: touch /tmp/aw_steplog to log non-knob sets
+        if (!strncmp(key, "model", 5) || !strncmp(key, "page", 4) || !strncmp(key, "man_page", 8)) {
+            fseek(lf, 0, SEEK_END);
+            auto ms = std::chrono::duration_cast<std::chrono::milliseconds>(std::chrono::steady_clock::now().time_since_epoch()).count();
+            fprintf(lf, "%lld %s=%s page=%d\n", (long long)ms, key, val, s->page);
+        }
+        fclose(lf);
+    }
     if (step_press(s, key, val)) return;
     if (!strcmp(key, "model")) { select_model(s, atoi(val)); return; }
     if (!strcmp(key, "state")) { load_state(s, val); return; }

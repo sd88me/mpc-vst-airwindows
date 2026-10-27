@@ -230,8 +230,8 @@ def ink_text(d, style, items):
 
 
 def render_bgs(style, out):
-    head = [((1184, 136), "AIRWINDOWS  ·  CONTROLS", 15, "rs")]
-    for name, tx in (("controls", head), ("none", [((1184, 136), "AIRWINDOWS  ·  NO CONTROLS", 15, "rs")])):
+    head = [((1176, 130), "AIRWINDOWS COLLECTIONS", 15, "rs")]
+    for name, tx in (("controls", head), ("none", [((1176, 130), "AIRWINDOWS COLLECTIONS", 15, "rs")])):
         img = base_panel(style, [LY.SECTION], tx, footer=False)
 
         def extra(im, tx=tx, name=name):
@@ -243,7 +243,7 @@ def render_bgs(style, out):
 
 
 def render_manual(style, out):
-    texts = [((1184, 136), "AIRWINDOWS  ·  MANUAL", 15, "rs")]
+    texts = [((1176, 172), "MANUAL", 15, "rs"), ((1176, 130), "AIRWINDOWS COLLECTIONS", 15, "rs")]
     img = base_panel(style, [LY.SECTION], texts, footer=False)
 
     def extra(im):
@@ -260,8 +260,15 @@ def render_manual(style, out):
 
 
 # ---- Q-Link overlay layers, category plates ---------------------------------------------------------------------------
+def draw_badge(d, cx, cy, g, k):
+    """One Q-Link badge (the Force knob number 1-8 in its column's colour) centred on cx, cy."""
+    gc = tuple(int(255 * c) for c in LY.GROUP[g])
+    d.ellipse([(cx - 12) * SS, (cy - 12) * SS, (cx + 12) * SS, (cy + 12) * SS], fill=(16, 16, 18, 235), outline=gc + (255,), width=int(2.4 * SS))
+    d.text((cx * SS, cy * SS), str(k), font=font("b", 16 * SS), fill=gc + (255,), anchor="mm")
+
+
 def render_qover(style, out):
-    """Per control count: the Q-Link column brackets under a one-row layout (badges are separate images, see render_badges)."""
+    """Per control count: the Q-Link column brackets (one-row layouts), one full-panel image (badges are separate, see render_badges)."""
     for n in range(1, 15):
         rows, sz, ldy, vdy, bdy = LY.layout(n)
         im = Image.new("RGBA", (W * SS, H * SS), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
@@ -278,14 +285,12 @@ def render_qover(style, out):
 
 
 def render_badges(style, out):
-    """Q-Link badges: the Force knob number (1-8) in its column's colour; the skin puts one before each control's name."""
+    """Q-Link badges, one per column colour and Force knob number (1-8). The image is 64 x 32 with the badge in its middle: the
+    MPC Live III draws an image only when it is at least 64 px wide (smaller ones vanish, larger ones are cropped, not scaled)."""
     for g in range(4):
-        gc = tuple(int(255 * c) for c in LY.GROUP[g])
         for k in range(1, 9):
-            im = Image.new("RGBA", (28 * SS, 28 * SS), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
-            d.ellipse([2 * SS, 2 * SS, 26 * SS, 26 * SS], fill=(16, 16, 18, 235), outline=gc + (255,), width=int(2.4 * SS))
-            d.text((14 * SS, 14 * SS), str(k), font=font("b", 16 * SS), fill=gc + (255,), anchor="mm")
-            im.resize((28, 28), Image.LANCZOS).save(os.path.join(out, f"badge_{g}_{k}.png"))
+            im = Image.new("RGBA", (64 * SS, 32 * SS), (0, 0, 0, 0)); draw_badge(ImageDraw.Draw(im), 32, 16, g, k)
+            im.resize((64, 32), Image.LANCZOS).save(os.path.join(out, f"badge_{g}_{k}.png"))
     print("badges", flush=True)
 
 
@@ -322,8 +327,8 @@ def main():
     cats = sorted({json.load(open(f))["category"] for f in glob.glob(os.path.join(a.vst, "*", "gen", "skin_models.json"))})
     if "bg" in only: render_bgs(a.style, a.out)
     if "manual" in only: render_manual(a.style, a.out)
-    if "qover" in only: render_qover(a.style, a.out)
     if "badges" in only: render_badges(a.style, a.out)
+    if "qover" in only: render_qover(a.style, a.out)
     if "cats" in only: render_cats(a.style, a.out, cats)
     if "knobs" in only: render_knobs(a.style, a.out, set(a.knobs.split(",")))
 

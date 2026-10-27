@@ -150,12 +150,12 @@ def step_buttons(idx, prev_key, next_key, pos):
     return [control("awBtn", "Step", idx[k], x, y, BTN_W, BTN_H) for k, (x, y) in zip((prev_key, next_key), pos)]
 
 
-def header(idx, style):
+def header(idx, style, info=True):
     """[<] model name [>] and the description under it (every tab)."""
     st = LY.STYLES[style]; x, y, w, h = LY.MODEL_BOX; ix, iy, iw, ih = LY.INFO_BOX
     return ([control("awSelect", "Model", idx["model"], x, y, w, h),
              label("Value", idx["model"], x, y, w, h, LY.mpc_h(40), st["title"], "horizontallyCentred verticallyCentred"),
-             label("Value", idx["info"], ix, iy, iw, ih, LY.mpc_h(19), st["info"], "left verticallyCentred", "Regular")]
+             ] + ([label("Value", idx["info"], ix, iy, iw, ih, LY.mpc_h(19), st["info"], "left verticallyCentred", "Regular")] if info else [])
             + step_buttons(idx, "model_prev", "model_next", LY.BTN_MODEL))
 
 
@@ -174,14 +174,10 @@ def model_panel(params, first, pidx_of_slot, cond, style, qover):
     for i, x, cy in flat:
         p = ps[i]; pi = pidx_of_slot(first + i); role = LY.role_of(p["name"], p["stepped"])
         out.append(control("awKnob_%s_%s" % (sz, role), p["name"], pi, round(x - S / 2), round(cy - S / 2), S, S, cond))
-        # the Q-Link badge sits in front of the control's name; the pair is centred over the knob
-        tw = text_w(lp, p["name"]); unit = 28 + 4 + tw; left = x - unit / 2
-        if qover:
-            out.append(image("badge_%d_%d.png" % ((i // 4) % 4, i % 8 + 1), round(left), round(cy + ldy - 14), 28, 28, cond))
-            out.append(label("Name", pi, round(left + 32), round(cy + ldy - lh / 2), round(tw + 30), lh, LY.mpc_h(lp), st["legend"],
-                             "left verticallyCentred", cond=cond))
-        else:
-            out.append(label("Name", pi, round(x - spacing / 2), round(cy + ldy - lh / 2), round(spacing), lh, LY.mpc_h(lp), st["legend"], cond=cond))
+        out.append(label("Name", pi, round(x - spacing / 2), round(cy + ldy - lh / 2), round(spacing), lh, LY.mpc_h(lp), st["legend"], cond=cond))
+        if qover:   # the Q-Link badge in front of the name (64 x 32 image, badge in the middle: see render_badges)
+            bx = x - text_w(lp, p["name"]) / 2 - 16
+            out.append(image("badge_%d_%d.png" % ((i // 4) % 4, i % 8 + 1), round(bx - 32), round(cy + ldy - 16), 64, 32, cond))
         out.append(label("Value", pi, round(x - spacing / 2), round(cy + vdy - vh / 2), round(spacing), vh, LY.mpc_h(vp), st["value"],
                          style="SemiBold", cond=cond))
     return out
@@ -240,7 +236,7 @@ def main(port, style, qover):
         qmap.append({"Tab": 1, "SubTab": pg + 1, "Bank Direction": "Column", "Q-Links": qlinks(sl)})
 
     gx, gy, gw, gh = LY.PAGE_BOX
-    man = [image("bg_manual.png", 0, 0, W, H)] + header(idx, style)
+    man = [image("bg_manual.png", 0, 0, W, H)] + header(idx, style, info=False)
     man.append(control("awPage", "Page", idx["man_page"], gx, gy, gw, gh))
     man.append(label("Value", idx["man_info"], gx, gy, gw, gh, LY.mpc_h(26), st["info"], "horizontallyCentred verticallyCentred", "SemiBold"))
     man += step_buttons(idx, "page_prev", "page_next", LY.BTN_PAGE)

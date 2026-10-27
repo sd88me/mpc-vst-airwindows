@@ -25,16 +25,16 @@ def mpc_h(p):
 
 # the panel: frame 46 px; header row (model stepper, description, category plate); one big engraved section
 FRAME = 46
-SECTION = (84, 146, 1196, 566)       # x0, y0, x1, y1
+SECTION = (84, 152, 1196, 566)       # x0, y0, x1, y1
 BTN = (56, 56)
-BTN_MODEL = ((100, 62), (612, 62))   # previous / next model, around the model name
-MODEL_BOX = (164, 60, 440, 60)       # live model name (between the arrows)
-INFO_BOX = (104, 118, 700, 28)       # live one-line description
-CAT_PLATE = (836, 66, 360, 36)       # the category accent plate (controls tabs)
-PAGE_BOX = (822, 60, 300, 60)        # live "page X / Y", between the page arrows (manual tab)
-BTN_PAGE = ((760, 62), (1130, 62))
-MANUAL_LINES = (100, 158, 950, 33)   # x, y0, width, line step (12 lines)
-LEGEND_BOX = (1066, 170, 120, 380)   # the knob-colour legend, inside the manual panel (swatch left, label right)
+BTN_MODEL = ((100, 54), (612, 54))   # previous / next model, around the model name
+MODEL_BOX = (164, 52, 440, 60)       # live model name (between the arrows)
+INFO_BOX = (104, 112, 700, 28)       # live one-line description
+CAT_PLATE = (836, 58, 360, 36)       # the category accent plate (controls tabs)
+PAGE_BOX = (940, 52, 150, 60)        # live "page X / Y", between the page arrows (manual tab)
+BTN_PAGE = ((876, 54), (1098, 54))
+MANUAL_LINES = (100, 178, 950, 31)   # x, y0, width, line step (12 lines)
+LEGEND_BOX = (1066, 190, 120, 360)   # the knob-colour legend, inside the manual panel (swatch left, label right)
 
 STYLES = {
     "A": {"legend": "ffe2e4e8", "value": "ffbcc0c8", "title": "ffe8eaee", "info": "ffb8bcc4", "btn_fill": "ff34373c", "btn_text": "ffe8eaee", "body": "ffd6d9de"},
@@ -85,6 +85,9 @@ def layout(n):
         rows.append([(640 + (i - (k - 1) / 2) * st, cy) for i in range(k)])
     return rows, sz, -(1.46 * r + 18), 1.17 * r + 22, 0
 
+
+# Q-Link badge: centre offset left of the knob centre, clear of a typical name (85th percentile width / 2 + badge radius)
+BADGE_DX = {"large": 67, "normal": 58, "small": 50}
 
 GROUP = [(0.95, 0.62, 0.15), (0.30, 0.72, 0.85), (0.80, 0.45, 0.80), (0.55, 0.80, 0.35)]   # Q-Link column colours
 

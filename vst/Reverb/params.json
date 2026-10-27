@@ -254,29 +254,25 @@
    "key": "model_prev",
    "name": "<",
    "momentary": true,
-   "step_of": "model",
-   "step_delta": -1
+   "refresh_display": true
   },
   {
    "key": "model_next",
    "name": ">",
    "momentary": true,
-   "step_of": "model",
-   "step_delta": 1
+   "refresh_display": true
   },
   {
    "key": "page_prev",
    "name": "<",
    "momentary": true,
-   "step_of": "man_page",
-   "step_delta": -1
+   "refresh_display": true
   },
   {
    "key": "page_next",
    "name": ">",
    "momentary": true,
-   "step_of": "man_page",
-   "step_delta": 1
+   "refresh_display": true
   }
  ]
 }

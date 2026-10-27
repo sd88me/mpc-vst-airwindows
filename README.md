@@ -66,6 +66,12 @@ MPC draws live text at about 0.64 of the label height, so text is sized by its v
   `<` `>` buttons or the PRESET menu. The Reverb host test reports 4 such checks as failed.
 - Experimental native Q-Link column outlines (`AW_QLINK_NATIVE=1 tools/gen_skin.py ...`) are off by default and unverified on a
   Force or Live III (only checked on an MPC One upstream).
+- The MPC Live III (aarch64) draws an Image component only when the PNG is at least 64 px wide: smaller ones vanish and larger
+  ones are cropped, not scaled (device test, 2026-10-27). The Force draws any size. So the Q-Link badges are 64 x 32 images with
+  the badge in the middle (`render_badges`). Keep every skin image at least 64 px wide.
+- MPC delivers each touch on a momentary button twice, 80 to 140 ms apart. `src/engine.cpp` handles the step buttons itself with
+  a 250 ms debounce: do not give them `step_of` in params.json (the wrapper would then step on both events). Re-run
+  `tools/gen_categories.py` before a rebuild after changing the generator, or vst.json/params.json go stale.
 - Whole-set builds are slow (QEMU); the aarch64 compile sometimes segfaults once: just run it again.
 
 ## Releasing (plan)
