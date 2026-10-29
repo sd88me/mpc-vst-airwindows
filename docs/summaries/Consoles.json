@@ -1,0 +1,493 @@
+{
+ "CStrip": {
+  "what": "An Airwindows channel strip: three-band EQ, filters, gate, compressor and micro-delay.",
+  "sound": "Strange and aggressive. Boosting the top adds Energy-style bite. The ButterComp-style compressor has a speed control that can be pushed into artefacts.",
+  "use": "One channel strip that can also do sonic destruction.",
+  "controls": {
+   "Treble": "Treble gain. Heavy boosts add aggressive highs.",
+   "Mid": "Mid gain.",
+   "Bass": "Bass gain.",
+   "Lowpass": "Lowpass. Off at its extreme.",
+   "TrebFrq": "Treble crossover frequency.",
+   "BassFrq": "Bass crossover frequency.",
+   "Hipass": "Highpass. Off at its extreme.",
+   "Gate": "Gate amount, with a release that pulls sound back in the picture.",
+   "Compres": "Compression amount.",
+   "CompSpd": "Compressor speed. Keep it low for normal behaviour.",
+   "TimeLag": "Micro-delay for groove against other tracks.",
+   "OutGain": "Output gain."
+  },
+  "src": "241e5180b2"
+ },
+ "ConsoleHBuss": {
+  "what": "The ConsoleH buss: tone shaping, filters and threshold for the 2-buss.",
+  "sound": "Adaptable and big. Almost everything drops out when flat. Includes a near-clip light and rainbow meter.",
+  "use": "On the 2-buss after ConsoleH channels, at unity gain.",
+  "controls": {
+   "High": "High band gain.",
+   "Mid": "Mid band gain.",
+   "Low": "Low band gain.",
+   "Thresh": "Dynamics threshold.",
+   "Lowpass": "Lowpass (DJ-isolator style). Off at zero.",
+   "Hipass": "Highpass (DJ-isolator style). Off at zero.",
+   "Pan": "Pan position or trim.",
+   "Fader": "Buss fader."
+  },
+  "src": "37c925f62e"
+ },
+ "ConsoleX2Buss": {
+  "what": "A ConsoleX2 buss with four-band EQ and threshold.",
+  "sound": "Not documented upstream yet. Written from the control names only.",
+  "use": "On the 2-buss in the ConsoleX2 system.",
+  "controls": {
+   "High": "High band gain.",
+   "HMid": "High-mid band gain.",
+   "LMid": "Low-mid band gain.",
+   "Bass": "Bass band gain.",
+   "HighF": "High band frequency.",
+   "HMidF": "High-mid band frequency.",
+   "LMidF": "Low-mid band frequency.",
+   "BassF": "Bass band frequency.",
+   "Thresh": "Dynamics threshold.",
+   "Pan": "Pan position.",
+   "Fader": "Buss fader."
+  },
+  "src": "da39a3ee5e"
+ },
+ "PurestConsole4Buss": {
+  "what": "The PurestConsole4 PurestConsole4Buss stage.",
+  "sound": "Not documented upstream yet. Written from the control names only.",
+  "use": "Console system summing; keep unity gain between channels and buss.",
+  "controls": {
+   "Smooth": "Smoothing amount.",
+   "Pan": "Pan position.",
+   "Fader": "Level."
+  },
+  "src": "da39a3ee5e"
+ },
+ "PurestConsole4Channel": {
+  "what": "The PurestConsole4 PurestConsole4Channel stage.",
+  "sound": "Not documented upstream yet. Written from the control names only.",
+  "use": "Console system summing; keep unity gain between channels and buss.",
+  "controls": {
+   "Smooth": "Smoothing amount.",
+   "Pan": "Pan position.",
+   "Fader": "Level."
+  },
+  "src": "da39a3ee5e"
+ },
+ "Console9Channel": {
+  "what": "Just the summing from ConsoleX, as a standalone Console9Channel.",
+  "sound": "Clean console summing with Discontinuity-style air nonlinearity. Keep unity gain.",
+  "use": "Channel on every channel, Buss on the 2-buss.",
+  "controls": {
+   "Pan": "Pan position.",
+   "Fader": "Level."
+  },
+  "src": "b7200c5531"
+ },
+ "Console9Buss": {
+  "what": "Just the summing from ConsoleX, as a standalone Console9Buss.",
+  "sound": "Clean console summing with Discontinuity-style air nonlinearity. Keep unity gain.",
+  "use": "Channel on every channel, Buss on the 2-buss.",
+  "controls": {
+   "Pan": "Pan position.",
+   "Fader": "Level."
+  },
+  "src": "fb248de5f5"
+ },
+ "ConsoleLAChannel": {
+  "what": "The Airwindows take on the Quad Eight console, the sound of 1970s LA (ConsoleLAChannel).",
+  "sound": "Big, wide, cinematic and enormous headroom. Not flat at neutral.",
+  "use": "Channel plugins on the channels and the Buss on the 2-buss.",
+  "controls": {
+   "Treble": "Treble gain.",
+   "Mid": "Mid gain.",
+   "Bass": "Bass gain.",
+   "Pan": "Pan position.",
+   "Fader": "Channel fader.",
+   "Master": "Master level of the buss."
+  },
+  "src": "cbc095ad07"
+ },
+ "ConsoleLABuss": {
+  "what": "The Airwindows take on the Quad Eight console, the sound of 1970s LA (ConsoleLABuss).",
+  "sound": "Big, wide, cinematic and enormous headroom. Not flat at neutral.",
+  "use": "Channel plugins on the channels and the Buss on the 2-buss.",
+  "controls": {
+   "Treble": "Treble gain.",
+   "Mid": "Mid gain.",
+   "Bass": "Bass gain.",
+   "Pan": "Pan position.",
+   "Fader": "Channel fader.",
+   "Master": "Master level of the buss."
+  },
+  "src": "092a860819"
+ },
+ "ConsoleMCChannel": {
+  "what": "The initial, bright take on the MCI console (ConsoleMCChannel).",
+  "sound": "Gnarly analog summing built from Creature, Sinew, ResEQ2, Pear and BitShiftPan. Bright. Not flat at neutral.",
+  "use": "Best at 96k. Channel plugins on channels, Buss on the 2-buss.",
+  "controls": {
+   "Treble": "Treble gain.",
+   "MidFreq": "Frequency of the mid boost.",
+   "MidPeak": "Amount of the mid boost (boost only, like the MCI).",
+   "Bass": "Bass gain.",
+   "Pan": "Pan, with a special switching network.",
+   "Fader": "Fader before the EQ, like the MCI.",
+   "Master": "Master level of the buss."
+  },
+  "src": "a4dfd4e5db"
+ },
+ "ConsoleMCBuss": {
+  "what": "The initial, bright take on the MCI console (ConsoleMCBuss).",
+  "sound": "Gnarly analog summing built from Creature, Sinew, ResEQ2, Pear and BitShiftPan. Bright. Not flat at neutral.",
+  "use": "Best at 96k. Channel plugins on channels, Buss on the 2-buss.",
+  "controls": {
+   "Treble": "Treble gain.",
+   "MidFreq": "Frequency of the mid boost.",
+   "MidPeak": "Amount of the mid boost (boost only, like the MCI).",
+   "Bass": "Bass gain.",
+   "Pan": "Pan, with a special switching network.",
+   "Fader": "Fader before the EQ, like the MCI.",
+   "Master": "Master level of the buss."
+  },
+  "src": "86eef349ed"
+ },
+ "ConsoleMDChannel": {
+  "what": "The tone-shaping take on the classic MCI console (ConsoleMDChannel).",
+  "sound": "Like ConsoleMC without SubTight, with pristine EQ options.",
+  "use": "Best at 96k. Channel plugins on channels, Buss on the 2-buss.",
+  "controls": {
+   "Treble": "Treble gain.",
+   "MidFreq": "Frequency of the mid boost.",
+   "MidPeak": "Amount of the mid boost (boost only, like the MCI).",
+   "Bass": "Bass gain.",
+   "Pan": "Pan, with a special switching network.",
+   "Fader": "Fader before the EQ, like the MCI.",
+   "Master": "Master level of the buss."
+  },
+  "src": "c326efc086"
+ },
+ "ConsoleMDBuss": {
+  "what": "The tone-shaping take on the classic MCI console (ConsoleMDBuss).",
+  "sound": "Like ConsoleMC without SubTight, with pristine EQ options.",
+  "use": "Best at 96k. Channel plugins on channels, Buss on the 2-buss.",
+  "controls": {
+   "Treble": "Treble gain.",
+   "MidFreq": "Frequency of the mid boost.",
+   "MidPeak": "Amount of the mid boost (boost only, like the MCI).",
+   "Bass": "Bass gain.",
+   "Pan": "Pan, with a special switching network.",
+   "Fader": "Fader before the EQ, like the MCI.",
+   "Master": "Master level of the buss."
+  },
+  "src": "81f5423fe0"
+ },
+ "Console8LiteChannel": {
+  "what": "Simplified Console8 with a single mix buss (Console8LiteChannel).",
+  "sound": "Console8's ultrasonic filtering, distributed highpass and transformer-style treble softening, in traditional channel-and-buss form.",
+  "use": "Channel last on each channel, faders at unity, Buss first on the buss.",
+  "controls": {
+   "Fader": "Level."
+  },
+  "src": "c947a70af2"
+ },
+ "Console8LiteBuss": {
+  "what": "Simplified Console8 with a single mix buss (Console8LiteBuss).",
+  "sound": "Console8's ultrasonic filtering, distributed highpass and transformer-style treble softening, in traditional channel-and-buss form.",
+  "use": "Channel last on each channel, faders at unity, Buss first on the buss.",
+  "controls": {
+   "Fader": "Level."
+  },
+  "src": "cc5d024f9f"
+ },
+ "Console8ChannelIn": {
+  "what": "Console8 Console8ChannelIn: the analog-simulation stage that goes first.",
+  "sound": "Subtle, solid and physical. Distributed ultrasonic filtering, highpass and treble softening.",
+  "use": "In plugins go FIRST on channels, submixes and the master buss, Out plugins last, with unity gain between.",
+  "controls": {},
+  "src": "8c62a3415a"
+ },
+ "Console8SubIn": {
+  "what": "Console8 Console8SubIn: the analog-simulation stage that goes first.",
+  "sound": "Subtle, solid and physical. Distributed ultrasonic filtering, highpass and treble softening.",
+  "use": "In plugins go FIRST on channels, submixes and the master buss, Out plugins last, with unity gain between.",
+  "controls": {},
+  "src": "7869e3c01c"
+ },
+ "Console8BussIn": {
+  "what": "Console8 Console8BussIn: the analog-simulation stage that goes first.",
+  "sound": "Subtle, solid and physical. Distributed ultrasonic filtering, highpass and treble softening.",
+  "use": "In plugins go FIRST on channels, submixes and the master buss, Out plugins last, with unity gain between.",
+  "controls": {},
+  "src": "4ae3cd9b86"
+ },
+ "Console8ChannelOut": {
+  "what": "Console8 Console8ChannelOut: the stage that goes last.",
+  "sound": "Subtle analog simulation across the channel, submix and buss topology.",
+  "use": "Out plugins go LAST on channels, submixes and the master buss.",
+  "controls": {
+   "Fader": "Level."
+  },
+  "src": "78ea02b528"
+ },
+ "Console8SubOut": {
+  "what": "Console8 Console8SubOut: the stage that goes last.",
+  "sound": "Subtle analog simulation across the channel, submix and buss topology.",
+  "use": "Out plugins go LAST on channels, submixes and the master buss.",
+  "controls": {
+   "Fader": "Level."
+  },
+  "src": "866809450b"
+ },
+ "Console8BussOut": {
+  "what": "Console8 Console8BussOut: the stage that goes last.",
+  "sound": "Subtle analog simulation across the channel, submix and buss topology.",
+  "use": "Out plugins go LAST on channels, submixes and the master buss.",
+  "controls": {
+   "Fader": "Level."
+  },
+  "src": "7294fbad1c"
+ },
+ "Console8ChannelHype": {
+  "what": "A brighter, sparklier swap for the matching Console8 In plugin (Console8ChannelHype).",
+  "sound": "Softer and more ethereal than the In plugin. The more stages you replace, the more hyped it gets.",
+  "use": "Swap in place of the matching In plugin. No controls.",
+  "controls": {},
+  "src": "0847590e81"
+ },
+ "Console8SubHype": {
+  "what": "A brighter, sparklier swap for the matching Console8 In plugin (Console8SubHype).",
+  "sound": "Softer and more ethereal than the In plugin. The more stages you replace, the more hyped it gets.",
+  "use": "Swap in place of the matching In plugin. No controls.",
+  "controls": {},
+  "src": "5e721f54ba"
+ },
+ "Console8BussHype": {
+  "what": "A brighter, sparklier swap for the matching Console8 In plugin (Console8BussHype).",
+  "sound": "Softer and more ethereal than the In plugin. The more stages you replace, the more hyped it gets.",
+  "use": "Swap in place of the matching In plugin. No controls.",
+  "controls": {},
+  "src": "985865200b"
+ },
+ "Console0Channel": {
+  "what": "A radical, minimalist Console system (Console0Channel).",
+  "sound": "Extremely pure: about eight maths operations per sample. Either you hear it or you don't.",
+  "use": "Only for those who buy into the idea. Needs a clean path.",
+  "controls": {
+   "Vol": "Volume.",
+   "Pan": "Pan position."
+  },
+  "src": "31a58fb1d1"
+ },
+ "Console0Buss": {
+  "what": "A radical, minimalist Console system (Console0Buss).",
+  "sound": "Extremely pure: about eight maths operations per sample. Either you hear it or you don't.",
+  "use": "Only for those who buy into the idea. Needs a clean path.",
+  "controls": {
+   "Vol": "Volume.",
+   "Pan": "Pan position."
+  },
+  "src": "0f9dadc862"
+ },
+ "PurestConsole3Channel": {
+  "what": "An alternate algorithm for minimalist Console (PurestConsole3Channel).",
+  "sound": "A custom sin()/asin() with a near-sin approximation, in the Console Zero line.",
+  "use": "Channel on every channel, Buss on the 2-buss.",
+  "controls": {},
+  "src": "8fc31159dd"
+ },
+ "PurestConsole3Buss": {
+  "what": "An alternate algorithm for minimalist Console (PurestConsole3Buss).",
+  "sound": "A custom sin()/asin() with a near-sin approximation, in the Console Zero line.",
+  "use": "Channel on every channel, Buss on the 2-buss.",
+  "controls": {},
+  "src": "3a3d65bc8c"
+ },
+ "PurestConsole2Channel": {
+  "what": "The distributed-filter version of PurestConsole (PurestConsole2Channel).",
+  "sound": "Console summing with filtering spread through the chain, as a clean alternative to Console7.",
+  "use": "Channel on every channel, Buss on the 2-buss.",
+  "controls": {},
+  "src": "07a976f69d"
+ },
+ "PurestConsole2Buss": {
+  "what": "The distributed-filter version of PurestConsole (PurestConsole2Buss).",
+  "sound": "Console summing with filtering spread through the chain, as a clean alternative to Console7.",
+  "use": "Channel on every channel, Buss on the 2-buss.",
+  "controls": {},
+  "src": "2bb52d65d9"
+ },
+ "Console7Channel": {
+  "what": "Console7 Console7Channel: anti-alias filtering and saturation curves tied to the slider position.",
+  "sound": "Glue and solidity like an analog desk. Ultrasonic filtering is spread through every stage.",
+  "use": "Channel on every channel, Buss on the 2-buss, unity gain between. Mix with trims, not faders.",
+  "controls": {
+   "Fader": "Channel level."
+  },
+  "src": "bbc7fad2a5"
+ },
+ "Console7Buss": {
+  "what": "Console7 Console7Buss: anti-alias filtering and saturation curves tied to the slider position.",
+  "sound": "Glue and solidity like an analog desk. Ultrasonic filtering is spread through every stage.",
+  "use": "Channel on every channel, Buss on the 2-buss, unity gain between. Mix with trims, not faders.",
+  "controls": {
+   "Master": "Master level."
+  },
+  "src": "3a778a9e6d"
+ },
+ "Console7Cascade": {
+  "what": "A drop-in Console7Channel replacement that allows much higher gain.",
+  "sound": "Five stages of Console7 processing. A consoley crunch that mostly gets intense and loud.",
+  "use": "Slamming drums or channels in a Console7 mix. Heavy on CPU.",
+  "controls": {
+   "Cascade": "How hard you drive the five stages."
+  },
+  "src": "aae1d048f1"
+ },
+ "Console7Crunch": {
+  "what": "Console7Cascade with its filtering order changed for more edge and grit.",
+  "sound": "More crunchy with distorted punch in the extreme highs.",
+  "use": "When you want a grittier high-gain Console7 channel.",
+  "controls": {
+   "Crunch": "How hard you drive the stages."
+  },
+  "src": "4c175ec546"
+ },
+ "PurestConsoleChannel": {
+  "what": "The most coloration-free Console system (PurestConsoleChannel).",
+  "sound": "Console5-style saturation and anti-saturation, as pure as possible.",
+  "use": "Channel on every channel, Buss on the 2-buss.",
+  "controls": {},
+  "src": "c28c2ef510"
+ },
+ "PurestConsoleBuss": {
+  "what": "The most coloration-free Console system (PurestConsoleBuss).",
+  "sound": "Console5-style saturation and anti-saturation, as pure as possible.",
+  "use": "Channel on every channel, Buss on the 2-buss.",
+  "controls": {},
+  "src": "b4e505fc00"
+ },
+ "Console6Channel": {
+  "what": "A more intense Console that peaks at a lower dB (Console6Channel).",
+  "sound": "Based on a simple inverse-square encode/decode pair.",
+  "use": "Channel on every channel, Buss on the 2-buss.",
+  "controls": {
+   "Input": "Input level."
+  },
+  "src": "b3d950077f"
+ },
+ "Console6Buss": {
+  "what": "A more intense Console that peaks at a lower dB (Console6Buss).",
+  "sound": "Based on a simple inverse-square encode/decode pair.",
+  "use": "Channel on every channel, Buss on the 2-buss.",
+  "controls": {
+   "Input": "Input level."
+  },
+  "src": "70ede8b5b5"
+ },
+ "PDChannel": {
+  "what": "Console5 and PurestDrive in one plugin (PDChannel).",
+  "sound": "A soft, lush tap with a PurestDrive stage on every channel and the buss.",
+  "use": "Replace any Console5 plugin of the same type.",
+  "controls": {
+   "Gain": "Input gain.",
+   "Drive": "PurestDrive amount."
+  },
+  "src": "55b2739f44"
+ },
+ "PDBuss": {
+  "what": "Console5 and PurestDrive in one plugin (PDBuss).",
+  "sound": "A soft, lush tap with a PurestDrive stage on every channel and the buss.",
+  "use": "Replace any Console5 plugin of the same type.",
+  "controls": {
+   "Gain": "Input gain.",
+   "Drive": "PurestDrive amount."
+  },
+  "src": "28365d52a3"
+ },
+ "Console5Channel": {
+  "what": "A richer, warmer Console system (Console5Channel).",
+  "sound": "Warmer and more expensive maths, close to Density or PurestDrive.",
+  "use": "Channel on every channel, Buss on the 2-buss.",
+  "controls": {
+   "Input": "Input level."
+  },
+  "src": "d870199c54"
+ },
+ "Console5Buss": {
+  "what": "A richer, warmer Console system (Console5Buss).",
+  "sound": "Warmer and more expensive maths, close to Density or PurestDrive.",
+  "use": "Channel on every channel, Buss on the 2-buss.",
+  "controls": {
+   "Input": "Input level."
+  },
+  "src": "7532959d17"
+ },
+ "Console5DarkCh": {
+  "what": "A richer, warmer Console system (Console5DarkCh).",
+  "sound": "Warmer and more expensive maths, close to Density or PurestDrive.",
+  "use": "Channel on every channel, Buss on the 2-buss.",
+  "controls": {
+   "Input": "Input level."
+  },
+  "src": "813e6fbb39"
+ },
+ "C5RawBuss": {
+  "what": "The original Console5 algorithm with optional gentle DC suppression.",
+  "sound": "The original Console5 sound.",
+  "use": "Original Console5 flavour.",
+  "controls": {
+   "Center": "Amount of DC suppression."
+  },
+  "src": "7d68d7bd0b"
+ },
+ "AtmosphereChannel": {
+  "what": "Console5 processing with acoustic distance effects (AtmosphereChannel).",
+  "sound": "A multi-stage slew clipper that glues and tames digital highs and adds a sense of distance.",
+  "use": "Interchangeable with other Console5 plugins.",
+  "controls": {
+   "Input": "Input level."
+  },
+  "src": "e12f85713c"
+ },
+ "AtmosphereBuss": {
+  "what": "Console5 processing with acoustic distance effects (AtmosphereBuss).",
+  "sound": "A multi-stage slew clipper that glues and tames digital highs and adds a sense of distance.",
+  "use": "Interchangeable with other Console5 plugins.",
+  "controls": {
+   "Input": "Input level."
+  },
+  "src": "1b6fc60f7c"
+ },
+ "Console4Channel": {
+  "what": "The original Airwindows in-the-box mixing system (Console4Channel).",
+  "sound": "The first two-plugin mix buss replacement.",
+  "use": "Channel on every channel, Buss on the 2-buss.",
+  "controls": {
+   "Trim": "Input trim."
+  },
+  "src": "d2afa929af"
+ },
+ "Console4Buss": {
+  "what": "The original Airwindows in-the-box mixing system (Console4Buss).",
+  "sound": "The first two-plugin mix buss replacement.",
+  "use": "Channel on every channel, Buss on the 2-buss.",
+  "controls": {
+   "Trim": "Input trim."
+  },
+  "src": "c1da38ca12"
+ },
+ "EveryConsole": {
+  "what": "A mix-and-match Console containing many Console algorithms.",
+  "sound": "Console, Console6, Console7, Console8 sin()/asin(), PurestConsole3 and Console Zero, stripped of extras.",
+  "use": "Trying Console flavours on a channel.",
+  "controls": {
+   "ConType": "Chooses the Console algorithm.",
+   "InTrim": "Input trim.",
+   "OutTrim": "Output trim."
+  },
+  "src": "5f8c08fabd"
+ }
+}

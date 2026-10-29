@@ -1,0 +1,311 @@
+{
+ "ClearCoat": {
+  "what": "An array of bright ambience reverbs.",
+  "sound": "Dual-mono bright ambiences, the basis of CreamCoat and CrunchCoat.",
+  "use": "Bright ambience on albums and mixes.",
+  "controls": {
+   "Select": "Picks the ambience type.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "1172ead602"
+ },
+ "TapeDelay2": {
+  "what": "A flexible tape echo, rebuilt with undersampling and bandpass tone.",
+  "sound": "Convincing tape wobble when you move the time, with a long delay time.",
+  "use": "Tape echo and dub-style delays.",
+  "controls": {
+   "Time": "Delay time. Moving it wobbles like a tape deck.",
+   "Regen": "Feedback.",
+   "Freq": "Centre frequency of the bandpass in the echoes.",
+   "Reso": "Resonance of the bandpass.",
+   "Flutter": "Tape speed wobble.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "abe548ccd1"
+ },
+ "Doublelay": {
+  "what": "StereoDoubler with independent delays and feedback.",
+  "sound": "Pitch-shifted doubles with a delay tap on each side that can feed back.",
+  "use": "Widening and doubling vocals and guitars with delay.",
+  "controls": {
+   "Detune": "Pitch shift of the doubled left and right.",
+   "Delay L": "Delay time of the left double.",
+   "Delay R": "Delay time of the right double.",
+   "Feedbk": "Feedback.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "c2c4462c6e"
+ },
+ "PitchDelay": {
+  "what": "TapeDelay2 with pitch shift instead of flutter.",
+  "sound": "A tape-style echo where time wobble moves but pitch stays, with pitch shift on the echoes.",
+  "use": "Pitch-shifted echoes.",
+  "controls": {
+   "Time": "Delay time.",
+   "Regen": "Feedback.",
+   "Freq": "Bandpass centre frequency.",
+   "Reso": "Bandpass resonance.",
+   "Pitch": "Pitch shift of the echoes.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "a6da5bbc1e"
+ },
+ "SampleDelay": {
+  "what": "Three delays in one: milliseconds, samples and subsamples.",
+  "sound": "Not quite an echo or timing tool, a little of both. Up to 100 ms, 10 samples, and 1 subsample.",
+  "use": "Fine timing adjustments and comb effects.",
+  "controls": {
+   "ms": "Delay up to 100 ms.",
+   "Samples": "0 to 10 samples exactly.",
+   "Subsamp": "Subsample trim, 0 to 1 sample.",
+   "Inv/Wet": "Inverted, dry or wet blend."
+  },
+  "src": "563a28889e"
+ },
+ "BrightAmbience3": {
+  "what": "BrightAmbience with undersampling for high sample rates and better feedback.",
+  "sound": "Bright extruded reverb-like ambience with consistent tone at any rate.",
+  "use": "Bright gated ambience.",
+  "controls": {
+   "Start": "Where in the delay spread the ambience begins.",
+   "Length": "How long the ambience extends.",
+   "Feedback": "Feedback amount.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "f8f5590b3d"
+ },
+ "BrightAmbience2": {
+  "what": "BrightAmbience with better tone and more slapbacky effects.",
+  "sound": "Prime-number delay taps with stereo spread on centre sounds.",
+  "use": "Bright slapback ambience.",
+  "controls": {
+   "Start": "Where the ambience begins.",
+   "Length": "How long it extends.",
+   "Feedbck": "Feedback.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "abdd74c25a"
+ },
+ "BrightAmbience": {
+  "what": "The classic very bright gated reverb.",
+  "sound": "A big pile of prime-spaced delay taps: nasty but usable. Wet runs hot.",
+  "use": "Bright gated reverbs, mostly dry.",
+  "controls": {
+   "Dry/Wet": "Blend with the unprocessed signal.",
+   "Sustain": "Sustain: helps with CPU.",
+   "Decay": "Decay time."
+  },
+  "src": "2964381c35"
+ },
+ "TripleSpread": {
+  "what": "A stereo tripler with extra wideness, from GlitchShifter.",
+  "sound": "Three copies: one panned left and pitched down a few cents, one right and up.",
+  "use": "Widening mono tracks.",
+  "controls": {
+   "Spread": "Amount of pitch and stereo spread.",
+   "Tighten": "Tightens the effect.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "616b564a18"
+ },
+ "Melt": {
+  "what": "A wobbly, chorusy, weird diffuse effect.",
+  "sound": "Reads echoes from a delay buffer and moves them, melting the pitch.",
+  "use": "Weird wobble and diffusion.",
+  "controls": {
+   "Depth": "Depth of the wobble.",
+   "Range": "Range of the wobble.",
+   "Output": "Output level.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "5e51c0dc64"
+ },
+ "MV2": {
+  "what": "MV adapted to high sample rates.",
+  "sound": "Allpass-only bloom with the lo-fi mojo of the Alesis Midiverb.",
+  "use": "Vintage digital reverb bloom.",
+  "controls": {
+   "Depth": "Depth of the bloom.",
+   "Bright": "Brightness.",
+   "Regen": "Regeneration.",
+   "Output": "Output level.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "fa5f5d6e1f"
+ },
+ "MV": {
+  "what": "A dual-mono reverb based on BitShiftGain and the old Midiverbs.",
+  "sound": "Allpass-only bloom with the lo-fi mojo of the Alesis Midiverb.",
+  "use": "Vintage digital reverb bloom.",
+  "controls": {
+   "Depth": "Depth of the bloom.",
+   "Bright": "Brightness.",
+   "Regen": "Regeneration.",
+   "Output": "Output level.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "6f6aa6c771"
+ },
+ "ADT": {
+  "what": "A double short delay tap with saturation: artificial double-tracking.",
+  "sound": "Fixed flanging, as on lots of Beatles tracks, with two taps.",
+  "use": "Doubling vocals and guitars.",
+  "controls": {
+   "Headrm": "Headroom into the saturation.",
+   "A Delay": "Delay time of tap A.",
+   "A Level": "Level of tap A.",
+   "B Delay": "Delay time of tap B.",
+   "B Level": "Level of tap B.",
+   "Output": "Output level."
+  },
+  "src": "f07ddc0e89"
+ },
+ "kChamberAR": {
+  "what": "A take on tape echo into chamber echo.",
+  "sound": "A wild toy: tape echo feeding a chamber-style space.",
+  "use": "Chamber-like echoes.",
+  "controls": {
+   "Input": "Input level.",
+   "Delay": "Echo delay.",
+   "Regen": "Feedback.",
+   "Low Cut": "Cuts lows in the echo.",
+   "Wetness": "Dry/wet."
+  },
+  "src": "b868fb694f"
+ },
+ "StereoChorus": {
+  "what": "A nice basic stereo chorus.",
+  "sound": "Scales with speed so all settings feel equally intense.",
+  "use": "Basic stereo chorus.",
+  "controls": {
+   "Speed": "Chorus speed.",
+   "Depth": "Chorus depth."
+  },
+  "src": "c1134ba808"
+ },
+ "PurestEcho": {
+  "what": "Optimised echo with exactly four evenly spaced taps.",
+  "sound": "Precise discrete echoes that stop, with no feedback to muddy the mix.",
+  "use": "Slapback or short discrete echoes.",
+  "controls": {
+   "Time": "Overall echo spacing.",
+   "Tap 1": "Level of echo 1.",
+   "Tap 2": "Level of echo 2.",
+   "Tap 3": "Level of echo 3.",
+   "Tap 4": "Level of echo 4 (the longest)."
+  },
+  "src": "3a64908743"
+ },
+ "TapeDelay": {
+  "what": "An old-school tape echo with pitch swerve effects.",
+  "sound": "A precursor to Iron Oxide, with tone shaped by clusters of prime-numbered delay taps.",
+  "use": "Vintage tape echo.",
+  "controls": {
+   "Dry": "Dry level.",
+   "Wet": "Wet level.",
+   "Delay": "Delay time.",
+   "Feedbak": "Feedback.",
+   "Lean/Ft": "Leans the tone lean or fat.",
+   "Depth": "Depth of the pitch swerve."
+  },
+  "src": "eee71481e4"
+ },
+ "StarChild2": {
+  "what": "A weird digital ambience/echo adapted to high sample rates.",
+  "sound": "A distinctive, primitive but deep voice that isn't natural.",
+  "use": "Strange digital ambience.",
+  "controls": {
+   "Sustain": "How long it sustains.",
+   "Grain": "Graininess of the texture.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "c8805f1d53"
+ },
+ "StarChild": {
+  "what": "A weird digital ambience/echo plugin.",
+  "sound": "A distinctive voice with nothing to do with naturalness, like old Alesis and Effectron boxes.",
+  "use": "Strange digital ambience.",
+  "controls": {
+   "Sustain": "How long it sustains.",
+   "Grain": "Graininess of the texture.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "242289b279"
+ },
+ "Hombre": {
+  "what": "Atmosphere and texture through very short delays.",
+  "sound": "A grease-slide guitar texture inspired by ZZ Top records.",
+  "use": "Texture on guitars.",
+  "controls": {
+   "Voicing": "Picks the voicing of the delays.",
+   "Intensity": "Amount of effect."
+  },
+  "src": "4e152abee3"
+ },
+ "StereoEnsemble": {
+  "what": "A hyperchorus blast from the past.",
+  "sound": "Ensemble-y goodness with staggered delay pairs for stereo imaging.",
+  "use": "Thickening mono or stereo sources.",
+  "controls": {
+   "Depth": "Depth of the ensemble effect.",
+   "FXlevel": "Level of the effect."
+  },
+  "src": "e5655d1cd4"
+ },
+ "StereoDoubler": {
+  "what": "Like GlitchShifter, optimised for pitch-shift doubling and tripling.",
+  "sound": "Glitch-style pitch shifting for doubles.",
+  "use": "Doubling and tripling.",
+  "controls": {
+   "Detune": "Pitch shift of the doubled voices.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "2daddf28e4"
+ },
+ "Chorus": {
+  "what": "A mono chorus that also works as a vibrato.",
+  "sound": "A fluid sweep with a gentle lift to the highs.",
+  "use": "Basic chorus and vibrato.",
+  "controls": {
+   "Speed": "Sweep speed.",
+   "Range": "Sweep range.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "a85c9bd9de"
+ },
+ "ChorusEnsemble": {
+  "what": "A more complex, multi-tap mono chorus.",
+  "sound": "Rich, textured chorus from a bank of taps. Some settings are deliberately wrong.",
+  "use": "Lush chorusing.",
+  "controls": {
+   "Speed": "Sweep speed.",
+   "Range": "Sweep range.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "1877ea3968"
+ },
+ "Ensemble": {
+  "what": "A weird flangey little modulation effect.",
+  "sound": "A small flange-like ensemble.",
+  "use": "Quirky modulation.",
+  "controls": {
+   "Ensemble": "Ensemble amount.",
+   "Fullness": "Fullness of the sound.",
+   "Brighten": "Brightness.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "33d5b20ac3"
+ },
+ "Echojam": {
+  "what": "An echo effect that is secretly a reverb.",
+  "sound": "A strange failed reverb that gathers early delays into a single slapback-like clump, in the manner of Pink Floyd or U2 echoes.",
+  "use": "Guitar echo, or any echo with blurred repeats.",
+  "controls": {
+   "Select": "Picks the echo type.",
+   "Regen": "Feedback.",
+   "Speed": "Echo speed.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "798c9595bb"
+ }
+}

@@ -1,0 +1,169 @@
+{
+ "Distortion": {
+  "what": "A slightly dark, analog-style distortion with several selectable algorithms.",
+  "sound": "Warm and smooth, with the extreme highs softened by sample averaging. Aliasing is rejected better at higher sample rates (96k is a sweet spot). The Mojo and Dyno modes can curl into strange effects when slammed.",
+  "use": "Warm overdrive on bass, drums, guitars or synths when you want to pick a flavour of crunch and are happy to lose some top end.",
+  "controls": {
+   "Input": "Drive into the distortion.",
+   "Mode": "Chooses the distortion algorithm (for example Density, Drive, Spiral, Mojo, Dyno).",
+   "Output": "Level after the effect.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "4d85f891b3"
+ },
+ "Edge": {
+  "what": "A seven-stage, high-gain hard-clipping distortion with steep filters.",
+  "sound": "Bright, edgy and never smooth. Very high gain, with a distinctive tone from the filtering between stages.",
+  "use": "High-gain guitar, especially direct (DI) guitar, or a hard clipper. Run at high sample rates for the best aliasing rejection.",
+  "controls": {
+   "Gain": "Drive into the clipping stages.",
+   "Lowpass": "Cutoff of a steep lowpass, from 25k down to deep bass. Also the ultrasonic filter.",
+   "Highpass": "Cuts lows before the distortion to tighten it.",
+   "Output": "Level after the effect.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "bc8eec1818"
+ },
+ "Dirt": {
+  "what": "A softer, tubier soft-clip distortion in the spirit of Edge.",
+  "sound": "Softer clipping and lower gain than Edge, with the same controls and tone-shaping filters.",
+  "use": "Guitars, especially DI guitar into a cab sim, and anything that needs gentle grit.",
+  "controls": {
+   "Gain": "Drive into the soft clipper.",
+   "Lowpass": "Steep lowpass. Lower values keep aliasing away.",
+   "Highpass": "Cuts lows before the distortion.",
+   "Output": "Level after the effect.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "6e68ccda23"
+ },
+ "Mackity": {
+  "what": "The input stage of a vintage Mackie 1202 mixer.",
+  "sound": "Big, raw, spongy slam and a gleaming overload. No noise, no EQ modelling.",
+  "use": "Turning electronic music, drums or buses into a roaring wall of overloaded mixer. Not for refined recordings.",
+  "controls": {
+   "In Trim": "Drive into the mixer input stage.",
+   "Out Pad": "Level after the stage."
+  },
+  "src": "ccd06f059f"
+ },
+ "Density3": {
+  "what": "The latest refinement of Density, a smooth sine-based saturation.",
+  "sound": "Smooth saturation with a gentle highpass. The negative range dries up quieter regions without changing the tone.",
+  "use": "Refined dirt-shaping, fattening or bringing parts forward, and subtle gating-type tone control.",
+  "controls": {
+   "Density": "Saturation amount. Below centre is anti-saturation, which dries up quiet parts.",
+   "Highpas": "Dials back saturation on heavy bass.",
+   "Output": "Level after the effect.",
+   "Dry/Wet": "Blend with dry. Lets bass through when the highpass is up."
+  },
+  "src": "01fd5d80db"
+ },
+ "ZOutputStage": {
+  "what": "The output clipping stage from the Emu e6400-style Z filters, as a standalone distortion.",
+  "sound": "Hot, frizzy distortion on the edges of clipped sounds. Weird and twitchy.",
+  "use": "Adding grind and energy to synths, drum and bass sounds or anything digital. Turn the output down.",
+  "controls": {
+   "Input": "Drive into the stage. Above 0.1 it distorts.",
+   "Output": "Level after the effect. The stage is very hot."
+  },
+  "src": "c5aeca4aa7"
+ },
+ "Density2": {
+  "what": "The older Density algorithm, kept exactly as it was.",
+  "sound": "An alternate tone for Density, with its original quirks. Used on a hit record.",
+  "use": "When you want the old Density colour.",
+  "controls": {
+   "Density": "Saturation amount.",
+   "Highpass": "Dials back saturation on bass.",
+   "Output": "Level after the effect.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "b1f8aeeab3"
+ },
+ "Zoom": {
+  "what": "A bank of Density-like waveshapers that change peak energy while leaving loudness alone.",
+  "sound": "Subtle and hard to hear until pushed. Boosts hot peaks and cuts quieter material below centre.",
+  "use": "Mastering-style shaping of peak energy, or an overdrive or odd expander when cranked.",
+  "controls": {
+   "Zoom": "Amount and direction of peak reshaping. Centre is neutral."
+  },
+  "src": "4a6f976b76"
+ },
+ "Density": {
+  "what": "A Swiss Army Knife of saturation and anti-saturation, based on a sine transfer function.",
+  "sound": "The smoothest saturation: thick, fat and forward. Negative values thin the tone and push it back.",
+  "use": "Fattening, bringing parts forward or back, adding articulation to murky sounds, or huge grunge.",
+  "controls": {
+   "Density": "Saturation amount. Negative values un-saturate.",
+   "Highpass": "Filters the distorted signal so bass stays clean.",
+   "Out Level": "Level of the processed signal.",
+   "Dry/Wet": "Blend with the unfiltered dry."
+  },
+  "src": "0d1a6a66dc"
+ },
+ "Drive": {
+  "what": "The angry distortion: Density's layout with a grittier tone.",
+  "sound": "A nasty bark. Neither smooth nor trebly, and it hides nothing.",
+  "use": "Making a bass, snare or other sound sound angry.",
+  "controls": {
+   "Drive": "Distortion amount. Unlike Density, it has no negative range.",
+   "Highpass": "Filters the distorted signal.",
+   "Out Level": "Level of the processed signal.",
+   "Dry/Wet": "Blend with dry."
+  },
+  "src": "0b0a57d28e"
+ },
+ "Loud": {
+  "what": "A distortion modelled on air molecules breaking apart under extreme sound levels.",
+  "sound": "Extremely nonlinear: air compresses to near solid and snaps back fast. At zero boost it acts as glue; cranked it goes completely fried.",
+  "use": "Glue on a whole mix, or ferocious boosts on guitars and drums.",
+  "controls": {
+   "Boost": "Distortion amount. Even zero adds glue.",
+   "Output Level": "Level after the effect.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "fa6e3812d8"
+ },
+ "HardVacuum": {
+  "what": "Tube-style saturation with warmth and an unusual high-end control.",
+  "sound": "Sine-based saturation, second-harmonic warmth, and sparkly highs and searing overtones from Aura. Not a specific tube model.",
+  "use": "Tube-like saturation on tracks or the mix. Aura is a way to doctor tone that isn't EQ.",
+  "controls": {
+   "Drive": "Amount of saturation.",
+   "Warmth": "Second harmonic and nonlinearity, like a class A tube design. Exaggerated if pushed.",
+   "Aura": "Sparkly highs and hot overtones, reacting to the signal's amplitude and slope.",
+   "Output": "Level after the effect.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "64da61d890"
+ },
+ "HighImpact": {
+  "what": "Distorted grit and punch without fatness.",
+  "sound": "A raw 'dial-a-rasp' that leaves quiet samples alone, boosts mid ones a lot and walls off the loudest. Doesn't bloat.",
+  "use": "Percussive sounds that need rasp or slam without getting fatter.",
+  "controls": {
+   "Impact": "Amount of distortion.",
+   "Output Level": "Level after the effect.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "6a1b35cc37"
+ },
+ "MultiBandDistortion": {
+  "what": "An old, gnarly two-band sound wrecker.",
+  "sound": "Slammed, unnatural and choppy. Lowering Stable gives a Fuzz Factory-like effect.",
+  "use": "Wrecking sounds on purpose. It isn't meant to be controllable or clean.",
+  "controls": {
+   "Freqcy": "Crossover between the low and high bands.",
+   "H Gain": "Drive for the high band.",
+   "L Gain": "Drive for the low band.",
+   "H Hard": "Hardness of the high band's clipping.",
+   "L Hard": "Hardness of the low band's clipping.",
+   "H Mtrx": "High-band distortion matrix setting.",
+   "L Mtrx": "Low-band distortion matrix setting.",
+   "Stable": "Interaction between bands. Lower is more choppy and unstable.",
+   "Output": "Level after the effect."
+  },
+  "src": "04226aed32"
+ }
+}

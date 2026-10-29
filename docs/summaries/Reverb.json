@@ -1,0 +1,531 @@
+{
+ "kStation": {
+  "what": "A realistic small room modelled after David Bowie's vocal reverb.",
+  "sound": "A tiny space that merges with the sound, thickening and glamorizing it, with unusual midrange depth. Not a sustain reverb.",
+  "use": "Vocals and sources that need to sit in a small room.",
+  "controls": {
+   "Regen": "Regeneration: how long the reverb sustains.",
+   "Derez": "Bezier undersampling: lowers the effective sample rate for a darker, more retro tone.",
+   "Filter": "Bezier filter. Below 0.5 darkens; above gives unusual overtones.",
+   "EarlyRF": "Early reflections amount.",
+   "Positin": "Where your source sits in the virtual room.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "7f531a8d07"
+ },
+ "kWoodRoom": {
+  "what": "A small wooden performing space.",
+  "sound": "A convincing, intimate small room, as used for a vintage live-recording sound.",
+  "use": "Small-room ambience for live or acoustic sounds.",
+  "controls": {
+   "Regen": "Regeneration: how long the reverb sustains.",
+   "Derez": "Bezier undersampling: lowers the effective sample rate for a darker, more retro tone.",
+   "Filter": "Bezier filter. Below 0.5 darkens; above gives unusual overtones.",
+   "EarlyRF": "Early reflections amount.",
+   "Positin": "Where your source sits in the virtual room.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "2e7f27a6b8"
+ },
+ "kGuitarHall2": {
+  "what": "A loud-room guitar hall.",
+  "sound": "Loud, crackling-air arena feel with midrange depth that carries even on a cellphone.",
+  "use": "Guitars and anything that wants a big loud room.",
+  "controls": {
+   "Regen": "Regeneration: how long the reverb sustains.",
+   "Derez": "Bezier undersampling: lowers the effective sample rate for a darker, more retro tone.",
+   "Filter": "Bezier filter. Below 0.5 darkens; above gives unusual overtones.",
+   "EarlyRF": "Early reflections amount.",
+   "Positin": "Where your source sits in the virtual room.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "5b9eaf7f1d"
+ },
+ "kAlienSpaceship": {
+  "what": "An unreal but realistic reverb.",
+  "sound": "A strange, believable space from the genetic-algorithm reverb work.",
+  "use": "Unusual, otherworldly rooms.",
+  "controls": {
+   "Regen": "Regeneration: how long the reverb sustains.",
+   "Derez": "Bezier undersampling: lowers the effective sample rate for a darker, more retro tone.",
+   "Filter": "Bezier filter. Below 0.5 darkens; above gives unusual overtones.",
+   "EarlyRF": "Early reflections amount.",
+   "Positin": "Where your source sits in the virtual room.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "e47c819808"
+ },
+ "kCathedral5": {
+  "what": "A cathedral that lets you place yourself anywhere in the space.",
+  "sound": "Far-away, believable space with new early reflections replacing predelay.",
+  "use": "Cathedral depth where position in the room matters.",
+  "controls": {
+   "Regen": "Regeneration: how long the reverb sustains.",
+   "Derez": "Bezier undersampling: lowers the effective sample rate for a darker, more retro tone.",
+   "Filter": "Bezier filter. Below 0.5 darkens; above gives unusual overtones.",
+   "EarlyRF": "Early reflections amount.",
+   "Positin": "Where your source sits in the virtual room.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "698ada61c0"
+ },
+ "kCathedral4": {
+  "what": "The Cathedral sound expressed as distant space.",
+  "sound": "Flagship distant, wide cathedral using a full Householder matrix for early reflections.",
+  "use": "Deep, big spaces on mixes and ambient material.",
+  "controls": {
+   "Regen": "Regeneration: how long the reverb sustains.",
+   "Derez": "Bezier undersampling: lowers the effective sample rate for a darker, more retro tone.",
+   "Filter": "Bezier filter. Below 0.5 darkens; above gives unusual overtones.",
+   "EarlyRF": "Early reflections amount.",
+   "Predlay": "Predelay before the reverb.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "a634a56224"
+ },
+ "kBeyond": {
+  "what": "A recital hall.",
+  "sound": "Two matrices in one: early reflections feeding an eerily believable space, found by a genetic algorithm.",
+  "use": "Deep, big spaces on mixes and ambient material.",
+  "controls": {
+   "Regen": "Regeneration: how long the reverb sustains.",
+   "Derez": "Bezier undersampling: lowers the effective sample rate for a darker, more retro tone.",
+   "Filter": "Bezier filter. Below 0.5 darkens; above gives unusual overtones.",
+   "EarlyRF": "Early reflections amount.",
+   "Predlay": "Predelay before the reverb.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "12f27e8607"
+ },
+ "kCosmos": {
+  "what": "Infinite space ambient, or a titanic hall.",
+  "sound": "A huge ambient wash from a 5x5 Householder design.",
+  "use": "Deep, big spaces on mixes and ambient material.",
+  "controls": {
+   "Regen": "Regeneration: how long the reverb sustains.",
+   "Derez": "Bezier undersampling: lowers the effective sample rate for a darker, more retro tone.",
+   "Filter": "Bezier filter. Below 0.5 darkens; above gives unusual overtones.",
+   "EarlyRF": "Early reflections amount.",
+   "Predlay": "Predelay before the reverb.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "a50c01310b"
+ },
+ "kRockstar2": {
+  "what": "A realistic hall reverb using the Conference 6x6 matrix.",
+  "sound": "Pure, deep and uncoloured, with a Distance control for dark Bricasti-like spaces.",
+  "use": "Realistic halls that blend well.",
+  "controls": {
+   "Regen": "Regeneration: how long the reverb sustains.",
+   "Positin": "Where your source sits in the virtual room.",
+   "DownRez": "Undersampling for a darker, retro tone.",
+   "Distnce": "Distance: darkens and pushes the sound further away.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "711f83f650"
+ },
+ "kRockstar": {
+  "what": "A realistic hall reverb that blends very well.",
+  "sound": "Very pure, uncoloured deep hall, resistant to funny overtones.",
+  "use": "Natural halls.",
+  "controls": {
+   "Regen": "Regeneration: how long the reverb sustains.",
+   "Positin": "Where your source sits in the virtual room.",
+   "DownRez": "Undersampling for a darker, retro tone.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "27db91e623"
+ },
+ "kCyberCity": {
+  "what": "A deep reverb with live atmosphere: rainy neon dystopian feel.",
+  "sound": "Atmospheric and deep, from a 6x6 Householder matrix with early reflections.",
+  "use": "Moody, cinematic depth.",
+  "controls": {
+   "Regen": "Regeneration: how long the reverb sustains.",
+   "Positin": "Where your source sits in the virtual room.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "413be0f45f"
+ },
+ "kCathedral3": {
+  "what": "A giant cathedral-like space using Bezier undersampling.",
+  "sound": "Large, lush cathedral space.",
+  "use": "Cathedral depth and loud-room guitar.",
+  "controls": {
+   "Top dB": "Top level / headroom into the reverb.",
+   "Regen": "Regeneration: how long the reverb sustains.",
+   "DeRez": "Bezier undersampling: lowers the effective sample rate for a darker, more retro tone.",
+   "Predlay": "Predelay before the reverb.",
+   "Wetness": "Dry/wet, with both at full volume at the centre."
+  },
+  "src": "ae13c47f05"
+ },
+ "kGuitarHall": {
+  "what": "Reverb that accentuates loud midrange skronk.",
+  "sound": "Big, loud and roomy.",
+  "use": "Cathedral depth and loud-room guitar.",
+  "controls": {
+   "Top dB": "Top level / headroom into the reverb.",
+   "Regen": "Regeneration: how long the reverb sustains.",
+   "DeRez": "Bezier undersampling: lowers the effective sample rate for a darker, more retro tone.",
+   "Predlay": "Predelay before the reverb.",
+   "Wetness": "Dry/wet, with both at full volume at the centre."
+  },
+  "src": "0150944301"
+ },
+ "kCathedral2": {
+  "what": "A giant reverby space modelled after the Bricasti Cathedral.",
+  "sound": "A 5x5 Householder matrix with a different, more realistic sound than kCathedral.",
+  "use": "Huge cathedral spaces.",
+  "controls": {
+   "Wetness": "Dry/wet, with both at full volume at the centre."
+  },
+  "src": "511d7bb008"
+ },
+ "kCathedral": {
+  "what": "The first Bricasti-inspired giant space.",
+  "sound": "A 5x5 Householder matrix with a SubTight crossover for extra low delay.",
+  "use": "Large cathedral washes.",
+  "controls": {
+   "Wetness": "Dry/wet, with both at full volume at the centre."
+  },
+  "src": "f10393f549"
+ },
+ "kPlate140": {
+  "what": "A next-generation big plate reverb.",
+  "sound": "A larger, longer plate than kPlate240: a 5x5 Householder matrix with plate-style density and Pear filters.",
+  "use": "Vocals, drums and mix plate reverb.",
+  "controls": {
+   "Input": "Input level into the plate.",
+   "Regen": "Regeneration: how long the reverb sustains.",
+   "DeRez": "Bezier undersampling: lowers the effective sample rate for a darker, more retro tone.",
+   "Predlay": "Predelay before the reverb.",
+   "Wetness": "Dry/wet, with both at full volume at the centre."
+  },
+  "src": "5183303dfb"
+ },
+ "kPlate240": {
+  "what": "A smaller, gold-foil style plate reverb.",
+  "sound": "Texture of a smaller plate, built from many recent Airwindows developments.",
+  "use": "Vocals, drums and mix plate reverb.",
+  "controls": {
+   "Input": "Input level into the plate.",
+   "Regen": "Regeneration: how long the reverb sustains.",
+   "DeRez": "Bezier undersampling: lowers the effective sample rate for a darker, more retro tone.",
+   "Predlay": "Predelay before the reverb.",
+   "Wetness": "Dry/wet, with both at full volume at the centre."
+  },
+  "src": "3f2408d573"
+ },
+ "kPlateA": {
+  "what": "A plate reverb, not unlike its namesake atop Abbey Road.",
+  "sound": "A big, deep plate, modelled loosely on a famous Abbey Road plate.",
+  "use": "Plate reverb on vocals, drums and mixes.",
+  "controls": {
+   "InputPad": "Input level pad before the plate.",
+   "Damping": "Damping of the tail (higher is less damped, as on the original).",
+   "Low Cut": "Cuts lows going into the reverb.",
+   "Predelay": "Predelay before the reverb.",
+   "Wetness": "Dry/wet, with both at full volume at the centre."
+  },
+  "src": "d122bec547"
+ },
+ "kPlateB": {
+  "what": "A plate reverb, not unlike its namesake atop Abbey Road.",
+  "sound": "A shorter plate than kPlateA.",
+  "use": "Plate reverb on vocals, drums and mixes.",
+  "controls": {
+   "InputPad": "Input level pad before the plate.",
+   "Damping": "Damping of the tail (higher is less damped, as on the original).",
+   "Low Cut": "Cuts lows going into the reverb.",
+   "Predelay": "Predelay before the reverb.",
+   "Wetness": "Dry/wet, with both at full volume at the centre."
+  },
+  "src": "d2d44baeb1"
+ },
+ "kPlateC": {
+  "what": "A plate reverb, not unlike its namesake atop Abbey Road.",
+  "sound": "Even shorter and brighter than kPlateB.",
+  "use": "Plate reverb on vocals, drums and mixes.",
+  "controls": {
+   "InputPad": "Input level pad before the plate.",
+   "Damping": "Damping of the tail (higher is less damped, as on the original).",
+   "Low Cut": "Cuts lows going into the reverb.",
+   "Predelay": "Predelay before the reverb.",
+   "Wetness": "Dry/wet, with both at full volume at the centre."
+  },
+  "src": "d41d92b4a0"
+ },
+ "kPlateD": {
+  "what": "A plate reverb, not unlike its namesake atop Abbey Road.",
+  "sound": "The all-tube, longer, deeper plate.",
+  "use": "Plate reverb on vocals, drums and mixes.",
+  "controls": {
+   "InputPad": "Input level pad before the plate.",
+   "Damping": "Damping of the tail (higher is less damped, as on the original).",
+   "Low Cut": "Cuts lows going into the reverb.",
+   "Predelay": "Predelay before the reverb.",
+   "Wetness": "Dry/wet, with both at full volume at the centre."
+  },
+  "src": "49df47f636"
+ },
+ "VerbTiny": {
+  "what": "A simple classic artificial reverb that merges with the sound.",
+  "sound": "A texture-altering reverb with Bezier undersampling, not a placed acoustic space.",
+  "use": "Thickening and changing the tone of sounds.",
+  "controls": {
+   "Replace": "Galactic-style regeneration: how much new sound replaces the old.",
+   "Derez": "Bezier undersampling: lowers the effective sample rate for a darker, more retro tone.",
+   "Filter": "Bezier filter to make it darker.",
+   "Wider": "Blends in dual-mono for a richer, wider stereo texture.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "0cdd141e38"
+ },
+ "VerbThic": {
+  "what": "Like VerbTiny but opaque and textured.",
+  "sound": "Sits in front of the sound instead of far back.",
+  "use": "Thick, close reverb textures.",
+  "controls": {
+   "Replace": "Galactic-style regeneration.",
+   "Derez": "Bezier undersampling: lowers the effective sample rate for a darker, more retro tone.",
+   "Filter": "Bezier filter to make it darker.",
+   "Wider": "Blends in dual-mono for a wider texture.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "c83b73a762"
+ },
+ "Galactic3": {
+  "what": "Galactic with better undersampling.",
+  "sound": "The same super-reverb for pads and space ambient, now with Bezier undersampling.",
+  "use": "Deep ambient spaces and pads.",
+  "controls": {
+   "Replace": "How much new sound replaces the existing space.",
+   "Brightns": "Brightness into and out of the reverb.",
+   "Detune": "Pitch shift for widening.",
+   "Derez": "Bezier undersampling: lowers the effective sample rate for a darker, more retro tone.",
+   "Bigness": "Reverb buffer size. Changing it makes crashing noises.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "6342774dc7"
+ },
+ "Galactic": {
+  "what": "A super-reverb for pads and space ambient.",
+  "sound": "Wide stereo verb spaces from anything, even mono test tones.",
+  "use": "Pads and space ambient music.",
+  "controls": {
+   "Replace": "How much new sound replaces the existing space.",
+   "Brightness": "Brightness into and out of the reverb.",
+   "Detune": "Pitch shift for both channels, widening the sound.",
+   "Bigness": "Reverb buffer size. Changing it makes crashing noises.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "af11416e99"
+ },
+ "Galactic2": {
+  "what": "Galactic redesigned for pads and space ambient.",
+  "sound": "Bigger matrix, more organic texture, and a kill switch.",
+  "use": "Ambient spaces.",
+  "controls": {
+   "Drive": "How you feed in new audio while it rings.",
+   "Sustain": "Decay. Halfway is long; past two-thirds it feeds back forever; very short kills it.",
+   "Darken": "From bright and scintillating to mellow and distant.",
+   "Wetness": "Dry/wet, usually near full."
+  },
+  "src": "49ca16639d"
+ },
+ "CreamCoat": {
+  "what": "A swiss army knife reverb with soft undersampling.",
+  "sound": "Smooth, lush effect from Bezier undersampling, without antique-digital artefacts.",
+  "use": "General reverb and ambience.",
+  "controls": {
+   "Select": "Picks the reverb type, as in ClearCoat.",
+   "Regen": "Regeneration: how long the reverb sustains.",
+   "DeRez": "Bezier undersampling: lowers the effective sample rate for a darker, more retro tone.",
+   "Predlay": "Predelay before the reverb.",
+   "Wetness": "Dry/wet, with both at full volume at the centre."
+  },
+  "src": "5e6d5ca04b"
+ },
+ "CrunchCoat": {
+  "what": "A cursed retro digital reverb.",
+  "sound": "ClearCoat abused through undersampling for crunchy, lo-fi digital reverb.",
+  "use": "Retro, broken digital reverb.",
+  "controls": {
+   "Select": "Picks the reverb type.",
+   "Regen": "Regeneration: how long the reverb sustains.",
+   "DeRez": "How hard the undersampling crunches.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "8659a28823"
+ },
+ "Verbity2": {
+  "what": "Verbity with stereo crossmodulation.",
+  "sound": "A feedforward reverb that may beat Galactic for deep reverbs.",
+  "use": "Deep, natural reverbs.",
+  "controls": {
+   "RmSize": "Room size.",
+   "Sustain": "Reverb length.",
+   "Mulch": "Darkens and absorbs lows, like a room of wood and plaster.",
+   "Wetness": "Dry/wet."
+  },
+  "src": "6cf9dedafa"
+ },
+ "Verbity": {
+  "what": "A dual-mono feedforward reverb.",
+  "sound": "A reverb built on Householder matrices in a feedforward topology.",
+  "use": "A go-to deep, natural reverb.",
+  "controls": {
+   "Bigness": "Room size.",
+   "Longness": "Decay length.",
+   "Darkness": "Lowpass darkness. At 1.0 it's fully dark.",
+   "Wetness": "Dry/wet."
+  },
+  "src": "be140170fd"
+ },
+ "Ultralight2": {
+  "what": "More of the lowest-CPU matrix reverb.",
+  "sound": "Very efficient 4x4 Householder reverb with a tiny allpass chain.",
+  "use": "When CPU is tight, such as game-engine demos.",
+  "controls": {
+   "Damping": "Damping of the tail.",
+   "UnSolid": "Walls that are less than solid, so lows leak.",
+   "UnReflc": "Less reflective surfaces.",
+   "Predlay": "Predelay before the reverb.",
+   "Dry/Wet": "Blend with the unprocessed signal.",
+   "Distnce": "Distance: darkens and moves the sound further away."
+  },
+  "src": "da7704d11e"
+ },
+ "Ultralight": {
+  "what": "The most low-CPU matrix reverb.",
+  "sound": "A 4x4 Householder matrix with simple tone shaping.",
+  "use": "Where CPU is tight.",
+  "controls": {
+   "RT60": "Damping (reverb time). At zero you get infinite sustain.",
+   "Furnish": "How many of the first four combs become allpass filters (0 to 4).",
+   "SolidWl": "Wall solidity in the feedback paths (0 to 4).",
+   "ReflcWl": "Wall reflectivity.",
+   "Predlay": "Predelay before the reverb.",
+   "Dry/Wet": "Blend with the unprocessed signal.",
+   "Distnce": "Distance: darkens and moves the sound further away."
+  },
+  "src": "ee24087a62"
+ },
+ "Chamber2": {
+  "what": "A feedforward reverb, a blur delay and a glitch topping.",
+  "sound": "Golden-ratio delays that make a seamless reverb with regeneration and glitchy blur.",
+  "use": "Glitchy blurs and odd reverbs.",
+  "controls": {
+   "Delay": "Delay time of the blur.",
+   "Regen": "Regeneration: how long the reverb sustains.",
+   "Thick": "Thickness of the texture.",
+   "Wet": "Wet level."
+  },
+  "src": "453267e098"
+ },
+ "Chamber": {
+  "what": "A feedforward reverb based on the golden ratio.",
+  "sound": "Seamless reverb from delays in golden-ratio relationships, with a stuttery slapback at zero feedback.",
+  "use": "A distinct, smooth reverb.",
+  "controls": {
+   "Bigness": "Room size.",
+   "Longness": "Feedback/decay.",
+   "Liteness": "Lightness of the texture.",
+   "Darkness": "Darkening with warm IIR filters.",
+   "Wetness": "Dry/wet."
+  },
+  "src": "2744026085"
+ },
+ "Infinity2": {
+  "what": "Infinity with more tone shaping and a kill switch.",
+  "sound": "An infinitely sustaining reverb that can now be shut off.",
+  "use": "Layering sounds forever, then clearing them.",
+  "controls": {
+   "Filter": "Sweeps a filter in and out of the sound.",
+   "Size": "Space size, from gong-like to galactic.",
+   "Damping": "Tone damping. Doesn't shorten the tail.",
+   "Allpass": "Allpass amount.",
+   "Feedback": "Feedback amount; lower it to kill the sustain.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "b525d215f0"
+ },
+ "Infinity": {
+  "what": "A MatrixVerb designed to sustain and layer sounds forever.",
+  "sound": "Infinite sustain from feeding back on itself.",
+  "use": "Endless layered drones.",
+  "controls": {
+   "Filter": "Sweeps a filter, from deep space to bright and unnatural.",
+   "Damping": "Tone damping. Doesn't make the tail die away.",
+   "Size": "Resizes the space.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "980c556bdc"
+ },
+ "NonlinearSpace": {
+  "what": "A flexible reverb with filters and acoustic simulation in the loops.",
+  "sound": "A deep sound that blends into the mix, with a nonlinearity that can make loud sounds sustain longer.",
+  "use": "Flexible all-round reverb and ambient effects.",
+  "controls": {
+   "SmpRate": "Sample-rate style setting.",
+   "Livenes": "How live the space is.",
+   "Treble": "Treble content.",
+   "Bass": "Bass content.",
+   "Nonlin": "Nonlinearity: loud sounds can sustain longer.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "0cd1948340"
+ },
+ "MatrixVerb": {
+  "what": "A wildly adjustable, colourful reverb for deep and flexible spaces.",
+  "sound": "Householder reverb where highs fall away like a giant concrete cavern. Flavor leans platey or springy.",
+  "use": "Huge or small flexible spaces.",
+  "controls": {
+   "Filter": "Overall tone, bright or dark.",
+   "Damping": "From almost infinite reverb to very damped.",
+   "Speed": "Modulation speed.",
+   "Vibrato": "Modulation depth.",
+   "RmSize": "Room size.",
+   "Flavor": "Neutral, platey, or clangy spring.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "3dca15bd23"
+ },
+ "PocketVerbs": {
+  "what": "The classic special-effects reverbs plugin.",
+  "sound": "Special reverbs, a PaulStretch-type effect and an unusual gating effect.",
+  "use": "Reinventing drum sounds and effects.",
+  "controls": {
+   "Type": "Picks the effect type.",
+   "Size": "Size of the space.",
+   "Gating": "Gating amount.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "a9a2e1e300"
+ },
+ "Reverb": {
+  "what": "A simplified, tuned MatrixVerb with one size slider.",
+  "sound": "Centred sounds spread, subtle detune, and highs fall away like real air.",
+  "use": "A go-to reverb.",
+  "controls": {
+   "Big": "Size of the space.",
+   "Wet": "Wet level."
+  },
+  "src": "26d5b3cf90"
+ },
+ "VerbSevens": {
+  "what": "A calibrated reference reverb for reverb matrices.",
+  "sound": "A comb-filter-based reference reverb.",
+  "use": "Experimenting with reverb matrices. No controls.",
+  "controls": {},
+  "src": "3500f7fa9a"
+ },
+ "VerbSixes": {
+  "what": "A calibrated reference reverb for Householder matrices.",
+  "sound": "Escalates Householder matrices up to 6x6.",
+  "use": "Experimenting with Householder reverb. No controls.",
+  "controls": {},
+  "src": "9d772e302d"
+ }
+}

@@ -1,0 +1,653 @@
+{
+ "BezEQ4": {
+  "what": "A four-band BezEQ with frequency controls.",
+  "sound": "Not documented upstream yet. Written from the control names only.",
+  "use": "Four-band shelving EQ with sweepable frequencies.",
+  "controls": {
+   "High": "High band gain.",
+   "HMid": "High-mid band gain.",
+   "LMid": "Low-mid band gain.",
+   "Bass": "Bass band gain.",
+   "HighF": "High band frequency.",
+   "HMidF": "High-mid band frequency.",
+   "LMidF": "Low-mid band frequency.",
+   "BassF": "Bass band frequency."
+  },
+  "src": "da39a3ee5e"
+ },
+ "FastDistance": {
+  "what": "An ultra-efficient lowpass distance filter.",
+  "sound": "Rolls off highs like distant sound, cheap enough for many sources and wild modulation.",
+  "use": "Game audio and any source that should sound far away.",
+  "controls": {
+   "Distnce": "How far away: more distance, less treble."
+  },
+  "src": "77657b0df7"
+ },
+ "BezEQ3": {
+  "what": "Four vivid, unified Bezier-crossover bands, with zero latency.",
+  "sound": "A phasier, more vivid EQ than a normal one.",
+  "use": "A characterful four-band EQ.",
+  "controls": {
+   "High": "High band gain.",
+   "HMid": "High-mid band gain.",
+   "LMid": "Low-mid band gain.",
+   "Bass": "Bass band gain.",
+   "HighF": "High band frequency.",
+   "HMidF": "High-mid band frequency.",
+   "LMidF": "Low-mid band frequency.",
+   "BassF": "Bass band frequency."
+  },
+  "src": "a82460290f"
+ },
+ "Suzan": {
+  "what": "A new type of ladder filter.",
+  "sound": "A state-variable-style resonant filter with a sin() twist.",
+  "use": "Synth-style filtering.",
+  "controls": {
+   "Freq": "Cutoff frequency.",
+   "Reso": "Resonance.",
+   "Output": "Output level."
+  },
+  "src": "bd4c6b186e"
+ },
+ "SmoothEQ3": {
+  "what": "The most approachable EQ: the EQ section of ConsoleH.",
+  "sound": "Clean, obvious and reliable shelves.",
+  "use": "A basic tone EQ that always sounds good.",
+  "controls": {
+   "High": "High shelf gain.",
+   "Mid": "Mid gain.",
+   "Bass": "Bass shelf gain."
+  },
+  "src": "7547fa6939"
+ },
+ "PearEQ": {
+  "what": "A six-band Pear-based graphic EQ.",
+  "sound": "Based on the Pear filter from the Holt filter, as in ConsoleMC and ConsoleLA.",
+  "use": "Colourful graphic EQ with six fixed bands.",
+  "controls": {
+   "High": "High band gain.",
+   "HMid": "High-mid band gain.",
+   "Mid": "Mid band gain.",
+   "LMid": "Low-mid band gain.",
+   "Bass": "Bass band gain.",
+   "Sub": "Sub band gain."
+  },
+  "src": "d262123ce9"
+ },
+ "PearLiteEQ": {
+  "what": "A four-band Pear-based graphic EQ.",
+  "sound": "A secret weapon in the console emulations, now standalone.",
+  "use": "Four-band graphic EQ.",
+  "controls": {
+   "High": "High band gain.",
+   "HMid": "High-mid band gain.",
+   "LMid": "Low-mid band gain.",
+   "Bass": "Bass band gain."
+  },
+  "src": "1b9df63329"
+ },
+ "RetroBass": {
+  "what": "A special kind of highpass.",
+  "sound": "Grew from a 2nd and 4th harmonic generator; reshapes bass.",
+  "use": "Warming or tightening bass.",
+  "controls": {
+   "Freq": "Frequency."
+  },
+  "src": "a6a2ae9e32"
+ },
+ "FatEQ": {
+  "what": "Balances bands only with density.",
+  "sound": "Uses Density's functions so boosted loud sounds saturate rather than just getting louder.",
+  "use": "Fattening or thinning frequency bands.",
+  "controls": {
+   "High": "High band density.",
+   "HMid": "High-mid band density.",
+   "LMid": "Low-mid band density.",
+   "Bass": "Bass band density.",
+   "Out": "Output level."
+  },
+  "src": "1109effbf1"
+ },
+ "SmoothEQ2": {
+  "what": "A wildly intuitive four-band vibe EQ with clarity and intensity.",
+  "sound": "Four shelving bands with frequency sweeps for clear subtle moves.",
+  "use": "Four-band tone shaping.",
+  "controls": {
+   "High": "High band gain.",
+   "HMid": "High-mid band gain.",
+   "LMid": "Low-mid band gain.",
+   "Bass": "Bass band gain.",
+   "HighF": "High band frequency.",
+   "HMidF": "High-mid band frequency.",
+   "LMidF": "Low-mid band frequency.",
+   "BassF": "Bass band frequency."
+  },
+  "src": "f8b1ff5a8a"
+ },
+ "BezEQ2": {
+  "what": "A unique, subtle three-band shelving EQ.",
+  "sound": "Crossed bands that sum back with perfect fidelity.",
+  "use": "Subtle shelving EQ.",
+  "controls": {
+   "Treble": "Treble gain.",
+   "x": "Unused control.",
+   "Mid": "Mid gain.",
+   "Bass": "Bass gain."
+  },
+  "src": "80108957f3"
+ },
+ "BezEQ": {
+  "what": "A strange, alien three-band shelving EQ.",
+  "sound": "Bezier-curve crossovers give a sound like no other EQ.",
+  "use": "Unusual three-band tone shaping.",
+  "controls": {
+   "Treble": "Treble gain.",
+   "x": "Unused control.",
+   "Mid": "Mid gain.",
+   "Bass": "Bass gain."
+  },
+  "src": "eaa89e14a1"
+ },
+ "SmoothEQ": {
+  "what": "A sharp, accurate, transparent three-band filter.",
+  "sound": "Accurate and well behaved, a by-ear EQ like analog ones.",
+  "use": "General transparent EQ.",
+  "controls": {
+   "High": "High gain.",
+   "Mid": "Mid gain.",
+   "Low": "Low gain.",
+   "XoverH": "High crossover frequency.",
+   "XoverL": "Low crossover frequency."
+  },
+  "src": "87dbce5ab8"
+ },
+ "Parametric": {
+  "what": "Three ConsoleX EQ bands as a standalone plugin.",
+  "sound": "The ConsoleX peaking EQ.",
+  "use": "Three-band parametric EQ.",
+  "controls": {
+   "Tr Freq": "Treble band frequency.",
+   "Treble": "Treble band gain.",
+   "Tr Reso": "Treble band Q.",
+   "HM Freq": "High-mid band frequency.",
+   "HighMid": "High-mid band gain.",
+   "HM Reso": "High-mid band Q.",
+   "LM Freq": "Low-mid band frequency.",
+   "LowMid": "Low-mid band gain.",
+   "LM Reso": "Low-mid band Q.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "1f1f344e1b"
+ },
+ "Dattorro": {
+  "what": "The resonant lowpass filter out of Donut: a state-variable filter.",
+  "sound": "A simple, efficient SVF that can stand in for a biquad.",
+  "use": "Resonant lowpass filtering.",
+  "controls": {
+   "Freq": "Cutoff frequency.",
+   "Reso": "Resonance.",
+   "Output": "Output level."
+  },
+  "src": "377c8f4c25"
+ },
+ "Donut": {
+  "what": "An envelope-following filter in memory of Dilla.",
+  "sound": "An envelope follower driving filter frequency and resonance.",
+  "use": "Dilla-style filtered grooves and other effects.",
+  "controls": {
+   "Attack": "Envelope attack.",
+   "Release": "Envelope release.",
+   "BaseFrq": "Base filter frequency.",
+   "MoveFrq": "How far the envelope moves the frequency.",
+   "BaseRes": "Base resonance.",
+   "MoveRes": "How far the envelope moves the resonance.",
+   "Output": "Output level."
+  },
+  "src": "11a9aa2999"
+ },
+ "Silken": {
+  "what": "A high-frequency boost that gives ambience and texture.",
+  "sound": "Subtracts a brickwall-ish lowpass for silky highs.",
+  "use": "Adding airy ambience and texture to the top end.",
+  "controls": {
+   "Silken": "Amount of boost.",
+   "Freq": "Frequency.",
+   "Window": "Filter window size."
+  },
+  "src": "b2a2d5a18f"
+ },
+ "Stonefire": {
+  "what": "The non-EQ EQ designed for ConsoleX.",
+  "sound": "Kalman filters for a unique tone-split: Stone for lows and Fire for highs.",
+  "use": "Tone shaping that behaves unlike normal EQs.",
+  "controls": {
+   "Air": "Air band level.",
+   "Fire": "Fire (highs) level.",
+   "Stone": "Stone (lows) level.",
+   "Range": "Where Stone and Fire split."
+  },
+  "src": "9fcea92ffd"
+ },
+ "AngleEQ": {
+  "what": "A strange and colourful EQ.",
+  "sound": "Irregular and non-flat; never meant as your main EQ.",
+  "use": "Colourful, experimental EQ.",
+  "controls": {
+   "High": "High gain.",
+   "Mid": "Mid gain.",
+   "Low": "Low gain.",
+   "HiFreq": "High frequency.",
+   "MHiFreq": "Upper-mid frequency.",
+   "MLoFreq": "Lower-mid frequency.",
+   "LoFreq": "Low frequency.",
+   "Inv/Wet": "Inverted, dry or wet blend."
+  },
+  "src": "c7b2589d1b"
+ },
+ "AngleFilter": {
+  "what": "The synth-style extension of AngleEQ.",
+  "sound": "Very strange and weird, an offshoot of the AngleEQ filter.",
+  "use": "Experimental filtering.",
+  "controls": {
+   "Freq": "Cutoff frequency.",
+   "Hard": "Hardness.",
+   "Reso": "Resonance.",
+   "Poles": "Number of poles."
+  },
+  "src": "f47f84b617"
+ },
+ "Isolator3": {
+  "what": "Isolator2 on one slider, with a band-narrower control.",
+  "sound": "Centre is full range, left is lowpass, right is highpass.",
+  "use": "DJ-style filter sweeps on one knob.",
+  "controls": {
+   "Iso": "The sweep: lowpass to the left, highpass to the right.",
+   "Q": "Narrows the band."
+  },
+  "src": "d6e6e35cb9"
+ },
+ "Baxandall3": {
+  "what": "A Baxandall with new tone colours.",
+  "sound": "Tone colours not heard before, from combining Baxandall and Baxandall2.",
+  "use": "Broad treble and bass shaping with unusual flavours.",
+  "controls": {
+   "Input": "Input level.",
+   "Treble": "Treble gain.",
+   "Bass": "Bass gain."
+  },
+  "src": "4f2138d2f0"
+ },
+ "Baxandall2": {
+  "what": "Baxandall, extended and more powerful.",
+  "sound": "Broad strokes bass and treble, with interleaved biquads.",
+  "use": "Broad tone control.",
+  "controls": {
+   "Treble": "Treble gain.",
+   "Bass": "Bass gain."
+  },
+  "src": "67cf88aa6a"
+ },
+ "Baxandall": {
+  "what": "A killer general-purpose EQ.",
+  "sound": "Bit-identical at zero; broad gentle boosts with a mid notch when both are boosted.",
+  "use": "Simple bass and treble tone control.",
+  "controls": {
+   "Treble": "Treble gain.",
+   "Bass": "Bass gain.",
+   "Output": "Output level."
+  },
+  "src": "ebefee4e8f"
+ },
+ "Pear2": {
+  "what": "The Pear filter plus nonlinearity.",
+  "sound": "Fixed, bit-shifted cutoffs plus a nonlinear option.",
+  "use": "Shelving high or low filters with character.",
+  "controls": {
+   "Freq": "Cutoff frequency.",
+   "NonLin": "Nonlinearity amount.",
+   "Poles": "Number of poles.",
+   "Inv/Wet": "Inverted, dry or wet blend."
+  },
+  "src": "bd8ea3a0b8"
+ },
+ "Capacitor2": {
+  "what": "Capacitor with extra analog modelling.",
+  "sound": "Models how ceramic capacitors lose capacitance under voltage.",
+  "use": "Lowpass and highpass with analog-style nonlinearity.",
+  "controls": {
+   "Lowpass": "Lowpass cutoff.",
+   "Highpass": "Highpass cutoff.",
+   "NonLin": "Capacitor nonlinearity.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "10e251dbf0"
+ },
+ "Distance3": {
+  "what": "Combines the best parts of Distance and Discontinuity.",
+  "sound": "Darkens the sound and makes it far away, with air nonlinearity.",
+  "use": "Sound design, moving sounds back, or loudness.",
+  "controls": {
+   "Distance": "How far away.",
+   "Top dB": "Top level, setting the apparent peak loudness.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "cd76c68d45"
+ },
+ "Pear": {
+  "what": "A highpass/lowpass shelf testbed with a new filter type.",
+  "sound": "A fixed-frequency shelving filter with bit-shifted cutoffs.",
+  "use": "Experimental filtering in the Console family.",
+  "controls": {
+   "bitFreq": "Cutoff frequency, in bit-shift steps.",
+   "Poles": "Number of poles.",
+   "Inv/Wet": "Inverted, dry or wet blend."
+  },
+  "src": "1a343cf6ca"
+ },
+ "ResEQ2": {
+  "what": "A single, sharp, sonorous mid peak.",
+  "sound": "Clarity and character beyond a biquad, from the MCI console work.",
+  "use": "Precision midrange boosting.",
+  "controls": {
+   "MSweep": "Sweeps the mid frequency.",
+   "MBoost": "Boost amount."
+  },
+  "src": "35cde7f6de"
+ },
+ "SubTight": {
+  "what": "Tightens sub-lows using a variation on Creature.",
+  "sound": "A soft slew clipper that cancels sub-lows.",
+  "use": "Tightening bass.",
+  "controls": {
+   "Trim": "Level trim.",
+   "Steep": "How steep the effect is."
+  },
+  "src": "16a0e297f9"
+ },
+ "CStrip2": {
+  "what": "A refined CStrip with Capacitor filters and saturation.",
+  "sound": "Three-band EQ, Capacitor highpass/lowpass, the original compressor, and a saturation stage.",
+  "use": "A channel strip.",
+  "controls": {
+   "Treble": "Treble gain.",
+   "Mid": "Mid gain.",
+   "Bass": "Bass gain.",
+   "TrebFrq": "Treble frequency.",
+   "BassFrq": "Bass frequency.",
+   "LowCap": "Capacitor highpass.",
+   "HiCap": "Capacitor lowpass.",
+   "Compres": "Compression amount.",
+   "CompSpd": "Compressor speed.",
+   "Output": "Output level."
+  },
+  "src": "b3bc39f728"
+ },
+ "Weight": {
+  "what": "A very accurate sub-bass boost based on Holt.",
+  "sound": "A vivid, resonant bass boost.",
+  "use": "Adding deep sub-bass to live drums, DI bass or guitar.",
+  "controls": {
+   "Freq": "Frequency of the boost.",
+   "Weight": "Amount of boost."
+  },
+  "src": "4d86dba3cb"
+ },
+ "Isolator2": {
+  "what": "Isolator with control smoothing and a resonance booster.",
+  "sound": "A very steep lowpass, highpass or shelf, now steeper, with added resonance.",
+  "use": "DJ-style sweeps and synth filter tones.",
+  "controls": {
+   "Freq": "Cutoff frequency.",
+   "Reso": "Resonance.",
+   "High": "High-side level.",
+   "Low": "Low-side level."
+  },
+  "src": "0085ab54a5"
+ },
+ "Kalman": {
+  "what": "A filter based on GPS Kalman filtering. Not a real filter.",
+  "sound": "A noisy-data estimator that darkens in a gritty, unusual way.",
+  "use": "Strange filtering and the foundation of Stonefire.",
+  "controls": {
+   "Kalman": "Filter amount.",
+   "Inv/Wet": "Inverted, dry or wet blend."
+  },
+  "src": "7c8e85cf75"
+ },
+ "PrimeFIR": {
+  "what": "A mostly linear-phase brickwall with a taste for the bizarre.",
+  "sound": "A tiny window and prime-number taps, inspired by Six Sines.",
+  "use": "Odd brickwall filtering.",
+  "controls": {
+   "Freq": "Cutoff frequency.",
+   "Window": "Window size.",
+   "Prime": "Prime setting."
+  },
+  "src": "69de6c265d"
+ },
+ "Holt2": {
+  "what": "A bass-cab-like resonant lowpass filter.",
+  "sound": "Like Aura for bass: a fuzzy, vivid resonance.",
+  "use": "Bass tone.",
+  "controls": {
+   "Freq": "Cutoff frequency.",
+   "Reso": "Resonance.",
+   "Poles": "Number of poles.",
+   "Output": "Output level.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "442ee5d27c"
+ },
+ "Holt": {
+  "what": "A synth-like resonant lowpass focussed on bass.",
+  "sound": "A trend-following filter with a fuzzy character.",
+  "use": "Bass filtering and synth sounds.",
+  "controls": {
+   "Freq": "Cutoff frequency.",
+   "Reso": "Resonance.",
+   "Poles": "Number of poles.",
+   "Output": "Output level.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "df4ad356dc"
+ },
+ "ToneSlant": {
+  "what": "A super-transparent tilt EQ with very low Q.",
+  "sound": "A tilt around an adjustable corner point.",
+  "use": "Transparent tonal tilt.",
+  "controls": {
+   "Voicing": "Corner point.",
+   "Highs": "Tilt towards or away from highs."
+  },
+  "src": "ee21bd03da"
+ },
+ "AverMatrix": {
+  "what": "Averaging turned into a full-featured EQ.",
+  "sound": "Clean averaging with tunable comb artefacts.",
+  "use": "Experimental EQ shaping.",
+  "controls": {
+   "Average": "Averaging amount.",
+   "Depth": "Depth of the effect.",
+   "Inv/Wet": "Inverted, dry or wet blend."
+  },
+  "src": "76ad2a3869"
+ },
+ "Average": {
+  "what": "A distinctive lowpass based on simple averaging.",
+  "sound": "Averages adjacent samples. Very clean in time; comb artefacts at higher settings.",
+  "use": "A distinctive lowpass.",
+  "controls": {
+   "Average": "Number of taps averaged.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "51f56243e3"
+ },
+ "MackEQ": {
+  "what": "The Mackie distortion with treble and bass added.",
+  "sound": "Mangling sounds like a cranked Mackie 1202 with EQ.",
+  "use": "Abusing sounds through a mixer.",
+  "controls": {
+   "Trim": "Input trim.",
+   "Hi": "High EQ.",
+   "Lo": "Low EQ.",
+   "Gain": "Output gain.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "12513d4dec"
+ },
+ "Hull2": {
+  "what": "A very clear three-band EQ.",
+  "sound": "Pristine and simple, with no saturation. From ConsoleLA's high band.",
+  "use": "Clear three-band EQ.",
+  "controls": {
+   "Treble": "Treble gain.",
+   "Mid": "Mid gain.",
+   "Bass": "Bass gain."
+  },
+  "src": "f3addb3e96"
+ },
+ "Hull": {
+  "what": "An alternate highpass/lowpass based on a stock-market indicator.",
+  "sound": "Dark lowpass at one end of Bright, highpass at the other.",
+  "use": "Experimental highpass or lowpass.",
+  "controls": {
+   "Freq": "Cutoff frequency.",
+   "Bright": "Lowpass at left, highpass at right."
+  },
+  "src": "22211ce89c"
+ },
+ "EQ": {
+  "what": "Just the EQ parts of CStrip.",
+  "sound": "A lossless three-band with special highpass and lowpass; bit-identical when flat.",
+  "use": "A broad-stroke default EQ.",
+  "controls": {
+   "Treble": "Treble gain.",
+   "Mid": "Mid gain.",
+   "Bass": "Bass gain.",
+   "Lowpass": "Lowpass. Off at its extreme.",
+   "TrebFrq": "Treble frequency.",
+   "BassFrq": "Bass frequency.",
+   "Hipass": "Highpass. Off at its extreme.",
+   "OutGain": "Output gain."
+  },
+  "src": "61d617efa2"
+ },
+ "Capacitor": {
+  "what": "A lowpass/highpass filter of a new type.",
+  "sound": "Not a biquad, with a characteristic quirk at one third of the sample rate.",
+  "use": "Lowpass and highpass filtering.",
+  "controls": {
+   "Lowpass": "Lowpass cutoff.",
+   "Highpass": "Highpass cutoff.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "8b2523c9e0"
+ },
+ "Isolator": {
+  "what": "A steep highpass or lowpass like a speaker crossover.",
+  "sound": "Steep DJ-style filtering for sweeping down to a throb or up to highs.",
+  "use": "DJ filter sweeps.",
+  "controls": {
+   "Freq": "Cutoff frequency.",
+   "High": "High-side level.",
+   "Low": "Low-side level."
+  },
+  "src": "8937c66242"
+ },
+ "TapeFat": {
+  "what": "The tone control from TapeDelay.",
+  "sound": "An averaging filter on prime-number delay taps, like a dense ambience control.",
+  "use": "Rolling off highs or removing lows.",
+  "controls": {
+   "Lean/Ft": "Leans lean or fat.",
+   "Depth": "Depth of the effect."
+  },
+  "src": "3843e52ca2"
+ },
+ "ResEQ": {
+  "what": "A bank of mostly midrange resonances.",
+  "sound": "The opposite of a Soothe-style plugin: adds resonances.",
+  "use": "Adding resonance to midrange sounds.",
+  "controls": {
+   "Reso 1": "Resonance 1.",
+   "Reso 2": "Resonance 2.",
+   "Reso 3": "Resonance 3.",
+   "Reso 4": "Resonance 4.",
+   "Reso 5": "Resonance 5.",
+   "Reso 6": "Resonance 6.",
+   "Reso 7": "Resonance 7.",
+   "Reso 8": "Resonance 8.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "bacd3a807d"
+ },
+ "Lowpass2": {
+  "what": "An unusual-sounding variable-slope lowpass filter.",
+  "sound": "Four poles of interleaved IIR with soft/hard tone doctoring; fully open at any sample rate.",
+  "use": "Darkening with gloss.",
+  "controls": {
+   "Lowpass": "Cutoff frequency.",
+   "Sft/Hrd": "Soft or hard tone.",
+   "Poles": "Number of poles.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "9ab467723d"
+ },
+ "Highpass2": {
+  "what": "An unusual-sounding variable-slope highpass filter.",
+  "sound": "Four poles with loose/tight tone doctoring; good for subsonic roll-off.",
+  "use": "Highpass filtering.",
+  "controls": {
+   "Hipass": "Cutoff frequency.",
+   "Ls/Tite": "Loose or tight tone.",
+   "Poles": "Number of poles.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "e2daf1c5ba"
+ },
+ "Distance": {
+  "what": "A far-away-izer for sound design or reverb.",
+  "sound": "Mimics high-frequency attenuation through air.",
+  "use": "Moving sounds back in the mix.",
+  "controls": {
+   "Distance": "How far away.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "1c82079e8a"
+ },
+ "Distance2": {
+  "what": "A versatile space shaper, a hybrid of Distance and Atmosphere.",
+  "sound": "Makes drums huge, pounding and stage-like without reverb or compression.",
+  "use": "Depth and size without reverb.",
+  "controls": {
+   "Atmosph": "Atmosphere amount.",
+   "Darken": "Darkening.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "d89f085dec"
+ },
+ "Lowpass": {
+  "what": "A lowpass that deepens the tone, leaving gloss.",
+  "sound": "Interleaved IIR for a deeper tone and textural change.",
+  "use": "Mixing, not mastering.",
+  "controls": {
+   "Lowpass": "Cutoff frequency.",
+   "Soft/Hard": "Soft or hard tone.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "68a6b0a99f"
+ },
+ "Highpass": {
+  "what": "A highpass time warp for retro midrangey sounds.",
+  "sound": "The complement of Lowpass, with different behaviour.",
+  "use": "Mixing, not mastering.",
+  "controls": {
+   "Highpass": "Cutoff frequency.",
+   "Loose/Tight": "Loose or tight tone.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "ecbe1c22f6"
+ }
+}

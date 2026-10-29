@@ -1,0 +1,164 @@
+{
+ "ToTape9": {
+  "what": "Airwindows' most complete tape emulation: tape saturation, flutter, head bump and a built-in loudness clipper.",
+  "sound": "Huge, deep and raw. Soaks up highs like real tape and thickens bass; with the output pushed it clips hard but stays clean on most material.",
+  "use": "Putting a whole mix or buss 'to tape', gentle warmth or heavy slam, and as a loudness maximizer in one plugin.",
+  "controls": {
+   "Input": "Drive into the tape stage.",
+   "Tilt": "Leans the tone brighter or darker, like a tape-machine calibration.",
+   "Shape": "Old-school sonority at one end, big-studio smoothness at the other.",
+   "Flutter": "Amount of tape speed wobble. 0 is off.",
+   "FlutSpd": "Speed of the flutter.",
+   "Bias": "Tape bias. A touch of overbias tames tizzy highs.",
+   "HeadBmp": "Amount of low-end head bump.",
+   "HeadFrq": "Frequency of the head bump.",
+   "Output": "Level into the final clip stage. 0.5 just touches it; higher clips harder, lower leaves pure tape."
+  },
+  "src": "ad7658605a"
+ },
+ "TapeHack2": {
+  "what": "A tape-compression 'hack': a slew-limited filter that stops highs getting louder, a step up from TapeHack.",
+  "sound": "Tape-like squash of the highs without added grit. Smooth, big and dense rather than distorted. Not a literal tape emulation.",
+  "use": "Fattening and glueing drums, mixes or busses, or as the saturation stage in a console chain.",
+  "controls": {
+   "Input": "Drive into the effect.",
+   "Output": "Level after the effect.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "622192df82"
+ },
+ "ToTape8": {
+  "what": "ToTape with simple gain staging, optimised Dubly and a safety clipper.",
+  "sound": "Clean, level-soaking tape. Dubly cancels harmonics, giving the 'clean level compressor' feel of real machines, with a lively Seventies midrange.",
+  "use": "Tracks and the mix buss when you want tape character without wrecking the tone.",
+  "controls": {
+   "Input": "Drive into the tape.",
+   "Tilt": "Balances Dubly encode against decode. Centre is musical; 1.0 is the studio encode trick, 0.0 decode only.",
+   "Shape": "Midrange character: searing and compressed, or dark and vibey.",
+   "Flutter": "Amount of tape speed wobble. 0 is off.",
+   "FlutSpd": "Speed of the flutter.",
+   "Bias": "Tape bias.",
+   "HeadBmp": "Amount of head bump.",
+   "HeadFrq": "Frequency of the head bump.",
+   "Output": "Level after the tape and before the final clipper. About 0.4 leaves tape only."
+  },
+  "src": "f1f7164726"
+ },
+ "ToTape7": {
+  "what": "ToTape with bias and full Dubly encode/decode controls.",
+  "sound": "Gritty, fierce and flexible. Soaks up loudness well and has a built-in clipper. Matching Dubly settings sounds normal; mismatching them colours the mids.",
+  "use": "Sound design and tailoring your own tape tone. Set everything to the middle for a normal sound.",
+  "controls": {
+   "EncAmt": "Dubly encode amount: brightened, compressed boost before the tape.",
+   "EncFreq": "Where the encode boost begins.",
+   "TapeDrv": "Tape drive. 0.5 is unity gain; raise it for more saturation.",
+   "Flutter": "Tape speed wobble. 0.5 is realistic, 0 is off.",
+   "FlutSpd": "Speed of the flutter.",
+   "Bias": "Tape bias. Slight overbias is best against tizzy highs.",
+   "HeadBmp": "Head bump. 0.5 is the most realistic; lower returns the original bass, higher exaggerates it.",
+   "HeadFrq": "Frequency of the head bump.",
+   "DecAmt": "Dubly decode amount: undoes the encode and smooths the saturation.",
+   "DecFreq": "Where the decode takes effect."
+  },
+  "src": "0b93a2e750"
+ },
+ "ToTape6": {
+  "what": "Airwindows tape emulation for 2020: deep head bump, soft highs and flutter.",
+  "sound": "Warm harmonics that project, tape-machine lows with a compressed quality, and flutter from subtle to wild.",
+  "use": "A strong all-round tape sound on buss or tracks, with the final clipper acting as a loudenator.",
+  "controls": {
+   "Input": "Drive into the tape.",
+   "Soften": "Softens digital edge and highs.",
+   "Head B": "Head bump. Go gently past halfway: it adds a lot of low end.",
+   "Flutter": "Tape wobble. Defaults to 0.5 (adds small latency); 0 is off with zero latency.",
+   "Output": "Level after tape. Above 0 dB clips harder.",
+   "Dry/Wet": "Blend with dry. With flutter on, this makes a flanging effect."
+  },
+  "src": "de573de1e4"
+ },
+ "FromTape": {
+  "what": "A minimalist, cleaner tape emulation: treble softening and an adjustable bass filter.",
+  "sound": "Transparent treble softening with a rounder, more open bass. No tape drive distortion; peaks pass through.",
+  "use": "Softening digital edge on channels or the 2-buss, or giving an over-limited mix some crest factor back. Light on CPU.",
+  "controls": {
+   "Louder": "Level pushed into the tape stage.",
+   "Softer": "Treble softening.",
+   "Weight": "Bass filter. Higher lets more bass through.",
+   "Output": "Output level. The bass cut can make it louder, so trim here.",
+   "Dry/Wet": "Blend with dry."
+  },
+  "src": "adab0ef3f9"
+ },
+ "TapeHack": {
+  "what": "A tape-saturation transfer function inspired by tape hysteresis research.",
+  "sound": "Tape 'bark' on drums, forward heavy guitars, and livelier quiet tracks. Soft clip with extra peak energy.",
+  "use": "Putting tape-style compression and peak energy on drums, guitars and mixes. Very light on CPU.",
+  "controls": {
+   "Input": "Drive into the effect.",
+   "Output": "Level after the effect.",
+   "Dry/Wet": "Blend with dry."
+  },
+  "src": "a9cab80c8e"
+ },
+ "Tape": {
+  "what": "Simplified, all-purpose tape sound: Airwindows' personal 'mix into' output stage.",
+  "sound": "Tape overdrive with a head bump, no flutter. Behaves well even stacked eight deep.",
+  "use": "A simple tape stage on the output or buss.",
+  "controls": {
+   "Slam": "Drive into the tape overdrive.",
+   "Bump": "Head bump amount. Full is the original behaviour; default is 0.5."
+  },
+  "src": "6daca84cde"
+ },
+ "IronOxideClassic2": {
+  "what": "Simple old-school tape sim, updated for high sample rates.",
+  "sound": "Bandpassy, saturated and aggressively coloured, with a more organic tone at high rates.",
+  "use": "Slamming tape on individual tracks for effect, at any sample rate.",
+  "controls": {
+   "Input Trim": "Drive into the tape.",
+   "Tape Speed": "Tape speed (ips), which shapes the bandpassy tone.",
+   "Output Trim": "Level after the effect."
+  },
+  "src": "951149885f"
+ },
+ "IronOxide5": {
+  "what": "The old-school, heavily coloured tape emulation, with flutter and noise.",
+  "sound": "Intense, bandpassy and saturated, with flutter and noise for grit.",
+  "use": "Slamming tape for effect on tracks. Setting Inv/Dry/Wet to inverted cuts a band while leaving the punch.",
+  "controls": {
+   "Input Trim": "Drive into the tape.",
+   "Tape High": "Upper cutoff of the tape band.",
+   "Tape Low": "Lower cutoff of the tape band.",
+   "Flutter": "Tape wobble.",
+   "Noise": "Tape noise, which blurs slew.",
+   "Output Trim": "Level after the effect.",
+   "Inv/Dry/Wet": "Inverted at one end, dry in the middle, wet at the other."
+  },
+  "src": "bd3887a33e"
+ },
+ "ToTape5": {
+  "what": "Airwindows' realistic analog tape emulation for mixing to tape in the box.",
+  "sound": "Transparent and musical. The tape soaks up level without obvious tone change. Defaults are subtle.",
+  "use": "Mix-buss or mastering tape. Small tweaks of 0.1 to 0.2 usually do it.",
+  "controls": {
+   "Louder": "Drive. Defaults to 0.25 because tape soaks up level; 0 removes the gain trim.",
+   "Softer": "Treble softening for an older tape-machine tone.",
+   "Fatter": "Head bump. Gives deep lows; turn Output down if you boost it.",
+   "Flutter": "Tape wobble. 0 is off; realistic levels are about 0.1.",
+   "Output": "Output level.",
+   "Dry/Wet": "Blend with dry. Avoid with flutter, which makes a flange."
+  },
+  "src": "c412bbd77c"
+ },
+ "IronOxideClassic": {
+  "what": "The pure, simple early form of Iron Oxide: input, tape speed and output.",
+  "sound": "The clean, sweet original tone. No grit, flutter or noise.",
+  "use": "Cleaner tape slam on electronic or synthetic tones.",
+  "controls": {
+   "Input Trim": "Drive into the tape.",
+   "Tape Speed": "Tape speed (ips), which shapes the bandpassy tone.",
+   "Output Trim": "Level after the effect."
+  },
+  "src": "fb3edebc5e"
+ }
+}

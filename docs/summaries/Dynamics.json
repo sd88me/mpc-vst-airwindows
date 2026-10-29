@@ -1,0 +1,402 @@
+{
+ "Dynamics3": {
+  "what": "Morphs between a vari-mu compressor and an expander.",
+  "sound": "Smooth Bezier-spline dynamics that modulates dry/wet, not just gain. Not a Fairchild clone.",
+  "use": "Buss and channel compression, or expansion for opening up a track.",
+  "controls": {
+   "Thresh": "Threshold of the dynamics.",
+   "Attack": "Attack speed.",
+   "Release": "Release speed.",
+   "Inv/Wet": "Inverted (expander side), dry, or wet blend."
+  },
+  "src": "edaab19d07"
+ },
+ "Pressure6": {
+  "what": "A refinement of the Pressure compressor and how it moves.",
+  "sound": "Smooth but with a more natural movement than BeziComp.",
+  "use": "General compression on tracks and the 2-buss.",
+  "controls": {
+   "Compres": "Amount of compression.",
+   "Ratio": "Compression ratio."
+  },
+  "src": "fad5052f1b"
+ },
+ "Dynamics2": {
+  "what": "The compressor and gate for the newer Console plugins.",
+  "sound": "BeziComp-style compression: fast, with no aliasing and no edges, plus a gate.",
+  "use": "Channel dynamics in Console-style mixing.",
+  "controls": {
+   "Thresh": "Compressor threshold.",
+   "Attack": "Compressor attack.",
+   "Release": "Compressor release.",
+   "Gate": "Gate amount."
+  },
+  "src": "00cc6c965e"
+ },
+ "BeziComp": {
+  "what": "A radical compressor that eliminates aliasing.",
+  "sound": "A curve driven by sound density: no attack or release, and sounds very clean or weird depending on settings.",
+  "use": "Experimental, artefact-free compression. Good settings can be fussy.",
+  "controls": {
+   "Comp": "Amount of compression.",
+   "Speed": "How quickly the curve reacts.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "f529320721"
+ },
+ "Pop3": {
+  "what": "The dynamics section of ConsoleX: a compressor and a gate.",
+  "sound": "A full-range dynamics processor. Compression has no makeup gain, so it restrains the sound.",
+  "use": "Compression and gating on channels or the buss.",
+  "controls": {
+   "Thresld": "Threshold (first is the compressor, second is the gate).",
+   "C Ratio": "Compressor ratio.",
+   "C Atk": "Compressor attack.",
+   "C Rls": "Compressor release.",
+   "G Ratio": "Gate ratio.",
+   "G Sust": "Gate sustain.",
+   "G Rls": "Gate release."
+  },
+  "src": "416b1844fa"
+ },
+ "Pop2": {
+  "what": "Pop with control and punch: attack and decay speeds plus a built-in clipper.",
+  "sound": "A crazy overcompressor with the front of sounds bursting through, now with ClipOnly2 on the output.",
+  "use": "Squishy, punchy drums and mixes.",
+  "controls": {
+   "Compres": "Amount of compression.",
+   "Attack": "Attack speed.",
+   "Release": "Release speed.",
+   "Drive": "Drive into the output stage.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "0d4a27583e"
+ },
+ "X2Buss": {
+  "what": "The updated buss processing from ConsoleX2.",
+  "sound": "A buss EQ and one-knob compression, updated with new Bezier compression.",
+  "use": "The 2-buss in a ConsoleX2-style mix.",
+  "controls": {
+   "High": "High band gain.",
+   "HMid": "High-mid band gain.",
+   "LMid": "Low-mid band gain.",
+   "Bass": "Bass band gain.",
+   "HighF": "High band frequency.",
+   "HMidF": "High-mid band frequency.",
+   "LMidF": "Low-mid band frequency.",
+   "BassF": "Bass band frequency.",
+   "Thresh": "Buss compression threshold.",
+   "Fader": "Buss fader."
+  },
+  "src": "d92c14031d"
+ },
+ "Pressure5": {
+  "what": "Pressure4 with after-boost and a built-in ClipOnly2.",
+  "sound": "A compressor with unusual controls, built for 2-buss management and a final output.",
+  "use": "The 2-buss, controlling density and clipping.",
+  "controls": {
+   "Pressre": "Amount of compression.",
+   "Speed": "Compressor speed.",
+   "Mewines": "How the ratio engages, from vari-mu to peak-retaining.",
+   "PawClaw": "Aggression of the after-boost.",
+   "Output": "Output level.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "c17e8d831d"
+ },
+ "StoneFireComp": {
+  "what": "Some of the dynamics for ConsoleX: a Kalman multiband compressor.",
+  "sound": "Two Pop3 compressors, one for the Fire (high) band and one for Stone (low).",
+  "use": "Stone/Fire dynamics, from simple squash to wild effects.",
+  "controls": {
+   "Fire Th": "Fire band threshold.",
+   "Attack": "Attack (first is Fire, second is Stone).",
+   "Release": "Release.",
+   "Fire": "Fire band gain.",
+   "StoneTh": "Stone band threshold.",
+   "Stone": "Stone band gain.",
+   "Range": "Where the bands split.",
+   "Ratio": "Compression ratio."
+  },
+  "src": "0577f1025c"
+ },
+ "Dynamics": {
+  "what": "A combined compressor and gate.",
+  "sound": "Transparent or hypersquished; the gate is triggered from the source while gating the compressed signal.",
+  "use": "Hypercompress and gate as a unit.",
+  "controls": {
+   "Comp": "Compression amount.",
+   "Speed": "Speed and intensity.",
+   "Gate": "Gate amount.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "c33070044b"
+ },
+ "Pop": {
+  "what": "A crazy overcompressor with a very exaggerated sound.",
+  "sound": "Huge attack, bursting fronts, details jumping out, a sheer squish and gnarl.",
+  "use": "Phil Collins/Genesis-style squash on drums and mixes.",
+  "controls": {
+   "Intenst": "How hard it overcompresses.",
+   "Output": "Output level.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "6ef15f8447"
+ },
+ "DigitalBlack": {
+  "what": "A quick, staccato gate.",
+  "sound": "Tightens staccato direct-recorded tracks. Not a gentle fade gate.",
+  "use": "Cleaning DI tracks and drum rooms.",
+  "controls": {
+   "Thresh": "Gate threshold.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "53cb92838e"
+ },
+ "Logical4": {
+  "what": "A classic SSL-style 2-buss compressor.",
+  "sound": "Transparent and sparkly. Three stages, each bypassed when not used.",
+  "use": "The 2-buss and tough compression jobs.",
+  "controls": {
+   "Threshold": "Compression threshold.",
+   "Ratio": "Compression ratio.",
+   "Speed": "Compression speed.",
+   "MakeupGn": "Makeup gain.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "57d62238d0"
+ },
+ "VariMu": {
+  "what": "A more organic variation on Pressure.",
+  "sound": "A vari-mu style compressor.",
+  "use": "When other compressors don't fit, and for organic buss compression.",
+  "controls": {
+   "Intensty": "Amount of compression.",
+   "Speed": "Speed of the compressor.",
+   "Output": "Output level.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "ae8938e290"
+ },
+ "ButterComp2": {
+  "what": "An improved ButterComp with an output control.",
+  "sound": "Soft, smooth, bi-polar compression, working on each half of the wave.",
+  "use": "Subtle, gentle compression with a cult following.",
+  "controls": {
+   "Compress": "Amount of compression.",
+   "Output": "Output level.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "5118ca5f7a"
+ },
+ "curve": {
+  "what": "The simplest, purest form of Recurve with no extra boosts.",
+  "sound": "Subtle compression with no transition point and no edges, and no gain added.",
+  "use": "Sitting quietly on nearly any track, balancing levels unnoticed.",
+  "controls": {},
+  "src": "8669fc66ad"
+ },
+ "Overheads": {
+  "what": "Compresses only part of the sound.",
+  "sound": "Drives compression from the source minus a short delay, so lows get compressed while highs slip through.",
+  "use": "Compressing drums while leaving cymbals alone.",
+  "controls": {
+   "Compr": "Compression amount.",
+   "Sharp": "How sharp the separation is.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "a872fb37b8"
+ },
+ "Recurve": {
+  "what": "A special buss compressor with no threshold point.",
+  "sound": "Explosive and impressive: one line of code, high-resolution sine behaviour, with 6 dB of gain and a clipper.",
+  "use": "Loud, punchy buss compression.",
+  "controls": {},
+  "src": "3979e6b270"
+ },
+ "Pyewacket": {
+  "what": "An old-school compressor for high-definition transients.",
+  "sound": "Adds no fatness, just energy and hallucinatory intensity, like Pye compressors on 60s and 70s records.",
+  "use": "Defining musical events on tracks and buses.",
+  "controls": {
+   "Input Gain": "Input level into the compressor.",
+   "Release": "Release speed.",
+   "Output Gain": "Output level."
+  },
+  "src": "929e07146d"
+ },
+ "BlockParty": {
+  "what": "A moderately saturated analog-style limiter.",
+  "sound": "The onset of compressing sounds is reshaped like OneCornerClip, with no lookahead. A bit distorty.",
+  "use": "Punchy limiting with grit.",
+  "controls": {
+   "Pound": "How hard it limits and distorts.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "89ea1d4948"
+ },
+ "SoftGate": {
+  "what": "A gate that mutes hiss and smooths sample tails.",
+  "sound": "Fades the noise floor into darkness quickly or slowly.",
+  "use": "Cleaning up samples and multisamples.",
+  "controls": {
+   "Thresh": "Gate threshold.",
+   "Darken": "How the fade darkens.",
+   "Silence": "How completely it fades to silence."
+  },
+  "src": "0ddeab8491"
+ },
+ "Thunder": {
+  "what": "A compressor that keeps or exaggerates subsonic bass when you push it.",
+  "sound": "Doesn't eat low end like most compressors.",
+  "use": "Compressing bass-heavy material without losing the lows.",
+  "controls": {
+   "Thunder": "Amount of compression and bass behaviour.",
+   "Output Trim": "Output level."
+  },
+  "src": "b40477180b"
+ },
+ "Compresaturator": {
+  "what": "Fades between compressing and soft clipping.",
+  "sound": "A soft saturator with a springy quality; it can flutter if pushed too far.",
+  "use": "Stem or buss compression and loud punchy sounds.",
+  "controls": {
+   "Drive": "Drive into the stage.",
+   "Clamp": "Clamp amount.",
+   "Expand": "Expansion amount.",
+   "Output": "Output level.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "2cb363bf59"
+ },
+ "DrumSlam": {
+  "what": "A heavy-processing tape modeller.",
+  "sound": "Multiband tape-style distortion with its own sound. It never became a Massey TapeHead clone.",
+  "use": "Slamming drums and buses.",
+  "controls": {
+   "Drive": "Drive into the effect.",
+   "Output": "Output level.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "abf2353ff9"
+ },
+ "ButterComp": {
+  "what": "The softest, smoothest Airwindows compressor.",
+  "sound": "Subtle bi-polar compression with a cult following; not an ordinary compressor.",
+  "use": "Gentle, sweet compression for those who want exactly that.",
+  "controls": {
+   "Compress": "Amount of compression.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "b85dede126"
+ },
+ "BrassRider": {
+  "what": "A drum overhead rider for extreme metal mixes.",
+  "sound": "A specialised trick for controlling overhead cymbals against sculpted spot mics.",
+  "use": "Metal mixes with intense spot mics.",
+  "controls": {
+   "Thresh": "Threshold of the ride.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "15819707d5"
+ },
+ "Point": {
+  "what": "An explosive transient designer.",
+  "sound": "A mysterious, untameable plugin that works on transients.",
+  "use": "Making drums and transients pop or tucking them away.",
+  "controls": {
+   "Input Trim": "Input level.",
+   "Point": "Transient shaping, from -1 to 1. Zero is dry.",
+   "Reaction Speed": "How quickly it reacts."
+  },
+  "src": "a3db4e313b"
+ },
+ "Gatelope": {
+  "what": "A special gate that applies filters.",
+  "sound": "Gates a tom mic to reject cymbal bleed while lows sustain, or the opposite for kick rumble.",
+  "use": "Tightening spot mics on drums.",
+  "controls": {
+   "Thresh": "Gate threshold.",
+   "TrebSus": "How long the highs sustain.",
+   "BassSus": "How long the lows sustain.",
+   "AttackS": "Attack speed.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "8d9c67a155"
+ },
+ "PodcastDeluxe": {
+  "what": "Curve-style compressors and phase rotators.",
+  "sound": "Five curve-style compressors, five phase rotators and a clipper; radio-station style processing.",
+  "use": "Voice or house-style loudness processing.",
+  "controls": {
+   "Boost": "Amount of boost into the stages."
+  },
+  "src": "8cdd559c96"
+ },
+ "Podcast": {
+  "what": "A simpler pile of curve-style compressors with hard clipping.",
+  "sound": "No latency; works as glue but doesn't pump or swell.",
+  "use": "Glue buss compression without pumping.",
+  "controls": {
+   "Boost": "Amount of boost into the stages.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "bade7984bb"
+ },
+ "Swell": {
+  "what": "Dial-an-attack, like sidechaining.",
+  "sound": "Mimics the sidechain-pumping feel by shaping attack swells.",
+  "use": "Pumping swells on pads and music, without a sidechain.",
+  "controls": {
+   "Thresh": "Threshold of the effect.",
+   "Swell": "Amount of swell.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "0839f613d2"
+ },
+ "PurestSquish": {
+  "what": "An open-sounding compressor with bass bloom.",
+  "sound": "Not a normal compressor: doesn't produce harmonics like analog emulations.",
+  "use": "Transparent dynamics control, with SurgeTide.",
+  "controls": {
+   "Squish": "Amount of compression.",
+   "BassBlm": "Bass bloom.",
+   "Output": "Output level.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "fa9f8c742a"
+ },
+ "Pressure4": {
+  "what": "A compressor adjustable between vari-mu and New York peak-retaining behaviour.",
+  "sound": "The golden-ear favourite, with a stereo linked mode inspired by diode bridges.",
+  "use": "General compression on tracks and the 2-buss.",
+  "controls": {
+   "Pressure": "Amount of compression.",
+   "Speed": "Compressor speed.",
+   "Mewiness": "Between vari-mu and peak-retaining behaviour.",
+   "Output Gain": "Output level."
+  },
+  "src": "4d07a6f208"
+ },
+ "Surge": {
+  "what": "A compressor for accentuating beats and pulses.",
+  "sound": "Groove-making ballistics from a compressor that responds to the rate of change.",
+  "use": "Adding groove to drums and rhythmic music.",
+  "controls": {
+   "Surge": "Amount of the effect.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "bf10582c8d"
+ },
+ "SurgeTide": {
+  "what": "A surge and flow dynamics plugin.",
+  "sound": "Three compression time constants stacked like FM waves, giving a mix that seems uncompressed but feels like tidal forces.",
+  "use": "Slow, deep dynamics movement on a mix.",
+  "controls": {
+   "SurgeNode": "Amount of surge.",
+   "SurgeRate": "Rate of the surge.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "e56c613188"
+ }
+}

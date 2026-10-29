@@ -1,0 +1,185 @@
+{
+ "PurestSaturation": {
+  "what": "An experimental soft clipper: a sine-style curve built so gain steps stay lossless.",
+  "sound": "More dynamic than an ordinary soft clip, with a distinct tone from the deliberately 'wrong' maths.",
+  "use": "Soft saturation on tracks or a mix when you want something different from plain sine or tanh clipping.",
+  "controls": {
+   "Input": "Drive into the saturator.",
+   "Output": "Level after the saturator."
+  },
+  "src": "213a269b92"
+ },
+ "SquareRoot": {
+  "what": "Soft saturation that never flat-tops: square-root shaping with controllable crossover distortion.",
+  "sound": "Quiet details come up louder, like a big push-pull tube amp or grungy organ. Gives a 'there in the room' feel to spiky drums.",
+  "use": "Retro tones, simulating acoustic loudness, and colouring amps and organs. Be careful with Soar.",
+  "controls": {
+   "In": "Drive into the square-root shaper. Up to about 12 dB of gain.",
+   "Soar": "Adds crossover distortion (Class B/AB style). Too much ruins the sound.",
+   "Out": "Level after the effect. Turn it down when driving hard.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "aba168c6d6"
+ },
+ "Hypersoft": {
+  "what": "A soft clipper whose sharp corner sits in the quieter part of the wave, not at the top.",
+  "sound": "Grungy, colourful dirt that stays dynamic: subtly punchy to aggressively gnarly. Heightens impact rather than raw loudness.",
+  "use": "Drums and basses. Intensifying and adding impact, not for simple loudenating.",
+  "controls": {
+   "Input": "Drive. About 0.5 is neutral.",
+   "Depth": "How many extra wavefoldings are applied. More is more focused and colourful, and costs CPU.",
+   "Bright": "Higher allows all wavefoldings even when they alias, for more treble hype. Lower is darker.",
+   "Output": "Level after the effect."
+  },
+  "src": "7b2c2af8f2"
+ },
+ "Longhand": {
+  "what": "An experimental soft clipper working a sine out the long way round.",
+  "sound": "The purest, most continuous soft saturation, even softer than a normal sin().",
+  "use": "Ultra-soft clipping. Dry/Wet blends towards a softer clip.",
+  "controls": {
+   "Input": "Drive into the clipper.",
+   "Output": "Level after the clipper.",
+   "Dry/Wet": "Not true dry: it blends a clip that lowers its threshold as it goes. Any dry makes the clip softer."
+  },
+  "src": "57014f966b"
+ },
+ "Creature": {
+  "what": "A soft slew saturator: up to 32 stacked slew wavefolders.",
+  "sound": "Roars. Behaves like a filter and a distortion but is neither. The gain and thunder grow as Depth rises. No EQ, overdrive or highpass.",
+  "use": "Monstrous overdrive with huge bass, or drum rooms. Be careful, it gets hard to control.",
+  "controls": {
+   "Drive": "Input gain into the slew stages.",
+   "Depth": "Number of stacked stages. More is bigger and louder.",
+   "Inv/Wet": "Inverted gives a highpass-ish cancellation; in phase, wet gives a monstrous overdrive with huge bass."
+  },
+  "src": "79bd72f1fb"
+ },
+ "Huge": {
+  "what": "A dirty loudenator that adds odd harmonics and cuts any that would alias.",
+  "sound": "Stupid loud, extra bassy, and very dirty and gritty.",
+  "use": "Aggressive, loud material. Clean sounds will get a rude shock.",
+  "controls": {
+   "Huge": "Input trim and boost. Roughly unity at about 0.2.",
+   "Nasty": "How close harmonics are allowed to get to aliasing. Subtle; about 0.2 seems good."
+  },
+  "src": "73e882b49a"
+ },
+ "NCSeventeen": {
+  "what": "A 'dirty loud' maximizer built around a soft clipper.",
+  "sound": "A slight grunge, then it stretches to fit rather than breaking up. Keeps deep bass thanks to a second-harmonic feed.",
+  "use": "Loudness and glue on drum submixes, synths and EDM, where other loudenators show artefacts.",
+  "controls": {
+   "LOUDER": "How hard you push it. It just gets dirtier the more you add.",
+   "Output": "Level after the effect."
+  },
+  "src": "2a2936662e"
+ },
+ "Tube2": {
+  "what": "Tube with more sophisticated processing, input trim and a safe 0 dB ceiling.",
+  "sound": "Big and saturated, with extra harmonics. More Tube means softer, more saturated distortion.",
+  "use": "A final tubey safety clipper. Near level-matched with Input at 0.5. Feed it from Tube for more gain.",
+  "controls": {
+   "Input": "Input trim, around level-matched at 0.5.",
+   "Tube": "Amount of tube character. Lower is more linear."
+  },
+  "src": "4f6336923e"
+ },
+ "Tube": {
+  "what": "A simple tube-style 'soundbetterizer' that makes anything bigger.",
+  "sound": "Very simple distortion with makeup gain: huge, lush midrange, with minimal processing.",
+  "use": "Dropping anywhere (track, mix or mastering) to make it bigger. Keep it restrained or crank it.",
+  "controls": {
+   "TUBE": "Amount of tube saturation. Zero is a clean soft clip; full crank is heavy distortion with makeup gain."
+  },
+  "src": "e3db226bce"
+ },
+ "Spiral2": {
+  "what": "Spiral with drive, highpass, output and dry/wet controls, plus Presence.",
+  "sound": "Smooth sine-based saturation. Presence lets onset transients through, so full Presence sounds distorted while peaks still pass.",
+  "use": "Fattening with clean transients. At Presence 0 it is exactly the original Spiral.",
+  "controls": {
+   "Input": "Drive into the saturator.",
+   "Highpass": "Filters the saturated part so bass stays clean.",
+   "Presence": "Crossfades in onset-transient pass-through. Halfway sits near 0 dB peaks.",
+   "Output": "Level after the effect.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "a7d9ad6ea2"
+ },
+ "PurestDrive": {
+  "what": "A subtle, pure saturation: the 'French House' drive.",
+  "sound": "Sine saturation blended with the dry signal by the previous sample, so it stays clean and textured, not a coat of paint.",
+  "use": "Subtle tone and texture all over a mix.",
+  "controls": {
+   "Drive": "Amount of saturation."
+  },
+  "src": "ed35b4fed8"
+ },
+ "Focus": {
+  "what": "Distortion applied to a midrange band only, to bring out clarity.",
+  "sound": "Aggressive but subtle. Lows and highs stay clean while the mids are distorted. Five distortion flavours in one.",
+  "use": "Tracks, submixes or the 2-buss. At low Focus it is a broad overdrive; at high Focus a laser-focused mid distortion.",
+  "controls": {
+   "Boost": "Drive into the distorted band.",
+   "Focus": "Narrows the distorted band and lets more lows and highs pass untouched.",
+   "Mode": "Distortion type: Density, Drive, Spiral, Mojo or Dyno.",
+   "Output": "Level of the distorted band. Lower it to hear the clean lows and highs.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "b21dd78fa9"
+ },
+ "Mojo": {
+  "what": "A 'biggenator' and loudenator: an evolution of Spiral.",
+  "sound": "Concentrated huge. Fattens even with no boost and soaks up gain without an EQ change. Not clean.",
+  "use": "Thickening and loudening bass, drums or mixes.",
+  "controls": {
+   "Input": "Drive into the effect."
+  },
+  "src": "27d34c72d1"
+ },
+ "Dyno": {
+  "what": "Like Mojo, but for intensity instead of loudness.",
+  "sound": "Adds fire and intensity and reshapes the waveform. Little volume boost, subtler than Mojo.",
+  "use": "Adding energy and bite where Mojo would be too fat. Similar in spirit to Remap.",
+  "controls": {
+   "Input": "Drive into the effect."
+  },
+  "src": "b7a7f22cd4"
+ },
+ "UnBox": {
+  "what": "A distortion where only the harmonics that won't alias are allowed to distort.",
+  "sound": "A texture thickener with an analog quality. The mids are distorted while dry highs and a hint of bass pass through clear.",
+  "use": "Adding energy and thickness without oversampling or aliasing.",
+  "controls": {
+   "Input": "Drive into the distortion.",
+   "UnBox": "How much of the distortion is subtracted from the dry signal, opening up the clean highs.",
+   "Output": "Level after the effect."
+  },
+  "src": "1ba6740e17"
+ },
+ "Desk4": {
+  "what": "Distinctive analog coloration, a tuneable version of the Desk plugins.",
+  "sound": "Soft, textured, rich dirt, plus a brightness conditioner and a power-supply sag effect.",
+  "use": "Analog colour on channels and buses. Extreme settings are for deliberate grunge.",
+  "controls": {
+   "Overdrive": "Boost into soft, textured distortion.",
+   "Hi Choke": "Treble choke. Subtle use conditions brightness; too much produces artefacts and DC.",
+   "Power Sag": "Simulates a power supply overloading.",
+   "Frequency": "Where the sag acts. Lower is tube-supply sag; tiny values hit higher frequencies.",
+   "Output Trim": "Level after the effect.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "16af545e6a"
+ },
+ "Righteous4": {
+  "what": "A final output stage that clips, saturates and dithers to hit a loudness target.",
+  "sound": "ADClip peak clipping, Spiral saturation and second-harmonic warmth. Big and open until you push past the target, then it breaks up.",
+  "use": "Last in the chain: pick a loudness target (streaming or loud), listen for big and open, and output at your bit depth.",
+  "controls": {
+   "LTarget": "Your loudness (LUFS) target. Higher cleans it up and lets you push harder.",
+   "BtDepth": "Output bit depth, for example 16, 24 or 32 bit."
+  },
+  "src": "a166393748"
+ }
+}
