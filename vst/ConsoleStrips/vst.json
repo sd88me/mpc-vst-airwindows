@@ -1,0 +1,66 @@
+{
+ "name": "AW Console Strips",
+ "vendor": "Airwindows",
+ "uid": "aCo0",
+ "version": 1000,
+ "so": "aw_consolestrips.so",
+ "params": "params.json",
+ "effect": true,
+ "custom_skin": true,
+ "presets": "presets.json",
+ "cc": false,
+ "targets": [
+  "armv7",
+  "aarch64"
+ ],
+ "defines": {
+  "PARAM_TEXT_MAX": 128
+ },
+ "build": {
+  "root": "../..",
+  "sources": [
+   "src/engine.cpp",
+   "vst/ConsoleStrips/gen/models.cpp",
+   "vst/ConsoleStrips/gen/docs.cpp",
+   "vendor/airwin2rack/src/airwin_consolidated_base.cpp",
+   "src/gen/fac/ConsoleHChannel.cpp",
+   "src/gen/fac/ConsoleHPre.cpp",
+   "src/gen/fac/ConsoleX2Channel.cpp",
+   "src/gen/fac/ConsoleX2Pre.cpp",
+   "src/gen/fac/ConsoleX3.cpp",
+   "src/gen/fac/ConsoleXBuss.cpp",
+   "src/gen/fac/ConsoleXChannel.cpp",
+   "src/gen/fac/ConsoleXPre.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/ConsoleHChannel.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/ConsoleHChannelProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/ConsoleHPre.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/ConsoleHPreProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/ConsoleX2Channel.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/ConsoleX2ChannelProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/ConsoleX2Pre.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/ConsoleX2PreProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/ConsoleX3.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/ConsoleX3Proc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/ConsoleXBuss.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/ConsoleXBussProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/ConsoleXChannel.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/ConsoleXChannelProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/ConsoleXPre.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/ConsoleXPreProc.cpp"
+  ],
+  "cflags": [
+   "-std=gnu++17",
+   "-Isrc",
+   "-Ivendor/airwin2rack/src",
+   "-w",
+   "-O2",
+   "-DAW_SLOTS=56"
+  ],
+  "libs": [
+   "-lm"
+  ],
+  "cflags_arm": [
+   "-mfpu=neon"
+  ]
+ }
+}

@@ -242,6 +242,25 @@ def render_bgs(style, out):
         finish(img, extra).save(os.path.join(out, f"bg_{name}.png")); print("bg", name, flush=True)
 
 
+def render_strips(style, out):
+    """One background per strip variant and tab: the sections engraved and titled (layout.strip_geometry), plus an empty-tab panel."""
+    outside = ((1176, 130), "AIRWINDOWS COLLECTIONS", 15, "rs")
+    for key, tabs in LY.STRIP_VARIANTS.items():
+        for t, rows in enumerate(tabs):
+            secs, cells, cw = LY.strip_geometry(rows)
+            texts = [outside] + [(xy, title, 14, "ls") for title, rect, xy in secs]
+            img = base_panel(style, [r for _, r, _ in secs], texts, footer=False)
+            finish(img, lambda im, tx=texts: ink_text(ImageDraw.Draw(im), style, tx)).save(os.path.join(out, f"bg_strip_{key}_{t}.png"))
+        print("strip bg", key, len(tabs), flush=True)
+    img = base_panel(style, [LY.SECTION], [outside], footer=False)
+
+    def extra(im):
+        d = ImageDraw.Draw(im); ink_text(d, style, [outside])
+        d.text((640 * SS, 350 * SS), "NO CONTROLS ON THIS TAB", font=font("b", 40 * SS), fill=INK[style][1] + (255,), anchor="mm")
+        d.text((640 * SS, 404 * SS), "this model's controls are on the earlier tabs", font=font("r", 24 * SS), fill=INK[style][1] + (255,), anchor="mm")
+    finish(img, extra).save(os.path.join(out, "bg_tabempty.png"))
+
+
 def render_manual(style, out):
     texts = [((1176, 172), "MANUAL", 15, "rs"), ((1176, 130), "AIRWINDOWS COLLECTIONS", 15, "rs")]
     img = base_panel(style, [LY.SECTION], texts, footer=False)
@@ -260,11 +279,11 @@ def render_manual(style, out):
 
 
 # ---- Q-Link overlay layers, category plates ---------------------------------------------------------------------------
-def draw_badge(d, cx, cy, g, k):
+def draw_badge(d, cx, cy, g, k, rad=12, fpx=16):
     """One Q-Link badge (the Force knob number 1-8 in its column's colour) centred on cx, cy."""
     gc = tuple(int(255 * c) for c in LY.GROUP[g])
-    d.ellipse([(cx - 12) * SS, (cy - 12) * SS, (cx + 12) * SS, (cy + 12) * SS], fill=(16, 16, 18, 235), outline=gc + (255,), width=int(2.4 * SS))
-    d.text((cx * SS, cy * SS), str(k), font=font("b", 16 * SS), fill=gc + (255,), anchor="mm")
+    d.ellipse([(cx - rad) * SS, (cy - rad) * SS, (cx + rad) * SS, (cy + rad) * SS], fill=(16, 16, 18, 235), outline=gc + (255,), width=int(2.4 * SS))
+    d.text((cx * SS, cy * SS), str(k), font=font("b", fpx * SS), fill=gc + (255,), anchor="mm")
 
 
 def render_qover(style, out):
@@ -317,7 +336,7 @@ def render_cats(style, out, cats):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--style", default="A", choices=["A", "C"]); ap.add_argument("--out", required=True)
-    ap.add_argument("--fonts", default=os.path.join(HERE, "fonts")); ap.add_argument("--only", default="bg,manual,qover,badges,cats,knobs")
+    ap.add_argument("--fonts", default=os.path.join(HERE, "fonts")); ap.add_argument("--only", default="bg,manual,strips,qover,badges,cats,knobs")
     ap.add_argument("--knobs", default="all", help="comma list like normal_red,small_step, or all")
     ap.add_argument("--vst", default=os.path.join(HERE, "..", "..", "vst"))
     a = ap.parse_args()
@@ -327,6 +346,7 @@ def main():
     cats = sorted({json.load(open(f))["category"] for f in glob.glob(os.path.join(a.vst, "*", "gen", "skin_models.json"))})
     if "bg" in only: render_bgs(a.style, a.out)
     if "manual" in only: render_manual(a.style, a.out)
+    if "strips" in only: render_strips(a.style, a.out)
     if "badges" in only: render_badges(a.style, a.out)
     if "qover" in only: render_qover(a.style, a.out)
     if "cats" in only: render_cats(a.style, a.out, cats)

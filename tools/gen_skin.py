@@ -183,6 +183,30 @@ def model_panel(params, first, pidx_of_slot, cond, style, qover):
     return out
 
 
+def strip_panel(m, pidx_of_slot, cond, style, qover, tab):
+    """One strips model on one tab: the tab's sections of 'small' knobs, Q-Link badges on all of them (slot k's Q-Link is
+    k % 14 of tab k // 14: the engine's slot map puts each tab's controls in that tab's 14 slots)."""
+    key, tabs = LY.strip_variant(m["name"]); st = LY.STYLES[style]
+    if tab >= len(tabs):
+        return [image("bg_tabempty.png", 0, 0, W, H, cond)]
+    secs, cells, cw = LY.strip_geometry(tabs[tab])
+    order = LY.strip_slot_order(m["name"]); stepped = {p["name"]: p["stepped"] for p in m["params"]}
+    out = [image("bg_strip_%s_%d.png" % (key, tab), 0, 0, W, H, cond)]
+    rows, sz, ldy, vdy, bdy = LY.layout(14)
+    S = LY.frame_px("small"); lp, vp = LY.LEGEND_P["small"], LY.VALUE_P["small"]
+    lh, vh = round(LY.mpc_h(lp) * 1.15), round(LY.mpc_h(vp) * 1.15)
+    for n, (cx, cy) in cells.items():
+        k = order.index(n); pi = pidx_of_slot(k)
+        out.append(control("awKnob_small_%s" % LY.role_of(n, stepped[n]), n, pi, round(cx - S / 2), round(cy - S / 2), S, S, cond))
+        out.append(label("Name", pi, round(cx - cw / 2), round(cy + ldy - lh / 2), round(cw), lh, LY.mpc_h(lp), st["legend"], cond=cond))
+        out.append(label("Value", pi, round(cx - cw / 2), round(cy + vdy - vh / 2), round(cw), vh, LY.mpc_h(vp), st["value"], style="SemiBold", cond=cond))
+        if qover:
+            j = k % LY.STRIP_TAB
+            bx = cx - text_w(lp, n) / 2 - 16
+            out.append(image("badge_%d_%d.png" % ((j // 4) % 4, j % 8 + 1), round(bx - 32), round(cy + ldy - 32), 64, 64, cond))
+    return out
+
+
 def page_def(name, comps, native=None):
     d = {"version": 2, "actions": [], "backgroundData": {
         "version": 1, "focussed": {"version": 1, "colour": "ff101214", "image": ""},
@@ -207,6 +231,9 @@ def qlinks(slot_to_param):
     return ql
 
 
+STRIPS_QLINKS = LY.STRIP_TAB
+
+
 def main(port, style, qover):
     sm = json.load(open(os.path.join(port, "gen", "skin_models.json")))
     plist = json.load(open(os.path.join(port, "params.json")))["params"]
@@ -218,22 +245,26 @@ def main(port, style, qover):
     native = os.environ.get("AW_QLINK_NATIVE") == "1"
 
     tabs, qmap = [], []
-    npages = max(1, math.ceil(slots / PAGE))
+    strips = sm["category"] == "Console Strips"
+    per = STRIPS_QLINKS if strips else PAGE
+    npages = max(1, math.ceil(slots / per))
     cat_img = "cat_%s.png" % "".join(c for c in sm["category"].lower() if c.isalnum())
     for pg in range(npages):
         comps = []
         for mi, m in enumerate(models):
-            comps += model_panel(m["params"], pg * PAGE, slot_param, cond(mi), style, qover)
+            comps += (strip_panel(m, slot_param, cond(mi), style, qover, pg) if strips
+                      else model_panel(m["params"], pg * PAGE, slot_param, cond(mi), style, qover))
         comps += header(idx, style)
         px, py, pw, ph = LY.CAT_PLATE
         comps.append(image(cat_img, px, py, pw, ph))
-        title = "CONTROLS" if npages == 1 else "CONTROLS %d/%d" % (pg + 1, npages)
-        tabs.append({"version": 1, "tabName": title, "fnKeyIndex": 0, "fnKeySubIndex": pg,
+        # strips: each page is a real MPC page (own fn key); other categories nest their pages as sub pages
+        title = "CONTROLS" if npages == 1 else ("PAGE %d" % (pg + 1) if strips else "CONTROLS %d/%d" % (pg + 1, npages))
+        tabs.append({"version": 1, "tabName": title, "fnKeyIndex": pg if strips else 0, "fnKeySubIndex": 0 if strips else pg,
                      "componentDefinition": page_def(title, comps), "qlinkBoundsData": native_bounds() if native else ["0 0 0 0"]})
-        here = min(PAGE, slots - pg * PAGE)
-        sl = {s: slot_param(pg * PAGE + s) for s in range(here)}
+        here = min(per, slots - pg * per)
+        sl = {s: slot_param(pg * per + s) for s in range(here)}
         sl[7 if here <= 7 else 15] = model_i
-        qmap.append({"Tab": 1, "SubTab": pg + 1, "Bank Direction": "Column", "Q-Links": qlinks(sl)})
+        qmap.append({"Tab": pg + 1 if strips else 1, "SubTab": 1 if strips else pg + 1, "Bank Direction": "Column", "Q-Links": qlinks(sl)})
 
     gx, gy, gw, gh = LY.PAGE_BOX
     man = [image("bg_manual.png", 0, 0, W, H)] + header(idx, style, info=False)
@@ -243,13 +274,16 @@ def main(port, style, qover):
     mx, my, mw, mstep = LY.MANUAL_LINES
     for i in range(12):
         man.append(label("Value", idx["m%d" % (i + 1)], mx, my + i * mstep, mw, mstep, LY.mpc_h(20), st["body"], "left verticallyCentred", "Regular"))
-    tabs.append({"version": 1, "tabName": "MANUAL", "fnKeyIndex": 1, "fnKeySubIndex": 0,
+    tabs.append({"version": 1, "tabName": "MANUAL", "fnKeyIndex": npages if strips else 1, "fnKeySubIndex": 0,
                  "componentDefinition": page_def("MANUAL", man), "qlinkBoundsData": ["0 0 0 0"]})
-    qmap.append({"Tab": 2, "SubTab": 1, "Bank Direction": "Column", "Q-Links": qlinks({0: idx["man_page"], 1: model_i})})
+    qmap.append({"Tab": (npages if strips else 1) + 1, "SubTab": 1, "Bank Direction": "Column", "Q-Links": qlinks({0: idx["man_page"], 1: model_i})})
 
-    used = sorted({(LY.size_of(min(PAGE, len(m["params"]) - pg * PAGE)), LY.role_of(p["name"], p["stepped"]))
-                   for m in models for pg in range(npages) for p in m["params"][pg * PAGE:(pg + 1) * PAGE]
-                   if len(m["params"]) > pg * PAGE})
+    if strips:
+        used = sorted({("small", LY.role_of(p["name"], p["stepped"])) for m in models for p in m["params"]})
+    else:
+        used = sorted({(LY.size_of(min(PAGE, len(m["params"]) - pg * PAGE)), LY.role_of(p["name"], p["stepped"]))
+                       for m in models for pg in range(npages) for p in m["params"][pg * PAGE:(pg + 1) * PAGE]
+                       if len(m["params"]) > pg * PAGE})
     # a page with exactly 0 controls beyond the first never draws a knob; sizes follow each page's own count
     defs = [selector_def("awSelect", LY.MODEL_BOX[2], LY.MODEL_BOX[3]), selector_def("awPage", LY.PAGE_BOX[2], LY.PAGE_BOX[3]),
             button_def(style)] + [knob_def(s, r) for s, r in used]

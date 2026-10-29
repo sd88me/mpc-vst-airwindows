@@ -2,15 +2,7 @@
 #include "models.h"
 AirwinConsolidatedBase *aw_new_CStrip(); int aw_np_CStrip();
 AirwinConsolidatedBase *aw_new_ConsoleHBuss(); int aw_np_ConsoleHBuss();
-AirwinConsolidatedBase *aw_new_ConsoleHChannel(); int aw_np_ConsoleHChannel();
-AirwinConsolidatedBase *aw_new_ConsoleHPre(); int aw_np_ConsoleHPre();
 AirwinConsolidatedBase *aw_new_ConsoleX2Buss(); int aw_np_ConsoleX2Buss();
-AirwinConsolidatedBase *aw_new_ConsoleX2Channel(); int aw_np_ConsoleX2Channel();
-AirwinConsolidatedBase *aw_new_ConsoleX2Pre(); int aw_np_ConsoleX2Pre();
-AirwinConsolidatedBase *aw_new_ConsoleX3(); int aw_np_ConsoleX3();
-AirwinConsolidatedBase *aw_new_ConsoleXBuss(); int aw_np_ConsoleXBuss();
-AirwinConsolidatedBase *aw_new_ConsoleXChannel(); int aw_np_ConsoleXChannel();
-AirwinConsolidatedBase *aw_new_ConsoleXPre(); int aw_np_ConsoleXPre();
 AirwinConsolidatedBase *aw_new_PurestConsole4Buss(); int aw_np_PurestConsole4Buss();
 AirwinConsolidatedBase *aw_new_PurestConsole4Channel(); int aw_np_PurestConsole4Channel();
 AirwinConsolidatedBase *aw_new_Console9Buss(); int aw_np_Console9Buss();
@@ -61,15 +53,7 @@ AirwinConsolidatedBase *aw_new_EveryConsole(); int aw_np_EveryConsole();
 const aw_model_t AW_MODELS[] = {
     {"CStrip", aw_np_CStrip, aw_new_CStrip},
     {"ConsoleHBuss", aw_np_ConsoleHBuss, aw_new_ConsoleHBuss},
-    {"ConsoleHChannel", aw_np_ConsoleHChannel, aw_new_ConsoleHChannel},
-    {"ConsoleHPre", aw_np_ConsoleHPre, aw_new_ConsoleHPre},
     {"ConsoleX2Buss", aw_np_ConsoleX2Buss, aw_new_ConsoleX2Buss},
-    {"ConsoleX2Channel", aw_np_ConsoleX2Channel, aw_new_ConsoleX2Channel},
-    {"ConsoleX2Pre", aw_np_ConsoleX2Pre, aw_new_ConsoleX2Pre},
-    {"ConsoleX3", aw_np_ConsoleX3, aw_new_ConsoleX3},
-    {"ConsoleXBuss", aw_np_ConsoleXBuss, aw_new_ConsoleXBuss},
-    {"ConsoleXChannel", aw_np_ConsoleXChannel, aw_new_ConsoleXChannel},
-    {"ConsoleXPre", aw_np_ConsoleXPre, aw_new_ConsoleXPre},
     {"PurestConsole4Buss", aw_np_PurestConsole4Buss, aw_new_PurestConsole4Buss},
     {"PurestConsole4Channel", aw_np_PurestConsole4Channel, aw_new_PurestConsole4Channel},
     {"Console9Buss", aw_np_Console9Buss, aw_new_Console9Buss},
@@ -118,4 +102,6 @@ const aw_model_t AW_MODELS[] = {
     {"Console4Channel", aw_np_Console4Channel, aw_new_Console4Channel},
     {"EveryConsole", aw_np_EveryConsole, aw_new_EveryConsole},
 };
-const int AW_NUM_MODELS = 58;
+const int AW_NUM_MODELS = 50;
+const int *const AW_SLOT_MAP[] = {nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr};
+const int AW_SLOT_MAP_LEN[] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};

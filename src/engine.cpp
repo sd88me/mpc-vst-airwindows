@@ -39,6 +39,13 @@ struct inst_t {
 };
 
 int nparams(const inst_t *s) { return s->model >= 0 ? AW_MODELS[s->model].num_params() : 0; }
+// Control slots the skin sees: a model with a slot map (the strips: controls grouped onto tabs, unused slots -1) has
+// AW_SLOT_MAP_LEN of them, any other model one per airwindows parameter, in order.
+int nslots(const inst_t *s) { return s->model < 0 ? 0 : AW_SLOT_MAP[s->model] ? AW_SLOT_MAP_LEN[s->model] : nparams(s); }
+int slot_fx(const inst_t *s, int k0) {   // slot (0-based) -> the effect's parameter, or -1 when the slot is unused
+    if (k0 < 0 || k0 >= nslots(s)) return -1;
+    return AW_SLOT_MAP[s->model] ? AW_SLOT_MAP[s->model][k0] : k0;
+}
 
 int pages(const inst_t *s) { return s->doc.empty() ? 1 : (int)(s->doc.size() + DOC_LINES - 1) / DOC_LINES; }
 
@@ -196,11 +203,12 @@ void set_param(void *p, const char *key, const char *val) {
         return;
     }
     int k = slot_of(key, "");
-    if (k && k <= nparams(s)) {
+    int fi = k ? slot_fx(s, k - 1) : -1;
+    if (fi >= 0) {
         float f = strtof(val, nullptr);
         f = f < 0 ? 0 : f > 1 ? 1 : f;
-        s->vals[s->model][k - 1] = f;
-        s->fx->setParameter(k - 1, f);
+        s->vals[s->model][fi] = f;
+        s->fx->setParameter(fi, f);
     }
 }
 
@@ -232,18 +240,23 @@ int get_param(void *p, const char *key, char *buf, int len) {
         }
     }
     int k;
-    if ((k = slot_of(key, ""))) return put(buf, len, k <= nparams(s) ? std::to_string(s->vals[s->model][k - 1]) : "0");
+    if ((k = slot_of(key, ""))) {
+        int fi = slot_fx(s, k - 1);
+        return put(buf, len, fi >= 0 ? std::to_string(s->vals[s->model][fi]) : "0");
+    }
     if ((k = slot_of(key, "_name"))) {
-        if (k > nparams(s)) return put(buf, len, " ");
+        int fi = slot_fx(s, k - 1);
+        if (fi < 0) return put(buf, len, " ");
         char t[256] = "";
-        s->fx->getParameterName(k - 1, t);
+        s->fx->getParameterName(fi, t);
         return put(buf, len, trim(t));
     }
     if ((k = slot_of(key, "_display"))) {
-        if (k > nparams(s)) return put(buf, len, " ");
+        int fi = slot_fx(s, k - 1);
+        if (fi < 0) return put(buf, len, " ");
         char d[256] = "", l[256] = "";
-        s->fx->getParameterDisplay(k - 1, d);
-        s->fx->getParameterLabel(k - 1, l);
+        s->fx->getParameterDisplay(fi, d);
+        s->fx->getParameterLabel(fi, l);
         std::string t = trim(d), u = trim(l);
         return put(buf, len, u.empty() ? t : t + " " + u);
     }

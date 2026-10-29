@@ -92,9 +92,84 @@ BADGE_DX = {"large": 67, "normal": 58, "small": 50}
 GROUP = [(0.95, 0.62, 0.15), (0.30, 0.72, 0.85), (0.80, 0.45, 0.80), (0.55, 0.80, 0.35)]   # Q-Link column colours
 
 # category accents (footer LED and plate), one per upstream category
-ACCENT = {"Ambience": (0.25, 0.75, 0.70), "Amp Sims": (0.95, 0.55, 0.15), "Bass": (0.75, 0.20, 0.20), "Biquads": (0.50, 0.55, 0.75),
+ACCENT = {"Console Strips": (0.80, 0.18, 0.30), "Ambience": (0.25, 0.75, 0.70), "Amp Sims": (0.95, 0.55, 0.15), "Bass": (0.75, 0.20, 0.20), "Biquads": (0.50, 0.55, 0.75),
           "Brightness": (0.95, 0.85, 0.25), "Clipping": (0.85, 0.30, 0.65), "Consoles": (0.85, 0.20, 0.20), "Distortion": (0.95, 0.40, 0.15),
           "Dithers": (0.60, 0.60, 0.62), "Dynamics": (0.30, 0.75, 0.35), "Effects": (0.65, 0.45, 0.90), "Filter": (0.30, 0.55, 0.90),
           "Lo-Fi": (0.70, 0.55, 0.35), "Noise": (0.55, 0.55, 0.55), "Reverb": (0.25, 0.50, 0.90), "Saturation": (0.90, 0.60, 0.20),
           "Stereo": (0.35, 0.80, 0.85), "Subtlety": (0.75, 0.75, 0.50), "Tape": (0.80, 0.50, 0.30), "Tone Color": (0.90, 0.45, 0.55),
           "Unclassified": (0.65, 0.65, 0.65), "Utility": (0.55, 0.65, 0.70), "XYZ Filters": (0.45, 0.60, 0.95)}
+
+
+# ---- Console Strips: the controls of one model grouped onto tabs of at most STRIP_TAB controls ------------------------------
+# a tab is rows of sections, each (title, [control names]); one tab holds at most STRIP_TAB = PAGE controls (14, the same as a Consoles page)
+STRIP_TAB = 14
+_EQ_X = [[("TREBLE", ["Tr Freq", "Treble", "Tr Reso"]), ("HIGH MID", ["HM Freq", "HighMid", "HM Reso"])],
+         [("LOW MID", ["LM Freq", "LowMid", "LM Reso"]), ("BASS", ["Bs Freq", "Bass", "Bs Reso"])]]
+_EQ_H = [[("TREBLE", ["Tr Freq", "Treble", "TrCrush"]), ("HIGH MID", ["HM Freq", "HighMid", "HMCrush"])],
+         [("LOW MID", ["LM Freq", "LowMid", "LMCrush"]), ("BASS", ["Bs Freq", "Bass", "BsCrush"])]]
+STRIP_TABS = {
+    "X": [[[("FILTER", ["Highpas", "Lowpass"]), ("TONE", ["Air", "Fire", "Stone", "Range"]), ("OUTPUT", ["Top dB", "Pan", "Fader"])]],
+          _EQ_X,
+          [[("FAST COMPRESSOR", ["FC Thrs", "FC Rati", "FC Atk", "FC Rls"]), ("SLOW COMPRESSOR", ["SC Thrs", "SC Rati", "SC Atk", "SC Rls"])]],
+          [[("FAST GATE", ["FG Thrs", "FG Rati", "FG Sust", "FG Rls"]), ("SLOW GATE", ["SG Thrs", "SG Rati", "SG Sust", "SG Rls"])]]],
+    "H": [[[("INPUT", ["Trim", "More"]), ("SHAPE", ["High", "Mid", "Low", "CrossFd"]), ("DYNAMICS", ["Thresh", "Attack", "Release", "Gate"])],
+           [("FILTER", ["Hipass", "Lowpass"]), ("OUTPUT", ["Pan", "Fader"])]],
+          _EQ_H],
+    "X2": [[[("INPUT", ["Trim", "More"]), ("EQ", ["High", "HMid", "LMid", "Bass"])], [("EQ FREQUENCY", ["HighF", "HMidF", "LMidF", "BassF"])]],
+           [[("DYNAMICS", ["Thresh", "Attack", "Release", "Gate"])], [("FILTER", ["Hipass", "Lowpass"]), ("OUTPUT", ["Pan", "Fader"])]]],
+    "X3": [[[("EQ", ["High", "HMid", "LMid", "Bass"]), ("EQ FREQUENCY", ["HighF", "HMidF", "LMidF", "BassF"])], [("DYNAMICS", ["Thresh", "Attack", "Release"])]],
+           [[("INPUT", ["Input", "Inv/Wet", "Cha/Bus", "Smooth", "More"])], [("FILTER", ["Hipass", "HipassQ", "Lowpass", "LowpasQ"]), ("OUTPUT", ["Pan", "Fader"])]]],
+}
+STRIP_OF = {"ConsoleXBuss": "X", "ConsoleXChannel": "X", "ConsoleXPre": "X", "ConsoleHChannel": "H", "ConsoleHPre": "H",
+            "ConsoleX2Channel": "X2", "ConsoleX2Pre": "X2", "ConsoleX3": "X3"}
+STRIP_DROP = {"ConsoleX2Pre": ["Pan"], "ConsoleHPre": ["Pan"]}
+STRIP_NTABS = max(len(t) for t in STRIP_TABS.values())
+
+
+def strip_variant(model):
+    """-> (key, tabs) for a strips model: tabs of rows of sections, minus controls the model lacks. Models of one key share backgrounds."""
+    fam = STRIP_OF[model]; drop = STRIP_DROP.get(model, [])
+    tabs = []
+    for tab in STRIP_TABS[fam]:
+        rows = []
+        for row in tab:
+            secs = [(t, [n for n in ns if n not in drop]) for t, ns in row]
+            secs = [(t, ns) for t, ns in secs if ns]
+            if secs:
+                rows.append(secs)
+        tabs.append(rows)
+    return fam + ("p" if drop else ""), tabs
+
+
+STRIP_VARIANTS = dict(strip_variant(m) for m in STRIP_OF)
+
+
+def strip_slot_order(model):
+    """The model's controls in tab order, each tab padded to STRIP_TAB slots with None: the engine's slot map (slot -> control name)."""
+    key, tabs = strip_variant(model); out = []
+    for rows in tabs:
+        names = [n for row in rows for _, ns in row for n in ns]
+        assert len(names) <= STRIP_TAB, (model, len(names))
+        out += names + [None] * (STRIP_TAB - len(names))
+    return out + [None] * (STRIP_TAB * (STRIP_NTABS - len(tabs)))
+
+
+def strip_geometry(rows):
+    """One tab -> (sections [(title, (x0, y0, x1, y1), title_xy)], cells {name: (cx, cy)}, cell_w, rowcy). Knobs are 'small', as on a
+    two-row Consoles page: one row sits at y 352, two rows at 268 and 474; a section is an engraved box with its title."""
+    x0s, y0s, x1s, y1s = SECTION
+    gap = 18; pad = 12
+    cw = min(140, int((x1s - x0s - 40 - max((len(r) - 1) * gap + len(r) * pad for r in rows)) / max(sum(len(ns) for _, ns in r) for r in rows)))
+    cys = [352] if len(rows) == 1 else [268, 474]
+    secs, cells = [], {}
+    for row, cy in zip(rows, cys):
+        total = sum(len(ns) * cw + pad for _, ns in row) + (len(row) - 1) * gap
+        x = (x0s + x1s) / 2 - total / 2
+        for title, ns in row:
+            w = len(ns) * cw + pad
+            top = cy - 112
+            secs.append((title, (round(x), top, round(x + w), cy + 84), (round(x + 10), top + 14)))
+            for i, n in enumerate(ns):
+                cells[n] = (x + pad / 2 + (i + 0.5) * cw, cy)
+            x += w + gap
+    return secs, cells, cw

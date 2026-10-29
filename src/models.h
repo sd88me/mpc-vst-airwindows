@@ -9,3 +9,6 @@ struct aw_model_t {
 };
 extern const aw_model_t AW_MODELS[];
 extern const int AW_NUM_MODELS;
+// per model: the control-slot map (slot -> effect parameter, -1 unused) and its length, or null/0 for slots in parameter order
+extern const int *const AW_SLOT_MAP[];
+extern const int AW_SLOT_MAP_LEN[];
