@@ -1,0 +1,379 @@
+{
+ "SoftClock3": {
+  "what": "A groove-oriented time reference.",
+  "sound": "A metronome of swooping tones that synchronises humans, not machines.",
+  "use": "Recording to a click you can groove with. Route its audio to a track and record it.",
+  "controls": {
+   "Tempo": "Tempo.",
+   "Count": "Beats per bar.",
+   "Tuple": "Subdivision of the beat.",
+   "Triplet": "Triplet feel.",
+   "Flavor": "Character of the click tone."
+  },
+  "src": "7f6c5a257d"
+ },
+ "SoftClock2": {
+  "what": "A groove-oriented time reference, second version.",
+  "sound": "Swooping tones with accents, swing and peak/valley shaping.",
+  "use": "Recording to a click you can groove with.",
+  "controls": {
+   "Tempo": "Tempo.",
+   "Count": "Beats per bar.",
+   "Tuple": "Subdivision of the beat.",
+   "Swing": "Swing amount.",
+   "Peak": "Level of the high point of each beat.",
+   "Valley": "Level of the low point.",
+   "Accents": "Accent pattern strength.",
+   "Boost": "Output boost.",
+   "Speed": "Speed of the swoops."
+  },
+  "src": "8dc6c427c6"
+ },
+ "SoftClock": {
+  "what": "The original groove-oriented time reference.",
+  "sound": "A swooping-tone metronome that synchronises humans.",
+  "use": "Recording to a click you can groove with.",
+  "controls": {
+   "Tempo": "Tempo.",
+   "Count": "Beats per bar.",
+   "Tuple": "Subdivision of the beat.",
+   "Swing": "Swing amount.",
+   "BigBeat": "Strength of the big beat.",
+   "Accents": "Accent pattern strength.",
+   "Boost": "Output boost.",
+   "Speed": "Speed of the swoops."
+  },
+  "src": "fae136c096"
+ },
+ "BitShiftPan": {
+  "what": "A gain and pan done only with bit shifts.",
+  "sound": "Lossless 6 dB steps. Centre is louder than the sides; the first steps to the side are large.",
+  "use": "Perfectly clean level and pan changes.",
+  "controls": {
+   "Vol": "Volume, in 6 dB steps.",
+   "Pan": "Pan, in bit-shift steps."
+  },
+  "src": "55b1c08c00"
+ },
+ "BitShiftGain": {
+  "what": "The perfect boost or pad, in 6 dB steps only.",
+  "sound": "No maths, no dither: scaling by exactly 6 dB steps.",
+  "use": "The cleanest possible gain change.",
+  "controls": {
+   "BitShift": "Gain in 6 dB steps."
+  },
+  "src": "fba76f12dd"
+ },
+ "PurestGain": {
+  "what": "A high-resolution, noise-shaped gain with a smoothed fader.",
+  "sound": "Clean gain with a slow fade for safe automation.",
+  "use": "A clean gain utility and fades.",
+  "controls": {
+   "Gain": "Gain.",
+   "Slow Fade": "How slowly the fader moves."
+  },
+  "src": "d0620b9367"
+ },
+ "PurestDualPan": {
+  "what": "PurestGain-style dual pan.",
+  "sound": "Sine pan law as in Console9, with quick de-zippering.",
+  "use": "Independent left and right gain and pan.",
+  "controls": {
+   "L Vol": "Left channel volume. 0.5 is unity.",
+   "L Pan": "Left channel pan.",
+   "R Vol": "Right channel volume. 0.5 is unity.",
+   "R Pan": "Right channel pan."
+  },
+  "src": "e0c70e7cd4"
+ },
+ "BitDualPan": {
+  "what": "A dual pan that is almost BitShiftGain.",
+  "sound": "Bit-shift gain and pan on each side.",
+  "use": "Lossless dual-pan.",
+  "controls": {
+   "L Vol": "Left channel volume.",
+   "L Pan": "Left channel pan.",
+   "R Vol": "Right channel volume.",
+   "R Pan": "Right channel pan."
+  },
+  "src": "8686f01d09"
+ },
+ "PurestFade": {
+  "what": "Like PurestGain, but for long fades.",
+  "sound": "Fades all the way to silence without an abrupt cut.",
+  "use": "Mastering fades.",
+  "controls": {
+   "Gain": "Gain.",
+   "Fade": "Fade position."
+  },
+  "src": "6e0fc3e173"
+ },
+ "Monitoring3": {
+  "what": "Monitoring with Ten Nines into Dark as the wordlength reducer.",
+  "sound": "Dither to 24 or 16 bit plus mix check modes such as SubsOnly, SlewOnly and PeaksOnly.",
+  "use": "Last in the chain on the 2-buss, to check a mix in different ways and dither the output.",
+  "controls": {
+   "Monitor": "Picks the monitoring mode or output depth."
+  },
+  "src": "944ffb2688"
+ },
+ "Monitoring2": {
+  "what": "Monitoring with Dark as the wordlength reducer.",
+  "sound": "Dither to 24 or 16 bit plus mix check modes such as SubsOnly, SlewOnly and PeaksOnly.",
+  "use": "Last in the chain on the 2-buss, to check a mix in different ways and dither the output.",
+  "controls": {
+   "Monitor": "Picks the monitoring mode or output depth."
+  },
+  "src": "b269be49c3"
+ },
+ "Monitoring": {
+  "what": "Your one-stop shop for final 2-buss work.",
+  "sound": "Dither to 24 or 16 bit plus mix check modes such as SubsOnly, SlewOnly and PeaksOnly.",
+  "use": "Last in the chain on the 2-buss, to check a mix in different ways and dither the output.",
+  "controls": {
+   "Monitor": "Picks the monitoring mode or output depth."
+  },
+  "src": "14f3b1309b"
+ },
+ "EveryTrim": {
+  "what": "Left/right, mid/side and master trims in one plugin.",
+  "sound": "Plain, clean gain trim with noise shaping.",
+  "use": "Basic stereo trimming.",
+  "controls": {
+   "Left": "Left level.",
+   "Right": "Right level.",
+   "Mid": "Mid level.",
+   "Side": "Side level.",
+   "Master": "Master level."
+  },
+  "src": "7dbb1ae7dc"
+ },
+ "HermeTrim": {
+  "what": "Very fine adjustments, like EveryTrim.",
+  "sound": "Plus or minus 12 dB of each trim, nearly as clean as PurestGain.",
+  "use": "Delicate stereo tweaking.",
+  "controls": {
+   "Left": "Left level.",
+   "Right": "Right level.",
+   "Mid": "Mid level.",
+   "Side": "Side level.",
+   "Master": "Master level."
+  },
+  "src": "1e210fa56b"
+ },
+ "DubPlate2": {
+  "what": "Mastering for electronic music in the style of a dubplate cut.",
+  "sound": "A bright dubplate-style mastering colour.",
+  "use": "Giving electronic music a dubplate sound.",
+  "controls": {
+   "Input": "Input level.",
+   "Treble": "Treble.",
+   "Bass": "Bass."
+  },
+  "src": "df80d099ef"
+ },
+ "DubPlate": {
+  "what": "Ruthless dubplate mastering for electronic music.",
+  "sound": "The sound of a cut acetate dubplate.",
+  "use": "Retro-styled mastering of electronic music. No controls.",
+  "controls": {},
+  "src": "6b768e558d"
+ },
+ "CansAW": {
+  "what": "Chris's Airwindows mix room, in a plugin, for headphone mixers.",
+  "sound": "The Airwindows control-room presets.",
+  "use": "Checking a mix as if in different positions in a real room.",
+  "controls": {
+   "seatPos": "Listening position in the room."
+  },
+  "src": "9d47d23b7b"
+ },
+ "Cans": {
+  "what": "A room simulator for headphone mixers.",
+  "sound": "Adjustable control-room sounds from compact to huge.",
+  "use": "Mixing on headphones with a room around you.",
+  "controls": {
+   "Room": "Room size.",
+   "Diffuse": "Diffusion.",
+   "Damping": "Damping.",
+   "Crossfd": "Crossfeed between ears.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "17a328e359"
+ },
+ "SlewOnly": {
+  "what": "A mix check that shows only the extreme highs.",
+  "sound": "Super-bright: only the difference between samples, with no latency or ringing.",
+  "use": "Checking the top of a mix. No controls; don't print through it.",
+  "controls": {},
+  "src": "8b38509d19"
+ },
+ "SubsOnly": {
+  "what": "A mix check that shows only the extreme lows.",
+  "sound": "Only the deepest subs.",
+  "use": "Checking the bass balance of a mix. No controls.",
+  "controls": {},
+  "src": "50648acd90"
+ },
+ "PeaksOnly": {
+  "what": "A transformative mix check tool.",
+  "sound": "Phase-rotates the signal so only the peaks stand out. It wrecks the sound.",
+  "use": "Revealing peaks in a mix. Never master through it. No controls.",
+  "controls": {},
+  "src": "cf7ef1e7f9"
+ },
+ "Golem": {
+  "what": "Blends a stereo track of two mics on an amp to mono.",
+  "sound": "Mixes both mics, with a sample delay on one side to align phase.",
+  "use": "Metal guitar cabs recorded with two microphones.",
+  "controls": {
+   "Balance": "Balance between left and right mic.",
+   "Offset": "Delay on one side, in samples.",
+   "Phase": "Phase switching."
+  },
+  "src": "772f66de1d"
+ },
+ "DCVoltage": {
+  "what": "A DC control voltage, in a plugin.",
+  "sound": "Pure DC. Dangerous to speakers if misused.",
+  "use": "Cancelling DC offset or controlling a DC-coupled system. Careful.",
+  "controls": {
+   "Voltage": "The DC level."
+  },
+  "src": "6fe7a2ae1f"
+ },
+ "LRConvolve3": {
+  "what": "Gates one channel by the other.",
+  "sound": "Roughly or cleanly, depending on Smooth.",
+  "use": "Gating by another channel.",
+  "controls": {
+   "Smooth": "Roughly (low) or cleanly (high).",
+   "Channel": "Which channel gates which."
+  },
+  "src": "6a70c83300"
+ },
+ "LRConvolve2": {
+  "what": "LRConvolve plus Soar.",
+  "sound": "Multiplies each channel by the other; Soar shows its crossover distortion.",
+  "use": "Mangling a stereo pair.",
+  "controls": {
+   "Soar": "Crossover-distortion amount."
+  },
+  "src": "d06d26dd4e"
+ },
+ "LRConvolve": {
+  "what": "Multiplies each channel by the other.",
+  "sound": "Awful and wonderful: a sine in one channel turns a voice into the Swedish Chef.",
+  "use": "Wild effects on stereo pairs. No controls.",
+  "controls": {},
+  "src": "a13871f7de"
+ },
+ "EdIsDim": {
+  "what": "The other half of MidSide: converts mid/side back to stereo.",
+  "sound": "Switches between stereo and mid/side so any plugin can process mid or side.",
+  "use": "Put MidSide before your processing and EdIsDim after it.",
+  "controls": {
+   "ediS/diM": "Balances the mid and side content."
+  },
+  "src": "d729057739"
+ },
+ "MidSide": {
+  "what": "A mid/side conversion utility.",
+  "sound": "Switches between stereo and mid/side so any plugin can process mid or side.",
+  "use": "Put MidSide before your processing and EdIsDim after it.",
+  "controls": {
+   "Mid/Side": "Balances the mid and side content."
+  },
+  "src": "ec391a3feb"
+ },
+ "uLawEncode": {
+  "what": "The encode half of a uLaw companding pair.",
+  "sound": "A reversible, distorting companding as used for telephone transmission. Much more extreme than Console.",
+  "use": "Use the pair for effects. Encode first, process, then decode.",
+  "controls": {
+   "Gain": "Gain.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "b77921dfa8"
+ },
+ "uLawDecode": {
+  "what": "The decode half of a uLaw companding pair.",
+  "sound": "A reversible, distorting companding as used for telephone transmission. Much more extreme than Console.",
+  "use": "Use the pair for effects. Encode first, process, then decode.",
+  "controls": {
+   "Gain": "Gain.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "baddac8cb5"
+ },
+ "RightoMono": {
+  "what": "Copies the right channel to both, losslessly.",
+  "sound": "Bypasses noise on the other side.",
+  "use": "Sources where only one side holds audio. No controls.",
+  "controls": {},
+  "src": "c6a065e1bf"
+ },
+ "LeftoMono": {
+  "what": "Copies the left channel to both, losslessly.",
+  "sound": "Bypasses noise on the other side.",
+  "use": "Sources where only one side holds audio. No controls.",
+  "controls": {},
+  "src": "657a6d8b75"
+ },
+ "Balanced": {
+  "what": "Runs an XLR input into a stereo input and sums to mono.",
+  "sound": "Sums a balanced signal and cancels common noise.",
+  "use": "Using a balanced source on stereo inputs.",
+  "controls": {
+   "BitShift": "Gain in 6 dB steps."
+  },
+  "src": "4cdce9ac86"
+ },
+ "Flipity": {
+  "what": "A channel phase flipper and swapper.",
+  "sound": "Flips phase of L, R or both, swaps channels, and combinations.",
+  "use": "Fixing phase and channel problems.",
+  "controls": {
+   "Flipity": "Picks the flip or swap mode."
+  },
+  "src": "ae2b6f098d"
+ },
+ "MoNoam": {
+  "what": "Variations on mono, mid and side in different channels.",
+  "sound": "Switches mid/side configurations, including a mono check from one speaker.",
+  "use": "Mono mix checks.",
+  "controls": {
+   "Monotor": "Picks the mono, mid or side mode."
+  },
+  "src": "2ae55c5e3f"
+ },
+ "VoiceTrick": {
+  "what": "Lets you record vocals while monitoring over speakers.",
+  "sound": "Exploits microphone and ear quirks to cancel the monitored sound in the recording.",
+  "use": "Singing with monitor speakers or open-ear headphones.",
+  "controls": {
+   "Tone": "Tone of the cancellation signal."
+  },
+  "src": "c3cfbcbbff"
+ },
+ "DeCrackle": {
+  "what": "Isolates clicks and vinyl crackles to remove them.",
+  "sound": "A lot of work for a good purpose: cleaning vinyl. It isn't magic.",
+  "use": "Reducing vinyl crackle and clicks.",
+  "controls": {
+   "Filter": "Filter that finds the crackle.",
+   "Window": "Detection window.",
+   "Thresld": "Detection threshold.",
+   "Surface": "Surface noise amount.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "735fe7860e"
+ },
+ "ContentHideD": {
+  "what": "Mutes audio except for brief glimpses.",
+  "sound": "Mostly silence, with blips under a second every few seconds.",
+  "use": "A YouTube utility so protected audio isn't flagged. No controls.",
+  "controls": {},
+  "src": "18d643a6b3"
+ }
+}

@@ -1,0 +1,351 @@
+{
+ "Pafnuty": {
+  "what": "A Chebyshev harmonic generator: adds chosen harmonics.",
+  "sound": "Feeds on sine-like signals and adds the harmonics you pick, from second to thirteenth.",
+  "use": "Sound design and harmonic exciting. Not a normal filter.",
+  "controls": {
+   "Second": "Level of the second harmonic.",
+   "Third": "Level of the third harmonic.",
+   "Fourth": "Level of the fourth harmonic.",
+   "Fifth": "Level of the fifth harmonic.",
+   "Sixth": "Level of the sixth harmonic.",
+   "Seventh": "Level of the seventh harmonic.",
+   "Eighth": "Level of the eighth harmonic.",
+   "Ninth": "Level of the ninth harmonic.",
+   "Tenth": "Level of the tenth harmonic.",
+   "Elevnth": "Level of the elevnth harmonic.",
+   "Twelvth": "Level of the twelvth harmonic.",
+   "Thirtnh": "Level of the thirtnh harmonic.",
+   "Inv/Wet": "Inverted, dry or wet blend."
+  },
+  "src": "2f23f21a77"
+ },
+ "Pafnuty2": {
+  "what": "Pafnuty with ten harmonics, fitted to the VCV Rack port.",
+  "sound": "Chebyshev harmonic generation, a shorter version.",
+  "use": "Adding chosen harmonics.",
+  "controls": {
+   "Second": "Level of the second harmonic.",
+   "Third": "Level of the third harmonic.",
+   "Fourth": "Level of the fourth harmonic.",
+   "Fifth": "Level of the fifth harmonic.",
+   "Sixth": "Level of the sixth harmonic.",
+   "Seventh": "Level of the seventh harmonic.",
+   "Eighth": "Level of the eighth harmonic.",
+   "Ninth": "Level of the ninth harmonic.",
+   "Tenth": "Level of the tenth harmonic.",
+   "Inv/Wet": "Inverted, dry or wet blend."
+  },
+  "src": "8c813e0b08"
+ },
+ "TakeCare": {
+  "what": "A lush chorus ensemble universe.",
+  "sound": "Melt-style wobble with a Householder matrix of delays; dark and disconcerting, like The Caretaker.",
+  "use": "Lush, unsettling chorus and ensemble textures.",
+  "controls": {
+   "Speed": "Modulation speed.",
+   "Rando": "Randomness of the modulation.",
+   "Depth": "Modulation depth.",
+   "Regen": "Regeneration.",
+   "Derez": "Undersampling for a darker, lo-fi tone.",
+   "Buffer": "Delay buffer size.",
+   "Output": "Output level.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "7854747943"
+ },
+ "RingModulator": {
+  "what": "Repitches sounds mathematically, not harmonically.",
+  "sound": "A polite sine multiplier from subsonic throbs to very high pitches; in stereo you get two modulators.",
+  "use": "Ring-mod effects and sound design.",
+  "controls": {
+   "Freq": "Modulator frequency (two controls for the two channels).",
+   "Soar": "Crossover distortion from SquareRoot's Soar.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "ce6ed8aed1"
+ },
+ "Dubly3": {
+  "what": "A refined Dubly: noise-reduction style encode and decode.",
+  "sound": "Tilt and shape controls over the Dubly seventies sound, with real compression instead of a transfer function.",
+  "use": "Seventies tone and tape-style conditioning.",
+  "controls": {
+   "Input": "Input level.",
+   "Tilt": "Balances encode against decode.",
+   "Shape": "Cutoff and compressor response.",
+   "Output": "Output level."
+  },
+  "src": "fcccf40fa3"
+ },
+ "Dubly2": {
+  "what": "A key part of seventies sonics, as a standalone.",
+  "sound": "Encode and decode with tape-style saturation between.",
+  "use": "Seventies-style tape colour.",
+  "controls": {
+   "EncAmnt": "Dubly encode amount.",
+   "EncFreq": "Dubly encode frequency.",
+   "TapeDrv": "Tape drive between the stages.",
+   "DecAmnt": "Dubly decode amount.",
+   "DecFreq": "Dubly decode frequency.",
+   "Out Pad": "Output level.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "696ecf94f0"
+ },
+ "Dubly": {
+  "what": "A retro vibe and atmosphere maker.",
+  "sound": "The noise-reduction trick turned into an effect: filter, compress 2:1 and add, then decode.",
+  "use": "Retro atmosphere and brightness.",
+  "controls": {
+   "Dubly": "Amount of the effect.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "82a28e87f6"
+ },
+ "GalacticVibe": {
+  "what": "The stereo vibrato from the original Galactic reverb.",
+  "sound": "A quadrature dual vibrato with a slightly irregular, organic LFO.",
+  "use": "Chorus-like movement and widening.",
+  "controls": {
+   "Drift": "Amount and speed of the drift.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "eca77352e4"
+ },
+ "CloudCoat": {
+  "what": "An array of blur effects with a taste for evil.",
+  "sound": "A bank of allpass blurs: smeared, bloom-like sound.",
+  "use": "Blurred, evil ambiences.",
+  "controls": {
+   "Select": "Picks the blur type.",
+   "Sustain": "How long it sustains.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "6e5ed58613"
+ },
+ "Disintegrate": {
+  "what": "Discontinuity on steroids.",
+  "sound": "A delay-modulation distortion that disintegrates the sound, like a rocket launch heard from miles away.",
+  "use": "Total unreality, extreme air distortion.",
+  "controls": {
+   "Top dB": "The loudness (in air) at the point of clipping.",
+   "BufSize": "Delay buffer size.",
+   "Layers": "Number of layers of the effect.",
+   "Filter": "Filter on the effect.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "ef3ccf9d1b"
+ },
+ "Fracture2": {
+  "what": "A West Coast wavefolder allowing more extreme disruption.",
+  "sound": "Wavefolding with an exponential stage before folding.",
+  "use": "Wavefolding and extreme tone mangling.",
+  "controls": {
+   "Drive": "Overdrive into the folder. Unity at about 0.1.",
+   "Fractre": "Makes the signal go exponential before folding.",
+   "Thresh": "Fold threshold.",
+   "Output": "Output level.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "e5c35d401a"
+ },
+ "Fracture": {
+  "what": "A frequency multiplier and wavefolder.",
+  "sound": "A sine-based West Coast wavefolder that wraps around up to a maximum fold, then clips.",
+  "use": "Wavefolding.",
+  "controls": {
+   "Drive": "Boost into the folder.",
+   "Fracture": "How many times it folds before clipping.",
+   "Out Lvl": "Output level.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "2b8622c1b4"
+ },
+ "PitchNasty": {
+  "what": "A primitive pitch shifter with time-stretch artefacts.",
+  "sound": "Mostly a punchy, tight pitch shift, otherwise loud sample glitches that become musical notes.",
+  "use": "Gritty pitch shifting.",
+  "controls": {
+   "Note": "Pitch shift in notes.",
+   "Bend": "Bend amount.",
+   "Grind": "Glitch intensity.",
+   "Feedbck": "Feedback.",
+   "Output": "Output level.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "d4544ddbfe"
+ },
+ "Trianglizer": {
+  "what": "A waveshaper that turns sines into triangles.",
+  "sound": "Triangle-ish waves from sines, plus fatness.",
+  "use": "Sound design and waveshaping.",
+  "controls": {
+   "Tri/Fat": "Triangle or fat shape.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "589353e114"
+ },
+ "ShortBuss": {
+  "what": "Chases second harmonic, to add or remove it.",
+  "sound": "Finds asymmetry and amplifies it, or cancels it.",
+  "use": "Adding or removing even-harmonic weight.",
+  "controls": {
+   "ShortBs": "How much second harmonic is chased.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "809d7b7e65"
+ },
+ "GuitarConditioner": {
+  "what": "A Tube Screamer-like voicing without the squishiness.",
+  "sound": "Slew and highpass in parallel for a distinct tone quality.",
+  "use": "Conditioning a guitar sound. No controls.",
+  "controls": {},
+  "src": "f98f158a05"
+ },
+ "Aura": {
+  "what": "A new kind of resonant lowpass EQ.",
+  "sound": "Resonant lowpass colouring; more resonance as you go full wet.",
+  "use": "Resonant tone shaping. Explore half-wet settings.",
+  "controls": {
+   "Voicing": "Voicing of the resonance.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "1e546ac77d"
+ },
+ "TremoSquare": {
+  "what": "A squarewave tremolo that only switches on zero crossings.",
+  "sound": "Hard on/off tremolo without clicks.",
+  "use": "Rhythmic gating effects.",
+  "controls": {
+   "Freq": "Tremolo rate.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "5025f0479b"
+ },
+ "Tremolo": {
+  "what": "A tubey tremolo from fluctuating saturation curves.",
+  "sound": "An organic, pulsating tremolo like classic records, not a volume animation.",
+  "use": "Classic tremolo.",
+  "controls": {
+   "Speed": "Tremolo speed.",
+   "Depth": "Tremolo depth."
+  },
+  "src": "a6529f63de"
+ },
+ "GlitchShifter": {
+  "what": "A raw, gnarly pitch shifter with a dose of insanity.",
+  "sound": "Equal-temperament or unquantized pitch shifting, with feedback and glitchy tracking.",
+  "use": "Pitch shifting, doubling and glitch effects.",
+  "controls": {
+   "Note": "Pitch shift in notes.",
+   "Trim": "Input trim.",
+   "Tighten": "Tightens the glitching.",
+   "Feedbck": "Feedback.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "87a02d5d18"
+ },
+ "Gringer": {
+  "what": "A full-wave rectifier like a Green Ringer guitar effect.",
+  "sound": "Horrible unmusical noises, just like the original.",
+  "use": "Guitar rectification. No controls.",
+  "controls": {},
+  "src": "aa1010c80c"
+ },
+ "Exciter": {
+  "what": "An aural exciter that can be subtle or extreme.",
+  "sound": "Starts off sounding like nothing, then adds sparkle.",
+  "use": "Adding air and presence, as on Steely Dan records.",
+  "controls": {
+   "Freq": "Frequency the excitation works from.",
+   "Excite": "Amount of excitement."
+  },
+  "src": "28fe6e565c"
+ },
+ "Energy2": {
+  "what": "Electrifying fixed-frequency treble boosts, for high sample rates.",
+  "sound": "Weird algorithm tied to sample rate; treble and high-mid aggression.",
+  "use": "Adding energy and aggression to the top end.",
+  "controls": {
+   "Hiss": "Highest boost band.",
+   "Glitter": "Glitter band.",
+   "Rat": "Rat band.",
+   "Fizz": "Fizz band.",
+   "Scrape": "Scrape band.",
+   "Chug": "Chug band.",
+   "Yowr": "Yowr band.",
+   "Snarl": "Snarl band.",
+   "I/Dr/Wt": "Inverted, dry, or wet blend."
+  },
+  "src": "2a84ee8cf7"
+ },
+ "Energy": {
+  "what": "Electrifying fixed-frequency treble boosts.",
+  "sound": "A bizarre algorithm that acts like half a super-high-Q boost; the labels only relate to 44.1k.",
+  "use": "Treble and high-mid boosts that normal EQ can't do.",
+  "controls": {
+   "Hiss": "Highest boost band.",
+   "Glitter": "Glitter band.",
+   "Rat": "Rat band.",
+   "Fizz": "Fizz band.",
+   "Scrape": "Scrape band.",
+   "Chug": "Chug band.",
+   "Yowr": "Yowr band.",
+   "Snarl": "Snarl band.",
+   "I/Dr/Wt": "Inverted, dry, or wet blend."
+  },
+  "src": "1610118904"
+ },
+ "Facet": {
+  "what": "A new kind of hard clip that adds two sharp corners.",
+  "sound": "Changes the angle of the transfer function at a sharp point; peaks can still go beyond 0 dB.",
+  "use": "A distinctive distortion flavour.",
+  "controls": {
+   "Facet": "Position and amount of the corners."
+  },
+  "src": "96ad2f6434"
+ },
+ "PowerSag2": {
+  "what": "Improved circuit-starve plugin, now with inverse effect.",
+  "sound": "Power-supply sag with twice the range; the inverse hears what's taken away.",
+  "use": "Grungy, gatey sag and its opposite.",
+  "controls": {
+   "Range": "Range of the sag.",
+   "Inv/Wet": "Inverted, dry or wet blend."
+  },
+  "src": "f67dd5d95f"
+ },
+ "PowerSag": {
+  "what": "Power-supply limits in analog modelling.",
+  "sound": "The more output made, the less in reserve; doesn't distort directly.",
+  "use": "Analog sag in Desk-style effects.",
+  "controls": {
+   "Depth": "How deep the sag.",
+   "Speed": "How fast it recovers."
+  },
+  "src": "0e356b9d73"
+ },
+ "Preponderant": {
+  "what": "Airwindows anti-Soothe: a tone intensifier and balancer.",
+  "sound": "Three tightly controlled bands of emphasis, balanced on the fly so they stay active.",
+  "use": "Hyping detail and sonority, the opposite of removing resonance.",
+  "controls": {
+   "Narrow": "Narrow-band emphasis.",
+   "Medium": "Medium-band emphasis.",
+   "Wide": "Wide-band emphasis.",
+   "Resonan": "Resonance.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "c8b11d9b60"
+ },
+ "Nikola": {
+  "what": "An audio Tesla coil plugin.",
+  "sound": "Brighter and airier at low voltage; a disaster area at high voltage. It doesn't sound nice.",
+  "use": "Industrial noise and sound design.",
+  "controls": {
+   "Voltage": "Voltage: airy and bright at low settings, midrangey and chaotic at high.",
+   "Dry/Wet": "Blend with the unprocessed signal."
+  },
+  "src": "b1d58c2aaf"
+ }
+}

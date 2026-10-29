@@ -37,6 +37,12 @@ def docs(port):
     return [json.loads(s).split("\n") for s in re.findall(r'^    ("(?:[^"\\]|\\.)*"),$', body, re.M)]
 
 
+def whats(port):
+    src = open(os.path.join(port, "gen", "docs.cpp")).read()
+    body = src.split("AW_WHAT[] = {", 1)[1].split("};", 1)[0]
+    return [json.loads(x) for x in re.findall(r'^    ("(?:[^"\\]|\\.)*"),$', body, re.M)]
+
+
 def main(port, model, tab=0, out="preview.png"):
     sm = json.load(open(os.path.join(port, "gen", "skin_models.json")))
     plist = json.load(open(os.path.join(port, "params.json")))["params"]
@@ -44,6 +50,13 @@ def main(port, model, tab=0, out="preview.png"):
     mi = names.index(model)
     mparams = sm["models"][mi]["params"]
     doc = docs(port)[mi]
+    what = whats(port)[mi]
+    # Console Strips: skin slot k shows the control the engine's slot map puts there, not the k-th upstream parameter
+    slot_names = None
+    if sm["category"] == "Console Strips":
+        sys.path.insert(0, os.path.join(HERE, "art"))
+        import layout as LY
+        slot_names = LY.strip_slot_order(model)
     tui = json.load(open(os.path.join(port, "build", "skin", "%s - VST - %s" % (sm["vendor"], sm["name"]),
                                       "Plugin Skins", "TUI.json")))
     t = tui["pageData"]["tabs"][tab]
@@ -67,7 +80,7 @@ def main(port, model, tab=0, out="preview.png"):
         if key == "model":
             return model
         if key == "info":
-            return "(one-line description)"
+            return what
         if key == "man_info":
             return "page 1 / %d" % ((len(doc) + 11) // 12)
         if re.fullmatch(r"m\d+", key):
@@ -75,6 +88,8 @@ def main(port, model, tab=0, out="preview.png"):
             return doc[i] if i < len(doc) else ""
         if re.fullmatch(r"p\d+", key):
             i = int(key[1:]) - 1
+            if slot_names is not None:
+                return (slot_names[i] or "") if i < len(slot_names) and kind == "Name" else ("0.500" if i < len(slot_names) and slot_names[i] else "")
             if i >= len(mparams):
                 return ""
             return mparams[i]["name"] if kind == "Name" else "0.500"
