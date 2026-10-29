@@ -1,4 +1,4 @@
-# Airwindows for MPC and Force
+# Airwindows Collections for MPC and Force
 
 Chris Johnson's [Airwindows](https://www.airwindows.com) effects as native plugins for Akai MPC OS standalone devices
 (MPC Live, One, X, Key and Force). Over 500 effects: reverbs, tape, filters, consoles, dynamics, distortion and more. Each one
