@@ -44,5 +44,15 @@
   "force": "installed",
   "live3": "built, install pending",
   "notes": "BezEQ and BezEQ2 have two unused 'x' controls upstream"
+ },
+ "Utility": {
+  "force": "installed",
+  "live3": "installed",
+  "notes": ""
+ },
+ "Effects": {
+  "force": "installed",
+  "live3": "installed",
+  "notes": "Pafnuty and Pafnuty2 have 13 and 10 harmonic controls"
  }
 }

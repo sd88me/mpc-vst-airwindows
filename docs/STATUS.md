@@ -17,7 +17,7 @@ One plugin per upstream airwindows category, each with a Model selector. 528 mod
 | Distortion | AW Distortion | 15 | 10 | 1 | 14 / 15 | yes | yes | installed | installed | PunchyDeluxe has no upstream manual |
 | Dithers | AW Dithers | 23 | 10 | 1 | - | - | - | - | - |  |
 | Dynamics | AW Dynamics | 35 | 10 | 1 | 35 / 35 | yes | yes | installed | built, install pending |  |
-| Effects | AW Effects | 29 | 13 | 1 | - | - | - | - | - |  |
+| Effects | AW Effects | 29 | 13 | 1 | 29 / 29 | yes | yes | installed | installed | Pafnuty and Pafnuty2 have 13 and 10 harmonic controls |
 | Filter | AW Filter | 54 | 10 | 1 | 54 / 54 | yes | yes | installed | built, install pending | BezEQ and BezEQ2 have two unused 'x' controls upstream |
 | Lo-Fi | AW Lo-Fi | 21 | 10 | 1 | - | - | - | - | - |  |
 | Noise | AW Noise | 9 | 8 | 1 | - | - | - | - | - |  |
@@ -28,5 +28,5 @@ One plugin per upstream airwindows category, each with a Model selector. 528 mod
 | Tape | AW Tape | 12 | 10 | 1 | 12 / 12 | yes | yes | installed | installed |  |
 | Tone Color | AW Tone Color | 17 | 4 | 1 | - | - | - | - | - |  |
 | Unclassified | AW Unclassified | 1 | 3 | 1 | - | - | - | - | - |  |
-| Utility | AW Utility | 38 | 9 | 1 | - | - | - | - | - |  |
+| Utility | AW Utility | 38 | 9 | 1 | 38 / 38 | yes | yes | installed | installed |  |
 | XYZ Filters | AW XYZ Filters | 24 | 6 | 1 | - | - | - | - | - |  |

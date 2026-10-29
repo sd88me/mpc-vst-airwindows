@@ -87,7 +87,7 @@ its own function key, so nothing is cramped.
 | Distortion | AW Distortion | 15 | 14 of 15 | Force and Live III | Force: installed; Live III: installed |
 | Dithers | AW Dithers | 23 | - | not yet | not yet |
 | Dynamics | AW Dynamics | 35 | 35 of 35 | Force and Live III | Force: installed; Live III: built, install pending |
-| Effects | AW Effects | 29 | 29 of 29 | not yet | not yet |
+| Effects | AW Effects | 29 | 29 of 29 | Force and Live III | Force: installed; Live III: installed |
 | Filter | AW Filter | 54 | 54 of 54 | Force and Live III | Force: installed; Live III: built, install pending |
 | Lo-Fi | AW Lo-Fi | 21 | - | not yet | not yet |
 | Noise | AW Noise | 9 | - | not yet | not yet |
@@ -98,10 +98,10 @@ its own function key, so nothing is cramped.
 | Tape | AW Tape | 12 | 12 of 12 | Force and Live III | Force: installed; Live III: installed |
 | Tone Color | AW Tone Color | 17 | - | not yet | not yet |
 | Unclassified | AW Unclassified | 1 | - | not yet | not yet |
-| Utility | AW Utility | 38 | 38 of 38 | not yet | not yet |
+| Utility | AW Utility | 38 | 38 of 38 | Force and Live III | Force: installed; Live III: installed |
 | XYZ Filters | AW XYZ Filters | 24 | - | not yet | not yet |
 
-528 models in 24 collections; 262 are built so far.
+528 models in 24 collections; 329 are built so far.
 
 Status is the state of the author's own devices (an MPC Live III and a Force). "Installed" means copied, registered and loaded
 there. Models with no upstream manual page (for example Spiral3, Weave and PunchyDeluxe) show a short note instead.
