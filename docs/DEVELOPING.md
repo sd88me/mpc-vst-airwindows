@@ -1,7 +1,7 @@
-# Airwindows for MPC / Force (private)
+# Developing: building, skinning and releasing the Airwindows collections
 
 All of Chris Johnson's airwindows effects as native MPC OS VST2 effects, **one plugin per upstream category**
-(AW Reverb, AW Filter, AW Consoles, ... 23 in all, 528 models). Status of each: [docs/STATUS.md](docs/STATUS.md).
+(AW Reverb, AW Filter, AW Consoles, ... 23 in all, 528 models). Status of each: [STATUS.md](STATUS.md).
 
 In each plugin:
 - **CONTROLS**: the model name sits between `<` `>` arrows at the top (or use the PRESET menu: every model is a preset, with its

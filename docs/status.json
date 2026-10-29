@@ -1,9 +1,48 @@
 {
-  "_note": "Hand-kept device facts; tools/status.py adds the rest (models, slots, built .so files) and writes docs/STATUS.md.",
-  "Reverb":   {"force": "skin A, audio, presets, steppers checked 2026-10-27", "live3": "skin C loads, audio ok 2026-10-27", "notes": "first collection; 4 wide-selector wheel-step host-test checks fail (touch and presets are the way to pick a model)"},
-  "Consoles": {"force": "skin A loads 2026-10-27", "live3": "skin C loads 2026-10-27", "notes": "58 models, 37 slots; to be split: the 8 models over 14 controls become AW Console Strips"},
-  "Ambience": {"force": "installed 2026-10-25", "live3": "installed 2026-10-25", "notes": "the delay / chorus / echo models"},
-  "_planned": [
-    {"plugin": "AW Console Strips", "models": 8, "notes": "ConsoleXBuss/XChannel/XPre (37 controls), ConsoleHChannel/HPre, ConsoleX3, ConsoleX2Channel/X2Pre; sectioned strip skin"}
-  ]
+ "_note": "Hand-kept device facts; tools/status.py adds the rest (models, slots, summaries, built .so files) and writes docs/STATUS.md.",
+ "Reverb": {
+  "force": "installed",
+  "live3": "installed",
+  "notes": "first collection; 4 wide-selector wheel-step host-test checks fail (touch and presets pick a model)"
+ },
+ "Consoles": {
+  "force": "installed",
+  "live3": "installed",
+  "notes": "50 models on one page; the 8 models with more than 14 controls are in Console Strips"
+ },
+ "Console Strips": {
+  "force": "installed",
+  "live3": "installed",
+  "notes": "8 big-console models, 4 real pages of up to 14 controls; X2 and X3 have no upstream manual"
+ },
+ "Ambience": {
+  "force": "installed",
+  "live3": "installed",
+  "notes": "delay, chorus and echo models; includes Echojam"
+ },
+ "Tape": {
+  "force": "installed",
+  "live3": "installed",
+  "notes": ""
+ },
+ "Distortion": {
+  "force": "installed",
+  "live3": "installed",
+  "notes": "PunchyDeluxe has no upstream manual"
+ },
+ "Saturation": {
+  "force": "installed",
+  "live3": "installed",
+  "notes": "Spiral3 and Weave have no upstream manual"
+ },
+ "Dynamics": {
+  "force": "installed",
+  "live3": "built, install pending",
+  "notes": ""
+ },
+ "Filter": {
+  "force": "installed",
+  "live3": "built, install pending",
+  "notes": "BezEQ and BezEQ2 have two unused 'x' controls upstream"
+ }
 }
