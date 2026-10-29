@@ -1,5 +1,7 @@
 # Developing: building, skinning and releasing the Airwindows collections
 
+Taking over? Start with [HANDOFF.md](HANDOFF.md).
+
 All of Chris Johnson's airwindows effects as native MPC OS VST2 effects, **one plugin per upstream category**
 (AW Reverb, AW Filter, AW Consoles, ... 23 in all, 528 models). Status of each: [STATUS.md](STATUS.md).
 
