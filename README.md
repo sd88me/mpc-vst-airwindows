@@ -138,4 +138,4 @@ keep their own licence in `LICENSE-airwindows.md`.
 
 Airwindows plugins by Chris Johnson (MIT). Ported through [airwin2rack](https://github.com/baconpaul/airwin2rack) by Paul Walker
 (MIT) and classified with help from [schwung-airwindows](https://github.com/charlesvestal/schwung-airwindows) by Charles Vestal.
-Skin artwork is original to this project. Titillium Web (SIL Open Font License) is baked into the images.
+The method of building native MPC screen skins as TUI pages is credited to @Locrian of the MockbaMod community (author of the Dexed+ port), whose work on skins and plugin folders underpins mpc-vst-plugins and so this project. Skin artwork is original to this project. Titillium Web (SIL Open Font License) is baked into the images.

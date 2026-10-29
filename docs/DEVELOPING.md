@@ -90,3 +90,7 @@ gh release create vX.Y.Z dist/*.zip --draft --prerelease --notes-file dist/NOTES
 Still to do before publishing 0.1.0: run each zip's `install.sh` on a Force and a Live III, the host test (`tools/test_port.sh`)
 and `tools/bench.sh` per plugin, and decide whether parameter positions are frozen. The catalog registry entries
 (`catalog/plugins/aw-*.json` in mpc-vst-plugins, one PR) come after the first published release.
+
+## Credits
+
+The native-skin method (MPC `TUI.json` pages with Q-Link maps, as used by `tools/gen_skin.py`) is credited to @Locrian of the MockbaMod community, via mpc-vst-plugins. The artwork, layout rules and category generator are original to this project.
