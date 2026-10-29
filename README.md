@@ -85,6 +85,8 @@ manual; corrections are welcome.
 
 ## Licence and credits
 
+This project (generator code, skin artwork, manual summaries) is MIT licensed, see `LICENSE`. The vendored Airwindows sources keep their own licence in `LICENSE-airwindows.md`.
+
 Airwindows plugins by Chris Johnson (MIT). Ported through [airwin2rack](https://github.com/baconpaul/airwin2rack) by Paul Walker
 (MIT) and classified with help from [schwung-airwindows](https://github.com/charlesvestal/schwung-airwindows) by Charles Vestal.
 Skin artwork is original to this project. Titillium Web (SIL Open Font License) is baked into the images.
