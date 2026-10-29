@@ -23,10 +23,7 @@
    "vst/Unclassified/gen/models.cpp",
    "vst/Unclassified/gen/docs.cpp",
    "vendor/airwin2rack/src/airwin_consolidated_base.cpp",
-   "src/gen/fac/Echojam.cpp",
    "src/gen/fac/WoodenChest.cpp",
-   "vendor/airwin2rack/src/autogen_airwin/Echojam.cpp",
-   "vendor/airwin2rack/src/autogen_airwin/EchojamProc.cpp",
    "vendor/airwin2rack/src/autogen_airwin/WoodenChest.cpp",
    "vendor/airwin2rack/src/autogen_airwin/WoodenChestProc.cpp"
   ],
@@ -36,7 +33,7 @@
    "-Ivendor/airwin2rack/src",
    "-w",
    "-O2",
-   "-DAW_SLOTS=4"
+   "-DAW_SLOTS=3"
   ],
   "libs": [
    "-lm"

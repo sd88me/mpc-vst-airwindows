@@ -39,3 +39,5 @@ const aw_model_t AW_MODELS[] = {
     {"BassAmp", aw_np_BassAmp, aw_new_BassAmp},
 };
 const int AW_NUM_MODELS = 18;
+const int *const AW_SLOT_MAP[] = {nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr};
+const int AW_SLOT_MAP_LEN[] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};

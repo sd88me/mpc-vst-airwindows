@@ -1,23 +1,12 @@
 {
  "presets": [
   {
-   "name": "Echojam",
-   "values": {
-    "model": "Echojam",
-    "p1": 0.5,
-    "p2": 0.5,
-    "p3": 0.5,
-    "p4": 0.5
-   }
-  },
-  {
    "name": "WoodenChest",
    "values": {
     "model": "WoodenChest",
     "p1": 0.0,
     "p2": 0.5,
-    "p3": 0.5,
-    "p4": 0.5
+    "p3": 0.5
    }
   }
  ]

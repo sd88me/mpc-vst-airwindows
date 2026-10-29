@@ -37,3 +37,5 @@ const aw_model_t AW_MODELS[] = {
     {"Channel4", aw_np_Channel4, aw_new_Channel4},
 };
 const int AW_NUM_MODELS = 17;
+const int *const AW_SLOT_MAP[] = {nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr};
+const int AW_SLOT_MAP_LEN[] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};

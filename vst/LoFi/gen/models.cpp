@@ -45,3 +45,5 @@ const aw_model_t AW_MODELS[] = {
     {"DustBunny", aw_np_DustBunny, aw_new_DustBunny},
 };
 const int AW_NUM_MODELS = 21;
+const int *const AW_SLOT_MAP[] = {nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr};
+const int AW_SLOT_MAP_LEN[] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};

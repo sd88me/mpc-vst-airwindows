@@ -21,3 +21,5 @@ const aw_model_t AW_MODELS[] = {
     {"Biquad2", aw_np_Biquad2, aw_new_Biquad2},
 };
 const int AW_NUM_MODELS = 9;
+const int *const AW_SLOT_MAP[] = {nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr};
+const int AW_SLOT_MAP_LEN[] = {0, 0, 0, 0, 0, 0, 0, 0, 0};

@@ -25,6 +25,7 @@ AirwinConsolidatedBase *aw_new_StereoDoubler(); int aw_np_StereoDoubler();
 AirwinConsolidatedBase *aw_new_Chorus(); int aw_np_Chorus();
 AirwinConsolidatedBase *aw_new_ChorusEnsemble(); int aw_np_ChorusEnsemble();
 AirwinConsolidatedBase *aw_new_Ensemble(); int aw_np_Ensemble();
+AirwinConsolidatedBase *aw_new_Echojam(); int aw_np_Echojam();
 const aw_model_t AW_MODELS[] = {
     {"ClearCoat", aw_np_ClearCoat, aw_new_ClearCoat},
     {"TapeDelay2", aw_np_TapeDelay2, aw_new_TapeDelay2},
@@ -51,5 +52,8 @@ const aw_model_t AW_MODELS[] = {
     {"Chorus", aw_np_Chorus, aw_new_Chorus},
     {"ChorusEnsemble", aw_np_ChorusEnsemble, aw_new_ChorusEnsemble},
     {"Ensemble", aw_np_Ensemble, aw_new_Ensemble},
+    {"Echojam", aw_np_Echojam, aw_new_Echojam},
 };
-const int AW_NUM_MODELS = 25;
+const int AW_NUM_MODELS = 26;
+const int *const AW_SLOT_MAP[] = {nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr};
+const int AW_SLOT_MAP_LEN[] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};

@@ -516,6 +516,27 @@
      "stepped": false
     }
    ]
+  },
+  {
+   "name": "Echojam",
+   "params": [
+    {
+     "name": "Select",
+     "stepped": false
+    },
+    {
+     "name": "Regen",
+     "stepped": false
+    },
+    {
+     "name": "Speed",
+     "stepped": false
+    },
+    {
+     "name": "Dry/Wet",
+     "stepped": false
+    }
+   ]
   }
  ]
 }

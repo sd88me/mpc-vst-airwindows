@@ -48,6 +48,7 @@
    "src/gen/fac/Chorus.cpp",
    "src/gen/fac/ChorusEnsemble.cpp",
    "src/gen/fac/Ensemble.cpp",
+   "src/gen/fac/Echojam.cpp",
    "vendor/airwin2rack/src/autogen_airwin/ClearCoat.cpp",
    "vendor/airwin2rack/src/autogen_airwin/ClearCoatProc.cpp",
    "vendor/airwin2rack/src/autogen_airwin/TapeDelay2.cpp",
@@ -97,7 +98,9 @@
    "vendor/airwin2rack/src/autogen_airwin/ChorusEnsemble.cpp",
    "vendor/airwin2rack/src/autogen_airwin/ChorusEnsembleProc.cpp",
    "vendor/airwin2rack/src/autogen_airwin/Ensemble.cpp",
-   "vendor/airwin2rack/src/autogen_airwin/EnsembleProc.cpp"
+   "vendor/airwin2rack/src/autogen_airwin/EnsembleProc.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/Echojam.cpp",
+   "vendor/airwin2rack/src/autogen_airwin/EchojamProc.cpp"
   ],
   "cflags": [
    "-std=gnu++17",

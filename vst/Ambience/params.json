@@ -29,7 +29,8 @@
     "StereoDoubler",
     "Chorus",
     "ChorusEnsemble",
-    "Ensemble"
+    "Ensemble",
+    "Echojam"
    ],
    "default": 0,
    "refresh_display": true,

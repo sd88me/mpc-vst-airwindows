@@ -33,3 +33,5 @@ const aw_model_t AW_MODELS[] = {
     {"MultiBandDistortion", aw_np_MultiBandDistortion, aw_new_MultiBandDistortion},
 };
 const int AW_NUM_MODELS = 15;
+const int *const AW_SLOT_MAP[] = {nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr, nullptr};
+const int AW_SLOT_MAP_LEN[] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
