@@ -29,7 +29,8 @@ sys.path.insert(0, os.path.join(HERE, "art"))
 import layout as LY  # noqa: E402
 
 SHARED = "AW Skin"
-A = "../../%s/" % SHARED                         # from <plugin>/Plugin Skins/ to the shared artwork
+SELF_CONTAINED = "--self-contained" in sys.argv    # releases: the artwork goes inside the plugin folder, no shared folder
+A = ("../%s/" if SELF_CONTAINED else "../../%s/") % SHARED   # from <plugin>/Plugin Skins/ to the artwork
 AKAI = "/usr/share/Akai/Content/Synths/"
 PAGE = 14
 W, H = LY.W, LY.H
@@ -312,7 +313,7 @@ def main(port, style, qover):
         sys.exit("no %s: run tools/art/run.sh --style %s --out build/art/%s first" % (src, style, style))
     # only the artwork this plugin's skin references (32-bit PNGs kept as drawn): a release zip then carries ~11-14 MB, not all
     # 18 MB; skins of several plugins installed side by side merge into one AW Skin/ folder
-    dst = os.path.join(out, SHARED)
+    dst = os.path.join(d, SHARED) if SELF_CONTAINED else os.path.join(out, SHARED)
     shutil.rmtree(dst, ignore_errors=True)
     os.makedirs(dst)
     used = set(re.findall(re.escape(SHARED) + r"/([A-Za-z0-9_.\-]+\.png)", json.dumps(tui)))

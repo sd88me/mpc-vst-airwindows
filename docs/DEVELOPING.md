@@ -74,12 +74,19 @@ MPC draws live text at about 0.64 of the label height, so text is sized by its v
   `tools/gen_categories.py` before a rebuild after changing the generator, or vst.json/params.json go stale.
 - Whole-set builds are slow (QEMU); the aarch64 compile sometimes segfaults once: just run it again.
 
-## Releasing (plan)
+## Releasing
 
-mpc-vst-plugins' catalog lets one repo host several plugins, told apart by each registry entry's `asset_pattern`
-(`mmiroshnikov/mpc-airwindows` already lists 22 that way). Plan: one tag per release holding a zip per plugin and generation
-(`AW-Reverb-1.0.0-mpc-armv7.zip`, `-aarch64.zip`, ...), one `catalog/plugins/aw-<category>.json` each. Every zip must be
-self-contained, so each carries the art its skin uses (about 11-14 MB, 32-bit PNGs: quantising to 8-bit flattened the knob shadows and caps).
+One draft release per version in this repo (tag `vX.Y.Z`, flagged pre-release until 1.0), holding a zip per plugin and CPU.
+A release skin keeps its artwork inside the plugin folder so the zip is self-contained:
 
-Credits: airwindows (Chris Johnson, MIT), airwin2rack (Paul Walker, MIT), skin artwork drawn here (assets/CREDITS.md),
-category overrides from schwung-airwindows (MIT).
+```
+for X in <Category>...; do tools/gen_skin.py vst/$X --style A --self-contained; done
+python3 $MPC_VST/tools/release.py --so vst/$X/build[/aarch64]/<so> --skin "vst/$X/build/skin/Airwindows - VST - AW <Name>" \
+    --entry vst/$X/build/pluginlist-entry.xml --version 0.1.0 --about "..." --id aw-<slug> \
+    --repo sd88me/mpc-vst-airwindows --license MIT -o dist
+python3 $MPC_VST/tools/catalog_check.py dist/<zip> --catalog
+gh release create vX.Y.Z dist/*.zip --draft --prerelease --notes-file dist/NOTES.md
+```
+Still to do before publishing 0.1.0: run each zip's `install.sh` on a Force and a Live III, the host test (`tools/test_port.sh`)
+and `tools/bench.sh` per plugin, and decide whether parameter positions are frozen. The catalog registry entries
+(`catalog/plugins/aw-*.json` in mpc-vst-plugins, one PR) come after the first published release.
