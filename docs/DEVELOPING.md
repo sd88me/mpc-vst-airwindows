@@ -78,7 +78,7 @@ MPC draws live text at about 0.64 of the label height, so text is sized by its v
 
 ## Releasing
 
-One draft release per version in this repo (tag `vX.Y.Z`, flagged pre-release until 1.0), holding a zip per plugin and CPU.
+One release per version in this repo (tag `vX.Y.Z`; create it as a draft, check it, then publish), holding a zip per plugin and CPU.
 A release skin keeps its artwork inside the plugin folder so the zip is self-contained:
 
 ```
@@ -87,7 +87,7 @@ python3 $MPC_VST/tools/release.py --so vst/$X/build[/aarch64]/<so> --skin "vst/$
     --entry vst/$X/build/pluginlist-entry.xml --version 0.1.0 --about "..." --id aw-<slug> \
     --repo sd88me/mpc-vst-airwindows --license MIT -o dist
 python3 $MPC_VST/tools/catalog_check.py dist/<zip> --catalog
-gh release create vX.Y.Z dist/*.zip --draft --prerelease --notes-file dist/NOTES.md
+gh release create vX.Y.Z dist/*.zip --draft --notes-file dist/NOTES.md
 ```
 Still to do before publishing 0.1.0: run each zip's `install.sh` on a Force and a Live III, the host test (`tools/test_port.sh`)
 and `tools/bench.sh` per plugin, and decide whether parameter positions are frozen. The catalog registry entries

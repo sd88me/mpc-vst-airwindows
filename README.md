@@ -109,7 +109,7 @@ Full detail: [docs/STATUS.md](docs/STATUS.md).
 
 ## Installing
 
-Releases carry one zip per plugin with its own installer (see the Releases page; the first release is a preview). Until then,
+Releases carry one zip per plugin with its own installer (see the Releases page). To install by hand instead,
 copy a built plugin to the device:
 
 1. Put the plugin folder `Airwindows - VST - AW <Category>/` (the `.so`, `Plugin Skins/`, `version.xml`) and the shared
