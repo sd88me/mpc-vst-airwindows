@@ -9,15 +9,16 @@ For another Claude session (or person) taking this over. Read `README.md` (what 
 - **11 of 24 collections are built, installed on both devices and released:** Tape, Distortion, Saturation, Dynamics, Filter, Reverb,
   Ambience, Consoles, Console Strips, Utility, Effects (329 of 528 models). Each has hand-written manual summaries
   (`docs/summaries/<Category>.json`).
-- **Release v0.1.0** is published as a *pre-release* with 22 zips (11 plugins, armv7 and aarch64). Catalog PR
+- **Release v0.1.0** is published as a stable release with 22 zips (11 plugins, armv7 and aarch64). Catalog PR
   https://github.com/sd88me/mpc-vst-plugins/pull/627 adds the 11 entries (`Airwindows Collection: <Category>`); the user merges it
   (`gh pr merge` is blocked for the agent).
 - **13 collections not started (199 models):** Brightness 26, Dithers 23, XYZ Filters 24, LoFi 21, Subtlety 20, Amp Sims 18,
   Tone Color 17, Stereo 12, Bass 10, Biquads 9, Clipping 9, Noise 9, Unclassified 1. The user's stated order so far:
   Utility and Effects (done), then Brightness; the rest is yours to propose.
-- Open before the release can be called stable: run each zip's own `install.sh` on both devices, `tools/test_port.sh` host tests on the
-  collections added since Reverb, `tools/bench.sh` CPU per plugin, and decide whether parameter positions are frozen (they are not:
-  `params.lock` is deleted before builds, so a regenerated layout can break saved projects).
+- The zips' own `install.sh` has been run on both devices (the user confirmed 2026-11-01). Still open: `tools/test_port.sh` host tests on the
+  collections added since Reverb, `tools/bench.sh` CPU per plugin, and whether parameter positions are frozen (they are not:
+  `params.lock` is deleted before builds, so a regenerated layout can break saved projects). For Verified status in the catalog, add a
+  `tested.json` entry in this repo with the device and MPC OS version.
 
 ## The pipeline for one category (the user's rule: write its summaries when you build it)
 
